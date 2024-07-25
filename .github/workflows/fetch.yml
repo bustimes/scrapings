@@ -1,0 +1,37 @@
+name: Fetch adfirst.media JS
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: '30 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm install
+
+      - name: Fetch
+        run: |
+          curl -s "https://cdn.adfirst.media/hb/bustimes.js" | npx js-beautify > bustimes.js
+
+      - name: Commit and push
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git diff
+          git add bustimes.js
+          git commit -m "change!" || exit 0
+          git pull --rebase
+          git push
