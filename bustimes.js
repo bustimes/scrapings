@@ -1053,7 +1053,7 @@ var AFM_page = new AFMpageManager;
             },
             smilewanted: {
                 bidCpmAdjustment: function(t) {
-                    return t * euroRate * .96
+                    return t * euroRate * .91
                 }
             }
         }
