@@ -1,4 +1,4 @@
-/*v12.5.12 - 23-07-24 - 16:13 GMT+1*/
+/*v12.5.13 - 13-08-24 - 11:36 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -173,8 +173,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .77,
-        euroRate = .84,
+        usdRate = .78,
+        euroRate = .85,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -404,10 +404,8 @@ var AFM_page = new AFMpageManager;
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
-    var refreshPeriod = 25e3,
-        afm_hour = (new Date).getHours();
-    5 <= afm_hour && afm_hour <= 11 && (refreshPeriod = 2e4);
-    var adUnitsToRefreshGAM = [],
+    var refreshPeriod = 3e4,
+        adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
         AMrefreshLoop = null,
@@ -1053,7 +1051,7 @@ var AFM_page = new AFMpageManager;
             },
             smilewanted: {
                 bidCpmAdjustment: function(t) {
-                    return t * euroRate * .91
+                    return t * euroRate * .96
                 }
             }
         }
