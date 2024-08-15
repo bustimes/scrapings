@@ -34,7 +34,7 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git diff
-          git add bustimes.js
+          git add bustimes.js nocrecords.xml
           git commit -m "change!" || exit 0
           git pull --rebase
           git push
