@@ -25,6 +25,7 @@ jobs:
       - name: Fetch
         run: |
           curl -s "https://cdn.adfirst.media/hb/bustimes.js" | npx js-beautify > bustimes.js
+          curl -s "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml" | iconv -f utf-8 -t utf-8 -c | xmllint --format - > nocrecords.xml
 
       - name: Commit and push
         run: |-
