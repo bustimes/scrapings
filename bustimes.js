@@ -1,4 +1,4 @@
-/*v12.5.14 - 14-08-24 - 13:53 GMT+1*/
+/*v12.5.15 - 105-09-24 - 12:04 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -149,7 +149,7 @@ var AFM_page = new AFMpageManager;
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_8450a_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_8450b_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -173,8 +173,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .78,
-        euroRate = .85,
+        usdRate = .76,
+        euroRate = .84,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -523,7 +523,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3
+                    bidfloor: 3.5
                 }
             }, {
                 bidder: "ogury",
