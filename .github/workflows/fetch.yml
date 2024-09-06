@@ -1,4 +1,4 @@
-name: Fetch adfirst.media JS
+name: Fetch stuff and commit changes
 
 on:
   push:
@@ -39,5 +39,4 @@ jobs:
             git add nocrecords.xml
           fi
           git commit -m "change!" || exit 0
-          git pull --rebase
           git push
