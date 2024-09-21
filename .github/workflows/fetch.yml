@@ -24,21 +24,40 @@ jobs:
 
       - run: sudo apt-get install -y libxml2-utils
 
+      - name: Install qsv
+        run: |
+          QSV_VERSION=0.134.0
+          curl -L "https://github.com/jqnatividad/qsv/releases/download/${QSV_VERSION}/qsv-${QSV_VERSION}-x86_64-unknown-linux-musl.zip" -o qsv.zip
+          unzip qsv.zip qsv
+          sudo mv qsv /usr/local/bin/qsv
+          rm qsv.zip
+
       - name: Fetch
         run: |
           curl -s "https://cdn.adfirst.media/hb/bustimes.js" | npx js-beautify > bustimes.js
           curl -s "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml" | iconv -f utf-8 -t utf-8 -c | xmllint --format - > nocrecords.xml
           curl -s "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv" > stops.csv
+          qsv partition AdministrativeAreaCode naptan stops.csv
+          rm stops.csv
 
       - name: Commit and push
         run: |-
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git diff
+
+          echo "js"
           git add bustimes.js
+          git commit -m "update bustimes.js" || true
+
+          echo "naptan"
+          git add naptan
+          git commit -m "update naptan" || true
+
+          echo "noc"
           if [ "$(git diff --shortstat nocrecords.xml)" != " 1 file changed, 1 insertion(+), 1 deletion(-)" ]; then
             git add nocrecords.xml
+            git commit -m "update nocrecords.xml (NOC)" || true
           fi
-          git add stops.csv
-          git commit -m "change!" || exit 0
+          git status
           git push
