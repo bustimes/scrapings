@@ -1,4 +1,4 @@
-/*v12.5.15 - 105-09-24 - 12:04 GMT+1*/
+/*v12.5.16 - 17-09-24 - 17:35 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -174,7 +174,7 @@ var AFM_page = new AFMpageManager;
         makeNet85 = .85,
         makeNet86 = .86,
         usdRate = .76,
-        euroRate = .84,
+        euroRate = .85,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -406,7 +406,7 @@ var AFM_page = new AFMpageManager;
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 3e4,
         afm_hour = (new Date).getHours();
-    4 <= afm_hour && afm_hour <= 8 && (refreshPeriod = 2e4);
+    0 <= afm_hour && afm_hour <= 8 ? refreshPeriod = 2e4 : 9 <= afm_hour && afm_hour <= 14 && (refreshPeriod = 25e3);
     var adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
