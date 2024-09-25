@@ -1,4 +1,4 @@
-/*v12.5.16 - 17-09-24 - 17:35 GMT+1*/
+/*v12.5.17 - 24-09-24 - 21:32 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -173,8 +173,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .76,
-        euroRate = .85,
+        usdRate = .75,
+        euroRate = .83,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -398,7 +398,7 @@ var AFM_page = new AFMpageManager;
         rise: new AuctionObject("bidder", "rise", "active", !0, !0),
         rubicon: new AuctionObject("bidder", "rubicon", "active", !0, !0),
         smartadserver: new AuctionObject("bidder", "smartadserver", "active", !0, !0),
-        smilewanted: new AuctionObject("bidder", "smilewanted", "active", !0, !0),
+        smilewanted: new AuctionObject("bidder", "smilewanted", "inactive", !0, !0),
         sovrn: new AuctionObject("bidder", "sovrn", "active", !0, !0),
         sublime: new AuctionObject("bidder", "sublime", "inactive", !1, !0),
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
@@ -591,13 +591,6 @@ var AFM_page = new AFMpageManager;
                     formatId: 130313,
                     bidfloor: .1
                 }
-            }, {
-                bidder: "smilewanted",
-                labelAll: [bidders.smilewanted.getStatus()],
-                params: {
-                    zoneId: "adfirstmedia.com_hb_display",
-                    bidfloor: .03
-                }
             }]
         }
     }, adUnits.AFM_inContentTop_ad.prebidAdUnit = function() {
@@ -721,13 +714,6 @@ var AFM_page = new AFMpageManager;
                     pageId: 1969099,
                     formatId: 130337,
                     bidfloor: .1
-                }
-            }, {
-                bidder: "smilewanted",
-                labelAll: [bidders.smilewanted.getStatus()],
-                params: {
-                    zoneId: "adfirstmedia.com_hb_display",
-                    bidfloor: .03
                 }
             }]
         }
