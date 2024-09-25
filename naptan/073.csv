@@ -1234,7 +1234,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COC30630,corawadp,,,Lemon Arms,,,,,,Lemon Hill,,,,N-bound,,N,E0002893,Mylor Bridge,,,,,,,false,UKOS,180473,36246,-5.07652,50.18546,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COC30627,corawadj,,,School,,,,,,Lemon Hill,,,,N-bound,,N,E0002893,Mylor Bridge,,,,,,,false,UKOS,180454,36333,-5.07683,50.18624,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2020-08-05T10:27:11,4,new,active
 0800COC30628,corawadm,,,School,,,,,,Bell's Hill,,,,opp,,S,E0002893,Mylor Bridge,,,,,,,false,UKOS,180449,36362,-5.07692,50.1865,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:19:57,0,new,active
-0800COD40710,cordpjtg,,,Camping Caradon,,,,,,,,,,N-bound,,N,E0002707,Trelawne,,,,,,,false,UKOS,221830,53968,-4.50619,50.35859,BCT,MKD,OTH,,,,073,2009-05-22T00:00:00,2016-12-19T10:32:41,16,new,active
+0800COD40710,cordpjtg,,,Camping Caradon,,,,,,,,,,N-bound,,N,E0002707,Trelawne,,,,,,,false,UKOS,221825,54014,-4.50628,50.359,BCT,MKD,OTH,,,,073,2009-05-22T00:00:00,2024-09-20T13:59:16,16,new,active
 0800COD40706,cordpatw,,,Jubilee Cottage,,,,,,A390,,,,SW-bound,,SW,E0002476,East Taphouse,,,,,,,false,UKOS,218238,63505,-4.56125,50.44317,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2020-02-25T08:31:54,0,new,active
 0800COD40705,cordpawm,,,Bus Shelter,,,,,,,,,,NE-bound,,NE,E0002476,East Taphouse,,,,,,,false,UKOS,218232,63710,-4.56143,50.44501,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2024-05-02T08:53:06,25,delete,inactive
 0800COD40715,cordpmtp,,,Looe Valley Touring Park,,,,,,Sclerder Lane,,,,NW-bound,,NW,E0002681,Tencreek,,,,,,,false,UKOS,222739,53232,-4.49307,50.35225,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
@@ -1601,12 +1601,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COA05229,corgdgmd,,,Bosnoweth,,,,,,,,,,NW-bound,,NW,E0044531,Helston,,,,,,,false,UKOS,166854,27424,-5.26158,50.10105,BCT,MKD,OTH,,,,073,2009-05-22T00:00:00,2020-06-03T09:43:12,12,new,active
 0800COA05228,corgdgma,,,RCH Trelawny Wing,,,,,,,,,,NE-bound,,NE,E0002984,RCH Treliske Hospital,Treliske,,,,,,false,UKOS,179697,45190,-5.09257,50.2655,BCT,MKD,OTH,,,,073,2009-06-02T00:00:00,2017-01-04T09:42:42,6,new,active
 0800COA05227,corgdgjw,,,RCH Trelawny Wing,,,,,,,,,,opp,,SW,E0002984,RCH Treliske Hospital,Treliske,,,,,,false,UKOS,179709,45187,-5.0924,50.26547,BCT,MKD,OTH,,,,073,2009-06-02T00:00:00,2017-01-04T09:42:35,6,new,active
-0800COA05226,corgdgjt,,,Cattle Market Car Park,,,,,,Cattle Market,,,,N-bound,,N,E0044512,Truro,,,,,,,false,UKOS,183915,46137,-5.03401,50.27556,BCT,MKD,OTH,,,,073,2008-06-01T00:00:00,2016-08-11T10:06:18,17,delete,inactive
-0800COA15804,corgjwdp,,,Tregurra P&R,,,,,,,,,,N-bound,,N,E0044512,Truro,,,,,,,false,UKOS,183844,45849,-5.03484,50.27295,BCT,MKD,OTH,,,,073,2015-05-15T00:00:00,2018-04-24T11:04:55,91,new,active
-0800COA15805,corgjwdt,,,Tregurra P&R,,,,,,,,,,E-bound,,E,E0044512,Truro,,,,,,,false,UKOS,183973,45941,-5.03309,50.27382,BCT,MKD,OTH,,,,073,2015-05-15T00:00:00,2018-04-24T11:04:32,81,new,active
-0800COA15806,corgjwdw,,,Tregurra P&R,,,,,,,,,,W-bound,,W,E0044512,Truro,,,,,,,false,UKOS,183979,45935,-5.033,50.27377,BCT,MKD,OTH,,,,073,2015-05-15T00:00:00,2018-04-24T11:05:17,81,new,active
-0800COA15816,corgjwjg,,,Tregurra P&R,,,,,,,,,,NE-bound,,NE,E0044512,Truro,,,,,,,false,UKOS,184121,45989,-5.03104,50.27431,BCT,MKD,OTH,,,,073,2015-07-23T00:00:00,2018-04-24T11:05:27,135,new,active
-0800COA16028,corgmjtm,,,Tregurra P&R,,,,,,,,,,S-bound,,S,E0044512,Truro,,,,,,,false,UKOS,183854,45851,-5.0347,50.27297,BCT,MKD,OTH,,,,073,2016-08-10T00:00:00,2016-08-11T10:02:04,94,new,active
+0800COA05226,corgdgjt,,,Cattle Market Car Park,,,,,,Cattle Market,,,,N-bound,,N,E0044512,Truro,,,,,,,false,UKOS,184042,45941,-5.03212,50.27385,BCT,MKD,OTH,,,,073,2008-06-01T00:00:00,2024-09-19T13:27:20,17,delete,inactive
+0800COA15804,corgjwdp,,,Tregurra P&R,,,,,,,,,,N-bound,,N,E0044512,Truro,,,,,,,false,UKOS,183844,45849,-5.03484,50.27295,BCT,MKD,OTH,,,,073,2015-05-15T00:00:00,2024-09-20T10:09:21,140,new,active
+0800COA15805,corgjwdt,,,Tregurra P&R,,,,,,,,,,E-bound,,E,E0044512,Truro,,,,,,,false,UKOS,183973,45940,-5.03308,50.27381,BCT,MKD,OTH,,,,073,2015-05-15T00:00:00,2024-09-20T10:10:04,108,new,active
+0800COA15806,corgjwdw,,,Tregurra P&R,,,,,,,,,,W-bound,,W,E0044512,Truro,,,,,,,false,UKOS,183976,45937,-5.03304,50.27379,BCT,MKD,OTH,,,,073,2015-05-15T00:00:00,2024-09-20T10:08:35,139,new,active
+0800COA15816,corgjwjg,,,Tregurra P&R,,,,,,,,,,NE-bound,,NE,E0044512,Truro,,,,,,,false,UKOS,184121,45989,-5.03104,50.27431,BCT,MKD,OTH,,,,073,2015-07-23T00:00:00,2024-09-20T10:10:47,179,new,active
+0800COA16028,corgmjtm,,,Tregurra P&R,,,,,,,,,,S-bound,,S,E0044512,Truro,,,,,,,false,UKOS,183854,45851,-5.0347,50.27297,BCT,MKD,OTH,,,,073,2016-08-10T00:00:00,2024-09-20T10:11:39,137,new,active
 0800COA05253,corgdajt,,,Opposite Holland Farm,,,,,,Bucklawren Road,,,,W-bound,,W,E0002606,No Mans Land,,,,,,,false,UKOS,227538,56409,-4.42714,50.38222,BCT,CUS,OTH,,,,073,2007-12-04T00:00:00,2014-11-27T15:56:44,7,delete,inactive
 0800COA05252,corgdajp,,,Holland Farm,,,,,,,,,,E-bound,,E,E0002606,No Mans Land,,,,,,,false,UKOS,227606,56493,-4.42622,50.383,BCT,CUS,OTH,,,,073,2007-12-04T00:00:00,2014-11-27T15:56:31,9,delete,inactive
 0800COA05251,corgdajm,,,Monkey Sanctuary,,,,,,Looe Hill,,,,E-bound,,E,E0044462,Looe,,,,,,,false,UKOS,228371,54648,-4.41463,50.36664,BCT,CUS,OTH,,,,073,2007-05-16T00:00:00,2015-04-25T12:20:56,0,delete,inactive
@@ -3191,7 +3191,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COC30918,cordapgt,,,White Cross Cottage,,,,,,A392,,,,E-bound,,E,E0004778,White Cross,,,,,,,false,UKOS,189049,59788,-4.9697,50.40002,BCT,CUS,OTH,,,,073,2005-08-10T00:00:00,2020-02-25T08:31:54,0,new,active
 0800COC30919,cordapgm,,,White Cross Cottage,,,,,,A392,,,,opp,,W,E0004778,White Cross,,,,,,,false,UKOS,189016,59786,-4.97016,50.39999,BCT,CUS,OTH,,,,073,2005-08-10T00:00:00,2020-02-25T08:31:52,0,new,active
 0800COC30911,cordagat,,,Railton Road,,,,,,Quintrell Road,,,,opp,,W,E0004696,St Columb Minor,Newquay,,,,,,false,UKOS,183899,61799,-5.04322,50.41621,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2018-07-05T12:04:57,12,delete,inactive
-0800COC30903,cordagtp,,,The Oaks,,,,,,West Road,,,,E-bound,,E,E0004667,Quintrell Downs,,,,,,,false,UKOS,184761,60302,-5.03024,50.40308,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2014-07-22T10:49:52,2,new,active
+0800COC30903,cordagtp,,,The Oaks,,,,,,West Road,,,,E-bound,,E,E0004667,Quintrell Downs,,,,,,,false,UKOS,184836,60302,-5.02919,50.40311,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2024-09-20T13:35:53,2,new,active
 0800COC30902,cordagtm,,,The Oaks,,,,,,West Road,,,,opp,,W,E0004667,Quintrell Downs,,,,,,,false,UKOS,184813,60295,-5.02951,50.40304,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2024-05-30T08:58:18,2,new,active
 0800COC30909,cordagdg,,,Quintrell Road,,,,,,,,,,opp,,SE,E0004696,St Columb Minor,Newquay,,,,,,false,UKOS,184058,61669,-5.04091,50.4151,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2017-01-04T09:42:16,6,new,active
 0800COA15342,corgdmtm,,,Quintrell Road,,,,,,,,,,NW-bound,,NW,E0004696,St Columb Minor,Newquay,,,,,,false,UKOS,184043,61660,-5.04111,50.41501,BCT,CUS,OTH,,,,073,2017-01-04T00:00:00,2017-01-04T09:42:16,6,new,active
@@ -4520,7 +4520,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COC31667,coraptdt,,,Millbrook,,,,,,Hendrawna Lane,,,,o/s,,SE,E0002767,Bolingey,Perranporth,,,,,,false,UKOS,176368,53335,-5.14403,50.33739,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:19,0,new,active
 0800COC31666,corapmtg,,,School,,,,,,Liskey Hill,,,,opp,,N,E0002915,Perranporth,,,,,,,false,UKOS,175917,53801,-5.15063,50.3414,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:22:36,0,new,active
 0800COC31664,corapmtj,,,School,,,,,,,,,,S-bound,,S,E0002915,Perranporth,,,,,,,false,UKOS,175924,53797,-5.15053,50.34136,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2020-02-25T08:31:54,0,new,active
-0800COC31663,corapjwg,,,Fuller Road Steps,,,,,,St George's Hill,,,,NE-bound,,NE,E0002915,Perranporth,,,,,,,false,UKOS,175237,53926,-5.16025,50.34226,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2020-02-25T08:31:54,0,new,active
+0800COC31663,corapjwg,,,Fuller Road Steps,,,,,,B3285,,,,NE-bound,,NE,E0002915,Perranporth,,,,,,,false,UKOS,175237,53926,-5.16025,50.34226,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2024-09-19T08:58:29,7,new,active
 0800COC31668,coraptjw,,,Post Office,,,,,,Mill Road,,,,opp,,SW,E0002767,Bolingey,Perranporth,,,,,,false,UKOS,176550,53346,-5.14148,50.33755,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:19,0,new,active
 0800COC31669,coraptjp,,,Post Office,,,,,,Mill Road,,,,NE-bound,,NE,E0002767,Bolingey,Perranporth,,,,,,false,UKOS,176547,53352,-5.14152,50.33761,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:19,0,new,active
 0800COC31672,coratjdj,,,Springfield Farm,,,,,,,,,,S-bound,,S,E0002750,Allet,,,,,,,false,UKOS,179146,48945,-5.10248,50.29901,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2017-01-04T09:42:30,6,new,active
@@ -5429,7 +5429,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COA15813,corgjwgw,,,Crossroads,,,,,,,,,,SE-bound,,SE,E0004546,Gummows Shop,,,,,,,false,UKOS,186742,57493,-5.00081,50.37858,BCT,CUS,OTH,,,,073,2015-06-30T00:00:00,2023-02-16T10:05:42,71,new,active
 0800COA15814,corgjwja,,,Playing Field,,,,,,,,,,SW-bound,,SW,E0004694,St Blazey,,,,,,,false,UKOS,206719,53962,-4.71838,50.35376,BCT,MKD,OTH,,,,073,2015-07-15T00:00:00,2017-01-04T09:42:39,78,new,active
 0800COA15815,corgjwjd,,,Playing Field,,,,,,,,,,E-bound,,E,E0004694,St Blazey,,,,,,,false,UKOS,206688,53972,-4.71882,50.35384,BCT,CUS,OTH,,,,073,2015-07-15T00:00:00,2017-01-04T09:42:19,74,new,active
-0800COA15817,corgjwjm,,,Waitrose,,,,,,,,,,NE-bound,,NE,E0044512,Truro,,,,,,,false,UKOS,183914,45813,-5.03384,50.27265,BCT,MKD,OTH,,,,073,2015-08-04T00:00:00,2024-07-15T15:54:36,88,new,active
+0800COA15817,corgjwjm,,,Waitrose,,,,,,,,,,NE-bound,,NE,E0044512,Truro,,,,,,,false,UKOS,183914,45813,-5.03384,50.27265,BCT,MKD,OTH,,,,073,2015-08-04T00:00:00,2024-09-20T07:09:18,111,new,active
 0800COA15818,corgjwjp,,,Waitrose,,,,,,,,,,opposite,,SW,E0044512,Truro,,,,,,,false,UKOS,183913,45793,-5.03384,50.27247,BCT,MKD,OTH,,,,073,2015-08-04T00:00:00,2024-07-15T16:04:39,88,new,active
 0800COA15819,corgjwjt,,,Village Hall Car Prk,,,,,,,,,,SE-bound,,SE,E0004268,Lamorna,,,,,,,false,UKOS,144498,24677,-5.57175,50.06719,BCT,CUS,OTH,,,,073,2015-09-04T00:00:00,2015-09-04T13:07:36,68,new,active
 0800COA15820,corgjwjw,,,Pendeen Road,,,,,,,,,,NW-bound,,NW,E0002964,Threemilestone,,,,,,,false,UKOS,178515,44918,-5.10897,50.26261,BCT,MKD,OTH,,,,073,2015-09-11T00:00:00,2015-10-09T14:36:58,73,new,active
@@ -6135,6 +6135,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COA16607,corgtdpm,,,Long Rock Rd,,,,,,,,,,SW-bound,,SW,N0073806,Varfell,,,,,,,false,UKOS,150589,31812,-5.49146,50.13383,BCT,MKD,OTH,,,,073,2024-08-23T00:00:00,2024-08-23T13:36:37,40,new,active
 0800SCH16609,corgtdpw,,,Honicombe Corner,,,,,,,,,,SE-bound,,SE,E0002530,Honicombe,,,,,,,false,UKOS,241083,70453,-4.24274,50.51224,BCT,CUS,OTH,,,,073,2024-09-03T00:00:00,2024-09-03T14:37:11,40,new,active
 0800SCH16610,corgtdta,,,Honicombe Corner,,,,,,,,,,NW-bound,,NW,E0002530,Honicombe,,,,,,,false,UKOS,241078,70450,-4.24281,50.51221,BCT,CUS,OTH,,,,073,2024-09-03T00:00:00,2024-09-03T14:39:34,40,new,active
+0800COA16611,corgtdtd,,,A389 Prideaux Place Jctn,,,,,,,,,,E-bound,,E,E0044582,Padstow,,,,,,,false,UKOS,191367,75318,-4.94579,50.54033,BCT,MKD,OTH,,,,073,2024-09-20T00:00:00,2024-09-20T08:34:46,40,new,active
 0800COC31782,cordwpta,,,The White Hart Inn,,,,,,,,,,SE-bound,,SE,E0002427,Chilsworthy,,,,,,,false,UKOS,241602,72083,-4.23612,50.52703,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COC31779,cordwpdw,,,Old Post Office,,,,,,,,,,NE-bound,,NE,E0002427,Chilsworthy,,,,,,,false,UKOS,241298,72262,-4.24048,50.52856,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:32,0,new,active
 0800COC31777,cordwjwg,,,Tamar Park,,,,,,,,,,S-bound,,S,E0002444,Coxpark,,,,,,,false,UKOS,239992,71666,-4.25863,50.52284,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:32,0,new,active
