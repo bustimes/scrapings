@@ -14,8 +14,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000001002,nwmdpwja,,,Sainsbury's,,,,,,TRINITY ST,,,,Stop TS2,,SW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433482,279203,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-04-29T00:00:00,170,revise,active
 43000001003,nwmdpwjd,,,Sainsbury's,,,,,,TRINITY ST,,,,Stop TS3,,SW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433470,279182,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-04-29T00:00:00,165,revise,active
 43000001004,nwmdpwjg,,,Sainsbury's,,,,,,TRINITY ST,,,,Stop TS4,,SW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433463,279155,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-04-29T00:00:00,167,revise,active
-43000001005,nwmdpwjm,,,Sainsbury's,,,,,,TRINITY ST,,,,,,S,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433479,279194,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-08-13T00:00:00,473,revise,inactive
-43000001006,nwmagpwd,,,Sainsbury's,,,,,,TRINITY ST,,,,,,N,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433481,279192,,,BCT,CUS,OTH,,,,105,2004-07-28T00:00:00,2024-04-29T00:00:00,138,revise,inactive
+43000001005,nwmdpwjm,,,Sainsbury's,,,,,,TRINITY ST,,,,Inside,,S,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433479,279194,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-09-26T00:00:00,489,revise,inactive
+43000001006,nwmagpwd,,,Sainsbury's,,,,,,TRINITY ST,,,,Stop,,N,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433481,279192,,,BCT,CUS,OTH,,,,105,2004-07-28T00:00:00,2024-09-25T00:00:00,140,revise,inactive
 43000001101,nwmadada,,,Transport Museum,,,,,,HALES ST,,,,Stop HS1,,E,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433492,279268,,,BCT,MKD,OTH,,,,105,2004-08-06T00:00:00,2024-04-29T00:00:00,148,revise,active
 43000001102,nwmadadg,,,Transport Museum,,,,,,HALES ST,,,,Stop HS2,,E,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433450,279287,,,BCT,MKD,OTH,,,,105,2004-08-06T00:00:00,2024-04-29T00:00:00,142,revise,active
 43000001202,nwmdptjg,,,Cross Cheaping,,,,,,THE BURGES,,,,Stop BS6,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433383,279169,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-04-29T00:00:00,171,revise,active
@@ -45,7 +45,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000002103,nwmdptpw,,,Quadrant,,,,,,NEW UNION ST,,,,Stop BY4,,W,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433315,278717,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,165,revise,active
 43000002104,nwmdptwa,,,Quadrant,,,,,,NEW UNION ST,,,,Stop BY5,,W,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433299,278724,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,147,revise,active
 43000002105,nwmdptwd,,,Quadrant,,,,,,NEW UNION ST,,,,Stop BY3,,SE,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433364,278707,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,157,revise,active
-43000002106,nwmdpagw,,,Quadrant,,,,,,NEW UNION ST,,,,,,W,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433316,278715,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-03T00:00:00,489,revise,inactive
+43000002106,nwmdpagw,,,Quadrant,,,,,,NEW UNION ST,,,,Stop,,W,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433316,278715,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-26T00:00:00,501,revise,inactive
 43000002201,nwmtjwam,,,West Orchard Shopping Centre,,,,,,IRONMONGER ROW,,,,Stop CA,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433415,279128,,,BCT,MKD,OTH,,,,105,2005-02-23T00:00:00,2024-04-29T00:00:00,110,revise,inactive
 43000002501,nwmtmtpj,,,The Quadrant,,,,,,WARWICK ROAD,,,,,,NE,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433224,278720,,,BCT,MKD,OTH,,,,105,2005-08-08T00:00:00,2024-04-29T00:00:00,124,revise,inactive
 43000002502,nwmtmtpm,,,The Quadrant,,,,,,WARWICK ROAD,,,,,,NE,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433233,278733,,,BCT,MKD,OTH,,,,105,2005-08-08T00:00:00,2024-04-29T00:00:00,132,revise,inactive
@@ -82,7 +82,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000004102,nwmadagd,,,Belgrade Theatre,,,,,,UPPER WELL ST,,,,Stop UL5,,SE,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433160,279283,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,135,revise,active
 43000004103,nwmadagj,,,Belgrade Theatre,,,,,,UPPER WELL ST,,,,Stop EG,,SE,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433151,279297,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,130,revise,inactive
 43000004104,nwmadagm,,,Belgrade Theatre,,,,,,UPPER WELL ST,,,,Stop UL3,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433120,279314,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,150,revise,active
-43000004105,nwmadagp,,,Belgrade Theatre,,,,,,UPPER WELL ST,,,,,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433130,279301,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-08-28T00:00:00,446,revise,inactive
+43000004105,nwmadagp,,,Belgrade Theatre,,,,,,UPPER WELL ST,,,,Stop,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433130,279301,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-30T00:00:00,448,revise,inactive
 43000004106,nwmadagt,,,Belgrade Theatre,,,,,,UPPER WELL ST,,,,Stop UL1,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433137,279292,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,156,revise,active
 43000004201,nwmdptwg,,,Corporation St,,,,,,BISHOP ST,,,,Stop BS2,,SE,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433362,279313,,,BCT,MKD,OTH,,,,105,2004-08-04T00:00:00,2024-04-29T00:00:00,139,revise,active
 43000004202,nwmdptwj,,,Corporation St,,,,,,BISHOP ST,,,,Stop ,,NW,N0073053,Coventry,,,COVENTRY,,,,1,UKOS,433339,279346,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,129,revise,inactive
@@ -1603,8 +1603,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000106802,nwmadjtw,,,Marsh Lane,,,,,,KENILWORTH RD,,,,opp,,S,E0052812,Hampton in Arden,Solihull,,SOLIHULL,,,,1,UKOS,422024,280253,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,99,revise,active
 43000107101,nwmdpajm,,,Watery Lane,,,,,,WARWICK ROAD,,,,opp,,NW,E0032026,Temple Balsall,Solihull,,SOLIHULL,,,,1,UKOS,419304,275088,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,98,revise,active
 43000107102,nwmtagja,,,Watery Lane,,,,,,WARWICK ROAD,,,,adj,,SE,E0032026,Temple Balsall,Solihull,,SOLIHULL,,,,1,UKOS,419264,275135,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,100,revise,active
-43000107201,nwmdpajw,,,M42 Motorway Bridge,,,,,,SOLIHULL RD,,,,before,,W,E0052808,Bickenhill,Solihull,,SOLIHULL,,,,1,UKOS,419140,280646,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,111,revise,active
-43000107202,nwmtagjd,,,M42 Motorway Bridge,,,,,,SOLIHULL RD,,,,after,,E,E0052808,Bickenhill,Solihull,,SOLIHULL,,,,1,UKOS,419141,280653,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,111,revise,active
+43000107201,nwmdpajw,,,M42 Motorway Bridge,,,,,,SOLIHULL RD,,,,before,,W,E0052808,Bickenhill,Solihull,,SOLIHULL,,,,1,UKOS,419140,280646,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-10-01T00:00:00,120,revise,inactive
+43000107202,nwmtagjd,,,M42 Motorway Bridge,,,,,,SOLIHULL RD,,,,after,,E,E0052808,Bickenhill,Solihull,,SOLIHULL,,,,1,UKOS,419141,280653,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-10-01T00:00:00,118,revise,inactive
 43000107301,nwmgaptm,,,The Boat Inn,,,,,,HAMPTON LANE,,,,adjacent,,SW,N0072541,Catherine De Barnes,Solihull,,SOLIHULL,,,,1,UKOS,417894,280319,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,119,revise,active
 43000107302,nwmgaptp,,,The Boat Inn,,,,,,HAMPTON LANE,,,,opposite,,NE,N0072541,Catherine De Barnes,Solihull,,SOLIHULL,,,,1,UKOS,417941,280351,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,129,revise,active
 43000107401,nwmgaptw,,,Field Lane,,,,,,HAMPTON LANE,,,,opp,,W,E0031429,Catherine de Barnes Heath,Solihull,,SOLIHULL,,,,1,UKOS,417047,279980,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,113,revise,active
@@ -1751,8 +1751,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000119901,nwmdpatm,,,Knightlow Avenue,,,,,,DUNSMORE AVENUE,,,,opp,,SE,E0032126,Willenhall,Coventry,,COVENTRY,,,,1,UKOS,436309,276681,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,107,revise,active
 43000119902,nwmdtgtg,,,Knightlow Avenue,,,,,,DUNSMORE AVENUE,,,,adj,,NW,E0032126,Willenhall,Coventry,,COVENTRY,,,,1,UKOS,436277,276694,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,110,revise,active
 43000120001,nwmgawgj,,,Torcross Avenue,,,,,,SEWALL HIGHWAY,,,,after,,SE,E0032152,Wyken,Coventry,,COVENTRY,,,,1,UKOS,436254,280378,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,113,revise,active
-43000120101,nwmadjwp,,,The Barn Restaurant,,,,,,STRATFORD RD,,,,,,N,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415093,273416,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-06-13T00:00:00,104,revise,active
-43000120102,nwmadjwt,,,The Barn Restaurant,,,,,,STRATFORD RD,,,,,,S,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415101,273426,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-06-13T00:00:00,115,revise,active
+43000120101,nwmadjwp,,,The Barn Restaurant,,,,,,STRATFORD RD,,,,adj,,N,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415093,273416,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-25T00:00:00,106,revise,active
+43000120102,nwmadjwt,,,The Barn Restaurant,,,,,,STRATFORD RD,,,,opp,,S,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415101,273426,,,BCT,CUS,OTH,,,,105,2004-08-19T00:00:00,2024-09-25T00:00:00,117,revise,active
 43000120201,nwmadmad,,,Aylesbury Rd,,,,,,STRATFORD RD,,,,adj,,S,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415217,272994,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,141,revise,active
 43000120202,nwmadmag,,,Aylesbury Rd,,,,,,STRATFORD RD,,,,opposite,,N,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415239,272855,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,137,revise,active
 43000120203,nwmwtpjt,,,Aylesbury Rd,,,,,,STRATFORD RD,,,,after,,NW,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415193,273021,,,BCT,MKD,OTH,,,,105,2019-09-05T00:00:00,2024-04-29T00:00:00,17,revise,active
@@ -2179,7 +2179,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000156401,nwmadpwa,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,Stand A,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414435,279697,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-04-29T00:00:00,156,revise,active
 43000156402,nwmadpwd,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,Stand B,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414453,279675,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-04-29T00:00:00,160,revise,active
 43000156403,nwmadpwg,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414465,279664,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-04-29T00:00:00,168,revise,inactive
-43000156404,nwmadpwj,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414517,279660,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-09-06T00:00:00,916,revise,inactive
+43000156404,nwmadpwj,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414517,279660,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-09-30T00:00:00,922,revise,inactive
 43000156405,nwmadpwm,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,Stand C,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414532,279654,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-04-29T00:00:00,158,revise,active
 43000156406,nwmadpwp,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,Stand D,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414540,279654,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-04-29T00:00:00,159,revise,active
 43000156407,nwmadpwt,,,Solihull Station Interchange,,,,,,STATION APPROACH,,,,Stand E,,,E0057935,Solihull,,,SOLIHULL,,,,1,UKOS,414541,279655,,,BCS,,PTP,,,,105,2004-07-23T00:00:00,2024-04-29T00:00:00,160,revise,active
@@ -3380,7 +3380,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000237501,nwmgdwgj,,,Ronald Rd,,,,,,BORDESLEY GREEN RD,,,,adj,,S,E0031372,Bordesley Green,Birmingham,,BIRMINGHAM,,,,1,UKOS,409854,286880,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,117,revise,active
 43000237502,nwmgdwgm,,,Ronald Rd,,,,,,BORDESLEY GREEN RD,,,,opp,,N,E0031372,Bordesley Green,Birmingham,,BIRMINGHAM,,,,1,UKOS,409843,286840,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,109,revise,active
 43000237601,nwmgdwgp,,,Burbidge Rd,,,,,,BORDESLEY GREEN RD,,,,adj,,S,N0072527,Adderley Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,409862,286982,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-05-24T00:00:00,109,revise,active
-43000237602,nwmgdwgt,,,Burbidge Rd,,,,,,BORDESLEY GREEN RD,,,,opp,,N,N0072527,Adderley Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,409856,287138,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-05-24T00:00:00,119,revise,active
+43000237602,nwmgdwgt,,,Burbidge Rd,,,,,,BORDESLEY GREEN RD,,,,opp,,N,N0072527,Adderley Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,409856,287138,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-26T00:00:00,121,revise,inactive
 43000237701,nwmamdjp,,,Norwood Rd,,,,,,BORDESLEY GREEN,,,,adjacent,,NE,E0031372,Bordesley Green,Birmingham,,BIRMINGHAM,,,,1,UKOS,410053,286599,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-07-30T00:00:00,118,revise,active
 43000237702,nwmamdjt,,,Norwood Rd,,,,,,BORDESLEY GREEN,,,,opposite,,SW,E0031372,Bordesley Green,Birmingham,,BIRMINGHAM,,,,1,UKOS,410061,286586,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-07-30T00:00:00,116,revise,active
 43000237801,nwmamdjw,,,Imperial Rd,,,,,,BORDESLEY GREEN,,,,opp,,E,E0031372,Bordesley Green,Birmingham,,BIRMINGHAM,,,,1,UKOS,410209,286626,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,112,revise,active
@@ -3801,7 +3801,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000272102,nwmgjdmt,,,Lozells School,,,,,,CLIFFORD ST,,,,opp,,W,E0031821,Newtown,Birmingham,,BIRMINGHAM,,,,1,UKOS,406718,289013,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,98,revise,active
 43000272201,nwmgjdmw,,,HML Campus,,,,,,WHEELER ST,,,,adjacent,,S,E0031821,Newtown,Birmingham,,BIRMINGHAM,,,,1,UKOS,406699,289250,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-08-09T00:00:00,123,revise,active
 43000272203,nwmgjdpa,,,HML Campus,,,,,,WHEELER ST,,,,opposite,,N,E0031821,Newtown,Birmingham,,BIRMINGHAM,,,,1,UKOS,406663,289104,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-08-09T00:00:00,118,revise,active
-43000272301,nwmgjdpd,,,Lozells St,,,,,,GERRARD ST,,,,,,E,E0031751,Lozells,Birmingham,,BIRMINGHAM,,,,1,UKOS,406490,289138,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,108,revise,inactive
+43000272301,nwmgjdpd,,,Lozells St,,,,,,GERRARD ST,,,,adj,,E,E0031751,Lozells,Birmingham,,BIRMINGHAM,,,,1,UKOS,406490,289138,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-26T00:00:00,110,revise,inactive
 43000272302,nwmgjdpg,,,Lozells St,,,,,,GERRARD ST,,,,opp,,SW,E0031751,Lozells,Birmingham,,BIRMINGHAM,,,,1,UKOS,406418,289086,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,102,revise,active
 43000272401,nwmgjdpj,,,Burbury St,,,,,,NURSERY RD,,,,adj,,NE,E0031821,Newtown,Birmingham,,BIRMINGHAM,,,,1,UKOS,406320,289046,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,105,revise,active
 43000272402,nwmgjdpm,,,Burbury St,,,,,,NURSERY RD,,,,,,SW,E0031821,Newtown,Birmingham,,BIRMINGHAM,,,,1,UKOS,406276,289004,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,108,revise,inactive
@@ -4030,7 +4030,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43000289801,nwmgjpgt,,,Algernon Rd,,,,,,DUDLEY RD,,,,adj,,NW,E0031914,Rotton Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,403917,287645,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,109,revise,active
 43000289802,nwmgjpgw,,,Algernon Rd,,,,,,DUDLEY RD,,,,opp,,SE,E0031914,Rotton Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,403864,287676,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,115,revise,active
 43000289901,nwmgjpja,,,Dugdale St,,,,,,DUDLEY RD,,,,opp,,W,E0031914,Rotton Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,403726,287713,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,103,revise,active
-43000289902,nwmgjpjd,,,Dugdale St,,,,,,DUDLEY RD,,,,,,E,E0031914,Rotton Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,403648,287755,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-13T00:00:00,107,revise,active
+43000289902,nwmgjpjd,,,Dugdale St,,,,,,DUDLEY RD,,,,adj,,E,E0031914,Rotton Park,Birmingham,,BIRMINGHAM,,,,1,UKOS,403657,287748,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-09-30T00:00:00,112,revise,inactive
 43000290201,nwmgjpjg,,,Hockley Heath,,,,,,AYLESBURY RD,,,,,,SW,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415480,273059,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,126,revise,inactive
 43000290202,nwmgjpjm,,,Hockley Heath,,,,,,AYLESBURY RD,,,,after,,NE,E0052813,Hockley Heath,Solihull,,SOLIHULL,,,,1,UKOS,415468,273060,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,109,revise,active
 43000300104,nwmapdjm,,,Five Ways Station,,,,,,ISLINGTON ROW,,,,adj,,NW,E0057937,Birmingham,,,BIRMINGHAM,,,,1,UKOS,406043,285925,,,BCT,MKD,OTH,,,,105,2004-08-19T00:00:00,2024-04-29T00:00:00,130,revise,active
@@ -13334,7 +13334,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43001059802,nwmtjgwg,,,Ridgeway Avenue,,,,,,THE CHESILS,,,,after,,NE,E0031992,Stivichall,Coventry,,COVENTRY,,,,1,UKOS,433224,276458,,,BCT,MKD,OTH,,,,105,2005-01-06T00:00:00,2024-04-29T00:00:00,119,revise,active
 43001059901,nwmtjgwj,,,Arnold Avenue,,,,,,DAWLISH DRIVE,,,,after,,SW,E0031544,Finham,Coventry,,COVENTRY,,,,1,UKOS,433519,276016,,,BCT,MKD,OTH,,,,105,2005-01-06T00:00:00,2024-04-29T00:00:00,121,revise,active
 43001059902,nwmtjgwm,,,Arnold Avenue,,,,,,DAWLISH DRIVE,,,,before,,NE,E0031544,Finham,Coventry,,COVENTRY,,,,1,UKOS,433513,276021,,,BCT,MKD,OTH,,,,105,2005-01-06T00:00:00,2024-04-29T00:00:00,127,revise,active
-43001060001,nwmpjmwm,,,Windmill Rd,,,,,,LONGFORD RD,,,,,,NE,E0031741,Longford,Coventry,,COVENTRY,,,,1,UKOS,434879,283114,,,BCT,MKD,OTH,,,,105,2004-08-03T00:00:00,2024-09-12T00:00:00,150,revise,inactive
+43001060001,nwmpjmwm,,,Windmill Rd,,,,,,LONGFORD RD,,,,opp,,NE,E0031741,Longford,Coventry,,COVENTRY,,,,1,UKOS,434879,283114,,,BCT,MKD,OTH,,,,105,2004-08-03T00:00:00,2024-09-30T00:00:00,152,revise,inactive
 43001060002,nwmtmwja,,,Windmill Rd,,,,,,LONGFORD RD,,,,adj,,SW,E0031741,Longford,Coventry,,COVENTRY,,,,1,UKOS,434890,283107,,,BCT,CUS,OTH,,,,105,2005-08-11T00:00:00,2024-04-29T00:00:00,97,revise,inactive
 43001060101,nwmtgwgj,,,Arena Shopping Park,,,,,,ARENA PARK,,,,Stop AA,,,E0031741,Longford,Coventry,,COVENTRY,,,,1,UKOS,434746,282934,,,BCS,,PTP,,,,105,2004-10-04T00:00:00,2024-04-29T00:00:00,143,revise,active
 43001060102,nwmtpmwj,,,Arena Shopping Park,,,,,,ARENA PARK,,,,Stop AB,,,E0031741,Longford,Coventry,,COVENTRY,,,,1,UKOS,434732,282946,,,BCS,,PTP,,,,105,2006-06-19T00:00:00,2024-04-29T00:00:00,122,revise,active
@@ -13620,8 +13620,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43001336801,nwmdtmdw,,,Ashville Ave,,,,,,HEATHLAND AVE,,,,adjacent,,NW,E0031404,Buckland End,Birmingham,,BIRMINGHAM,,,,1,UKOS,414094,289369,,,BCT,MKD,OTH,,,,105,2021-10-01T00:00:00,2024-04-29T00:00:00,12,revise,active
 43001336901,nwmdtmga,,,Hernefield Rd,,,,,,HEATHLAND AVE,,,,adjacent,,SE,E0031404,Buckland End,Birmingham,,BIRMINGHAM,,,,1,UKOS,414204,289253,,,BCT,MKD,OTH,,,,105,2021-10-01T00:00:00,2024-04-29T00:00:00,9,revise,active
 43001337501,nwmwgtjm,,,Health Care Centre,,,,,,VENTURE WAY,,,,adjacent,,N,E0031389,Brierley Hill,Dudley,,DUDLEY,,,,1,UKOS,392158,287156,,,BCT,MKD,OTH,,,,105,2023-03-30T00:00:00,2024-04-29T00:00:00,10,revise,active
-43001337601,nwmwjatm,,,Edmund Street,,,,,,MARGARET ST,,,,Stop MG1,,NW,E0057937,Birmingham,,,BIRMINGHAM,,,,1,UKOS,406658,287003,,,BCT,MKD,OTH,,,,105,2023-03-31T00:00:00,2024-04-29T00:00:00,4,revise,active
-43001337602,nwmwjatp,,,Edmund Street,,,,,,MARGARET ST,,,,Stop MG2,,NW,E0057937,Birmingham,,,BIRMINGHAM,,,,1,UKOS,406634,287026,,,BCT,MKD,OTH,,,,105,2023-03-31T00:00:00,2024-04-29T00:00:00,5,revise,active
+43001337601,nwmwjatm,,,Edmund St,,,,,,MARGARET ST,,,,Stop MG1,,NW,E0057937,Birmingham,,,BIRMINGHAM,,,,1,UKOS,406658,287003,,,BCT,MKD,OTH,,,,105,2023-03-31T00:00:00,2024-09-30T00:00:00,6,revise,active
+43001337602,nwmwjatp,,,Edmund St,,,,,,MARGARET ST,,,,Stop MG2,,NW,E0057937,Birmingham,,,BIRMINGHAM,,,,1,UKOS,406634,287026,,,BCT,MKD,OTH,,,,105,2023-03-31T00:00:00,2024-09-30T00:00:00,11,revise,inactive
 43001337801,nwmwjawj,,,Peddimore Lane,,,,,,PEDDIMORE WAY,,,,near,,E,E0031781,Minworth,,,MINWORTH,,,,1,UKOS,415361,293162,,,BCT,MKD,OTH,,,,105,2023-09-21T00:00:00,2024-04-29T00:00:00,39,revise,active
 43001337802,nwmwjawm,,,Peddimore Lane,,,,,,PEDDIMORE WAY,,,,opp,,W,E0031781,Minworth,,,MINWORTH,,,,1,UKOS,415367,293143,,,BCT,MKD,OTH,,,,105,2023-09-21T00:00:00,2024-04-29T00:00:00,35,revise,active
 43001337901,nwmwjawp,,,Jensport,,,,,,PEDDIMORE WAY,,,,adj,,W,E0031781,Minworth,,,MINWORTH,,,,1,UKOS,415787,293329,,,BCT,MKD,OTH,,,,105,2023-09-21T00:00:00,2024-04-29T00:00:00,12,revise,active
@@ -13649,8 +13649,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 43001343001,nwmwjdmg,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop MC,,NE,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403520,288028,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-09-10T00:00:00,12,revise,active
 43001343002,nwmwjdmj,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop MB,,SE,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403583,288054,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-09-10T00:00:00,8,revise,active
 43001343003,nwmwjdmp,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop MA,,SE,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403600,288046,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-09-10T00:00:00,12,revise,active
-43001343004,nwmwjdmt,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop MD,,NW,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403513,287877,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-09-10T00:00:00,8,revise,active
-43001343005,nwmwjdmw,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop ME,,NW,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403520,287866,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-08-15T00:00:00,4,revise,active
+43001343004,nwmwjdmt,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop MD,,NW,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403513,287877,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-09-26T00:00:00,10,revise,active
+43001343005,nwmwjdmw,,,Midland Met Hospital,,,,,,GROVE LANE,,,,Stop ME,,NW,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403520,287866,,,BCT,MKD,OTH,,,,105,2024-08-15T00:00:00,2024-09-26T00:00:00,6,revise,active
 43001343006,nwmwjdpt,,,Midland Met Hospital,,,,,,DUDLEY RD,,,,Stop MF,,E,N0072539,Cape Hill,Birmingham,,BIRMINGHAM,,,,1,UKOS,403607,287756,,,BCT,MKD,OTH,,,,105,2024-09-13T00:00:00,2024-09-13T00:00:00,6,revise,active
 43001357201,nwmwgtmg,,,Hillside Rd,,,,,,LICHFIELD RD,,,,opp,,SE,E0031771,Mere Green,,,BIRMINGHAM,,,,1,UKOS,411121,299716,,,BCT,MKD,OTH,,,,105,2012-12-05T00:00:00,2024-04-29T00:00:00,33,revise,active
 43001357202,nwmwgtmj,,,Hillside Rd,,,,,,LICHFIELD RD,,,,adj,,NW,E0031771,Mere Green,,,BIRMINGHAM,,,,1,UKOS,411088,299740,,,BCT,MKD,OTH,,,,105,2012-12-05T00:00:00,2024-04-29T00:00:00,34,revise,active
