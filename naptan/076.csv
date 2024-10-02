@@ -19,12 +19,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEC11239,dvndgpwg,,,Sherborne Road,,,,,,Sherborne Road,,,,Stop G,,W,E0045505,Newton Abbot,,,,,,,true,UKOS,285929,71396,-3.61083,50.53119,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEA05825,dvngmada,,,Sherborne Road,,,,,,Sherborne Road,,,,Stop H,,W,E0045505,Newton Abbot,,,,,,,true,UKOS,285935,71396,-3.61075,50.53119,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEC11242,dvndgptj,,,Sherborne Road,,,,,,Market Street,,,,Stop L,,NE,E0045505,Newton Abbot,,,,,,,true,UKOS,285857,71388,-3.61185,50.5311,BCT,MKD,OTH,,,,076,2010-03-16T00:00:00,2021-07-07T13:30:46,0,new,active
-1100DEA57312,dvngtaja,,,Leisure Centre,,,,,,Imperial Road,,,,Stop F,,NE,E0007529,Exmouth,,,,,,,false,UKOS,299960,81059,-3.41554,50.62063,BCT,MKD,OTH,,,,076,2016-05-23T00:00:00,2017-08-09T16:27:13,87,new,active
 1100DEC10795,dvndtpgd,,,Savoy Cinema,,,,,,Rolle Street,,,,Stop E,,SE,E0007529,Exmouth,,,,,,,false,UKOS,300096,80960,-3.41359,50.61976,BCT,MKD,OTH,,,,076,2010-09-03T00:00:00,2014-12-03T16:33:29,3,new,active
 1100DEA56975,dvngpajw,,,Savoy Cinema,,,,,,Rolle Street,,,,Stop D,,NW,E0007529,Exmouth,,,,,,,false,UKOS,300071,80983,-3.41395,50.61996,BCT,MKD,OTH,,,,076,2014-12-03T00:00:00,2014-12-03T16:33:36,2,new,active
 1100DEC10796,dvndtpja,,,Parade,,,,,,Parade,,,,Stop B,,E,E0007529,Exmouth,,,,,,,true,UKOS,300192,81045,-3.41225,50.62054,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2023-03-23T12:21:51,39,new,active
 1100DEA06039,dvngmpgp,,,Parade,,,,,,Parade,,,,Stop C,,E,E0007529,Exmouth,,,,,,,true,UKOS,300166,81048,-3.41262,50.62056,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2023-03-23T12:22:04,40,new,active
 1100DEC10797,dvndtpgt,,,Parade,,,,,,Parade,,,,Stop A,,W,E0007529,Exmouth,,,,,,,true,UKOS,300189,81040,-3.41229,50.6205,BCT,MKD,OTH,,,,076,2010-09-06T00:00:00,2023-03-23T12:22:26,42,new,active
+1100DEA57312,dvngtaja,,,Leisure Centre,,,,,,Imperial Road,,,,Stop F,,NE,E0007529,Exmouth,,,,,,,false,UKOS,299960,81059,-3.41554,50.62063,BCT,MKD,OTH,,,,076,2016-05-23T00:00:00,2017-08-09T16:27:13,87,new,active
 1100DEB10699,dvngawpd,,,Rail Station,,,,,,New Street,,,,opp,,S,E0045249,Honiton,,,,,,,true,UKOS,316506,100340,-3.18607,50.79659,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2018-11-14T16:31:54,8,delete,inactive
 1100DEA56885,dvngmtma,,,Rail Station,,,,,,New Street,,,,S-bound,,S,E0045249,Honiton,,,,,,,true,UKOS,316488,100369,-3.18633,50.79684,BCT,MKD,OTH,,,,076,2010-04-01T00:00:00,2015-12-04T14:13:42,5,new,active
 1100DEB10700,dvngawpa,,,Rail Station,,,,,,New Street,,,,N-bound,,N,E0045249,Honiton,,,,,,,true,UKOS,316484,100362,-3.18638,50.79678,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2015-12-04T14:13:30,7,new,active
@@ -78,7 +78,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DIGBY1,,,,Digby & Sowton Rail Station,,,,,,,,,,Entrance,,,E0007688,Digby,Exeter,,,,,,false,UKOS,296066,91552,-3.47351,50.71428,RSE,,,,,,076,2015-08-20T00:00:00,2015-08-20T14:17:46,39,new,active
 1100EGGESFD0,,,,Eggesford Rail Station,,,,,,,,,,Entrance,,,E0045308,Eggesford,,,,,,,false,UKOS,268230,111480,-3.87475,50.88774,RSE,,,,,,076,2010-11-26T00:00:00,2010-11-26T16:35:16,0,new,active
 1100EXETERC0,,,,Exeter Central Rail Station,,,,,,,,,,Entrance,,,E0055597,Exeter City Centre,Exeter,,,,,,false,UKOS,291865,92936,-3.5334,50.72595,RSE,,,,,,076,2015-08-20T00:00:00,2015-08-20T14:20:31,4,new,active
-1100EXETERC1,,,,Exeter Central Rail Station,,,,,,,,,,Entrance,,,E0055597,Exeter City Centre,Exeter,,,,,,false,UKOS,292119,93100,-3.52985,50.72747,RSE,,,,,,076,2024-09-25T13:31:14.4470704+01:00,2015-08-20T14:20:31,4,new,active
+1100EXETERC1,,,,Exeter Central Rail Station,,,,,,,,,,Entrance,,,E0055597,Exeter City Centre,Exeter,,,,,,false,UKOS,292119,93100,-3.52985,50.72747,RSE,,,,,,076,2024-10-02T14:32:26.3719345+01:00,2015-08-20T14:20:31,4,new,active
 1100EXETRSD0,,,,Exeter St Davids Rail Station,,,,,,,,,,Entrance,,,E0055597,Exeter City Centre,Exeter,,,,,,false,UKOS,291182,93310,-3.54318,50.72918,RSE,,,,,,076,2015-11-12T00:00:00,2015-11-12T15:37:49,1,new,active
 1100EXETRST0,,,,Exeter St Thomas Rail Station,,,,,,,,,,Entrance,,,E0055597,Exeter City Centre,Exeter,,,,,,false,UKOS,291471,91974,-3.5387,50.71723,RSE,,,,,,076,2015-11-12T00:00:00,2015-11-12T15:47:01,1,new,active
 1100EXMOUTH0,,,,Exmouth Rail Station,,,,,,,,,,Entrance,,,E0007529,Exmouth,,,,,,,false,UKOS,300002,81170,-3.41497,50.62163,RSE,,,,,,076,2010-11-26T00:00:00,2010-11-26T16:35:16,0,new,active
@@ -505,8 +505,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEA05876,dvngmdaj,,,EDF Energy,,,,,,Cadeon House,,,,S-bound,,S,E0007706,Monkerton,Exeter,,,,,,false,UKOS,296585,93183,-3.46662,50.72903,BCT,MKD,OTH,,,,076,2008-11-28T00:00:00,2020-02-25T08:31:54,0,new,active
 1100DEA05874,dvngmdad,,,Withycombe Park Drive,,,,,,St Johns Road,,,,NE-bound,,NE,E0045243,Brixington,Exmouth,,,,,,false,UKOS,302317,82685,-3.38266,50.63565,BCT,MKD,OTH,,,,076,2008-11-28T00:00:00,2018-11-15T10:36:51,4,new,active
 1100DEA05875,dvngmdag,,,Withycombe Park Drive,,,,,,St Johns Road,,,,opp,,SW,E0045243,Brixington,Exmouth,,,,,,false,UKOS,302307,82666,-3.38279,50.63547,BCT,MKD,OTH,,,,076,2008-11-28T00:00:00,2018-11-15T10:36:41,4,new,active
-1100DEA05883,dvngmdgj,,,Packhorse Close,,,,,,Church Street,,,,W-bound,,W,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313712,89964,-3.22327,50.70289,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2021-07-07T13:30:46,0,new,active
-1100DEA05882,dvngmdgd,,,Englands Close,,,,,,Church Street,,,,E-bound,,E,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313717,89968,-3.2232,50.70293,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2021-07-07T13:30:46,0,new,active
+1100DEA05883,dvngmdgj,,,Packhorse Close,,,,,,,,,,W-bound,,W,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313761,89944,-3.22257,50.70272,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2024-10-01T17:50:35,7,new,active
+1100DEA05882,dvngmdgd,,,Englands Close,,,,,,,,,,E-bound,,E,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313763,89953,-3.22254,50.7028,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2024-10-01T17:50:16,7,new,active
 1100DEA05881,dvngmdga,,,ASDA,,,,,,Highweek Way,,,,opp,,S,E0045505,Newton Abbot,,,,,,,false,UKOS,285730,71223,-3.61359,50.52959,BCT,MKD,OTH,,,,076,2008-11-28T00:00:00,2015-04-25T12:22:40,0,new,active
 1100DEA05880,dvngmdaw,,,ASDA,,,,,,Highweek Way,,,,NW-bound,,NW,E0045505,Newton Abbot,,,,,,,false,UKOS,285739,71263,-3.61347,50.52995,BCT,MKD,OTH,,,,076,2008-11-28T00:00:00,2018-05-16T10:21:30,11,new,active
 1100DEA05879,dvngmdat,,,Heath Park,,,,,,Twickenham Road,,,,N-bound,,N,N0074487,Newtake,Newton Abbot,,,,,,false,UKOS,288247,70319,-3.57782,50.52195,BCT,CUS,OTH,,,,076,2009-03-13T00:00:00,2016-07-26T15:45:57,6,new,active
@@ -1354,7 +1354,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEA10817,dvnamajm,,,Hillsborough Terrace,,,,,,Portland Street,,,,E-bound,,E,E0045375,Ilfracombe,,,,,,,false,UKOS,252448,147599,-4.11369,51.20849,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-10-01T16:34:07,17,new,active
 1100DEA10815,dvnajwtg,,,Scarlet Pimpernel Garage,,,,,,Portland Street,,,,W-bound,,W,E0045375,Ilfracombe,,,,,,,false,UKOS,252212,147622,-4.11708,51.20863,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-10-01T16:44:48,4,new,active
 1100DEA10814,dvnajwtd,,,Scarlet Pimpernel Garage,,,,,,Portland Street,,,,E-bound,,E,E0045375,Ilfracombe,,,,,,,false,UKOS,252203,147631,-4.11721,51.20871,BCT,CUS,OTH,,,,076,2003-06-12T00:00:00,2014-10-01T16:44:12,6,new,active
-1100DEA10813,dvnajwdm,,,Lloyds Pharmacy,,,,,,High Street,,,,Stop B,,E,E0045375,Ilfracombe,,,,,,,false,UKOS,251835,147622,-4.12247,51.20853,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2021-07-07T13:30:46,0,new,active
+1100DEA10813,dvnajwdm,,,Pharmacy,,,,,,High Street,,,,Stop B,,E,E0045375,Ilfracombe,,,,,,,false,UKOS,251835,147622,-4.12247,51.20853,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2024-09-26T14:54:10,37,new,active
 1100DEA10812,dvnajwap,,,Baptist Church,,,,,,High Street,,,,Stop A,,W,E0045375,Ilfracombe,,,,,,,false,UKOS,251771,147586,-4.12337,51.20819,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEA10804,dvnajwdg,,,Methodist Church,,,,,,Wilder Road,,,,W-bound,,W,E0045375,Ilfracombe,,,,,,,false,UKOS,251763,147732,-4.12355,51.2095,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-10-01T10:34:10,2,new,active
 1100DEA10805,dvnajwad,,,The Gardens,,,,,,Wilder Road,,,,E-bound,,E,E0045375,Ilfracombe,,,,,,,false,UKOS,251744,147736,-4.12382,51.20953,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2020-02-25T08:31:54,0,new,active
@@ -2257,7 +2257,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEC10510,dvndatwt,,,Westernlea (Westwood Road),,,,,,Westernlea,,,,opp 94,,NW,E0045302,Crediton,,,,,,,false,UKOS,282236,100142,-3.67207,50.78885,BCT,CUS,OTH,,,,076,2003-06-12T00:00:00,2021-04-13T17:48:40,16,new,active
 1100DEA06027,dvngmpaw,,,Westernlea,,,,,,Westernlea,,,,opp 47,,SE,E0045302,Crediton,,,,,,,false,UKOS,282146,100226,-3.67337,50.78959,BCT,MKD,OTH,,,,076,2009-03-25T00:00:00,2014-11-07T10:28:07,4,new,active
 1100DEC10509,dvndgadt,,,Lloyds Bank,,,,,,High Street,,,,W-bound,,W,E0045302,Crediton,,,,,,,true,UKOS,283093,100325,-3.65998,50.79067,BCT,MKD,OTH,,,,076,2009-04-14T00:00:00,2018-05-30T15:57:26,16,new,active
-1100DEC10516,dvndgagm,,,opp Tesco Metro,,,,,,High Street,,,,E-bound,,E,E0045302,Crediton,,,,,,,true,UKOS,283046,100343,-3.66065,50.79082,BCT,MKD,OTH,,,,076,2006-05-22T00:00:00,2021-05-13T16:02:11,10,new,active
+1100DEC10516,dvndgagm,,,Museum,,,,,,High Street,,,,E-bound,,E,E0045302,Crediton,,,,,,,true,UKOS,283046,100343,-3.66065,50.79082,BCT,MKD,OTH,,,,076,2006-05-22T00:00:00,2024-09-26T14:56:34,45,new,active
 1100DEC10507,dvndgapm,,,Memorial,,,,,,Union Road,,,,SE-bound,,SE,E0045302,Crediton,,,,,,,false,UKOS,283426,100224,-3.65522,50.78983,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2018-05-30T15:56:20,5,new,active
 1100DEC10506,dvndgdad,,,Parish Church,,,,,,East Street,,,,W-bound,,W,E0045302,Crediton,,,,,,,false,UKOS,283660,100134,-3.65187,50.78907,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-11-07T10:30:07,1,new,active
 1100DEC10512,dvndatpd,,,Tuckers Close,,,,,,Threshers,,,,E-bound,,E,E0045302,Crediton,,,,,,,false,UKOS,282108,100423,-3.67398,50.79135,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-11-07T10:32:02,2,new,active
@@ -2432,11 +2432,11 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEB10359,dvngdatg,,,Hangman's Stone,,,,,,A3052,,,,E-bound,,E,E0045224,Branscombe,,,,,,,false,UKOS,320414,90888,-3.12858,50.71216,BCT,MKD,OTH,,,,076,2006-07-19T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEB10360,dvngdatm,,,Hangman's Stone,,,,,,A3052,,,,W-bound,,W,E0045224,Branscombe,,,,,,,false,UKOS,320422,90882,-3.12847,50.7121,BCT,CUS,OTH,,,,076,2006-07-19T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEB10351,dvngampt,,,Core Hill Road,,,,,,High Street,,,,E-bound,,E,E0045271,Sidmouth,,,,,,,false,UKOS,312086,89711,-3.24622,50.70037,BCT,MKD,OTH,,,,076,2006-05-18T00:00:00,2021-07-07T13:30:46,0,new,active
-1100DEB10352,dvngampw,,,Core Hill Road,,,,,,High Street,,,,opp,,W,E0045271,Sidmouth,,,,,,,false,UKOS,312094,89705,-3.24611,50.70032,BCT,MKD,OTH,,,,076,2006-05-18T00:00:00,2019-02-26T15:05:01,0,new,active
+1100DEB10352,dvngampw,,,Core Hill Road,,,,,,High Street,,,,opp,,W,E0045271,Sidmouth,,,,,,,false,UKOS,312047,89703,-3.24677,50.70029,BCT,MKD,OTH,,,,076,2006-05-18T00:00:00,2024-10-01T17:38:10,0,new,active
 1100DEB10348,dvnawgpt,,,Holne Bridge,,,,,,,,,,W-bound,,W,E0045471,Ashburton,,,,,,,false,UKOS,273023,70554,-3.79255,50.52096,BCT,CUS,OTH,,,,076,2009-02-20T00:00:00,2020-02-25T08:31:53,0,new,active
 1100DEB10349,dvnawgpm,,,Holne Bridge,,,,,,,,,,E-bound,,E,E0045471,Ashburton,,,,,,,false,UKOS,273008,70557,-3.79277,50.52098,BCT,CUS,OTH,,,,076,2009-02-20T00:00:00,2020-02-25T08:31:53,0,new,active
-1100DEB10353,dvngaptm,,,Opp Spar,,,,,,Church Street,,,,Stop B,,E,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313413,90035,-3.22752,50.70348,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2021-07-07T13:30:46,0,new,active
-1100DEB10354,dvngaptw,,,Spar,,,,,,Church Street,,,,Stop A,,W,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313417,90029,-3.22746,50.70343,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2021-07-07T13:30:46,0,new,active
+1100DEB10353,dvngaptm,,,Opp Spar,,,,,,Church Street,,,,Stop B,,E,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313447,90032,-3.22703,50.70346,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2024-10-01T17:44:42,0,new,active
+1100DEB10354,dvngaptw,,,Spar,,,,,,Church Street,,,,Stop A,,W,E0007628,Sidford,Sidmouth,,,,,,false,UKOS,313396,90029,-3.22775,50.70343,BCT,MKD,OTH,,,,076,2009-05-05T00:00:00,2024-10-01T17:45:23,0,new,active
 1100DEB10357,dvngdaja,,,Three Horseshoes Inn,,,,,,A3052,,,,E-bound,,E,E0007638,Street,,,,,,,false,UKOS,318902,91254,-3.15007,50.71524,BCT,MKD,OTH,,,,076,2009-02-20T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEB10358,dvngdagw,,,Three Horseshoes Inn,,,,,,A3052,,,,opp,,W,E0007638,Street,,,,,,,false,UKOS,318901,91248,-3.15008,50.71518,BCT,MKD,OTH,,,,076,2009-02-20T00:00:00,2021-07-07T13:30:44,0,new,active
 1100DEB10355,dvngawtw,,,King's Down Tail,,,,,,A3052,,,,opp,,NE,N0074574,Trow,,,,,,,false,UKOS,317084,90598,-3.17567,50.70908,BCT,MKD,OTH,,,,076,2008-11-28T00:00:00,2015-04-25T12:22:47,0,new,active
@@ -3650,8 +3650,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEC11250,dvndjapg,,,Keyberry Road,,,,,,Keyberry Road,,,,S-bound,,S,E0008555,Milber,Newton Abbot,,,,,,false,UKOS,286985,70664,-3.59572,50.52481,BCT,CUS,OTH,,,,076,2003-06-12T00:00:00,2015-12-23T10:24:38,6,new,active
 1100DEC11247,dvndgwmt,,,Keyberry Park,,,,,,Decoy Road,,,,SE-bound,,SE,E0008555,Milber,Newton Abbot,,,,,,false,UKOS,286720,70304,-3.59935,50.52152,BCT,CUS,OTH,,,,076,2003-06-12T00:00:00,2015-04-25T12:21:06,0,new,active
 1100DEC11246,dvndgwmd,,,Keyberry Park,,,,,,Decoy Road,,,,opp,,NW,E0008555,Milber,Newton Abbot,,,,,,false,UKOS,286708,70308,-3.59952,50.52156,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2016-07-26T15:57:48,8,new,active
-1100DEC10666,dvngagtw,,,Millmoor Lane,,,,,,Station Road,,,,opp,,E,E0045258,Newton Poppleford,,,,,,,false,UKOS,308853,89761,-3.292,50.70032,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2015-04-25T12:22:54,0,new,active
-1100DEC11253,dvngajad,,,Millmoor Lane,,,,,,Station Road,,,,W-bound,,W,E0045258,Newton Poppleford,,,,,,,false,UKOS,308862,89754,-3.29188,50.70026,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
+1100DEC10666,dvngagtw,,,Millmoor Lane,,,,,,Station Road,,,,opp,,E,E0045258,Newton Poppleford,,,,,,,false,UKOS,308877,89768,-3.29167,50.70039,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2024-10-01T17:28:54,0,new,active
+1100DEC11253,dvngajad,,,Millmoor Lane,,,,,,Station Road,,,,W-bound,,W,E0045258,Newton Poppleford,,,,,,,false,UKOS,308879,89757,-3.29164,50.70029,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2024-10-01T17:28:59,0,new,active
 1100DEC11235,dvndgtmw,,,Jetty Marsh,,,,,,Newton Road,,,,SW-bound,,SW,E0045505,Newton Abbot,,,,,,,false,UKOS,286401,71884,-3.60433,50.53566,BCT,MKD,OTH,,,,076,2008-08-19T00:00:00,2016-08-25T12:22:34,4,new,active
 1100DEC11236,dvndgtmj,,,Jetty Marsh,,,,,,Newton Road,,,,NE-bound,,NE,E0045505,Newton Abbot,,,,,,,false,UKOS,286384,71873,-3.60456,50.53556,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEC11244,dvndgwdm,,,Decoy Road,,,,,,Decoy Road,,,,SE-bound,,SE,E0008555,Milber,Newton Abbot,,,,,,false,UKOS,286596,70464,-3.60114,50.52294,BCT,CUS,OTH,,,,076,2009-03-13T00:00:00,2021-07-07T13:30:46,0,new,active
@@ -4384,7 +4384,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEC10733,dvngadmt,,,Middletown Lane,,,,,,Vicarage Road,,,,W-bound,,W,E0045242,East Budleigh,,,,,,,false,UKOS,306906,84912,-3.31834,50.65642,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-12-05T14:55:51,2,new,active
 1100DEC10732,dvngagmw,,,Ottery Street,,,,,,,,,,SE-bound,,SE,E0045261,Otterton,,,,,,,false,UKOS,308486,85536,-3.29615,50.66228,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2014-12-05T14:38:18,5,new,active
 1100DEC10719,dvngamtw,,,Cypress Terrace,,,,,,Station Road,,,,N-bound,,N,E0045271,Sidmouth,,,,,,,false,UKOS,312280,87570,-3.24297,50.68115,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2018-05-30T10:58:15,9,new,active
-1100DEC10718,dvngamwa,,,Cypress Terrace,,,,,,Station Road,,,,S-bound,,S,E0045271,Sidmouth,,,,,,,false,UKOS,312282,87589,-3.24295,50.68132,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2018-05-30T10:58:55,10,new,active
+1100DEC10718,dvngamwa,,,Cypress Terrace,,,,,,Station Road,,,,S-bound,,S,E0045271,Sidmouth,,,,,,,false,UKOS,312286,87579,-3.24289,50.68123,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2024-10-01T17:53:37,10,new,active
 1100DEA09132,dvngdtgt,,,North Road,,,,,,North Road,,,,N-bound,,N,E0045349,Barnstaple,,,,,,,false,UKOS,256272,134529,-4.05377,51.09201,BCT,MKD,OTH,,,,076,2006-11-30T00:00:00,2023-04-25T17:50:11,46,new,active
 1100DEA09131,dvngdtgp,,,North Road,,,,,,North Road,,,,S-bound,,S,E0045349,Barnstaple,,,,,,,false,UKOS,256324,134408,-4.05298,51.09094,BCT,MKD,OTH,,,,076,2006-11-30T00:00:00,2023-04-25T17:49:47,47,new,active
 1100DEA09137,dvngdtjg,,,Victoria Street,,,,,,Victoria Street,,,,SW-bound,,SW,E0008076,Newport,Barnstaple,,,,,,false,UKOS,256613,132322,-4.04802,51.07226,BCT,MKD,OTH,,,,076,2006-11-30T00:00:00,2016-02-17T14:29:15,8,delete,inactive
@@ -4971,7 +4971,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEA10885,dvnawdam,,,Granville Garage,,,,,,Lee Road,,,,opp,,SW,E0008061,Lynton,,,,,,,false,UKOS,271762,149413,-3.83801,51.22946,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2015-04-25T12:20:41,0,new,active
 1100DEA10883,dvnawdjp,,,Town Hall,,,,,,Lee Road,,,,E-bound,,E,E0008061,Lynton,,,,,,,true,UKOS,271919,149497,-3.8358,51.23025,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEA10882,dvnawdma,,,The Studio,,,,,,Lee Road,,,,W-bound,,W,E0008061,Lynton,,,,,,,true,UKOS,271937,149492,-3.83554,51.2302,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2021-07-07T13:30:46,0,new,active
-1100DEA10881,dvnawdta,,,Castle Hill Car Park,,,,,,,,,,NE-bound,,NE,E0008061,Lynton,,,,,,,false,UKOS,272112,149311,-3.83297,51.22862,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
+1100DEA10881,dvnawdta,,,Bottom Meadow Car Park,,,,,,,,,,NE-bound,,NE,E0008061,Lynton,,,,,,,false,UKOS,272112,149311,-3.83297,51.22862,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2024-10-01T15:13:22,37,new,active
 1100DEA10915,dvnapawd,,,Derby Road,,,,,,Gorwell Road,,,,opp,,NW,E0045349,Barnstaple,,,,,,,false,UKOS,256854,133586,-4.04509,51.08368,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2023-04-21T17:10:51,37,new,active
 1100DEA10916,dvnapawg,,,Derby Road,,,,,,Gorwell Road,,,,nr,,SE,E0045349,Barnstaple,,,,,,,false,UKOS,256848,133600,-4.04518,51.08381,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2023-04-21T17:12:31,39,new,active
 1100DEA10914,dvnapdma,,,The Steps,,,,,,Gorwell Road,,,,SE-bound,,SE,E0045349,Barnstaple,,,,,,,false,UKOS,257107,133459,-4.04143,51.0826,BCT,CUS,OTH,,,,076,2003-06-12T00:00:00,2020-02-25T08:31:54,0,new,active
@@ -6786,6 +6786,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEA11874,dvngwjdt,,,Higherlands Farm,,,,,,,,,,SE-bound,,SE,E0007638,Street,,,,,,,false,UKOS,317889,89395,-3.164,50.69838,BCT,MKD,OTH,,,,076,2024-09-03T00:00:00,2024-09-03T11:44:25,40,new,active
 1100DEA11875,dvngwjdw,,,Crookmans Close,,,,,,,,,,nr,,E,N0074602,Westacott,Barnstaple,,,,,,false,UKOS,257377,133327,-4.03752,51.08149,BCT,MKD,OTH,,,,076,2024-09-19T00:00:00,2024-09-19T15:16:33,40,new,active
 1100DEA11884,dvngwjga,,,Crookmans Close,,,,,,,,,,opp,,W,N0074602,Westacott,Barnstaple,,,,,,false,UKOS,257352,133311,-4.03787,51.08134,BCT,MKD,OTH,,,,076,2024-09-19T00:00:00,2024-09-19T15:17:30,40,new,active
+1100DEC10866,dvngwjgd,,,North Devon Link Road,,,,,,,,,,NW-bound,,NW,E0007902,Tiverton Parkway,,,,,,,false,UKOS,304464,114222,-3.36051,50.91952,BCT,CUS,OTH,,,,076,2024-10-01T00:00:00,2024-10-01T17:08:37,42,new,active
+1100DEC10867,dvngwjgj,,,North Devon Link Road,,,,,,,,,,SE-bound,,SE,E0007902,Tiverton Parkway,,,,,,,false,UKOS,304482,114234,-3.36026,50.91963,BCT,CUS,OTH,,,,076,2024-10-01T00:00:00,2024-10-01T17:08:29,40,new,active
 1100DEA56746,dvngjpmd,,,Tesco Superstore Roborough,,,,,,Woolwell Crescent,,,,E-bound,,E,N0074617,Woolwell,,,,,,,false,UKOS,250307,61566,-4.10918,50.43481,BCT,MKD,OTH,,,,076,2006-04-05T00:00:00,2015-04-25T12:20:34,0,delete,inactive
 1100DEZ05134,dvnatpdw,,,Community College,,,,,,Back Lane,,,,SW-bound,,SW,E0045362,Chulmleigh,,,,,,,false,UKOS,268574,114706,-3.87102,50.91681,BCT,CUS,OTH,,,,076,2006-06-26T00:00:00,2021-07-07T13:30:46,0,new,active
 1100DEA56757,dvngjptp,,,Community College,,,,,,Back Lane,,,,NE-bound,,NE,E0045362,Chulmleigh,,,,,,,false,UKOS,268558,114701,-3.87125,50.91676,BCT,CUS,OTH,,,,076,2006-06-26T00:00:00,2021-07-07T13:30:46,0,new,active

@@ -7,7 +7,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600FROME0,,,,Frome Rail Station,,,,,,,,,,Entrance,,,E0050788,Frome,,,,,,,false,UKOS,378450,147610,-2.31,51.22727,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T10:54:11,0,new,active
 3600HGHBRDG0,,,,Highbridge & Burnham-on-Sea Rail Station,,,,,,,,,,Entrance,,,E0022550,Highbridge,Burnham-on-Sea,,,,,,false,UKOS,332205,147027,-2.97209,51.2184,RSE,,,,,,098,2015-11-12T00:00:00,2015-11-12T09:35:07,1,new,active
 3600TAUNTON0,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322750,125430,-3.10281,51.02303,RSE,,,,,,098,2015-11-12T00:00:00,2015-11-12T09:46:14,1,new,active
-3600TAUNTON1,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322709,125486,-3.1034,51.02353,RSE,,,,,,098,2024-09-25T13:37:29.9326584+01:00,2015-11-12T09:46:14,1,new,active
+3600TAUNTON1,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322709,125486,-3.1034,51.02353,RSE,,,,,,098,2024-10-02T14:38:37.1609102+01:00,2015-11-12T09:46:14,1,new,active
 3600TMPCMB0,,,,Templecombe Rail Station,,,,,,,,,,Entrance,,,N0074077,Templecombe,,,,,,,false,UKOS,370810,122548,-2.41737,51.00157,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:00:29,0,new,active
 3600YOVILJN0,,,,Yeovil Junction Rail Station,,,,,,,,,,Entrance,,,E0051002,Yeovil,,,,,,,false,UKOS,357008,114084,-2.61305,50.9246,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:22:46,0,new,active
 3600YOVILPM0,,,,Yeovil Pen Mill Rail Station,,,,,,,,,,Entrance,,,E0051002,Yeovil,,,,,,,false,UKOS,357023,116331,-2.6131,50.94481,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:23:39,0,new,active
@@ -1369,7 +1369,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOB21766,sotdmdmj,,,Full Moon,,,,,,Rudge Lane,,,,opp,,W,E0022384,Rudge,,,,,,,false,UKOS,382877,151778,-2.2468,51.2649,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T15:04:54,43,new,active
 3600SOB21744,sotdmdja,,,Church Lane,,,,,,Church Lane,,,,SE-bound,,SE,E0050809,Rode,,,,,,,false,UKOS,380846,153641,-2.27601,51.28158,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:50:26,23,new,active
 3600SOB21743,sotdmdjd,,,Bell Inn,,,,,,,,,,N-bound,,N,E0050809,Rode,,,,,,,false,UKOS,380885,153548,-2.27545,51.28075,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T14:11:17,35,new,active
-3600SOB21742,sotdmdat,,,Birchwood,,,,,,Bath Road,,,,S-bound,,S,E0050772,Beckington,,,,,,,false,UKOS,380027,152125,-2.28767,51.26792,BCT,MKD,OTH,,,,098,2006-05-09T00:00:00,2024-05-02T14:11:17,41,new,active
+3600SOB21742,sotdmdat,,,Birchwood,,,,,,Bath Road,,,,S-bound,,S,E0050772,Beckington,,,,,,,false,UKOS,380019,152166,-2.28778,51.26829,BCT,MKD,OTH,,,,098,2006-05-09T00:00:00,2024-09-25T13:51:51,41,new,active
 3600SOB21741,sotdmdap,,,Birchwood,,,,,,Bath Road,,,,N-bound,,N,E0050772,Beckington,,,,,,,false,UKOS,380011,152119,-2.2879,51.26787,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T14:11:17,23,new,active
 3600SOB21750,sotdmdgj,,,Rode Baptist Church,,,,,,High Street,,,,SW-bound,,SW,E0022382,Rode Hill,,,,,,,false,UKOS,380468,153934,-2.28144,51.28421,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:50:26,23,new,active
 3600SOB21749,sotdmdgd,,,Rode Baptist Church,,,,,,High Street,,,,NE-bound,,NE,E0022382,Rode Hill,,,,,,,false,UKOS,380454,153928,-2.28165,51.28415,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:50:27,23,new,active
@@ -3275,8 +3275,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOC31100,sotajtpa,,,Tyne Park,,,,,,Redlake Drive,,,,W-bound,,W,E0023200,Taunton,,,,,,,false,UKOS,324958,124355,-3.07111,51.01366,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:34:49,23,new,active
 3600SOC31107,sotajtpg,,,Ilminster Road,,,,,,Ilminster Road,,,,W-bound,,W,E0023200,Taunton,,,,,,,false,UKOS,324966,124828,-3.07109,51.01791,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:34:50,23,new,active
 3600SOC31106,sotajtpj,,,Ilminster Road,,,,,,Ilminster Road,,,,E-bound,,E,E0023200,Taunton,,,,,,,false,UKOS,324968,124838,-3.07107,51.018,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:34:50,23,new,active
-3600SOC31104,sotajtwj,,,Ilminster Road Busway,,,,,,,,,,W-bound,,W,E0023200,Taunton,,,,,,,false,UKOS,325253,124778,-3.06699,51.0175,BCT,MKD,OTH,,,,098,2005-12-01T00:00:00,2024-05-02T13:34:50,51,new,active
-3600SOC31105,sotajtwm,,,Ilminster Road Busway,,,,,,,,,,E-bound,,E,E0023200,Taunton,,,,,,,false,UKOS,325253,124788,-3.06699,51.01759,BCT,MKD,OTH,,,,098,2005-12-01T00:00:00,2024-05-02T13:34:50,36,new,active
+3600SOC31104,sotajtwj,,,Ilminster Road Busway,,,,,,Ilminster Road,,,,W-bound,,W,E0023200,Taunton,,,,,,,false,UKOS,325253,124778,-3.06699,51.0175,BCT,MKD,OTH,,,,098,2005-12-01T00:00:00,2024-09-30T12:05:09,81,new,active
+3600SOC31105,sotajtwm,,,Ilminster Road Busway,,,,,,Ilminster Road,,,,E-bound,,E,E0023200,Taunton,,,,,,,false,UKOS,325253,124788,-3.06699,51.01759,BCT,MKD,OTH,,,,098,2005-12-01T00:00:00,2024-09-30T12:04:09,66,new,active
 3600SOC31096,sotajtma,,,Sports Centre,,,,,,,,,,SW-bound,,SW,E0023200,Taunton,,,,,,,false,UKOS,324851,123957,-3.07255,51.01007,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:34:51,25,new,active
 3600SOC31095,sotajtjt,,,Sports Centre,,,,,,Blackbrook Way,,,,NE-bound,,NE,E0023200,Taunton,,,,,,,false,UKOS,324848,123972,-3.0726,51.0102,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:34:51,25,new,active
 3600SOC31094,sotajtgw,,,Ryburn Close,,,,,,Ashbourne Crescent,,,,opp,,NE,E0023200,Taunton,,,,,,,false,UKOS,324734,124069,-3.07424,51.01106,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T13:34:51,40,new,active
@@ -4016,8 +4016,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOC31440,sotapgpj,,,British Telecom Radio Station,,,,,,Worston Road,,,,SW-bound,,SW,E0022550,Highbridge,Burnham-on-Sea,,,,,,false,UKOS,331983,148200,-2.97549,51.22892,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:16,23,new,active
 3600SOC31428,sotamwtg,,,Quantock Close,,,,,,Rosewood Close,,,,near,,SE,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,330913,149173,-2.991,51.23754,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:17,43,new,active
 3600SOC31429,sotamwtd,,,Quantock Close,,,,,,Rosewood Close,,,,adj,,NW,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,330911,149163,-2.99102,51.23745,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:17,43,new,active
-3600SOC31425,sotamwdj,,,Oxford Street Lidl,,,,,,Oxford Street,,,,S-bound,,S,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,330629,149047,-2.99504,51.23637,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:17,66,new,active
-3600SOC31426,sotamwap,,,Oxford Street Car Park,,,,,,Oxford Street,,,,N-bound,,N,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,330619,149045,-2.99518,51.23635,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:17,66,new,active
+3600SOC31425,sotamwdj,,,Oxford Street Lidl,,,,,,Oxford Street,,,,S-bound,,S,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,330650,148996,-2.99473,51.23591,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-09-25T14:05:28,66,new,active
+3600SOC31426,sotamwap,,,Oxford Street Car Park,,,,,,Oxford Street,,,,N-bound,,N,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,330636,148991,-2.99493,51.23587,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-09-25T14:50:59,66,new,active
 3600SOC31432,sotapagp,,,Rosewood Drive,,,,,,Killarney Avenue,,,,S-bound,,S,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,331047,148782,-2.989,51.23404,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:18,25,new,active
 3600SOC31433,sotapagj,,,Rosewood Drive,,,,,,Killarney Avenue,,,,N-bound,,N,E0050841,Burnham-on-Sea,,,,,,,false,UKOS,331038,148785,-2.98913,51.23406,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:18,25,new,active
 3600SOC31431,sotapamj,,,Rosewood Avenue,,,,,,Rosewood Close,,,,W-bound,,W,E0022576,Middle Burnham,Burnham-on-Sea,,,,,,false,UKOS,331148,149053,-2.98761,51.23649,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:13:18,23,new,active
@@ -4407,6 +4407,15 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 360000164,sotdtpwm,,,Carnival Close,,,,,,,,,,SE-bound,,SE,E0050940,Ilminster,,,,,,,false,UKOS,335174,114748,-2.92378,50.92853,BCT,MKD,OTH,,,,098,2024-09-18T00:00:00,2024-09-18T11:01:21,49,new,active
 360000165,sotdtpwp,,,Axbridge By-Pass,,,,,,,,,,W-bound,,W,E0050832,Axbridge,,,,,,,false,UKOS,343144,154685,-2.8167,51.28845,BCT,MKD,OTH,,,,098,2024-09-19T00:00:00,2024-09-19T12:08:21,49,new,active
 360000166,sotdtpwt,,,Axbridge By-Pass,,,,,,,,,,E-bound,,E,E0050832,Axbridge,,,,,,,false,UKOS,343142,154697,-2.81673,51.28856,BCT,MKD,OTH,,,,098,2024-09-19T00:00:00,2024-09-19T12:08:33,49,new,active
+360000168,sotdtwad,,,New Road,,,,,,,,,,N-bound,,N,E0050788,Frome,,,,,,,false,UKOS,378692,147866,-2.30655,51.22958,BCT,MKD,OTH,,,,098,2024-09-26T00:00:00,2024-09-26T13:06:57,42,new,active
+360000169,sotdtwag,,,New Road,,,,,,,,,,S-bound,,S,E0050788,Frome,,,,,,,false,UKOS,378707,147862,-2.30633,51.22954,BCT,MKD,OTH,,,,098,2024-09-26T00:00:00,2024-09-26T13:04:57,44,new,active
+360000167,sotdtwaj,,,Charlton Road,,,,,,,,,,SE-bound,,SE,E0050813,Shepton Mallet,,,,,,,false,UKOS,363106,143088,-2.52926,51.18582,BCT,MKD,OTH,,,,098,2024-09-30T00:00:00,2024-09-30T15:09:30,51,new,active
+360000170,sotdtwam,,,Montacute Road,,,,,,,,,,S-bound,,S,E0051002,Yeovil,,,,,,,false,UKOS,352117,116409,-2.68294,50.94512,BCT,MKD,OTH,,,,098,2024-09-30T00:00:00,2024-09-30T10:53:27,48,new,active
+360000171,sotdtwap,,,Kingfisher Drive,,,,,,,,,,E-bound,,E,E0051002,Yeovil,,,,,,,false,UKOS,352042,116472,-2.68402,50.94568,BCT,MKD,OTH,,,,098,2024-09-30T00:00:00,2024-09-30T15:05:40,57,new,active
+360000172,sotdtwaw,,,Sandpiper Drive,,,,,,,,,,SW-bound,,SW,E0051002,Yeovil,,,,,,,false,UKOS,351906,116418,-2.68595,50.94518,BCT,MKD,OTH,,,,098,2024-09-30T00:00:00,2024-09-30T15:00:51,45,new,active
+360000210,sotdtwda,,,Southfield Drive,,,,,,,,,,E-bound,,E,E0051002,Yeovil,,,,,,,false,UKOS,353105,117507,-2.66902,50.95507,BCT,MKD,OTH,,,,098,2024-09-30T00:00:00,2024-09-30T16:18:11,42,new,active
+360000211,sotdtwdg,,,Thorne Lane,,,,,,,,,,SW-bound,,SW,E0051002,Yeovil,,,,,,,false,UKOS,352914,117455,-2.67173,50.95459,BCT,MKD,OTH,,,,098,2024-10-02T00:00:00,2024-10-02T08:58:00,42,new,active
+360000212,sotdtwdj,,,Canal Way,,,,,,,,,,W-bound,,W,E0050940,Ilminster,,,,,,,false,UKOS,335688,114366,-2.9164,50.92515,BCT,MKD,OTH,,,,098,2024-10-02T00:00:00,2024-10-02T09:19:30,38,new,active
 3600SOB20310,sotajpmt,,,Shoreditch Racecourse,,,,,,Shoreditch Road,,,,N-bound,,N,E0023184,Shoreditch,Taunton,,,,,,false,UKOS,324178,122273,-3.08179,50.99484,BCT,CUS,OTH,,,,098,2006-01-04T00:00:00,2024-05-02T14:08:28,36,new,active
 3600SOB20311,sotajpta,,,Shoreditch Racecourse,,,,,,Shoreditch Road,,,,S-bound,,S,E0023184,Shoreditch,Taunton,,,,,,false,UKOS,324189,122269,-3.08163,50.9948,BCT,CUS,OTH,,,,098,2006-01-04T00:00:00,2024-05-02T14:08:29,29,new,active
 3600SOB20309,sotajmpm,,,Duddlestone Turn,,,,,,,,,,SW-bound,,SW,E0023045,Duddlestone,,,,,,,false,UKOS,323694,121012,-3.08842,50.98344,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T14:08:29,23,new,active

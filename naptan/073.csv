@@ -366,8 +366,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COD40145,coradtgd,,,Fishermans Arms,,,,,,Fore Street,,,,opp,,SE,E0004306,Newlyn,,,,,,,false,UKOS,146516,28409,-5.54608,50.10156,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:40,0,new,active
 0800COD40149,coradwja,,,Caravan Park,,,,,,,,,,S-bound,,S,E0004293,Mousehole,,,,,,,false,UKOS,147306,26877,-5.53404,50.08814,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2017-01-04T09:42:30,31,new,active
 0800COD40150,coradwgt,,,Caravan Park,,,,,,,,,,NE-bound,,NE,E0004293,Mousehole,,,,,,,false,UKOS,147301,26879,-5.53411,50.08816,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2017-01-04T09:42:30,30,new,active
-0800COD40147,coradwad,,,Rosekilly,,,,,,Cliff Road,,,,S-bound,,S,E0004306,Newlyn,,,,,,,false,UKOS,146981,27592,-5.53905,50.09442,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2017-07-06T11:50:32,29,new,active
-0800COD40148,coradtwm,,,Rosekilly,,,,,,Cliff Road,,,,N-bound,,N,E0004306,Newlyn,,,,,,,false,UKOS,146975,27600,-5.53914,50.09449,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2014-10-08T11:41:19,23,new,active
+0800COD40147,coradwad,,,Roskilly,,,,,,Cliff Road,,,,S-bound,,S,E0004306,Newlyn,,,,,,,false,UKOS,146981,27592,-5.53905,50.09442,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2024-09-27T10:04:34,67,new,active
+0800COD40148,coradtwm,,,Roskilly,,,,,,Cliff Road,,,,N-bound,,N,E0004306,Newlyn,,,,,,,false,UKOS,146975,27600,-5.53914,50.09449,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2024-09-27T10:05:45,61,new,active
 0800COD40130,coradpaw,,,Rope Walk,,,,,,The Ropewalk,,,,E-bound,,E,E0044623,Penzance,,,,,,,false,UKOS,146003,29795,-5.55416,50.11378,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COD40131,coradpdg,,,Rope Walk,,,,,,The Ropewalk,,,,W-bound,,W,E0044623,Penzance,,,,,,,false,UKOS,146020,29790,-5.55392,50.11374,BCT,MKD,OTH,,,,073,2009-06-02T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COD40129,coradpjt,,,Lansdowne Place,,,,,,,,,,S-bound,,S,E0044623,Penzance,,,,,,,false,UKOS,146164,29942,-5.55201,50.11517,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2017-01-04T09:42:19,12,new,active
@@ -1230,8 +1230,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COC30621,corapwja,,,Cosawes Turning,,,,,,A39,,,,NE-bound,,NE,E0044499,Perranarworthal,,,,,,,false,UKOS,177221,38118,-5.1231,50.20106,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COC30622,corapwgj,,,Cosawes Turning,,,,,,A39,,,,opp,,S,E0044499,Perranarworthal,,,,,,,false,UKOS,177154,38000,-5.12397,50.19998,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2015-06-17T09:07:25,2,new,active
 0800COC30626,corawadt,,,Lemon Hill,,,,,,Lemon Hill,,,,SE-bound,,SE,E0002893,Mylor Bridge,,,,,,,false,UKOS,180476,36327,-5.07652,50.18619,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
-0800COC30629,corawadw,,,Lemon Arms,,,,,,Lemon Hill,,,,opp,,S,E0002893,Mylor Bridge,,,,,,,false,UKOS,180477,36242,-5.07646,50.18543,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:19:57,0,new,active
-0800COC30630,corawadp,,,Lemon Arms,,,,,,Lemon Hill,,,,N-bound,,N,E0002893,Mylor Bridge,,,,,,,false,UKOS,180473,36246,-5.07652,50.18546,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
+0800COC30629,corawadw,,,Mylor Stores,,,,,,Lemon Hill,,,,opp,,S,E0002893,Mylor Bridge,,,,,,,false,UKOS,180464,36211,-5.07662,50.18515,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2024-09-27T14:51:38,15,new,active
+0800COC30630,corawadp,,,Mylor Stores,,,,,,Lemon Hill,,,,N-bound,,N,E0002893,Mylor Bridge,,,,,,,false,UKOS,180458,36214,-5.07671,50.18517,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2024-09-27T14:49:42,15,new,active
 0800COC30627,corawadj,,,School,,,,,,Lemon Hill,,,,N-bound,,N,E0002893,Mylor Bridge,,,,,,,false,UKOS,180454,36333,-5.07683,50.18624,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2020-08-05T10:27:11,4,new,active
 0800COC30628,corawadm,,,School,,,,,,Bell's Hill,,,,opp,,S,E0002893,Mylor Bridge,,,,,,,false,UKOS,180449,36362,-5.07692,50.1865,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:19:57,0,new,active
 0800COD40710,cordpjtg,,,Camping Caradon,,,,,,,,,,N-bound,,N,E0002707,Trelawne,,,,,,,false,UKOS,221825,54014,-4.50628,50.359,BCT,MKD,OTH,,,,073,2009-05-22T00:00:00,2024-09-20T13:59:16,16,new,active
@@ -6136,6 +6136,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800SCH16609,corgtdpw,,,Honicombe Corner,,,,,,,,,,SE-bound,,SE,E0002530,Honicombe,,,,,,,false,UKOS,241083,70453,-4.24274,50.51224,BCT,CUS,OTH,,,,073,2024-09-03T00:00:00,2024-09-03T14:37:11,40,new,active
 0800SCH16610,corgtdta,,,Honicombe Corner,,,,,,,,,,NW-bound,,NW,E0002530,Honicombe,,,,,,,false,UKOS,241078,70450,-4.24281,50.51221,BCT,CUS,OTH,,,,073,2024-09-03T00:00:00,2024-09-03T14:39:34,40,new,active
 0800COA16611,corgtdtd,,,A389 Prideaux Place Jctn,,,,,,,,,,E-bound,,E,E0044582,Padstow,,,,,,,false,UKOS,191367,75318,-4.94579,50.54033,BCT,MKD,OTH,,,,073,2024-09-20T00:00:00,2024-09-20T08:34:46,40,new,active
+0800COA16612,corgtdtg,,,Drump Road Temp Stop,,,,,,,,,,E-bound,,E,E0044542,Redruth,,,,,,,false,UKOS,170416,42397,-5.22089,50.23688,BCT,MKD,OTH,,,,073,2024-09-26T00:00:00,2024-09-26T13:32:41,40,new,active
+0800COA16613,corgtdtj,,,Drump Road Tem Stop,,,,,,,,,,SW-bound,,SW,E0044542,Redruth,,,,,,,false,UKOS,170450,42387,-5.2204,50.23681,BCT,MKD,OTH,,,,073,2024-09-26T00:00:00,2024-09-26T13:34:45,40,new,active
+0800COA16614,corgtdtm,,,Roskilly Bungalows,,,,,,,,,,NW-bound,,NW,E0004293,Mousehole,,,,,,,false,UKOS,147100,27270,-5.53717,50.09158,BCT,CUS,OTH,,,,073,2024-10-01T00:00:00,2024-10-01T10:24:58,40,new,active
+0800COA16615,corgtdtp,,,Roskilly Bungalows,,,,,,,,,,SE-bound,,SE,E0004293,Mousehole,,,,,,,false,UKOS,147105,27274,-5.53711,50.09162,BCT,CUS,OTH,,,,073,2024-10-01T00:00:00,2024-10-01T10:27:05,40,new,active
 0800COC31782,cordwpta,,,The White Hart Inn,,,,,,,,,,SE-bound,,SE,E0002427,Chilsworthy,,,,,,,false,UKOS,241602,72083,-4.23612,50.52703,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COC31779,cordwpdw,,,Old Post Office,,,,,,,,,,NE-bound,,NE,E0002427,Chilsworthy,,,,,,,false,UKOS,241298,72262,-4.24048,50.52856,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:32,0,new,active
 0800COC31777,cordwjwg,,,Tamar Park,,,,,,,,,,S-bound,,S,E0002444,Coxpark,,,,,,,false,UKOS,239992,71666,-4.25863,50.52284,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:32,0,new,active
