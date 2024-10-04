@@ -354,8 +354,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900B212,NFOADTMP,,,garden centre,,garden centre,,garden centre,,North Walsham Road,,,,opp,,N,E0048441,Beeston St Andrew,,,,,,,0,UKOS,625157,314255,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900A153,NFOADGTJ,,,Church,,,,Church,,Norwich Road,,,,adj,,SW,E0018017,Beeston St Lawrence,,,,,,,0,UKOS,632980,322469,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2012-03-19T15:53:10,3,revise,active
 2900A155,NFOADGTP,,,Church,,,,church,,Stalham Road,,,,opp,,NE,E0018017,Beeston St Lawrence,,,,,,,0,UKOS,632949,322443,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2020-09-08T10:09:27,4,revise,active
-2900B193,NFOADTJA,,,Craft and Model Store,,,,,,Chapel Lane,,,,adj,,E,E0048329,Beeston,,,,,,,0,UKOS,590885,315856,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-01-17T14:04:04,4,revise,active
-2900B195,NFOADTJG,,,Craft and Model Store,,,,,,Chapel Lane,,,,opp,,W,E0048329,Beeston,,,,,,,0,UKOS,590890,315840,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-01-17T14:03:16,5,revise,active
+2900B193,NFOADTJA,,,Craft and Model Store,,,,,,Chapel Lane,,,,adj,,E,E0048329,Beeston,,,,,,,0,UKOS,590923,315830,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:26:09,5,revise,active
+2900B195,NFOADTJG,,,Craft and Model Store,,,,,,Chapel Lane,,,,opp,,W,E0048329,Beeston,,,,,,,0,UKOS,590916,315832,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:27:23,6,revise,active
 2900B2210,NFOADTMW,,,Beech Road,,Beech Rd,,Beech Road,,B1146,,,,adj,,SE,E0048330,Beetley,,,,,,,0,UKOS,597601,317041,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-02-03T12:06:04,5,revise,active
 2900B223,NFOADTWM,,,New Inn,,New Inn,,public house,,Fakenham Road,,,,adj,,NW,E0048330,Beetley,,,,,,,0,UKOS,597128,317507,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-02-03T12:17:54,3,revise,active
 2900B2220,NFOADTPT,,,Beech Road,,,,Beech Road,,Fakenham Road,,,,opp,,NW,E0048330,Beetley,,,,,,,0,UKOS,597537,317082,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-02-03T12:07:20,5,revise,active
@@ -602,6 +602,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900B7029,NFOAGTPJ,,,Curlew Way,,,,,,Wren Drive,,,,adj,,SW,E0048504,Bradwell,,,,,,,0,UKOS,651024,304992,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-04-23T00:00:00,10,revise,active
 2900B70391,NFOGWAJM,,,Browston Lane,,,,,,Beaufort Way,,,,adj,,NW,E0048504,Bradwell,,,,,,,0,UKOS,650224,302892,,,BCT,MKD,OTH,,,,091,2019-06-03T10:33:27,2019-06-03T10:33:27,0,new,active
 2900B70392,NFOGWAJP,,,Browston Lane,,,,,,Beaufort Way,,,,opp,,SE,E0048504,Bradwell,,,,,,,0,UKOS,650245,302912,,,BCT,MKD,OTH,,,,091,2019-06-03T10:35:10,2019-06-03T10:35:10,0,new,active
+2900G1714,NFOGWTGP,,,Parfitt Road,,,,,,Beaufort Way,,,,opp,,W,E0048504,Bradwell,,,,,,,0,UKOS,650674,302819,,,BCT,MKD,OTH,,,,091,2024-10-04T12:53:37,2024-10-04T12:53:37,0,new,active
+2900G1713,NFOGWTGM,,,Parfitt Road,,,,,,Beaufort Way,,,,adj,,E,E0048504,Bradwell,,,,,,,0,UKOS,650686,302823,,,BCT,MKD,OTH,,,,091,2024-10-04T12:51:07,2024-10-04T12:51:07,0,new,active
 2900B7031,NFOAGTPW,,,Busseys Loke,,Busseys Loke,,Busseys Loke,,Beccles Road,,,,opp,,SW,E0048504,Bradwell,,,,,,,0,UKOS,651221,304380,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900B701,NFOAGTJG,,,post office,,post office,,layby,,Beccles Road,,,,opp,,NE,E0048504,Bradwell,,,,,,,0,UKOS,650954,304017,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-26T14:26:06,3,revise,active
 2900B7035,NFOAGTWG,,,Sun Inn,,Sun Inn,,Sun Inn,,Beccles Road,,,,opp,,SW,E0048504,Bradwell,,,,,,,0,UKOS,650769,303759,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-26T14:25:31,2,revise,active
@@ -1299,8 +1301,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900C363,NFOAMAMD,,,Hall Lane,,,,opp White Horse,,North Walsham Road,,,,adj,,NE,E0048455,Crostwick,,,,,,,0,UKOS,625918,316536,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-10-12T13:38:35,7,revise,active
 2900C361,NFOAMAJW,,,Hall Lane,,,,White Horse,,North Walsham Road,,,,opp,,SW,E0048455,Crostwick,,,,,,,0,UKOS,625938,316554,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-10-12T13:37:54,6,revise,active
 2900C372,NFOAMAMJ,,,stores,,stores,,stores,,The Street,,,,adj,,N,E0048346,Croxton,Thetford,,,,,,0,UKOS,587327,286722,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-01-16T16:35:24,2,revise,inactive
-2900C405,NFOGTMGM,,,Church Avenue,,,,,,The Street,,,,opp,,N,E0048346,Croxton,Thetford,,,,,,0,UKOS,587320,286717,,,BCT,CUS,OTH,,,,091,2013-09-09T15:56:21,2013-09-09T15:56:21,0,new,active
-2900C404,NFOGTMGJ,,,Church Avenue,,,,,,The Street,,,,adj,,S,E0048346,Croxton,Thetford,,,,,,0,UKOS,587345,286717,,,BCT,CUS,OTH,,,,091,2013-09-09T15:54:20,2013-09-09T15:54:20,0,new,active
+2900C405,NFOGTMGM,,,Church Avenue,,,,,,The Street,,,,opp,,N,E0048346,Croxton,Thetford,,,,,,0,UKOS,587320,286767,,,BCT,CUS,OTH,,,,091,2013-09-09T15:56:21,2024-09-26T12:24:24,1,revise,active
+2900C404,NFOGTMGJ,,,Church Avenue,,,,,,The Street,,,,adj,,S,E0048346,Croxton,Thetford,,,,,,0,UKOS,587334,286744,,,BCT,CUS,OTH,,,,091,2013-09-09T15:54:20,2024-09-26T12:25:23,1,revise,active
 2900C100,NFOGTDWG,,,Village,,,,,,The Street,,,,N-Bound,,N,E0048346,Croxton,Thetford,,,,,,0,UKOS,587321,286735,,,BCT,CUS,OTH,,,,091,2010-12-16T08:42:47,2012-01-24T11:43:52,1,revise,inactive
 2900C1001,NFOGTDWJ,,,Village,,,,,,The Street,,,,S-Bound,,S,E0048346,Croxton,Thetford,,,,,,0,UKOS,587340,286726,,,BCT,CUS,OTH,,,,091,2010-12-16T08:45:46,2012-01-24T11:44:13,1,revise,inactive
 2900C375,NFOAMAMT,,,stores,,stores,,stores,,The Street,,,,opp,,S,E0048346,Croxton,Thetford,,,,,,0,UKOS,587333,286732,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-01-16T16:37:35,2,revise,inactive
@@ -1337,17 +1339,17 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900D15106,NFOAMPAM,,,Highfield Road,,,,Highfield Road,,Cemetery Road,,,,opp,,S,E0017545,Dereham,,,,,,,0,UKOS,599088,314236,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,7,revise,inactive
 2900D15107,NFOAMPAP,,,Girling Road,,,,Girling Road,,Colin Maclean Road,,,,opp,,SE,E0017545,Dereham,,,,,,,0,UKOS,598319,314023,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-03-04T00:00:00,5,revise,active
 2900D153,NFOAMPGM,,,Heath Road,,,,Heath Road,,Colin Mclean Road,,,,adj,,SW,E0017545,Dereham,,,,,,,0,UKOS,598274,314168,,,BCT,MKD,OTH,,,,091,2001-06-14T00:00:00,2009-03-04T00:00:00,4,revise,active
-2900D1564,NFOAMTAJ,,,Sixth Form Centre,,,,Sixth Form Centre,,Crown Road,,,,opp,,N,E0017545,Dereham,,,,,,,0,UKOS,599590,313366,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-12T00:00:00,2,revise,active
+2900D1564,NFOAMTAJ,,,Sixth Form College,,,,Sixth Form College,,Crown Road,,,,opp,,N,E0017545,Dereham,,,,,,,0,UKOS,599596,313398,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-10-01T14:34:49,4,revise,active
 2900D1555,NFOAMPWA,,,Michael Monument Court,,,,,,Girling Road,,,,adj,,SW,E0017545,Dereham,,,,,,,0,UKOS,598190,313913,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-05-01T11:55:36,5,revise,active
 2900D1558,NFOAMPWJ,,,Humbletoft Road,,,,Humbletoft Road,,Girling Road,,,,opp,,SW,E0017545,Dereham,,,,,,,0,UKOS,598269,313969,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-04T00:00:00,7,revise,active
-2900D1536,NFOAMPJG,,,Oakwood Road,,,,Oakwood Road,,Highfield Road,,,,adj,,S,E0017545,Dereham,,,,,,,0,UKOS,598862,314580,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-03-04T00:00:00,7,revise,active
+2900D1536,NFOAMPJG,,,Oakwood Road,,,,Oakwood Road,,Highfield Road,,,,adj,,S,E0017545,Dereham,,,,,,,0,UKOS,598865,314534,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:15:20,8,revise,active
 2900D152,NFOAMPDP,,,Swan Road,,Swan Road,,Swan Road,,London Road,,,,adj,,NW,E0017545,Dereham,,,,,,,0,UKOS,599109,312799,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-17T16:11:12,2,revise,active
 2900D1540,NFOAMPMA,,,Market Place,,,,Barclays Bank,,Market Place,,,,S-bound,,S,E0017545,Dereham,,,,,,,1,UKOS,598876,313412,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2011-01-19T14:03:13,6,revise,active
 2900D151,NFOAMJWJ,,,Market Place,,,,,,Market Place,,,,N-bound,,N,E0017545,Dereham,,,,,,,1,UKOS,598887,313333,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2011-01-19T14:03:38,5,revise,active
 2900D15777,NFOGPGMP,,,John Bates Close,,,,John Bates Close,,Matsell Way,,,,adj,,N,E0017545,Dereham,,,,,,,0,UKOS,599282,313352,,,BCT,MKD,OTH,,,,091,2008-01-22T11:45:50,2009-06-09T17:33:14,4,revise,active
 2900D15778,NFOGPGMT,,,John Bates Close,,,,John Bates Close,,Matsell Way,,,,opp,,S,E0017545,Dereham,,,,,,,0,UKOS,599292,313393,,,BCT,MKD,OTH,,,,091,2008-01-22T11:49:03,2009-06-09T17:32:06,4,revise,active
 2900D1563,NFOAMTAG,,,Cecil Road,,,,Cecil Road,,Neatherd Road,,,,opp,,E,E0017545,Dereham,,,,,,,0,UKOS,599525,313552,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-11-23T13:06:40,3,revise,inactive
-2900D1596,NFOAMTPA,,,Greenfields Road,,,,Greenfields Road,,Norwich Road,,,,adj,,W,E0017545,Dereham,,,,,,,0,UKOS,599629,313170,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-15T15:46:32,6,revise,active
+2900D1596,NFOAMTPA,,,Greenfields Road,,,,Greenfields Road,,Norwich Road,,,,adj,,W,E0017545,Dereham,,,,,,,0,UKOS,599629,313170,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-10-01T13:54:57,7,revise,active
 2900D1567,NFOGPTDJ,,,Greenfields Road,,,,,,Norwich Road,,,,opp,,E,E0017545,Dereham,,,,,,,0,UKOS,599640,313180,,,BCT,MKD,OTH,,,,091,2009-05-08T11:38:20,2009-06-15T15:51:05,1,revise,active
 2900D1537,NFOAMPJM,,,Bishoptyne Road,,Bishoptyne Road,,Bishoptyne Road,,Potters Bar,,,,adj,,S,E0017545,Dereham,,,,,,,0,UKOS,600034,312194,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-01-22T09:10:27,3,revise,inactive
 2900D1535,NFOAMPJD,,,De Narde Road,,,,De Narde Road,,Quebec Road,,,,adj,,S,E0017545,Dereham,,,,,,,0,UKOS,598732,314225,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-04T00:00:00,2,revise,active
@@ -1379,7 +1381,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900D1565,NFOAMTAM,,,Cowper Road,,Cowper Road,,Cowper Road,,Cowper Road,,,,adj,,NW,E0017545,Dereham,,,,,,,0,UKOS,599093,313390,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900D1529,NFOAMPGJ,,,Sixth Form Centre,,Sixth Form Centre,,Sixth Form Centre,,Crown Road,,,,adj,,S,E0017545,Dereham,,,,,,,0,UKOS,599600,313376,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900D1547,NFOAMPMW,,,Windmill Avenue,,,,opp Windmill Avnue,,Norwich Road,,,,opp,,SW,N0060641,Eckling Grange,Dereham,,,,,,0,UKOS,600604,313275,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-02-09T00:00:00,2,revise,active
-2900D1522,NFOAMPDW,,,Windmill Avenue,,,,,,Norwich Road,,,,adj,,E,N0060641,Eckling Grange,Dereham,,,,,,0,UKOS,600669,313309,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-17T16:08:47,5,revise,active
+2900D1522,NFOAMPDW,,,Windmill Avenue,,,,,,Norwich Road,,,,adj,,E,N0060641,Eckling Grange,Dereham,,,,,,0,UKOS,600676,313312,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:12:03,6,revise,active
 2900D1548,NFOAMPTA,,,Bush Lane,,,,,,Norwich Road,,,,opp,,NE,E0017558,Etling Green,Dereham,,,,,,0,UKOS,601570,313817,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2021-10-21T11:13:48,7,revise,active
 2900D159,NFOAMTMA,,,Grange Farm,,,,,,Norwich Road,,,,opp,,NE,E0017558,Etling Green,Dereham,,,,,,0,UKOS,601426,313687,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2020-10-07T11:12:15,7,revise,active
 2900D3204,NFOGTGJT,,,Humbletoft Road,,,,,,Girling Road,,,,adj,,NE,E0017545,Dereham,,,,,,,0,UKOS,598269,313994,,,BCT,CUS,OTH,,,,091,2011-06-20T16:24:13,2011-06-20T16:24:13,0,new,active
@@ -1395,8 +1397,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900D1532,NFOAMPGT,,,Morrisons,,,,,,Station Road,,,,adj,,N,E0017545,Dereham,,,,,,,0,UKOS,599278,312955,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-10-07T15:08:17,8,revise,active
 2900D15787,NFOGWAPG,,,Jubilee Avenue,,Jubilee Avenue,,Jubilee Avenue,,Neatherd Road,,,,adj,,E,E0017545,Dereham,,,,,,,0,UKOS,599445,313545,,,BCT,MKD,OTH,,,,091,2019-10-30T12:06:12,2019-10-30T12:06:12,0,new,active
 2900D15788,NFOGWAPJ,,,Jubilee Avenue,,Jubilee Avenue,,Jubilee Avenue,,Neatherd Road,,,,opp,,W,E0017545,Dereham,,,,,,,0,UKOS,599415,313530,,,BCT,MKD,OTH,,,,091,2019-10-30T12:09:27,2019-10-30T12:09:27,0,new,active
-2900D1594,NFOAMTMT,,,Hornbeam Drive,,Hornbeam Drive,,Hornbeam Drive,,Norwich Road,,,,adj,,E,N0060641,Eckling Grange,Dereham,,,,,,0,UKOS,600950,313422,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-12-16T08:57:03,4,revise,active
-2900D1533,NFOAMPGW,,,Neatherd High School,,Neatherd High School,,Neatherd High School,,Norwich Road,,,,adj,,E,E0017545,Dereham,,,,,,,0,UKOS,599939,313183,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-10-30T11:11:48,2,revise,active
+2900D1594,NFOAMTMT,,,Hornbeam Drive,,Hornbeam Drive,,Hornbeam Drive,,Norwich Road,,,,adj,,E,N0060641,Eckling Grange,Dereham,,,,,,0,UKOS,600969,313433,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-10-01T13:49:14,5,revise,active
+2900D1533,NFOAMPGW,,,Neatherd High School,,Neatherd High School,,Neatherd High School,,Norwich Road,,,,adj,,E,E0017545,Dereham,,,,,,,0,UKOS,599976,313201,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:09:26,3,revise,active
 2900D1568,NFOAMTAT,,,Union Drift,,,,,,Norwich Road,,,,opp,,W,E0017545,Dereham,,,,,,,0,UKOS,600107,313166,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-17T16:10:24,3,revise,active
 2900D1595,NFOAMTMW,,,Hornbeam Drive,,Hornbeam Drive,,Hornbeam Drive,,Norwich Road,,,,opp,,W,N0060641,Eckling Grange,Dereham,,,,,,0,UKOS,600824,313357,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-12-18T09:45:49,3,revise,active
 2900D1569,NFOAMTAW,,,Union Drift,,Union Drift,,Union Drift,,Norwich Road,,,,adj,,E,E0017545,Dereham,,,,,,,0,UKOS,600117,313175,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-17T16:09:48,2,revise,active
@@ -1412,7 +1414,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900D1527,NFOAMPGA,,,junior school,,,,,,Littlefields,,,,adj,,E,E0017545,Dereham,,,,,,,0,UKOS,598655,312495,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-01-19T14:01:47,4,revise,inactive
 2900D1561,NFOAMPWT,,,Swanton Avenue,,Swanton Avenue,,Swanton Avenue,,Swanton Road,,,,adj,,NE,E0017545,Dereham,,,,,,,0,UKOS,599342,313871,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900D1562,NFOAMTAD,,,Swanton Avenue,,,,,,Swanton Road,,,,opp,,SW,E0017545,Dereham,,,,,,,0,UKOS,599422,313893,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2010-05-11T09:28:06,3,revise,active
-2900D1538,NFOAMPJP,,,Tesco,,,,,,Car Park,,,,adj,,SW,E0017545,Dereham,,,,,,,0,UKOS,599857,312365,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-06-24T10:34:12,4,revise,active
+2900D1538,NFOAMPJP,,,Tesco,,,,,,Car Park,,,,adj,,SW,E0017545,Dereham,,,,,,,0,UKOS,599863,312362,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:04:48,5,revise,active
 2900D1580,NFOAMTGP,,,Willow Grove,,Willow Grove,,Willow Grove,,Orchid Avenue,,,,adj,,N,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598667,311580,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-03-24T00:00:00,2,revise,active
 2900D1576,NFOAMTGA,,,Chapel Lane,,,,os No. 60,,Shipdham Road,,,,opp,,SW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,599030,311558,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-02-09T00:00:00,2,revise,active
 2900D1578,NFOAMTGJ,,,Holland Court,,,,opp Holland Court,,Shipdham Road,,,,opp,,SW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598801,310987,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-02-09T00:00:00,2,revise,active
@@ -1696,8 +1698,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H089,NFOATPWM,,,Pound Corner,,,,,,Market Street,,,,opp,,SE,E0017551,East Harling,,,,,,,0,UKOS,599464,286297,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-25T00:00:00,3,revise,active
 2900H086,NFOATPWG,,,Pound Corner,,,,,,Market Street,,,,adj,,NW,E0017551,East Harling,,,,,,,0,UKOS,599453,286292,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-25T00:00:00,3,revise,active
 2900H0835,NFOGWJWA,,,Park Court,,,,,,The Park,,,,adj,,SE,E0017551,East Harling,,,,,,,0,UKOS,599018,286339,,,BCT,CUS,PPT,,,,091,2023-07-20T08:25:51,2023-07-20T08:25:51,0,new,active
-2900L053,NFODAWDA,,,Dunham Road,,Dunham Road,,Dunham Road,,Lexham Road,,,,adj,,SW,E0017552,East Lexham,,,,,,,0,UKOS,585738,317114,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
-2900L056,NFODAWDM,,,Dunham Road,,Dunham Road,,Dunham Road,,Lexham Road,,,,opp,,NE,E0017552,East Lexham,,,,,,,0,UKOS,585747,317123,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
+2900L053,NFODAWDA,,,Dunham Road,,Dunham Road,,Dunham Road,,Lexham Road,,,,adj,,SW,E0017552,East Lexham,,,,,,,0,UKOS,585971,316917,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:29:23,2,revise,active
+2900L056,NFODAWDM,,,Dunham Road,,Dunham Road,,Dunham Road,,Lexham Road,,,,opp,,NE,E0017552,East Lexham,,,,,,,0,UKOS,585962,316919,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:30:30,2,revise,active
 2900R031,NFODPGMW,,,Lodge Gates,,Lodge Gates,,Lodge Gates,,Roman Road,,,,adj,,NE,E0018051,East Raynham,,,,,,,0,UKOS,588834,325479,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2016-03-09T00:00:00,6,revise,active
 2900R037,NFODPGPM,,,Lodge Gates,,Lodge Gates,,Lodge Gates,,Roman Road,,,,opp,,SW,E0018051,East Raynham,,,,,,,0,UKOS,588843,325476,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2016-03-09T00:00:00,6,revise,active
 2900R1812,NFODPMPM,,,Post Box,,,,os Greystones,,Broomsthrope Road,,,,opp,,E,E0048546,East Rudham,,,,,,,0,UKOS,583187,328158,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,4,revise,inactive
@@ -1756,7 +1758,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900N12243,NFODJDPM,,,City of Norwich School,,Eaton Road,,CNS School,,Eaton Road,,,,opp,,SE,E0057571,Norwich,,,,,,,0,UKOS,621869,306743,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T13:25:38,4,revise,active
 2900N12267,NFODJGDG,,,Welsford Road,,Welsford Road,,Broadhurst Road,,Welsford Road,,,,adj,,SW,E0057571,Norwich,,,,,,,0,UKOS,621860,306105,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2008-11-24T10:44:14,3,revise,inactive
 2900N12702,NFODMPGT,,,Buckland Rise,,Buckland Rise,,Buckland Rise,,Amderley Drive,,,,adj,,SW,E0018191,Eaton,Norwich,,,,,,0,UKOS,620705,305979,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:58:54,2,revise,active
-2900N12258,NFODJDWP,,,Slip Road,,,,,,Bypass,,,,adj,,NE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620220,306273,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2013-07-31T12:08:29,3,revise,active
+2900N12258,NFODJDWP,,,Slip Road,,,,,,Bypass,,,,adj,,NE,E0018191,Eaton,Norwich,,,,,,0,UKOS,607537,302156,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T12:20:23,5,revise,active
 2900N12701,NFODMPGP,,,Ebbisham Drive,,Ebbisham Drive,,Ebbisham Drive,,Cheyham Mount,,,,opp,,SE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620798,306200,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:55:29,2,revise,active
 2900N12693,NFODMPDG,,,Havant Close,,Havant Close,,Havant Close,,Church Lane,,,,adj,,SE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620299,306050,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T14:06:04,2,revise,active
 2900N12624,NFODMGTA,,,Cemetery,,,,,,Church Lane,,,,adj,,SE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620528,305841,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T14:04:38,9,revise,active
@@ -1766,13 +1768,13 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900N12696,NFODMPDP,,,Marston Lane,,Marston Lane,,Marston Lane,,Church Lane,,,,adj,,E,E0018191,Eaton,Norwich,,,,,,0,UKOS,620773,305670,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2011-02-01T12:59:57,2,revise,active
 2900C3530,NFOAMAJG,,,Red Lion,,Red Lion,,public house,,Eaton Street,,,,adj,,SW,E0018191,Eaton,Norwich,,,,,,0,UKOS,620152,306098,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T16:58:24,11,revise,inactive
 2900N12362,NFODJPDJ,,,The Red Lion,,The Red Lion,,public house,,Eaton Street,,,,opp,,NE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620189,306144,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-05-07T11:13:40,2,revise,active
-2900N12141,NFODJADJ,,,The Cellarhouse,,,,,,Eaton Street,,,,adj,,SW,E0018191,Eaton,Norwich,,,,,,0,UKOS,620297,306208,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T14:06:43,4,revise,active
+2900N12141,NFODJADJ,,,The Cellarhouse,,,,,,Eaton Street,,,,adj,,SW,E0018191,Eaton,Norwich,,,,,,0,UKOS,620296,306209,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:08:12,5,revise,active
 2900N12703,NFODMPGW,,,Greenways,,Greenways,,Greenways,,Ebbisham Drive,,,,adj,,NW,E0018191,Eaton,Norwich,,,,,,0,UKOS,620498,305988,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:58:20,2,revise,active
 2900N12700,NFODMPGM,,,Ellcar Rise,,Ellcar Rise,,Ellcar Rise,,Greenways,,,,adj,,W,E0018191,Eaton,Norwich,,,,,,0,UKOS,621059,306233,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:54:53,2,revise,active
 2900N12698,NFODMPDW,,,Nutfield Close,,Nutfield Close,,Nutfield Close,,Greenways,,,,adj,,NE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620502,306064,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:57:38,2,revise,active
 2900N12699,NFODMPGA,,,Duverlin Close,,,,,,Greenways,,,,opp,,SE,E0018191,Eaton,Norwich,,,,,,0,UKOS,621100,306229,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:54:11,4,revise,active
 2900N1277,NFODMTGA,,,Bradeham Way,,,,,,Greenways,,,,adj,,W,E0018191,Eaton,Norwich,,,,,,0,UKOS,621255,306191,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2011-05-19T11:41:57,5,revise,active
-2900N1264,NFODMJAJ,,,Abinger Way,,Abinger Way,,Abinger Way,,Lindford Drive,,,,opp,,NE,E0018191,Eaton,Norwich,,,,,,0,UKOS,621010,305813,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T14:00:56,5,revise,active
+2900N1264,NFODMJAJ,,,Abinger Way,,Abinger Way,,Abinger Way,,Lindford Drive,,,,opp,,NE,E0018191,Eaton,Norwich,,,,,,0,UKOS,621017,305819,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:19:36,6,revise,active
 2900N12143,NFOGPGDJ,,,Waitrose,,Waitrose,,public house,,Church Lane,,,,opp,,SE,E0018191,Eaton,Norwich,,,,,,0,UKOS,620273,306130,,,BCT,MKD,OTH,,,,091,2007-11-29T15:02:22,2012-01-31T11:24:22,2,revise,inactive
 2900N1214,NFOGPGDM,,,Waitrose,,Waitrose,,public house,,Church Lane,,,,adj,,NW,E0018191,Eaton,Norwich,,,,,,0,UKOS,620259,306121,,,BCT,MKD,OTH,,,,091,2007-11-29T15:05:04,2012-01-31T11:24:04,2,revise,inactive
 2900Q015,NFODPGAD,,,Southfork,,,,,,Station Road,,,,adj,,NE,E0017554,Eccles,,,,,,,0,UKOS,601958,289656,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-01-12T13:09:28,6,revise,inactive
@@ -2028,8 +2030,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900F1311,NFOAPMWG,,,Hapton Turn,,,,Hapton Turn,,Low Road,,,,opp,,N,E0048785,Forncett,,,,,,,0,UKOS,616428,293353,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2010-11-17T11:20:08,4,revise,active
 2900F139,NFOAPTAJ,,,war memorial,,war memorial,,war memorial,,Aslacton Road,,,,opp,,N,E0018274,Forncett St Mary,,,,,,,0,UKOS,616528,293888,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:47,2009-01-22T12:38:06,2,revise,inactive
 2900F133,NFOAPMWM,,,war memorial,,war memorial,,war memorial,,Aslacton Road,,,,adj,,S,E0018274,Forncett St Mary,,,,,,,0,UKOS,616537,293883,,,BCT,CUS,OTH,,,,091,2002-07-30T00:00:00,2009-01-22T12:36:54,2,revise,inactive
-2900F132,NFOAPMWJ,,,church,,church,,church,,Aslacton Road,,,,adj,,SW,E0018275,Forncett St Peter,,,,,,,0,UKOS,616392,292918,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-02-13T11:35:59,2,revise,active
-2900F137,NFOAPTAD,,,church,,church,,church,,Aslacton Road,,,,opp,,N,E0018275,Forncett St Peter,,,,,,,0,UKOS,616393,292897,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-25T00:00:00,2,revise,active
+2900F137,NFOAPTAD,,,church,,church,,church,,Aslacton Road,,,,adj,,N,E0018275,Forncett St Peter,,,,,,,0,UKOS,616393,292897,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T14:53:56,3,revise,active
+2900F132,NFOAPMWJ,,,church,,church,,church,,Aslacton Road,,,,opp,,SW,E0018275,Forncett St Peter,,,,,,,0,UKOS,616392,292918,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T14:54:38,3,revise,active
 2900F135,NFOAPMWP,,,old rail station,,old rail station,,old rail station,,Station Road,,,,adj,,NE,E0048785,Forncett,,,,,,,0,UKOS,617313,293481,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-10-07T11:14:29,2,revise,active
 2900F136,NFOAPMWT,,,old rail station,,old rail station,,old rail station,,Station Road,,,,opp,,S,E0048785,Forncett,,,,,,,0,UKOS,617326,293441,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900F147,NFOAPTDG,,,Tallon Street,,,,,,White Hart Street,,,,opp,,S,E0048351,Foulden,,,,,,,0,UKOS,576868,299506,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2012-01-26T13:30:24,5,revise,inactive
@@ -2179,11 +2181,11 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900G085,NFOATATM,,,Bridge Rise,,Bridge Rise,,Bridge Rise,,Common Road,,,,adj,,N,E0048790,Gissing,,,,,,,0,UKOS,614119,286077,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900G083,NFOATATG,,,Rectory Road,,,,Rectory Road,,Lower Street,,,,opp,,SW,E0048790,Gissing,,,,,,,0,UKOS,614577,285223,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-10-07T11:18:47,5,revise,active
 2900G081,NFOATAPW,,,Rectory Road,,,,,,Lower Street,,,,adj,,NE,E0048790,Gissing,,,,,,,0,UKOS,614583,285247,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-10-07T11:18:10,6,revise,active
-2900G087,NFOATATW,,,New Road,,,,New Street,,Upper Street,,,,adj,,S,E0048790,Gissing,,,,,,,0,UKOS,614204,285662,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-05T00:00:00,4,revise,active
-2900G088,NFOATAWA,,,New Road,,New Road,,opp New Street,,Upper Street,,,,opp,,N,E0048790,Gissing,,,,,,,0,UKOS,614212,285673,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-05T00:00:00,2,revise,active
+2900G088,NFOATAWA,,,New Road,,New Road,,,,Upper Street,,,,adj,,N,E0048790,Gissing,,,,,,,0,UKOS,614212,285673,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T14:45:57,3,revise,active
+2900G087,NFOATATW,,,New Road,,,,New Street,,Upper Street,,,,opp,,S,E0048790,Gissing,,,,,,,0,UKOS,614204,285662,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T14:44:40,5,revise,active
 2900G086,NFOATATP,,,Bridge Rise,,Bridge Rise,,Bridge Rise,,Common Road,,,,opp,,S,E0048790,Gissing,,,,,,,0,UKOS,614126,286060,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900G084,NFOATATJ,,,Simonds Farm,,Simonds Farm,,Simonds Farm,,Common Road,,,,opp,,N,E0048790,Gissing,,,,,,,0,UKOS,614247,287502,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-12T14:39:52,2,revise,active
-2900G082,NFOATATD,,,Simonds Farm,,Simonds Farm,,Simonds Farm,,Common Road,,,,adj,,S,E0048790,Gissing,,,,,,,0,UKOS,614249,287538,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
+2900G082,NFOATATD,,,Simonds Farm,,Simonds Farm,,Simonds Farm,,Common Road,,,,adj,,S,E0048790,Gissing,,,,,,,0,UKOS,614253,287500,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T12:18:36,2,revise,active
 2900L043,NFODAWAP,,,Phone Box,,,,Phone Box,,Blakeney Road,,,,opp,,S,E0018064,Glandford,,,,,,,0,UKOS,604265,341513,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-08-15T16:29:23,3,revise,active
 2900L041,NFODAWAJ,,,Phone Box,,,,crossroads,,Blakeney Road,,,,adj,,NW,E0018064,Glandford,,,,,,,0,UKOS,604255,341510,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-05T00:00:00,2,revise,active
 2900GODRT,NFOGWGJT,,,Demand Responsive Transport Area,,,,,,The Street,,,,,,N,E0048357,Gooderstone,,,,,,,0,UKOS,576128,302106,,,BCT,CUS,TIP,,,,091,2022-02-14T11:58:48,2022-02-15T11:23:45,2,revise,active
@@ -2364,7 +2366,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H338,NFOAWMPD,,,turn,,turn,,opp Old Watton Road,,Thetford Road,,,,opp,,NE,E0017572,Great Hockham,,,,,,,0,UKOS,594703,292332,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900H333,NFOAWMJM,,,turn,,turn,,Old Watton Road,,Thetford Road,,,,adj,,SW,E0017572,Great Hockham,,,,,,,0,UKOS,594722,292331,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900H336,NFOAWMJW,,,green,,green,,green,,School Square,,,,adj,,S,E0017572,Great Hockham,,,,,,,0,UKOS,595322,292485,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2015-06-25T09:50:15,3,revise,active
-2900H334,NFOAWMJP,,,green,,green,,green,,School Square,,,,opp,,N,E0017572,Great Hockham,,,,,,,0,UKOS,595319,292494,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2015-06-25T09:50:38,3,revise,active
+2900H334,NFOAWMJP,,,green,,green,,green,,School Square,,,,opp,,N,E0017572,Great Hockham,,,,,,,0,UKOS,595308,292544,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T12:23:25,4,revise,active
 2900H337,NFOAWMPA,,,post office,,post office,,post office,,Watton Road,,,,opp,,S,E0017572,Great Hockham,,,,,,,0,UKOS,595277,292659,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900H335,NFOAWMJT,,,post office,,post office,,post office,,Watton Road,,,,adj,,N,E0017572,Great Hockham,,,,,,,0,UKOS,595272,292644,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900M0612,NFODGJDJ,,,Village Hall,,,,Village Hall,,Station Road,,,,adj,,SE,E0048556,Great Massingham,,,,,,,0,UKOS,579781,323158,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-04-15T11:49:58,3,revise,active
@@ -2442,8 +2444,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900G127,NFOATDMT,,,Church Close,,,,Church Close,,Vong Lane,,,,opp,,E,E0048557,Grimston,,,,,,,0,UKOS,571779,321975,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-12T14:51:21,4,revise,active
 2900G1210,NFOATDGJ,,,Bell Road,,Bell Road,,Bell Road,,Gayton Road,,,,adj,,S,E0048557,Grimston,,,,,,,0,UKOS,572058,322387,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2012-01-26T13:41:50,3,revise,inactive
 2900G1221,NFOATDMA,,,Bracken Way,,Bracken Way,,Bracken Way,,Low Road,,,,opp,,E,E0017934,Pott Row,,,,,,,0,UKOS,571823,322757,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2009-02-02T12:35:31,2,revise,inactive
-2900G134,NFOATDPJ,,,Church,,,,Church,,Church Road,,,,adj,,SW,E0048362,Griston,,,,,,,0,UKOS,594281,299351,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-07-29T14:49:27,3,revise,active
-2900G135,NFOATDPM,,,Church,,,,Church,,Church Road,,,,opp,,N,E0048362,Griston,,,,,,,0,UKOS,594276,299357,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-07-29T14:47:18,5,revise,active
+2900G134,NFOATDPJ,,,Church,,,,Church,,Church Road,,,,adj,,SW,E0048362,Griston,,,,,,,0,UKOS,594264,299318,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T12:21:15,4,revise,active
+2900G135,NFOATDPM,,,Church,,,,Church,,Church Road,,,,opp,,N,E0048362,Griston,,,,,,,0,UKOS,594245,299289,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T12:22:15,6,revise,active
 2900T094,NFODWTJD,,,Thompson Road,,,,,,Thetford Road,,,,adj,,SE,E0048362,Griston,,,,,,,0,UKOS,593619,298312,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-10T16:42:49,6,revise,active
 2900T092,NFODWTGW,,,Thompson Road,,,,,,Thetford Road,,,,opp,,NW,E0048362,Griston,,,,,,,0,UKOS,593629,298289,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-10T16:42:30,6,revise,active
 2900G133,NFOATDPG,,,Longmeadow Close,,Longmeadow Close,,,,Church Road,,,,adj,,SW,E0048362,Griston,,,,,,,0,UKOS,594234,298696,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-10-02T09:03:46,2,revise,active
@@ -2540,10 +2542,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H073,NFOATPTD,,,Beeches Lane,,Beeches Lane,,Council Houses,,Beeches Lane,,,,adj,,NE,E0048364,Hardingham,,,,,,,0,UKOS,604290,303843,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-02-02T12:51:35,2,revise,inactive
 2900S154,NFODTDWG,,,Chapel Lane,,Chapel Lane,,Chapel Lane,,Common Road,,,,adj,,SE,E0018294,Hardwick,,,,,,,0,UKOS,622382,290158,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,3,revise,inactive
 2900S157,NFODTDWM,,,Chapel Lane,,Chapel Lane,,Chapel Lane,,Common Road,,,,opp,,NW,E0018294,Hardwick,,,,,,,0,UKOS,622378,290156,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,3,revise,inactive
+2900C0305,NFOGMAPG,,,Harford Park & Ride,,,,,,A140,,,,adj,,SE,N0080131,Harford,Norwich,,,,,,0,UKOS,621744,304028,,,BCT,MKD,PPT,,,,091,2004-01-14T00:00:00,2015-09-17T11:00:25,10,revise,active
 2900N12120,NFODGWPT,,,Bus stop,,,,Tesco,,Tesco,,,,adj,,S,N0060669,South Tuckswood,Norwich,,,,,,0,UKOS,621983,304727,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-07-03T14:50:04,6,revise,inactive
 2900N12252,NFODJDTW,,,Ipswich Road Tesco,,Tesco,,Ipswich Road Tesco,,Ipswich Road,,,,adj,,SW,N0060669,South Tuckswood,Norwich,,,,,,0,UKOS,621931,304819,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-10-02T12:22:48,4,revise,active
 2900N12251,NFODJDTP,,,Ipswich Road Tesco,,Tesco,,Ipswich Road Tesco,,Ipswich Road,,,,opp,,N,N0060669,South Tuckswood,Norwich,,,,,,0,UKOS,621896,304732,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-10-02T12:23:23,4,revise,active
-2900C0305,NFOGMAPG,,,Harford Park & Ride,,,,,,A140,,,,adj,,SE,N0080131,Harford,Norwich,,,,,,0,UKOS,621744,304028,,,BCT,MKD,PPT,,,,091,2004-01-14T00:00:00,2015-09-17T11:00:25,10,revise,active
 2900R2425,NFOGTMTM,,,A143 Layby (Westbound),,,,Layby,,A143,,,,adj,,W,E0056317,Harleston,,,,,,,0,UKOS,624594,282330,,,BCT,CUS,OTH,,,,091,2014-06-10T12:32:55,2014-08-20T00:00:00,2,revise,inactive
 2900R241,NFODPTMJ,,,Broad Street,,Broad Street,,bus shelter,,Broad Street,,,,adj,,S,E0056317,Harleston,,,,,,,0,UKOS,624625,283431,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2020-01-06T14:22:57,3,revise,active
 2900R2417,NFODPTPM,,,Love Lane,,,,,,London Road,,,,adj,,NE,E0056317,Harleston,,,,,,,0,UKOS,624385,283144,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-04-11T11:47:06,7,revise,active
@@ -2678,7 +2680,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H57131,NFOGWPWA,,,car showroom,,,,,,Cromer Road,,,,opp,,SE,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621682,311767,,,BCT,MKD,OTH,,,,091,2024-05-08T11:47:33,2024-05-08T11:47:33,0,new,active
 2900H1568,NFOAWDAJ,,,Heath Crescent,,Heath Crescent,,Heath Crescent,,Cromer Road,,,,opp,,N,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621424,312387,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900H1572,NFOAWDGA,,,Waldemar Avenue,,,,Heather Avenue,,Cromer Road,,,,adj,,SE,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621590,311973,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-03T09:33:36,3,revise,active
-2900H1525,NFOAWADP,,,Tesco Express,,,,,,Cromer Road,,,,opp,,NW,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621385,312569,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-03T09:30:35,3,revise,active
+2900H1525,NFOAWADP,,,Tesco Express,,,,,,Cromer Road,,,,opp,,NW,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621386,312580,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:20:49,4,revise,active
 2900H1571,NFOAWDAW,,,Waldemar Avenue,,Waldemar Avenue,,Waldemar Avenue,,Cromer Road,,,,opp,,NW,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621554,312033,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-07-03T09:32:13,2,revise,active
 2900H156,NFOAWAWA,,,Tesco Express,,,,,,Cromer Road,,,,adj,,SE,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621386,312639,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2014-11-04T14:26:55,2,revise,active
 2900H1570,NFOAWDAT,,,Brabazon Road,,Brabazon Road,,Brabazon Road,,Cromer Road,,,,adj,,SE,E0017736,Hellesdon,Norwich,,,,,,0,UKOS,621523,312141,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
@@ -2743,7 +2745,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H1816,NFOAWDPM,,,Silver Green,,,,Firs Lane,,Aburgh Road,,,,opp,,N,E0018300,Hempnall Green,,,,,,,0,UKOS,624937,293781,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2019-06-27T11:40:29,4,revise,active
 2900H1815,NFOAWDPJ,,,Silver Green,,,,Silver Green,,Alburgh Road,,,,adj,,S,E0018300,Hempnall Green,,,,,,,0,UKOS,624953,293800,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:51,2019-06-27T11:44:48,5,revise,active
 2900H181,NFOAWDMP,,,Horseshoes,,,,Horseshoes Public House,,Spring Lane,,,,adj,,W,E0018300,Hempnall Green,,,,,,,0,UKOS,624971,292715,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2023-12-22T08:49:13,4,revise,active
-2900H185,NFOAWDTJ,,,Horseshoes,,,,public house,,Spring Lane,,,,opp,,N,E0018300,Hempnall Green,,,,,,,0,UKOS,624933,292735,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-12T15:08:10,7,revise,active
+2900H185,NFOAWDTJ,,,Horseshoes,,,,public house,,Spring Lane,,,,opp,,N,E0018300,Hempnall Green,,,,,,,0,UKOS,624949,292705,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:22:58,8,revise,active
 2900H1818,NFOAWDPW,,,Alburgh Road,,Alburgh Road,,Hardy's Loke,,Alburgh Road,,,,opp,,S,E0018300,Hempnall Green,,,,,,,0,UKOS,624870,293153,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2012-02-02T14:06:49,3,revise,active
 2900H1817,NFOAWDPT,,,Alburgh Road,,Alburgh Road,,Hardy's Loke,,Alburgh Road,,,,adj,,N,E0018300,Hempnall Green,,,,,,,0,UKOS,624856,293139,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2009-02-26T00:00:00,2,revise,active
 2900H1814,NFOAWDPG,,,Hempnall Green Road,,Hempnall Green Road,,Saw Mill,,Silver Green Road,,,,opp,,S,E0018300,Hempnall Green,,,,,,,0,UKOS,625505,293269,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-10T11:32:31,5,revise,active
@@ -2806,8 +2808,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H2224,NFOAWGTG,,,Lynch Green,,,,Lynch Green,,Henstead Road,,,,opp,,S,E0048799,Hethersett (village),,,,,,,0,UKOS,615316,305198,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2020-01-09T11:35:47,3,revise,active
 2900H2211,NFOAWGMG,,,Bus Shelter,,,,New Road Corner,,Ketts Oak,,,,adj,,SW,E0048799,Hethersett (village),,,,,,,0,UKOS,614902,304036,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-08T00:00:00,4,revise,active
 2900H222,NFOAWGPM,,,Bus Shelter,,,,New Road Corner,,Ketts Oak,,,,opp,,NE,E0048799,Hethersett (village),,,,,,,0,UKOS,615019,304115,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-08T00:00:00,4,revise,active
-2900H2252,NFOAWJGP,,,Brooks Factory,,,,Brooks Factory,,Little Melton Road,,,,adj,,W,E0048799,Hethersett (village),,,,,,,0,UKOS,615541,306343,,,BCT,CUS,OTH,,,,091,2002-08-13T00:00:00,2009-03-17T00:00:00,2,revise,active
-2900H2251,NFOAWJGM,,,Brooks Factory,,,,Brooks Factory,,Little Melton Road,,,,opp,,E,E0048799,Hethersett (village),,,,,,,0,UKOS,615526,306347,,,BCT,CUS,OTH,,,,091,2002-08-13T00:00:00,2009-03-17T00:00:00,2,revise,active
+2900H2252,NFOAWJGP,,,Little Melton Food Park,,,,,,Little Melton Road,,,,adj,,W,E0048799,Hethersett (village),,,,,,,0,UKOS,615541,306343,,,BCT,CUS,OTH,,,,091,2002-08-13T00:00:00,2024-10-01T13:24:34,3,revise,active
+2900H2251,NFOAWJGM,,,Little Melton Food Park,,,,,,Little Melton Road,,,,opp,,E,E0048799,Hethersett (village),,,,,,,0,UKOS,615526,306347,,,BCT,CUS,OTH,,,,091,2002-08-13T00:00:00,2024-10-01T13:23:54,3,revise,active
 2900H2228,NFOAWGTW,,,Cromwell Close,,,,,,Melton Road,,,,adj,,E,E0048799,Hethersett (village),,,,,,,0,UKOS,615128,305076,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-05-27T11:29:00,3,revise,active
 2900H2229,NFOAWGWA,,,Malthouse Road,,,,Malthouse Road,,Melton Road,,,,adj,,NW,E0048799,Hethersett (village),,,,,,,0,UKOS,614779,305058,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2012-01-26T14:48:00,3,revise,inactive
 2900H2253,NFOAWJGT,,,Malthouse Road,,,,Malthouse Road,,Melton Road,,,,opp,,E,E0048799,Hethersett (village),,,,,,,0,UKOS,614814,305072,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2012-01-26T14:52:24,3,revise,inactive
@@ -3022,7 +3024,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900H433,NFOAWPTM,,,Bus Shelter,,,,Bus Shelter,,Mill Hill,,,,adj,,NW,E0048673,Horning,,,,,,,0,UKOS,634265,317699,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-05-08T11:57:52,6,revise,active
 2900L124,NFODGADT,,,Stores,,,,Ludham Bridge Stores,,Norwich Road,,,,adj,,NE,E0048687,Ludham,,,,,,,0,UKOS,637343,317158,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-06-13T13:54:51,3,revise,active
 2900H436,NFOAWPTW,,,Mill Hill,,,,Mill Loke,,Norwich Road,,,,opp,,SE,E0048673,Horning,,,,,,,0,UKOS,634306,317698,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-07-27T08:22:06,7,revise,active
-2900H43,NFOGWAMD,,,Palmer Lane,,Palmer Lane,,Palmer Lane,,Horning Road,,,,adj,,E,E0048673,Horning,,,,,,,0,UKOS,632825,317831,,,BCT,MKD,OTH,,,,091,2019-09-19T12:07:38,2019-09-19T12:07:38,0,new,active
+2900H43,NFOGWAMD,,,Palmers Lane,,Palmers Lane,,Palmers Lane,,Horning Road,,,,adj,,E,E0048673,Horning,,,,,,,0,UKOS,632825,317831,,,BCT,MKD,OTH,,,,091,2019-09-19T12:07:38,2024-10-01T13:21:51,1,revise,active
 2900H430,NFOGWAMG,,,Palmers Lane,,Palmers Lane,,Palmers Lane,,Horning Road,,,,opp,,W,E0048673,Horning,,,,,,,0,UKOS,632830,317825,,,BCT,MKD,OTH,,,,091,2019-09-19T12:14:46,2019-09-19T12:14:46,0,new,active
 2900H431,NFOAWPTJ,,,Lower Street,,,,Lower Street,,Ropes Hill,,,,adj,,NW,E0048673,Horning,,,,,,,0,UKOS,633989,317883,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2014-08-12T15:24:38,4,revise,active
 2900H437,NFOAWPWA,,,Lower Street,,,,Neatishead Road,,Ropes Hill,,,,opp,,SE,E0048673,Horning,,,,,,,0,UKOS,634037,317884,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-03-23T00:00:00,5,revise,active
@@ -3454,7 +3456,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900L074,NFODAWJG,,,Back Street,,Back Street,,Point House,,Back Street,,,,opp,,SW,E0048377,Litcham,,,,,,,0,UKOS,588579,317699,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900L073,NFODAWJD,,,Church Street,,Church Street,,Church Hall,,Church Street,,,,adj,,SE,E0048377,Litcham,,,,,,,0,UKOS,588650,317654,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900L076,NFODAWJP,,,Church Street,,Church Street,,Church Hall,,Church Street,,,,opp,,NW,E0048377,Litcham,,,,,,,0,UKOS,588689,317602,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2008-03-19T00:00:00,1,revise,active
-2900L075,NFODAWJM,,,Druids Lane,,Druids Lane,,Litcham High School,,Druids Lane,,,,adj,,SW,E0048377,Litcham,,,,,,,0,UKOS,588846,317614,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
+2900L075,NFODAWJM,,,Druids Lane,,Druids Lane,,Litcham High School,,Druids Lane,,,,adj,,SW,E0048377,Litcham,,,,,,,0,UKOS,588871,317604,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:25:12,2,revise,active
 2900L078,NFODAWJW,,,Pound Lane,,Pound Lane,,Litcham Primary School,,Pound Lane,,,,adj,,NW,E0048377,Litcham,,,,,,,0,UKOS,588236,318023,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,3,revise,inactive
 2900L071,NFODAWJA,,,Tittleshall Road,,Tittleshall Road,,Tittleshall Road,,Tittleshall Road,,,,adj,,N,E0048377,Litcham,,,,,,,0,UKOS,588619,317837,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-26T00:00:00,3,revise,active
 2900L077,NFODAWJT,,,Back Street,,Back Street,,os Point House,,Back Street,,,,adj,,NE,E0048377,Litcham,,,,,,,0,UKOS,588577,317703,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
@@ -3592,7 +3594,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900L125,NFODGADW,,,Church,,,,,,Yarmouth Road,,,,opp,,E,E0048687,Ludham,,,,,,,0,UKOS,638932,318345,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-07-02T14:15:34,9,revise,active
 2900L128,NFODGAGJ,,,Kings Arms,,,,,,High Street,,,,adj,,NE,E0048687,Ludham,,,,,,,0,UKOS,638929,318401,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-11-12T15:27:16,4,revise,active
 2900L127,NFODGAGD,,,Kings Arms,,,,,,High Street,,,,opp,,SW,E0048687,Ludham,,,,,,,0,UKOS,638928,318372,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-11-12T15:28:05,7,revise,active
-2900L1271,NFOGTPJG,,,Broad Reaches,,,,,,Norwich Road,,,,opp,,E,E0048687,Ludham,,,,,,,0,UKOS,638319,318270,,,BCT,MKD,OTH,,,,091,2014-10-27T10:54:01,2015-01-29T09:58:12,2,revise,active
+2900L1271,NFOGTPJG,,,Broad Reaches,,,,,,Norwich Road,,,,opp,,E,E0048687,Ludham,,,,,,,0,UKOS,638320,318281,,,BCT,MKD,OTH,,,,091,2014-10-27T10:54:01,2024-09-27T10:59:53,5,revise,active
 2900L137,NFODGAGP,,,Mundford Road,,,,,,Mundford Road,,,,NW-bound,,NW,E0048382,Lynford,Thetford,,,,,,0,UKOS,582015,291128,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2012-10-23T12:32:52,3,revise,inactive
 2900L136,NFODGAGM,,,Mundford Road,,,,,,Mundford Road,,,,SE-bound,,SE,E0048382,Lynford,Thetford,,,,,,0,UKOS,582019,291138,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2012-10-23T12:33:21,3,revise,inactive
 2900L146,NFOGMJPA,,,Primrose Green,,Primrose Green,,The Houses  ,,Primrose Green,,,,opp,,S,E0048383,Lyng,,,,,,,0,UKOS,606632,316059,,,BCT,CUS,OTH,,,,091,2004-11-25T16:48:09,2009-02-10T00:00:00,5,revise,inactive
@@ -4109,12 +4111,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900N12658,NFODMJMD,,,Riseway Close,,,,Riseway Close,,Borrowdale Drive,,,,adj,,SE,E0057571,Norwich,,,,,,,0,UKOS,624746,309721,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-16T00:00:00,2,revise,active
 2900N12164,NFODJAJG,,,Borrowdale Drive Shops,,,,Borrowdale Drive Shops,,Borrowdale Drive,,,,adj,,W,E0057571,Norwich,,,,,,,0,UKOS,624909,309867,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-10-30T11:39:26,6,revise,active
 2900N12319,NFODJMDT,,,Methodist Church,,,,,,Bowthorpe Road,,,,adj,,NE,E0057571,Norwich,,,,,,,0,UKOS,620475,308816,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:36:53,4,revise,active
-2900N12144,NFODJADP,,,Community Hospital,,,,,,Bowthorpe Road,,,,adj,,NE,E0057571,Norwich,,,,,,,0,UKOS,620777,308936,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2013-05-14T13:29:16,13,revise,active
+2900N12144,NFODJADP,,,Community Hospital,,,,,,Bowthorpe Road,,,,adj,,NE,E0057571,Norwich,,,,,,,0,UKOS,620856,308963,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-10-01T09:36:30,14,revise,active
 2900N12323,NFODJMGJ,,,Cadge Road Shops,,,,Cadge Road Shops,,Bowthorpe Road,,,,adj,,SE,E0018189,Earlham,Norwich,,,,,,0,UKOS,619848,308696,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:34:18,5,revise,active
 2900N12322,NFODJMGD,,,Cadge Road Shops,,,,Cadge Road Shops,,Bowthorpe Road,,,,opp,,NW,E0018189,Earlham,Norwich,,,,,,0,UKOS,619796,308714,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T13:32:58,6,revise,active
 2900N12316,NFODJMDJ,,,Community Hospital,,,,Micro Biology Lab,,Bowthorpe Road,,,,opp,,W,E0057571,Norwich,,,,,,,0,UKOS,620843,308947,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T10:52:58,8,revise,active
-2900N12259,NFODJDWT,,,Godric Place,,,,Godric Place,,Bowthorpe Road,,,,opp,,SW,E0057571,Norwich,,,,,,,0,UKOS,620724,308899,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T10:53:42,3,revise,active
-2900N12317,NFODJMDM,,,Bowthorpe Road,,,,,,Bowthorpe Road,,,,o/s 166,,E,E0057571,Norwich,,,,,,,0,UKOS,620963,308986,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2014-02-19T12:27:02,3,revise,active
+2900N12259,NFODJDWT,,,Godric Place,,,,Godric Place,,Bowthorpe Road,,,,opp,,SW,E0057571,Norwich,,,,,,,0,UKOS,620724,308899,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-10-02T00:00:00,5,revise,inactive
+2900N12317,NFODJMDM,,,Bowthorpe Road,,,,,,Bowthorpe Road,,,,o/s 166,,E,E0057571,Norwich,,,,,,,0,UKOS,620963,308986,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-10-02T00:00:00,5,revise,inactive
 2900N12633,NFODMGWG,,,King Street,,,,Conesford Drive,,Bracondale,,,,opp,,NW,E0057571,Norwich,,,,,,,0,UKOS,623920,307376,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T11:36:46,3,revise,active
 2900N12209,NFODJAWD,,,Corton Road,,,,Corton Road,,Bracondale,,,,adj,,NW,E0057571,Norwich,,,,,,,0,UKOS,623734,307496,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-07-18T10:05:58,4,revise,active
 2900N12634,NFODMGWJ,,,King Street,,,,,,Bracondale,,,,Stop C,,SE,E0057571,Norwich,,,,,,,0,UKOS,623894,307400,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2023-07-11T12:56:05,5,revise,active
@@ -4252,7 +4254,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900N12380,NFODJPMA,,,Gladstone Street,,,,Gladstone Street,,Earlham Road,,,,adj,,E,E0057571,Norwich,,,,,,,0,UKOS,621895,308705,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-05-18T14:19:34,3,revise,active
 2900N12385,NFODJPMT,,,Hadley Drive,,,,Blue Cedar Lodge,,Earlham Road,,,,adj,,E,E0057571,Norwich,,,,,,,0,UKOS,620760,308532,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-14T00:00:00,3,revise,active
 2900N12386,NFODJPMW,,,Henderson Road,,,,,,Earlham Road,,,,adj,,W,E0018189,Earlham,Norwich,,,,,,0,UKOS,620583,308495,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-02-09T00:00:00,3,revise,active
-2900N12388,NFODJPTD,,,Beverley Road,,,,,,Earlham Road,,,,opp,,W,E0057571,Norwich,,,,,,,0,UKOS,620122,308419,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-11T14:30:05,3,revise,active
+2900N12388,NFODJPTD,,,Beverley Road,,,,,,Earlham Road,,,,opp,,W,E0057571,Norwich,,,,,,,0,UKOS,620117,308423,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:21:58,4,revise,active
 2900N1302,NFOGMJTD,,,Earlham Park Gates,,,,Earlham Gates,,Earlham Road,,,,opp,,E,E0057571,Norwich,,,,,,,0,UKOS,619420,308303,,,BCT,MKD,TIP,,,,091,2005-10-31T14:32:43,2009-07-15T08:35:21,3,revise,active
 2900N12381,NFODJPMD,,,Edinburgh Road,,,,,,Earlham Road,,,,opp,,W,E0057571,Norwich,,,,,,,0,UKOS,621552,308607,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2012-10-04T12:34:18,6,revise,active
 2900N12379,NFODJPJT,,,Gladstone Street,,,,Gladstone Road,,Earlham Road,,,,opp,,W,E0057571,Norwich,,,,,,,0,UKOS,621828,308680,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-14T00:00:00,3,revise,active
@@ -4848,7 +4850,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900P082,NFODPDAJ,,,Upgate,,Upgate,,Rectory lane,,Upgate,,,,adj,,N,E0048821,Poringland,,,,,,,0,UKOS,627513,302210,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2008-03-18T00:00:00,1,revise,active
 2900P0816,NFODPDAG,,,Upgate,,Upgate,,Rectory Lane,,Upgate,,,,opp,,S,E0048821,Poringland,,,,,,,0,UKOS,627520,302201,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,3,revise,inactive
 2900P093,NFODPDGP,,,Park and Ride Site,,,,A1042,,Yarmouth Road,,,,opp,,SE,E0048481,Postwick,Norwich,,,,,,0,UKOS,628860,308437,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-11-16T15:37:31,3,revise,inactive
-2900P091,NFODPDGJ,,,Postwick Park & Ride Site,,,,Postwick Park & Ride Site,,A47,,,,adj,,NW,E0048481,Postwick,Norwich,,,,,,0,UKOS,628817,308331,,,BCT,MKD,PTP,,,,091,2003-02-22T14:04:04,2024-01-12T11:31:07,7,revise,active
+2900P091,NFODPDGJ,,,Postwick Park & Ride,,,,Postwick Park & Ride,,A47,,,,adj,,NW,E0048481,Postwick,Norwich,,,,,,0,UKOS,628817,308331,,,BCT,MKD,PTP,,,,091,2003-02-22T14:04:04,2024-09-26T15:30:11,8,revise,active
 2900P096,NFODPDJA,,,Meridian Way,,,,Meridian Way,,Yarmouth Road,,,,adj,,W,N0080129,Broadland Business Park,Norwich,,,,,,0,UKOS,628349,308661,,,BCT,MKD,OTH,,,,091,2001-08-07T00:00:00,2015-12-08T11:38:22,11,revise,active
 2900P095,NFODPDGW,,,Meridian Way,,,,Meridian Way,,Yarmouth Road,,,,opp,,E,N0080129,Broadland Business Park,Norwich,,,,,,0,UKOS,628326,308671,,,BCT,MKD,OTH,,,,091,2001-08-07T00:00:00,2015-12-08T11:39:42,7,revise,active
 2900P092,NFODPDGM,,,Postwick Park & Ride,,,,Postwick Park & Ride,,Yarmouth Road,,,,adj,,W,E0048481,Postwick,Norwich,,,,,,0,UKOS,629177,308408,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2021-05-10T00:00:00,6,revise,inactive
@@ -4900,17 +4902,17 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900Q014,NFODPDWT,,,Home Farm,,,,,,Quidenham Road,,,,opp,,N,E0048400,Quidenham,,,,,,,0,UKOS,602805,287634,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-10T11:52:22,9,revise,active
 2900R0115,NFODPGDP,,,Vera Road,,,,Vera Road,,Green Lane East,,,,opp,,NW,N0060661,New Rackheath,,,,,,,0,UKOS,628623,312277,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2021-12-21T00:00:00,8,revise,inactive
 2900R0116,NFODPGDT,,,Green Lane East,,,,,,Green Lane East,,,,adj No 10,,SE,N0060661,New Rackheath,,,,,,,0,UKOS,628401,312535,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2022-03-03T15:40:34,11,revise,inactive
+2900R0112,NFODPGDG,,,Liberty Park,,,,,,Green Lane West,,,,adj,,S,E0017773,Rackheath,,,,,,,0,UKOS,628009,313395,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-10-02T14:58:42,5,revise,active
+2900R017,NFODPGJW,,,Liberty Park,,,,,,Green Lane West,,,,opp,,N,E0017773,Rackheath,,,,,,,0,UKOS,628003,313395,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-10-02T14:55:29,4,revise,active
 2900R019,NFODPGMD,,,Primary School,,,,Primary School,,Green Lane West,,,,opp,,N,E0017773,Rackheath,,,,,,,0,UKOS,627753,314181,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2021-12-21T00:00:00,4,revise,inactive
-2900R0112,NFODPGDG,,,Sir Edward Stracey Road,,,,Sir Edward Stacey Road,,Green Lane West,,,,opp,,S,E0017773,Rackheath,,,,,,,0,UKOS,628013,313316,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T14:16:28,3,revise,active
 2900R0113,NFODPGDJ,,,Village Hall,,,,Wendover Road,,Green Lane West,,,,opp,,S,E0017773,Rackheath,,,,,,,0,UKOS,627957,313796,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-04-16T07:41:52,5,revise,active
 2900R0121,NFOGPWGW,,,Wilkinson Road,,,,,,Green Lane West,,,,opp,,NW,N0060661,New Rackheath,,,,,,,0,UKOS,628393,312528,,,BCT,MKD,OTH,,,,091,2009-06-26T14:38:44,2024-02-01T13:21:27,2,revise,active
 2900R0114,NFODPGDM,,,Wendover Road,,,,,,Green Lane West,,,,opp,,N,E0017773,Rackheath,,,,,,,0,UKOS,627946,313826,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-05-22T12:05:31,6,revise,active
 2900R016,NFODPGJT,,,Primary School,,,,Primary School,,Green Lane West,,,,adj,,S,E0017773,Rackheath,,,,,,,0,UKOS,627762,314203,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2021-12-21T00:00:00,4,revise,inactive
-2900R017,NFODPGJW,,,Sir Edward Stracey Road,,,,Sir Edwards Stacey Road,,Green Lane West,,,,adj,,N,E0017773,Rackheath,,,,,,,0,UKOS,628002,313345,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-05-26T11:49:53,2,revise,active
-2900R0117,NFODPGDW,,,Post Office,,,,No's 41 & 43,,Salhouse Road,,,,opp,,NE,N0060661,New Rackheath,,,,,,,0,UKOS,628776,312756,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-03T00:00:00,2,revise,active
-2900R0111,NFODPGDA,,,Sole & Heel,,Salhouse Road,,Sole & Heel Public House,,Salhouse Road,,,,opp,,NE,N0060661,New Rackheath,,,,,,,0,UKOS,628482,312522,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T14:15:21,3,revise,active
-2900R0118,NFODPGJA,,,Post Office,,,,Vera Road,,Salhouse Road,,,,adj,,SW,N0060661,New Rackheath,,,,,,,0,UKOS,628773,312742,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-03T00:00:00,2,revise,active
+2900R0111,NFODPGDA,,,Sole & Heel,,Salhouse Road,,Sole & Heel Public House,,Salhouse Road,,,,opp,,NE,N0060661,New Rackheath,,,,,,,0,UKOS,628482,312522,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T16:16:41,4,revise,active
+2900R0117,NFODPGDW,,,Stores,,,,No's 41 & 43,,Salhouse Road,,,,opp,,NE,N0060661,New Rackheath,,,,,,,0,UKOS,628776,312756,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T16:16:00,4,revise,active
 2900R012,NFODPGJG,,,Sole & Heel,,,,Sole & Heel Public House,,Salhouse Road,,,,adj,,SW,N0060661,New Rackheath,,,,,,,0,UKOS,628494,312510,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2012-02-06T15:25:43,5,revise,active
+2900R0118,NFODPGJA,,,Stores,,,,Vera Road,,Salhouse Road,,,,adj,,SW,N0060661,New Rackheath,,,,,,,0,UKOS,628773,312742,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T16:14:44,3,revise,active
 2900R014,NFODPGJP,,,Green Man,,,,public house,,Wroxham Road,,,,adj,,NE,E0017773,Rackheath,,,,,,,0,UKOS,628155,314932,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-02-25T00:00:00,3,revise,active
 2900R0110,NFODPGAW,,,Green Man,,,,,,Wroxham Road,,,,opp,,SW,E0017773,Rackheath,,,,,,,0,UKOS,628168,314918,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2020-01-29T15:10:18,4,revise,active
 2900R0120,NFODPGJM,,,Sprowston Manor,,Wroxham Road,,Sprowston Manor Entrance Drive,,Wroxham Road,,,,opp,,NE,E0048490,Sprowston,Norwich,,,,,,0,UKOS,625856,312893,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-03T00:00:00,3,revise,active
@@ -5080,21 +5082,21 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S0214,NFODPWMT,,,Vicarage Road,,,,Vicarage Road,,Bell Lane,,,,opp,,N,E0048486,Salhouse,,,,,,,0,UKOS,630112,315468,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-05-26T15:50:44,2,revise,active
 2900S0215,NFODPWMW,,,Vicarage Road,,,,Vicarage Road,,Bell Lane,,,,adj,,S,E0048486,Salhouse,,,,,,,0,UKOS,630121,315471,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-05-26T15:48:38,2,revise,active
 2900S0218,NFOGMGAM,,,Post Office,,,,Post Office,,Lower Street,,,,opp,,NE,E0048486,Salhouse,,,,,,,0,UKOS,631350,314792,,,BCT,MKD,TIP,,,,091,2004-07-24T10:39:23,2009-05-26T16:05:06,2,revise,active
-2900S025,NFODPWPJ,,,The Stag PH,,,,,,Lower Street,,,,opp,,SW,E0048486,Salhouse,,,,,,,0,UKOS,630663,314294,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2023-10-10T09:09:22,4,revise,active
+2900S025,NFODPWPJ,,,The Stag PH,,,,,,Lower Street,,,,opp,,SW,E0048486,Salhouse,,,,,,,0,UKOS,630648,314292,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T10:35:27,6,revise,active
 2900S0217,NFOGMGAJ,,,Post Office,,,,Chapel Loke,,Lower Street,,,,adj,,SW,E0048486,Salhouse,,,,,,,0,UKOS,631316,314751,,,BCT,MKD,TIP,,,,091,2004-07-24T10:36:20,2009-05-26T16:04:00,2,revise,active
-2900S021,NFODPWMA,,,The Stag PH,,,,,,Lower Street,,,,adj,,E,E0048486,Salhouse,,,,,,,0,UKOS,630651,314306,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2023-10-10T09:10:09,4,revise,active
-2900S0211,NFODPWMG,,,Village Hall,,,,Village Hall,,Mill Road,,,,opp,,NW,E0048486,Salhouse,,,,,,,0,UKOS,630661,314170,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-05-26T16:09:00,3,revise,active
-2900S0210,NFODPWMD,,,Village Hall,,,,Village Hall,,Mill Road,,,,adj,,SE,E0048486,Salhouse,,,,,,,0,UKOS,630671,314167,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-05-26T16:07:40,2,revise,active
-2900S029,NFODPWTA,,,Mill Road,,,,Mill Road,,Norwich Road,,,,adj,,NE,E0048486,Salhouse,,,,,,,0,UKOS,630809,314060,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-17T00:00:00,2,revise,active
-2900S028,NFODPWPW,,,Mill Road,,,,Honeycombe Road,,Norwich Road,,,,opp,,SW,E0048486,Salhouse,,,,,,,0,UKOS,630815,314052,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T14:23:12,6,revise,active
+2900S021,NFODPWMA,,,The Stag PH,,,,,,Lower Street,,,,adj,,E,E0048486,Salhouse,,,,,,,0,UKOS,630651,314306,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T10:36:03,5,revise,active
+2900S0211,NFODPWMG,,,Mill Close,,,,,,Mill Road,,,,adj,,NW,E0048486,Salhouse,,,,,,,0,UKOS,630661,314170,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-30T00:00:00,6,revise,inactive
+2900S0210,NFODPWMD,,,Mill Close,,,,,,Mill Road,,,,opp,,SE,E0048486,Salhouse,,,,,,,0,UKOS,630671,314167,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-30T00:00:00,5,revise,inactive
+2900S029,NFODPWTA,,,Mill Road,,,,Mill Road,,Norwich Road,,,,adj,,NE,E0048486,Salhouse,,,,,,,0,UKOS,630809,314060,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T16:21:59,3,revise,active
+2900S028,NFODPWPW,,,Mill Road,,,,Honeycombe Road,,Norwich Road,,,,opp,,SW,E0048486,Salhouse,,,,,,,0,UKOS,630815,314052,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T16:22:25,7,revise,active
 2900S0219,NFOGPWJA,,,No. 82,,,,,,Norwich Road,,,,o/s,,NE,E0048486,Salhouse,,,,,,,0,UKOS,629612,313445,,,BCT,MKD,OTH,,,,091,2009-06-26T15:00:33,2024-06-18T12:07:48,2,revise,active
 2900S027,NFODPWPT,,,No. 85,,,,,,Norwich Road,,,,o/s,,SW,E0048486,Salhouse,,,,,,,0,UKOS,629679,313486,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-06-18T12:07:11,5,revise,active
-2900S023,NFODPWPD,,,Station Road,,,,Station Road,,Norwich Road,,,,adj,,NE,E0048486,Salhouse,,,,,,,0,UKOS,629718,313530,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-10-19T09:30:20,6,revise,active
+2900S023,NFODPWPD,,,Station Road,,,,Station Road,,Norwich Road,,,,adj,,NE,E0048486,Salhouse,,,,,,,0,UKOS,629718,313530,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T00:00:00,8,revise,inactive
 2900SALHOUS0,,,,Salhouse Rail Station,,,,,,Station Approach,,,,entrance,,,E0048486,Salhouse,,,,,,,0,UKOS,629366,314056,,,RSE,,,,,,091,2009-09-28T15:00:26,2014-09-18T00:00:00,5,revise,active
 2900SALHSE0,,,,Salhouse Rail Station,,,,,,Station Approach,,,,entrance,,,E0048486,Salhouse,,,,,,,0,UKOS,629366,314056,,,RSE,,,,,,091,2009-03-19T12:25:19,2009-09-28T15:01:25,1,revise,inactive
 2900S024,NFODPWPG,,,Norwich Road,,,,,,Thieves Lane,,,,opp,,SE,E0048486,Salhouse,,,,,,,0,UKOS,631238,314167,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T11:42:49,6,revise,active
-2900S026,NFODPWPM,,,Ward Road,,,,,,Thieves Lane,,,,opp,,NW,E0048486,Salhouse,,,,,,,0,UKOS,631035,314436,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T11:43:09,5,revise,active
-2900S0216,NFODPWPA,,,Ward Road,,,,,,Thieves Lane,,,,adj,,SE,E0048486,Salhouse,,,,,,,0,UKOS,631041,314460,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:51,2009-06-23T11:43:23,3,revise,active
+2900S026,NFODPWPM,,,Ward Road,,,,,,Thieves Lane,,,,opp,,NW,E0048486,Salhouse,,,,,,,0,UKOS,631020,314465,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T16:26:48,7,revise,active
+2900S0216,NFODPWPA,,,Ward Road,,,,,,Thieves Lane,,,,adj,,SE,E0048486,Salhouse,,,,,,,0,UKOS,631041,314460,,,BCT,MKD,OTH,,,,091,2006-04-27T10:03:51,2024-09-27T10:35:03,4,revise,active
 2900S02112,NFOGWDTP,,,Norwich Road,,,,,,Norwich Road,,,,opp No 26,,SW,E0048486,Salhouse,,,,,,,0,UKOS,630118,313730,,,BCT,MKD,OTH,,,,091,2021-08-10T09:16:33,2021-08-10T09:16:33,0,new,active
 2900S02111,NFOGWDTM,,,Norwich Road,,,,,,Norwich Road,,,,os No 26,,NE,E0048486,Salhouse,,,,,,,0,UKOS,630113,313734,,,BCT,MKD,OTH,,,,091,2021-08-10T09:13:38,2021-08-10T09:13:38,0,new,active
 2900GSALHSE0,,,,Salhouse Rail Station,,,,,,Station Approach,,,,entrance,,,E0048486,Salhouse,,,,,,,0,UKOS,629366,314056,,,RSE,,,,,,091,2009-01-15T13:04:56,2009-03-19T10:58:36,2,revise,inactive
@@ -5135,7 +5137,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S0718,NFODTAPW,,,Redfern Close,,,,Redfern Close,,Brooks Drive,,,,opp,,NE,E0048406,Scarning,Dereham,,,,,,0,UKOS,597886,312877,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:49,2014-08-13T15:11:53,3,revise,active
 2900S07181,NFOGPGJP,,,Redfern Close,,,,Redfern Close,,Brooks Drive,,,,adj,,SW,E0048406,Scarning,Dereham,,,,,,0,UKOS,597914,312907,,,BCT,MKD,OTH,,,,091,2008-01-22T11:04:15,2009-05-28T16:37:02,3,revise,active
 2900S0712,NFODTAPA,,,Arch Terrace,,,,,,Dereham Road,,,,adj,,SW,E0048406,Scarning,Dereham,,,,,,0,UKOS,596332,312486,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T16:32:32,3,revise,active
-2900S075,NFODTATG,,,Church,,,,,,Dereham Road,,,,adj,,E,E0048406,Scarning,Dereham,,,,,,0,UKOS,595518,312182,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T16:31:32,3,revise,active
+2900S075,NFODTATG,,,Church,,,,,,Dereham Road,,,,adj,,E,E0048406,Scarning,Dereham,,,,,,0,UKOS,595574,312188,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:28:23,4,revise,active
 2900S072,NFODTATA,,,Chestnut Road,,,,,,Dereham Road,,,,adj,,SW,E0048406,Scarning,Dereham,,,,,,0,UKOS,598156,313181,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T16:38:11,3,revise,active
 2900S0715,NFODTAPJ,,,School,,,,,,Dereham Road,,,,adj,,NE,E0048406,Scarning,Dereham,,,,,,0,UKOS,597541,312974,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T16:33:47,3,revise,active
 2900S0710,NFODTAMT,,,Arch Terrace,,,,,,Dereham Road,,,,opp,,NE,E0048406,Scarning,Dereham,,,,,,0,UKOS,596327,312498,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T16:32:06,4,revise,active
@@ -5287,7 +5289,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S1812,NFODTGAW,,,Pound Green Lane,,,,,,Chapel Street,,,,adj,,SW,E0048408,Shipdham,,,,,,,0,UKOS,596389,307622,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-01-30T14:46:09,5,revise,active
 2900S1810,NFODTGAP,,,Eastgate,,,,Eastgate,,Dereham Road,,,,adj,,SW,E0048408,Shipdham,,,,,,,0,UKOS,596894,308002,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-02-12T15:06:49,3,revise,active
 2900S1814,NFODTGDG,,,King Row Post Box,,,,King Row,,Dereham Road,,,,adj,,SW,E0048408,Shipdham,,,,,,,0,UKOS,593776,305191,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-01T09:52:35,2,revise,active
-2900S189,NFODTGMD,,,Eastgate,,,,Eastgate,,Dereham Road,,,,opp,,NE,E0048408,Shipdham,,,,,,,0,UKOS,596925,308038,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-02-12T15:04:27,3,revise,active
+2900S189,NFODTGMD,,,Eastgate,,,,Eastgate,,Dereham Road,,,,opp,,NE,E0048408,Shipdham,,,,,,,0,UKOS,596925,308038,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-10-01T13:27:45,4,revise,active
 2900S1815,NFODTGDJ,,,King Row Post Box,,,,King Row Post Box,,Dereham Road,,,,opp,,NE,E0048408,Shipdham,,,,,,,0,UKOS,593765,305194,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-01T09:54:16,3,revise,active
 2900S1816,NFODTGDM,,,Kings Head,,,,Kings Head Public House,,Market Street,,,,adj,,SW,E0048408,Shipdham,,,,,,,0,UKOS,596804,307933,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-06-15T14:58:39,6,revise,active
 2900S1823,NFODTGJP,,,Swan Lane,,,,Swan Lane,,Market Street,,,,opp,,SW,E0048408,Shipdham,,,,,,,0,UKOS,596600,307774,,,BCT,CUS,OTH,,,,091,2006-04-27T10:03:53,2009-06-01T10:05:04,3,revise,active
@@ -5301,7 +5303,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S193,NFODTGMJ,,,All Saints Church,,,,,,The Street,,,,adj,,W,E0048834,Shotesham,,,,,,,0,UKOS,624724,299089,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-24T09:48:44,3,revise,active
 2900S196,NFODTGMW,,,Chapel Lane,,,,,,The Street,,,,adj,,SE,E0048834,Shotesham,,,,,,,0,UKOS,625000,299009,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-24T09:47:19,3,revise,active
 2900S198,NFODTGPD,,,Hollow Lane,,,,Hollow Lane,,The Street,,,,adj,,NW,E0048834,Shotesham,,,,,,,0,UKOS,624416,299491,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-30T11:19:50,6,revise,active
-2900S195,NFODTGMT,,,All Saints Church,,,,,,The Street,,,,opp,,E,E0048834,Shotesham,,,,,,,0,UKOS,624675,299106,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-24T09:48:22,3,revise,active
+2900S195,NFODTGMT,,,All Saints Church,,,,,,The Street,,,,opp,,E,E0048834,Shotesham,,,,,,,0,UKOS,624629,299104,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:24:06,4,revise,active
 2900S197,NFODTGPA,,,Chapel Lane,,,,,,The Street,,,,opp,,NW,E0048834,Shotesham,,,,,,,0,UKOS,625020,298991,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-24T09:47:38,3,revise,active
 2900S199,NFODTGPG,,,Hollow Lane,,,,Hollow Lane,,The Street,,,,opp,,SE,E0048834,Shotesham,,,,,,,0,UKOS,624423,299494,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-30T11:21:05,4,revise,active
 2900S202,NFODTGPM,,,Old School,,,,Old School,,Eastgate Street,,,,adj,,NE,E0048588,Shouldham,,,,,,,0,UKOS,567828,308937,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-01T11:27:44,2,revise,active
@@ -5371,7 +5373,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S279,NFODTJMW,,,Crown,,,,public house,,Yarmouth Road,,,,opp,,NW,E0048712,Smallburgh,,,,,,,0,UKOS,633147,324525,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-03-24T00:00:00,2,revise,active
 2900S79,NFOGMPTD,,,The Street,,,,,,Yarmouth Road,,,,opp,,NW,E0048646,Dilham,,,,,,,0,UKOS,632931,324842,,,BCT,MKD,OTH,,,,091,2006-04-28T08:36:47,2020-01-29T15:39:52,4,revise,active
 2900S80,NFOGMPTG,,,The Street,,,,,,Yarmouth Road,,,,adj,,SE,E0048646,Dilham,,,,,,,0,UKOS,633023,324795,,,BCT,MKD,OTH,,,,091,2006-04-28T08:44:02,2020-01-29T15:38:57,5,revise,active
-2900S2710,NFODTJMA,,,Low Street,,,,,,Norwich Road,,,,adj,,SW,E0048712,Smallburgh,,,,,,,0,UKOS,634618,324090,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-06-25T12:38:28,4,revise,active
+2900S2710,NFODTJMA,,,Low Street,,,,,,Norwich Road,,,,adj,,SW,E0048712,Smallburgh,,,,,,,0,UKOS,634618,324090,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-10-01T13:20:36,5,revise,active
 2900S274,NFODTJMG,,,Crown,,,,public house,,Yarmouth Road,,,,adj,,SE,E0048712,Smallburgh,,,,,,,0,UKOS,633144,324540,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-03-24T00:00:00,2,revise,active
 2900S276,NFODTJMJ,,,opp Low Street,,,,,,Norwich Road,,,,opp,,NE,E0048712,Smallburgh,,,,,,,0,UKOS,634623,324073,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-06-25T12:39:41,6,revise,active
 2900S284,NFODTJPD,,,Bus Shelter,,,,Four Winds,,Sallow Lane,,,,adj,,NE,E0048410,Snetterton,,,,,,,0,UKOS,599835,292055,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-06-10T09:53:45,3,revise,active
@@ -5644,7 +5646,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S3917,NFODTWAW,,,St Johns Road,,,,Saint Johns Road,,Brumstead Road,,,,opp,,SE,E0048714,Stalham,,,,,,,0,UKOS,637048,325543,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,5,revise,inactive
 2900S3911,NFODTWAD,,,St Johns Road,,,,Ivy Cottage,,Brumstead Road,,,,adj,,NW,E0048714,Stalham,,,,,,,0,UKOS,637049,325517,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,4,revise,inactive
 2900S3912,NFODTWAG,,,Saint Benets Road,,,,Saint Benets Road,,Campingfield Lane,,,,adj,,SW,E0048714,Stalham,,,,,,,0,UKOS,637466,325552,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,4,revise,inactive
-2900S3919,NFODTWDG,,,Radio Shop,,,,Radio Shop,,High Street,,,,adj,,NW,E0048714,Stalham,,,,,,,1,UKOS,637389,325088,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-05-22T09:02:09,2,revise,active
+2900S3919,NFODTWDG,,,Baptist Church,,,,,,High Street,,,,adj,,NW,E0048714,Stalham,,,,,,,1,UKOS,637389,325088,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T11:03:09,3,revise,active
 2900S3920,NFODTWDM,,,Garage,,,,Garage,,Ingham Road,,,,adj,,N,E0048714,Stalham,,,,,,,0,UKOS,637427,325105,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-05-22T09:03:41,2,revise,active
 2900S3916,NFODTWAP,,,Millside,,,,Millside,,Yarmouth Road,,,,opp,,SE,E0048714,Stalham,,,,,,,0,UKOS,637487,325056,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2019-12-18T12:56:08,3,revise,active
 2900S391,NFODTPWT,,,Old Railway Station,,,,post office,,High Street,,,,opp,,W,E0048714,Stalham,,,,,,,0,UKOS,636917,325227,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-05-22T09:14:41,6,revise,active
@@ -5762,12 +5764,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S605,NFODWDMP,,,Council Houses,,,,Lonicera,,Metton Road,,,,opp,,SW,E0048719,Sustead,,,,,,,0,UKOS,619134,336962,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2012-07-27T11:36:31,5,revise,active
 2900S0591,NFOGTADA,,,Church,,,,Church,,Chepore Lane,,,,adj,,NE,E0048862,Wymondham,,,,,,,0,UKOS,609308,298612,,,BCT,CUS,OTH,,,,091,2006-03-21T12:16:17,2014-08-20T00:00:00,5,revise,inactive
 2900S060,NFOGTADG,,,Church,,,,Church,,Chepore Lane,,,,opp,,SW,E0048862,Wymondham,,,,,,,0,UKOS,609315,298603,,,BCT,CUS,OTH,,,,091,2006-03-21T12:00:46,2014-08-20T00:00:00,5,revise,inactive
-2900S611,NFODWDMW,,,Elmhurst Avenue,,,,Elmhurst Avenue,,Old Yarmouth Road,,,,adj,,S,E0048720,Sutton,,,,,,,0,UKOS,638559,323727,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,5,revise,active
+2900S611,NFODWDMW,,,Elmhurst Avenue,,,,Elmhurst Avenue,,Old Yarmouth Road,,,,adj,,S,E0048720,Sutton,,,,,,,0,UKOS,638559,323727,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T10:54:14,6,revise,active
 2900S617,NFODWDPJ,,,Moor Road,,,,Moor Road,,Old Yarmouth Road,,,,adj,,NW,E0048720,Sutton,,,,,,,0,UKOS,638355,324143,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,2,revise,active
-2900S612,NFODWDPA,,,Neville Road,,,,Neville Road,,Old Yarmouth Road,,,,adj,,NW,E0048720,Sutton,,,,,,,0,UKOS,638291,324274,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-12-18T12:59:47,3,revise,active
+2900S612,NFODWDPA,,,Neville Road,,,,Neville Road,,Old Yarmouth Road,,,,adj,,NW,E0048720,Sutton,,,,,,,0,UKOS,638291,324274,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T10:54:39,4,revise,active
 2900S616,NFODWDPG,,,Elmhurst Avenue,,,,Elmhurst Avenue,,Old Yarmouth Road,,,,opp,,N,E0048720,Sutton,,,,,,,0,UKOS,638544,323749,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,3,revise,active
 2900S618,NFODWDPM,,,Moor Road,,,,Moor Road,,Old Yarmouth Road,,,,opp,,SE,E0048720,Sutton,,,,,,,0,UKOS,638363,324145,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,2,revise,active
-2900S613,NFODWDPD,,,Neville Road,,,,Neville Road,,Old Yarmouth Road,,,,opp,,SE,E0048720,Sutton,,,,,,,0,UKOS,638314,324237,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,3,revise,active
+2900S613,NFODWDPD,,,Neville Road,,,,Neville Road,,Old Yarmouth Road,,,,opp,,SE,E0048720,Sutton,,,,,,,0,UKOS,638314,324237,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-27T10:56:53,4,revise,active
 2900S7135,NFODWJMW,,,Campingland Surgery,,,,Camping Land Doctors Surgery,,Beech Close,,,,adj,,N,E0048420,Swaffham,,,,,,,0,UKOS,582163,308745,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,4,revise,inactive
 2900S7111,NFODWJAW,,,Filby Road,,Brandon Road,,Filby Road,,Brandon Road,,,,adj,,N,E0048420,Swaffham,,,,,,,0,UKOS,582079,307588,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,2,revise,active
 2900S7126,NFODWJGM,,,Filby Road,,,,Filby Road,,Brandon Road,,,,opp,,S,E0048420,Swaffham,,,,,,,0,UKOS,582090,307586,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-04-16T00:00:00,2,revise,active
@@ -5867,11 +5869,11 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900T016,NFODWJPT,,,First School,,,,First School,,Norwich Road,,,,opp,,N,E0048842,Tacolneston,,,,,,,0,UKOS,614249,295059,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-29T15:26:41,2,revise,active
 2900T017,NFOGMGJT,,,The Pelican,,,,Pelican Public House,,Norwich Road,,,,opp,,NE,E0048842,Tacolneston,,,,,,,0,UKOS,614321,295201,,,BCT,MKD,TIP,,,,091,2004-06-11T10:11:32,2009-06-29T15:28:50,2,revise,active
 2900T018,NFOGMGJW,,,The Pelican,,,,Pelican Public House,,Norwich Road,,,,adj,,SW,E0048842,Tacolneston,,,,,,,0,UKOS,614329,295195,,,BCT,CUS,TIP,,,,091,2004-06-11T10:15:36,2009-06-29T15:24:32,2,revise,active
-2900T029,NFODWJWG,,,Valley Road,,,,Valley Road,,Church Road,,,,adj,,SE,E0048843,Lower Tasburgh,,,,,,,0,UKOS,620369,295822,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2020-10-07T12:03:50,5,revise,active
+2900T029,NFODWJWG,,,Valley Road,,,,Valley Road,,Church Road,,,,opp,,NW,E0048843,Lower Tasburgh,,,,,,,0,UKOS,620493,295716,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T15:06:45,8,revise,active
 2900T030,NFOGPAMD,,,High Road Farm,,,,High Road Farm,,Ipswich Road,,,,adj,,N,E0048843,Lower Tasburgh,,,,,,,0,UKOS,620981,296304,,,BCT,MKD,OTH,,,,091,2006-12-28T08:27:47,2023-12-20T15:22:39,6,revise,active
 2900T031,NFOGPAMG,,,High Road Farm,,,,,,Ipswich Road,,,,opp,,SW,N0060677,Upper Tasburgh,,,,,,,0,UKOS,620980,296276,,,BCT,CUS,OTH,,,,091,2006-12-28T08:32:43,2023-12-20T15:25:18,3,revise,active
 2900T0210,NFODWJTA,,,Church Road,,,,,,Valley Road,,,,adj,,NE,N0060677,Upper Tasburgh,,,,,,,0,UKOS,620458,295711,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-02-01T11:53:06,7,revise,active
-2900T0211,NFODWJTD,,,Church Road,,Church Road,,Post Office,,Church Road,,,,opp,,SE,N0060677,Upper Tasburgh,,,,,,,0,UKOS,620490,295721,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
+2900T0211,NFODWJTD,,,Church Road,,Church Road,,,,Church Road,,,,o/s,,SE,N0060677,Upper Tasburgh,,,,,,,0,UKOS,620598,295657,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T15:19:05,3,revise,active
 2900T0312,NFODWJWJ,,,Village Sign,,,,No12,,The Street,,,,opp,,SE,E0048724,Tattersett,,,,,,,0,UKOS,584288,330145,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,8,revise,inactive
 2900T032,NFODWMAJ,,,Village Sign,,,,No12,,The Street,,,,adj,,NW,E0048724,Tattersett,,,,,,,0,UKOS,584279,330139,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2014-08-20T00:00:00,6,revise,inactive
 2900T034,NFODWMAT,,,Crossroads,,,,,,Fakenham Road,,,,NE-bound,,NE,E0048724,Tattersett,,,,,,,0,UKOS,584745,329608,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-10T10:45:54,4,revise,active
@@ -6362,7 +6364,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900D1534,NFOAMPJA,,,Middlemarch Road,,Middlemarch Road,,Farebrother Way,,Middlemarch Road,,,,adj,,SE,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598390,312169,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-01-22T09:01:03,2,revise,inactive
 2900D1513,NFOAMPDG,,,Boyd Avenue,,,,,,School Lane,,,,adj,,W,E0017679,Toftwood,Dereham,,,,,,0,UKOS,599099,311277,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2011-06-28T14:41:33,6,revise,active
 2900D1520,NFOAMPDT,,,Millwrights,,,,Millwrights Public House,,Shipdham Road,,,,adj,,NE,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598982,311430,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-06-15T15:08:26,4,revise,active
-2900D1543,NFOAMPMG,,,Millwrights,,,,Millwrights,,Shipdham Road,,,,opp,,SW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,599003,311474,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-08-07T11:57:31,7,revise,active
+2900D1543,NFOAMPMG,,,Millwrights,,,,Millwrights,,Shipdham Road,,,,opp,,SW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598998,311459,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:16:33,8,revise,active
 2900D15109,NFOAMPAW,,,Fen View,,Fen View,,Fen View,,Stone Road,,,,opp,,SW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598449,311663,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-01-22T08:56:02,2,revise,inactive
 2900D15105,NFOAMPAJ,,,Orchid Avenue,,Orchid Avenue,,Orchid Avenue,,Stone Road,,,,opp,,NW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,598706,311437,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-01-22T08:48:41,2,revise,inactive
 2900D1551,NFOAMPTJ,,,Neville Close,,Neville Close,,Neville Close,,Westfield Lane,,,,opp,,SW,E0017679,Toftwood,Dereham,,,,,,0,UKOS,599497,311335,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-01-22T09:31:29,2,revise,inactive
@@ -6597,7 +6599,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900W1227,NFOGDGWT,,,Portal Avenue,,,,,,Norwich Road,,,,adj,,W,E0048427,Watton,,,,,,,0,UKOS,593345,300789,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-12-19T10:32:55,3,revise,active
 2900W1232,NFOGDJAP,,,Regal Court,,,,,,Norwich Road,,,,adj,,NW,E0048427,Watton,,,,,,,0,UKOS,591986,300721,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T11:32:07,4,revise,active
 2900W1223,NFOGDGWG,,,Salmond Road,,,,,,Norwich Road,,,,adj,,E,E0048427,Watton,,,,,,,0,UKOS,594059,300827,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2009-06-23T11:36:47,2,revise,active
-2900W1255,NFOGWGTD,,,Cranwick Food Factory,,,,,,grounds,,,,os,,N,E0048427,Watton,,,,,,,0,UKOS,590211,300610,,,BCT,CUS,OTH,,,,091,2022-04-01T12:18:54,2022-04-01T12:18:54,0,new,active
+2900W1255,NFOGWGTD,,,Cranwick Food Factory,,,,,,grounds,,,,os,,N,E0048427,Watton,,,,,,,0,UKOS,590182,300644,,,BCT,CUS,OTH,,,,091,2022-04-01T12:18:54,2024-09-26T13:17:33,1,revise,active
 2900W1215,NFOGDGTD,,,East Road,,East Road,,Orchard Close,,East Road,,,,opp,,NW,E0048427,Watton,,,,,,,0,UKOS,591444,300650,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,,1,revise,active
 2900W1226,NFOGDGWP,,,Camp Main Gate,,,,,,Norwich Road,,,,adj,,W,E0048427,Watton,,,,,,,0,UKOS,593638,300801,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-12-19T10:27:19,3,revise,active
 2900W1225,NFOGDGWM,,,Camp Main Gate,,,,,,Norwich Road,,,,opp,,E,E0048427,Watton,,,,,,,0,UKOS,593610,300812,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-12-19T10:26:21,3,revise,active
@@ -6722,8 +6724,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900S0601,NFOGTGDP,,,Caravan Site,,,,,,B1439,,,,adj,,NE,E0017997,West Newton,,,,,,,0,UKOS,568258,326813,,,BCT,CUS,OTH,,,,091,2011-05-19T09:38:27,2011-05-19T09:38:27,0,new,active
 2900S0604,NFOGTGJA,,,Victoria Cottages,,,,,,B1439,,,,adj,,SW,E0017997,West Newton,,,,,,,0,UKOS,569511,327312,,,BCT,CUS,OTH,,,,091,2011-05-19T09:54:20,2011-05-19T09:54:20,0,new,active
 2900S0602,NFOGTGDT,,,Caravan Site,,,,,,B1439,,,,opp,,SW,E0017997,West Newton,,,,,,,0,UKOS,568275,326793,,,BCT,CUS,OTH,,,,091,2011-05-19T09:41:12,2011-05-23T12:29:23,1,revise,active
-2900S053,NFODTAGM,,,Stores,,,,,,B1439,,,,adj,,NE,E0017997,West Newton,,,,,,,0,UKOS,569683,327603,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-05-19T10:00:38,3,revise,active
 2900S059,NFODTAJA,,,Stores,,,,,,B1439,,,,opp,,SW,E0017997,West Newton,,,,,,,0,UKOS,569701,327609,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-05-23T13:22:42,4,revise,active
+2900S053,NFODTAGM,,,Stores,,,,,,B1439,,,,adj,,NE,E0017997,West Newton,,,,,,,0,UKOS,569683,327603,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-05-19T10:00:38,3,revise,active
 2900S0603,NFOGTGDW,,,Victoria Cottages,,,,,,B1439,,,,opp,,NE,E0017997,West Newton,,,,,,,0,UKOS,569503,327333,,,BCT,CUS,OTH,,,,091,2011-05-19T09:51:19,2011-05-19T09:51:19,0,new,active
 2900R039,NFODPGPW,,,Church,,,,,,The Street,,,,adj,,SE,E0018172,West Raynham,,,,,,,0,UKOS,587287,325311,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-03T11:36:24,2,revise,active
 2900R032,NFODPGPG,,,Church,,,,,,The Street,,,,opp,,NW,E0018172,West Raynham,,,,,,,0,UKOS,587275,325316,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2019-06-03T11:35:54,2,revise,active
@@ -7221,7 +7223,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2900Y019,NFOGPDJD,,,Station Road,,,,,,Dereham Road,,,,adj,,NW,E0048436,Yaxham,,,,,,,0,UKOS,600440,310599,,,BCT,MKD,OTH,,,,091,2007-02-19T09:08:09,2011-07-21T13:39:41,2,revise,active
 2900Y011,NFOGJMPT,,,Bus Shelter,,,,The Rosary,,Norwich Road,,,,adj,,W,E0048436,Yaxham,,,,,,,0,UKOS,600626,310564,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-06T00:00:00,2,revise,active
 2900Y017,NFOGJMTJ,,,Elm Close,,,,Elm Close,,Norwich Road,,,,adj,,NW,E0048436,Yaxham,,,,,,,0,UKOS,600865,310511,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2009-04-06T00:00:00,3,revise,active
-2900Y014,NFOGJMTA,,,Bus Shelter,,,,The Rosary,,Norwich Road,,,,opp,,E,E0048436,Yaxham,,,,,,,0,UKOS,600613,310579,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2011-07-13T12:33:10,3,revise,active
+2900Y014,NFOGJMTA,,,Bus Shelter,,,,The Rosary,,Norwich Road,,,,opp,,E,E0048436,Yaxham,,,,,,,0,UKOS,600627,310583,,,BCT,CUS,OTH,,,,091,2003-02-22T14:04:04,2024-09-26T13:06:14,4,revise,active
 2900Y016,NFOGJMTG,,,Elm Close,,,,St. Peters Close,,Norwich Road,,,,opp,,E,E0048436,Yaxham,,,,,,,0,UKOS,600906,310518,,,BCT,MKD,OTH,,,,091,2003-02-22T14:04:04,2014-08-13T15:39:50,5,revise,active
 2900Y0162,NFOGWMAP,,,Mill Lane,,,,,,Norwich Road,,,,opp,,W,E0048436,Yaxham,,,,,,,0,UKOS,601294,310498,,,BCT,MKD,OTH,,,,091,2023-09-05T14:35:00,2023-09-05T14:35:00,0,new,active
 2900Y0161,NFOGWMAM,,,Mill Lane,,,,,,Norwich Road,,,,adj,,E,E0048436,Yaxham,,,,,,,0,UKOS,601302,310506,,,BCT,MKD,OTH,,,,091,2023-09-05T14:33:16,2023-09-05T14:33:16,0,new,active
