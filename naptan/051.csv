@@ -1727,6 +1727,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 017000175,sgltgdt,,,Jenner Boulevard,,,,,,Jenner Boulevard,,,,E-bound,,E,E0041809,Emersons Green,,,,,,,false,UKOS,366939,178170,-2.47769,51.50149,BCT,MKD,OTH,,,,051,2024-05-29T00:00:00,2024-06-06T12:59:44,90,new,active
 017000176,sgltgja,,,SGS Horizon,,,,,,Bolingbroke Way,,,,E-bound,,E,E0053705,Filton,,,,,,,false,UKOS,360813,180281,-2.56618,51.52008,BCT,MKD,OTH,,,,051,2024-08-14T00:00:00,2024-09-09T09:55:37,64,new,active
 017000177,sgltgjd,,,Watson's Road,,,,,,Bath Road,,,,NW-Bound,,NW,E0041864,Longwell Green,,,,,,,false,UKOS,365711,171176,-2.4947,51.43853,BCT,MKD,OTH,,,,051,2024-08-14T00:00:00,2024-08-14T12:24:28,72,new,active
+017000178,sgltgjg,,,Cavendish Way,,,,,,Cribbs Causeway,,,,NE-bound,,NE,E0041797,Cribbs Causeway,,,,,,,false,UKOS,357365,180793,-2.61593,51.52443,BCT,MKD,OTH,,,,051,2024-10-02T00:00:00,2024-10-02T15:22:14,53,new,active
 0170SGP90742,sglawam,,,Tresham Close,,,,,,Bowsland Way,,,,nr,,SE,E0053697,Bradley Stoke,,,,,,,false,UKOS,361983,182720,-2.54958,51.54209,BCT,MKD,OTH,,,,051,2005-04-19T00:00:00,2021-11-08T17:19:14,22,new,active
 0170SGP90741,sglatwt,,,Tresham Close,,,,,,Bowsland Way,,,,nr,,NW,E0053697,Bradley Stoke,,,,,,,false,UKOS,361943,182728,-2.55016,51.54216,BCT,MKD,OTH,,,,051,2005-04-19T00:00:00,2024-01-11T16:37:55,22,new,active
 0170SGP90740,sglatmj,,,Campion Drive,,,,,,Bowsland Way,,,,E-bound,,E,E0053697,Bradley Stoke,,,,,,,false,UKOS,361776,182802,-2.55257,51.54281,BCT,MKD,OTH,,,,051,2005-04-19T00:00:00,2024-01-11T16:38:12,4,new,active

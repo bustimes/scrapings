@@ -802,7 +802,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0190NSC30673,wsmgmjw,,,Whitesfield Road,,,,,,,,,,E-bound,,E,E0053579,Nailsea,,,,,,,false,UKOS,346685,170167,-2.76825,51.42799,BCT,MKD,OTH,,,,038,2006-02-01T00:00:00,2019-08-01T09:12:09,23,new,active
 0190NSC30678,wsmgjpd,,,The Maples,,,,,,Hannah More Road,,,,N-bound,,N,E0053579,Nailsea,,,,,,,false,UKOS,346155,170009,-2.77585,51.42652,BCT,MKD,OTH,,,,038,2003-06-12T00:00:00,2019-07-17T11:55:14,10,new,active
 0190NSC30677,wsmgjpg,,,The Maples,,,,,,,,,,S-bound,,S,E0053579,Nailsea,,,,,,,false,UKOS,346160,170064,-2.77579,51.42701,BCT,MKD,OTH,,,,038,2003-06-12T00:00:00,2019-07-17T11:55:24,17,new,active
-0190NSC30676,wsmgjpt,,,Hannah Moore Road,,,,,,Queens Road,,,,NW-bound,,NW,E0053579,Nailsea,,,,,,,false,UKOS,346168,170257,-2.7757,51.42875,BCT,MKD,OTH,,,,038,2006-02-01T00:00:00,2019-07-17T11:46:25,10,new,active
+0190NSC30676,wsmgjpt,,,Hannah More Road,,,,,,Queens Road,,,,NW-bound,,NW,E0053579,Nailsea,,,,,,,false,UKOS,346168,170257,-2.7757,51.42875,BCT,MKD,OTH,,,,038,2006-02-01T00:00:00,2024-10-08T14:52:41,45,new,active
 0190NSC30675,wsmgjtj,,,Union Street,,,,,,,,,,SE-bound,,SE,E0053579,Nailsea,,,,,,,false,UKOS,346248,170235,-2.77455,51.42856,BCT,MKD,OTH,,,,038,2006-02-01T00:00:00,2019-07-17T15:03:33,17,new,active
 0190NSC30674,wsmgmga,,,Trinity Road,,,,,,Queens Road,,,,W-bound,,W,E0053579,Nailsea,,,,,,,false,UKOS,346520,170159,-2.77062,51.4279,BCT,MKD,OTH,,,,038,2006-02-01T00:00:00,2019-07-17T15:02:11,12,new,active
 0190NSA01287,wsmjtga,,,Secondary School,,,,,,Mizzymead Road,,,,N-bound,,N,E0053579,Nailsea,,,,,,,false,UKOS,347381,170541,-2.7583,51.43142,BCT,MKD,OTH,,,,038,2008-09-04T00:00:00,2016-10-31T13:41:14,4,new,active
