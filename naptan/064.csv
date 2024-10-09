@@ -1051,8 +1051,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 030059400002,,,,Garrison Meadows,,,,,,,,,,,,,N0060328,Donnington,Newbury,,,,,,false,UKOS,447068,168926,-1.32454,51.4174,BCT,HAR,OTH,,,,064,2024-07-30T00:00:00,2024-07-30T19:25:09,51,new,active
 030059410001,,,,Bastion Street,,,,,,,,,,,,,N0060328,Donnington,Newbury,,,,,,false,UKOS,447014,168832,-1.32533,51.41656,BCT,HAR,OTH,,,,064,2024-07-30T00:00:00,2024-07-30T19:44:37,45,new,active
 030059410002,,,,Bastion Street,,,,,,,,,,,,,N0060328,Donnington,Newbury,,,,,,false,UKOS,447004,168832,-1.32547,51.41656,BCT,HAR,OTH,,,,064,2024-07-30T00:00:00,2024-07-30T19:38:06,38,new,active
-030059420001,,,,Bradley Wood,,,,,,,,,,adj,,N,E0043218,Westbrook,,,,,,,false,UKOS,443462,173976,-1.37577,51.4631,BCT,CUS,OTH,,,,064,2024-07-26T00:00:00,2024-07-26T16:22:47,47,new,active
-030059420002,,,,Bradley Wood,,,,,,,,,,Opposite,,S,E0043218,Westbrook,,,,,,,false,UKOS,443469,173977,-1.37567,51.4631,BCT,CUS,OTH,,,,064,2024-10-01T00:00:00,2024-10-01T20:08:17,40,new,active
+030059420001,brktamj,,,Bradley Wood,,,,,,Hangman's Stone Lane,,,,adj,,N,E0043218,Westbrook,,,,,,,false,UKOS,443462,173976,-1.37577,51.4631,BCT,CUS,OTH,,,,064,2024-07-26T00:00:00,2024-10-08T12:29:24,69,new,active
+030059420002,brktamp,,,Bradley Wood,,,,,,,,,,Opposite,,S,E0043218,Westbrook,,,,,,,false,UKOS,443469,173977,-1.37567,51.4631,BCT,CUS,OTH,,,,064,2024-10-01T00:00:00,2024-10-08T12:29:56,48,new,active
 0300ALDMSTN0,,,,Aldermaston Rail Station,,,,,,,,,,Entrance,,,E0053816,Aldermaston,,,,,,,false,UKOS,460140,167360,-1.13685,51.40209,RSE,,,,,,064,2020-09-14T00:00:00,2020-09-14T15:53:36,1,new,active
 0300ALDMSTN1,,,,Aldermaston Rail Station,,,,,,,,,,Entrance,,,E0053816,Aldermaston,,,,,,,false,UKOS,460134,167371,-1.13693,51.40219,RSE,,,,,,064,1970-01-01T00:00:00,2020-09-14T15:53:36,1,new,active
 0300HUNGRFD0,,,,Hungerford Rail Station,,,,,,Station Road,,,,Entrance,,,E0055204,Hungerford,,,,,,,false,UKOS,434018,168550,-1.51223,51.41495,RSE,,,,,,064,2021-10-21T00:00:00,2021-10-21T11:38:45,0,new,active
