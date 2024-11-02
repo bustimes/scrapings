@@ -18,9 +18,11 @@ form.addEventListener("submit", (event) => {
                     data[suffix][0] +
                     "-" +
                     data[suffix][1];
-                fetch("naptan.xml", {
+                results.innerText = "fetching " + range + " ...";
+                fetch("https://naptan.buses.org.uk/naptan.xml", {
                     headers: {
                         Range: range,
+                        "Accept-Encoding": "identity",
                     },
                 }).then((response) => {
                     if (response.status === 206) {
@@ -35,6 +37,8 @@ form.addEventListener("submit", (event) => {
                         results.innerText = "hmm, response status: " + response.status;
                     }
                 });
+            } else {
+                results.innerText = "hmm, can't find stop: \"" + atco_code + '"';
             }
         });
     });
