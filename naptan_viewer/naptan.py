@@ -1,18 +1,15 @@
 import requests
 from pathlib import Path
-from xml.etree.ElementTree import iterparse, tostring
+from xml.etree.ElementTree import iterparse
 import json
 from io import BytesIO
 
 
-def get_naptan_ranges() -> dict:
+def get_naptan_ranges(url, filename) -> dict:
     """
     Downloads NaPTAN XML and finds byte ranges for StopPoint and StopArea elements.
     Returns a dictionary mapping element IDs to their byte ranges in the file.
     """
-    # Download NaPTAN XML
-    url = "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=xml"
-
     response = requests.get(url, stream=True)
     print(response.headers)
 
@@ -20,7 +17,7 @@ def get_naptan_ranges() -> dict:
     xml_bytes = response.content
     xml_file = BytesIO(xml_bytes)
 
-    with Path("naptan.xml").open('wb') as f:
+    with Path(filename).open('wb') as f:
         f.write(xml_bytes)
 
     ranges = {}
@@ -64,10 +61,15 @@ def save_ranges_to_json(ranges):
             json.dump(ranges[region], f, separators=(',', ':'))
 
 
-if __name__ == '__main__':
-    ranges = get_naptan_ranges()
+def main():
+    ranges = get_naptan_ranges(url="https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=xml", filename="naptan-gb.xml")
     print(ranges.keys())
     save_ranges_to_json(ranges)
 
-    # Print some statistics
-    # print(f"Found {len(ranges)} StopPoints")
+    ranges = get_naptan_ranges(url="https://www.transportforireland.ie/transitData/Data/NaPTAN.xml", filename="naptan-ie.xml")
+    print(ranges.keys())
+    save_ranges_to_json(ranges)
+
+
+if __name__ == '__main__':
+    main()

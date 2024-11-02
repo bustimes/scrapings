@@ -1,4 +1,4 @@
 node_modules/
 naptan_viewer/ranges/
-naptan_viewer/naptan.xml
+naptan_viewer/*.xml
 .DS_Store

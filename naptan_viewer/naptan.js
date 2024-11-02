@@ -19,7 +19,15 @@ form.addEventListener("submit", (event) => {
                     "-" +
                     data[suffix][1];
                 results.innerText = "fetching " + range + " ...";
-                fetch("https://naptan.buses.org.uk/naptan.xml", {
+
+                let url;
+                if (prefix[0] === "7" || prefix[0] === "8") {
+                    url = "naptan-ie.xml";
+                } else {
+                    url = "naptan-gb.xml";
+                }
+
+                fetch(url, {
                     headers: {
                         Range: range,
                         "Accept-Encoding": "identity",
