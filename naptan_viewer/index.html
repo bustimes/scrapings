@@ -1,59 +1,61 @@
 <!doctype html>
 <html lang="en-GB">
-<head>
-<meta charset="utf-8">
-<title>NaPTAN search</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <title>NaPTAN search</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <style>
+            #results {
+                white-space: pre-wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>NaPTAN search</h1>
 
-    <h1>NaPTAN search</h1>
+        <form id="form">
+            <label>ATCO code: <input id="atco_code" value="2900A056" /></label>
+            <input type="submit" value="Search" />
+        </form>
 
-    <form id="form">
-        <label>ATCO code <input id="atco_code" value="2900A056"></label>
-    </form>
+        <code id="results"></code>
 
-    <div id="results">
+        <script>
+            const form = document.getElementById("form");
 
-    </div>
+            form.addEventListener("submit", (event) => {
+                event.preventDefault();
 
-<script>
+                const atco_code = document.getElementById("atco_code").value;
 
-    const form = document.getElementById("form");
+                const results = document.getElementById("results");
 
-    form.addEventListener("submit", (event) => {
-        event.preventDefault();
+                const prefix = atco_code.substring(0, 3);
+                const suffix = atco_code.substring(4);
 
-        const atco_code = document.getElementById("atco_code").value;
+                fetch("ranges/" + prefix + ".json").then((response) => {
+                    response.json().then((data) => {
+                        results.innerHTML = data[suffix];
 
-        const results = document.getElementById("results");
-
-        const prefix = atco_code.substring(0, 3);
-        const suffix = atco_code.substring(4);
-
-        fetch("ranges/" + prefix + ".json").then((response) => {
-            response.json().then((data) => {
-
-                results.innerHTML = data[suffix];
-
-                if (suffix in data) {
-                    const range = "bytes=" + data[suffix][0] + '-' + data[suffix][1];
-                    fetch("naptan.xml", {
-                        headers: {
-                            Range: range
+                        if (suffix in data) {
+                            const range =
+                                "bytes=" +
+                                data[suffix][0] +
+                                "-" +
+                                data[suffix][1];
+                            fetch("https://naptan.buses.org.uk/naptan.xml", {
+                                headers: {
+                                    Range: range,
+                                },
+                            }).then((response) => {
+                                response.text().then((text) => {
+                                    results.innerText = text;
+                                });
+                            });
                         }
-                    }).then((response) => {
-                        debugger;
-                        // response.json().then((text) => {
-                        //     debugger;
-                        // });
-                    } );
-                }
-
+                    });
+                });
             });
-        });
-    });
-
-</script>
-
-</body>
+        </script>
+    </body>
+</html>
