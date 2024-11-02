@@ -20,42 +20,6 @@
 
         <code id="results"></code>
 
-        <script>
-            const form = document.getElementById("form");
-
-            form.addEventListener("submit", (event) => {
-                event.preventDefault();
-
-                const atco_code = document.getElementById("atco_code").value;
-
-                const results = document.getElementById("results");
-
-                const prefix = atco_code.substring(0, 3);
-                const suffix = atco_code.substring(4);
-
-                fetch("ranges/" + prefix + ".json").then((response) => {
-                    response.json().then((data) => {
-                        results.innerHTML = data[suffix];
-
-                        if (suffix in data) {
-                            const range =
-                                "bytes=" +
-                                data[suffix][0] +
-                                "-" +
-                                data[suffix][1];
-                            fetch("https://naptan.buses.org.uk/naptan.xml", {
-                                headers: {
-                                    Range: range,
-                                },
-                            }).then((response) => {
-                                response.text().then((text) => {
-                                    results.innerText = text;
-                                });
-                            });
-                        }
-                    });
-                });
-            });
-        </script>
+        <script src="naptan.js"></script>
     </body>
 </html>
