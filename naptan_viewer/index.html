@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>NaPTAN search</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+    <h1>NaPTAN search</h1>
+
+    <form id="form">
+        <label>ATCO code <input id="atco_code" value="2900A056"></label>
+    </form>
+
+    <div id="results">
+
+    </div>
+
+<script>
+
+    const form = document.getElementById("form");
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const atco_code = document.getElementById("atco_code").value;
+
+        const results = document.getElementById("results");
+
+        const prefix = atco_code.substring(0, 3);
+        const suffix = atco_code.substring(4);
+
+        fetch("ranges/" + prefix + ".json").then((response) => {
+            response.json().then((data) => {
+
+                results.innerHTML = data[suffix];
+
+                if (suffix in data) {
+                    const range = "bytes=" + data[suffix][0] + '-' + data[suffix][1];
+                    fetch("naptan.xml", {
+                        headers: {
+                            Range: range
+                        }
+                    }).then((response) => {
+                        debugger;
+                        // response.json().then((text) => {
+                        //     debugger;
+                        // });
+                    } );
+                }
+
+            });
+        });
+    });
+
+</script>
+
+</body>
