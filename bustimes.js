@@ -1,4 +1,4 @@
-/*v12.5.18 - 30-09-24 - 13:37 GMT+1*/
+/*v12.5.19 - 06-11-24 - 12:28 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -173,8 +173,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
-        euroRate = .84,
+        usdRate = .78,
+        euroRate = .83,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -417,6 +417,12 @@ var AFM_page = new AFMpageManager;
         gamAmznID = 4776868705,
         AMfooterRiseSpeed = 500;
 
+    function ggFloorBrackets() {
+        var t = (new Date).getHours();
+        let e = 3;
+        return 0 <= t && t <= 4 ? e = 3.75 : 4 < t && t <= 11 ? e = 4 : 11 < t && t <= 16 ? e = 3 : 16 < t && t <= 18 ? e = 3.5 : 18 < t && (e = 2.5), e
+    }
+
     function AMcompileAdUnits(e) {
         var i = [];
         return adUnits.AFMforEach(function(t) {
@@ -523,7 +529,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3.5
+                    bidfloor: ggFloorBrackets()
                 }
             }, {
                 bidder: "ogury",
