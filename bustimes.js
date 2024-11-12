@@ -1,4 +1,4 @@
-/*v12.5.20 - 12-11-24 - 08:37 GMT+0*/
+/*v12.5.21 - 12-11-24 - 17:16 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -179,7 +179,7 @@ var AFM_page = new AFMpageManager;
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
         fruitlessRefreshLimit = 60,
-        globalAdRefreshLimit = 80,
+        globalAdRefreshLimit = 100,
         AMfooterOn = !0,
         lazyLoadOffset = (window.innerWidth, 700);
 
@@ -404,7 +404,7 @@ var AFM_page = new AFMpageManager;
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
-    var refreshPeriod = 3e4,
+    var refreshPeriod = 25e3,
         afm_hour = (new Date).getHours();
     0 <= afm_hour && afm_hour <= 8 ? refreshPeriod = 2e4 : 9 <= afm_hour && afm_hour <= 14 && (refreshPeriod = 25e3);
     var adUnitsToRefreshGAM = [],
