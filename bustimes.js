@@ -1,4 +1,4 @@
-/*v12.5.24 - 29-11-24 - 10:47 GMT+0*/
+/*v12.5.25 - 03-12-24 - 17:52 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -144,6 +144,12 @@ var AFM_page = new AFMpageManager;
         function() {
             var t = document.createElement("script");
             t.type = "text/javascript", t.async = !0, t.src = "https://ap.lijit.com/www/sovrn_beacon_standalone/sovrn_standalone_beacon.js?iid=13405474", t.id = "sBeacon";
+            var e = document.getElementsByTagName("head")[0];
+            e.insertBefore(t, e.firstChild)
+        }(),
+        function() {
+            var t = document.createElement("script");
+            t.type = "text/javascript", t.async = !0, t.src = "https://csync.smilewanted.com?zoneCode=adfirstmedia.com_hb_display";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }(),
@@ -404,7 +410,7 @@ var AFM_page = new AFMpageManager;
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
-    var refreshPeriod = 18e3,
+    var refreshPeriod = 19e3,
         adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
@@ -527,7 +533,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3.75
+                    bidfloor: 3.9
                 }
             }, {
                 bidder: "ogury",
