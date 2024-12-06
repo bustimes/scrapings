@@ -39,6 +39,8 @@ jobs:
           curl -s "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv" > stops.csv
           qsv partition AdministrativeAreaCode naptan stops.csv
           rm stops.csv
+          cd naptan
+          bash rename.sh
 
       - name: Commit and push
         run: |-
