@@ -1,4 +1,4 @@
-/*v12.5.25 - 03-12-24 - 17:52 GMT+0*/
+/*v12.5.26 - 03-01-25 - 10:24 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -179,7 +179,7 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .79,
+        usdRate = .81,
         euroRate = .83,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -410,7 +410,7 @@ var AFM_page = new AFMpageManager;
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
-    var refreshPeriod = 19e3,
+    var refreshPeriod = 3e4,
         adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
@@ -533,7 +533,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3.9
+                    bidfloor: 2
                 }
             }, {
                 bidder: "ogury",
