@@ -1,4 +1,4 @@
-/*v12.5.26 - 03-01-25 - 10:24 GMT+0*/
+/*v12.5.27 - 06-01-25 - 19:16 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -548,7 +548,7 @@ var AFM_page = new AFMpageManager;
                 params: {
                     pid: "Y6xAlkJvxW",
                     supplyType: "site",
-                    bidfloor: .15
+                    bidfloor: .03
                 }
             }, {
                 bidder: "unruly",
@@ -574,7 +574,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.conversant.getStatus()],
                 params: {
                     site_id: "231091",
-                    bidfloor: .15,
+                    bidfloor: .03,
                     secure: 1
                 }
             }, {
@@ -582,7 +582,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.triplelift.getStatus()],
                 params: {
                     inventoryCode: "Bustimes_HDX_Prebid",
-                    floor: .15
+                    floor: .03
                 }
             }, {
                 bidder: "medianet",
@@ -590,7 +590,7 @@ var AFM_page = new AFMpageManager;
                 params: {
                     cid: "8CUR4Y285",
                     crid: bidders.medianet.crid,
-                    floor: .1
+                    floor: .03
                 }
             }, {
                 bidder: "smartadserver",
@@ -599,7 +599,7 @@ var AFM_page = new AFMpageManager;
                     siteId: 652522,
                     pageId: 1969098,
                     formatId: 130313,
-                    bidfloor: .1
+                    bidfloor: .03
                 }
             }, {
                 bidder: "smilewanted",
@@ -671,7 +671,7 @@ var AFM_page = new AFMpageManager;
                 params: {
                     zone: "wp9kcvco",
                     slot: "989503",
-                    bidfloor: .25
+                    bidfloor: .03
                 }
             }, {
                 bidder: "richaudience",
@@ -679,7 +679,7 @@ var AFM_page = new AFMpageManager;
                 params: {
                     pid: "rK21whMWyM",
                     supplyType: "site",
-                    bidfloor: .15
+                    bidfloor: .03
                 }
             }, {
                 bidder: "unruly",
@@ -698,14 +698,14 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.rise.getStatus()],
                 params: {
                     org: "65521a2351174d0001dbbd6f",
-                    floorPrice: .15
+                    floorPrice: .03
                 }
             }, {
                 bidder: "conversant",
                 labelAll: [bidders.conversant.getStatus()],
                 params: {
                     site_id: "231091",
-                    bidfloor: .15,
+                    bidfloor: .03,
                     secure: 1
                 }
             }, {
@@ -713,7 +713,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.triplelift.getStatus()],
                 params: {
                     inventoryCode: "Bustimes_HDX_Prebid",
-                    floor: .15
+                    floor: .03
                 }
             }, {
                 bidder: "medianet",
@@ -721,7 +721,7 @@ var AFM_page = new AFMpageManager;
                 params: {
                     cid: "8CUR4Y285",
                     crid: bidders.medianet.crid,
-                    floor: .1
+                    floor: .03
                 }
             }, {
                 bidder: "smartadserver",
@@ -730,7 +730,7 @@ var AFM_page = new AFMpageManager;
                     siteId: 652522,
                     pageId: 1969099,
                     formatId: 130337,
-                    bidfloor: .1
+                    bidfloor: .03
                 }
             }, {
                 bidder: "smilewanted",
