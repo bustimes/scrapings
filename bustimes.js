@@ -1,4 +1,4 @@
-/*v12.5.27 - 06-01-25 - 19:16 GMT+0*/
+/*v12.6.0 - 28-01-25 - 11:39 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -155,7 +155,7 @@ var AFM_page = new AFMpageManager;
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_8450b_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_9280_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -179,8 +179,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .81,
-        euroRate = .83,
+        usdRate = .8,
+        euroRate = .84,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -481,6 +481,14 @@ var AFM_page = new AFMpageManager;
                     sizes: adUnits.AFM_stickyFooter_ad.getSizes()
                 }
             },
+            ortb2Imp: {
+                ext: {
+                    data: {
+                        divId: "AFM_stickyFooter_ad",
+                        placement: "AFM_stickyFooter_ad"
+                    }
+                }
+            },
             labelAll: [adUnits.AFM_stickyFooter_ad.getStatus()],
             bids: [{
                 bidder: "rubicon",
@@ -509,12 +517,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.adagio.getStatus()],
                 params: {
                     organizationId: "1254",
-                    site: "bustimes",
-                    useAdUnitCodeAsAdUnitElementId: !0,
-                    useAdUnitCodeAsPlacement: !0,
-                    environment: AFM_page.isMobile() ? "mobile" : "desktop",
-                    pagetype: AFM_page.getPageType(),
-                    category: "travel"
+                    site: "bustimes"
                 }
             }, {
                 bidder: "adtelligent",
@@ -618,6 +621,14 @@ var AFM_page = new AFMpageManager;
                     sizes: adUnits.AFM_inContentTop_ad.getSizes()
                 }
             },
+            ortb2Imp: {
+                ext: {
+                    data: {
+                        divId: "AFM_inContentTop_ad",
+                        placement: "AFM_inContentTop_ad"
+                    }
+                }
+            },
             labelAll: [adUnits.AFM_inContentTop_ad.getStatus()],
             bids: [{
                 bidder: "rubicon",
@@ -646,12 +657,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.adagio.getStatus()],
                 params: {
                     organizationId: "1254",
-                    site: "bustimes",
-                    useAdUnitCodeAsAdUnitElementId: !0,
-                    useAdUnitCodeAsPlacement: !0,
-                    environment: AFM_page.isMobile() ? "mobile" : "desktop",
-                    pagetype: AFM_page.getPageType(),
-                    category: "travel"
+                    site: "bustimes"
                 }
             }, {
                 bidder: "adtelligent",
@@ -877,7 +883,8 @@ var AFM_page = new AFMpageManager;
             consentManagement: {
                 gdpr: {
                     cmpApi: "iab",
-                    timeout: 1e4,
+                    timeout: 5e3,
+                    actionTimeout: 5e3,
                     defaultGdprScope: !0
                 },
                 usp: {
@@ -889,6 +896,7 @@ var AFM_page = new AFMpageManager;
                 validation: "strict",
                 config: pa
             },
+            deviceAccess: !0,
             userSync: {
                 filterSettings: {
                     all: {
@@ -944,26 +952,29 @@ var AFM_page = new AFMpageManager;
             priceGranularity: "high",
             enableSendAllBids: !1,
             bidderTimeout: afm_bidTimeout(),
+            realTimeData: {
+                dataProviders: [{
+                    name: "adagio",
+                    params: {
+                        organizationId: "1254",
+                        site: "bustimes"
+                    }
+                }]
+            },
             rubicon: {
                 singleRequest: !0
             },
             improvedigital: {
-                usePrebidSizes: !0
+                singleRequest: !0
             },
-            useBidCache: !0
-        }), pbjs.setBidderConfig({
-            bidders: ["oftmedia"],
-            config: {
-                schain: {
-                    validation: "relaxed",
-                    config: {
-                        ver: "1.0",
-                        complete: 1,
-                        nodes: [{
-                            asi: "152media.info",
-                            sid: "152M538",
-                            hp: 1
-                        }]
+            useBidCache: !0,
+            ortb2: {
+                site: {
+                    ext: {
+                        data: {
+                            pagetype: AFM_page.getPageType(),
+                            category: "Travel"
+                        }
                     }
                 }
             }
@@ -991,11 +1002,6 @@ var AFM_page = new AFMpageManager;
                     return .95 * t
                 }
             },
-            oftmedia: {
-                bidCpmAdjustment: function(t) {
-                    return t * usdRate * .7
-                }
-            },
             ogury: {
                 bidCpmAdjustment: function(t) {
                     return t * usdRate * .89
@@ -1019,11 +1025,6 @@ var AFM_page = new AFMpageManager;
             triplelift: {
                 bidCpmAdjustment: function(t) {
                     return t * usdRate * .96
-                }
-            },
-            adpone: {
-                bidCpmAdjustment: function(t) {
-                    return t * euroRate * .8009
                 }
             },
             bcmssp: {
