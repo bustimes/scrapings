@@ -1,4 +1,4 @@
-/*v12.6.0 - 28-01-25 - 11:39 GMT+0*/
+/*v12.6.1 - 27-02-25 - 09:32 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -179,8 +179,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .8,
-        euroRate = .84,
+        usdRate = .79,
+        euroRate = .83,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -536,7 +536,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 2
+                    bidfloor: 2.75
                 }
             }, {
                 bidder: "ogury",
