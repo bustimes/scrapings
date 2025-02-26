@@ -1,4 +1,4 @@
-/*v12.6.1 - 27-02-25 - 09:32 GMT+0*/
+/*v12.6.2 - 26-02-25 - 08:48 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -536,7 +536,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 2.75
+                    bidfloor: 3.25
                 }
             }, {
                 bidder: "ogury",
