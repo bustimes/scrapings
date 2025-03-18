@@ -1,4 +1,4 @@
-/*v12.6.2 - 26-02-25 - 08:48 GMT+0*/
+/*v12.6.3 - 18-03-25 - 10:14 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -179,8 +179,8 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .79,
-        euroRate = .83,
+        usdRate = .77,
+        euroRate = .84,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
