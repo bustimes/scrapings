@@ -1,4 +1,4 @@
-/*v12.6.3 - 18-03-25 - 10:14 GMT+0*/
+/*v12.6.4 - 19-03-25 - 18:07 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -440,7 +440,7 @@ var AFM_page = new AFMpageManager;
     }, adUnits.AFM_stickyFooter_ad.applyClass = function(t) {
         this.divRef.classList.add(t)
     }, adUnits.AFM_stickyFooter_ad.getStdStyle = function(t) {
-        return "#stickyAdContainer {text-align:center;position:fixed;bottom:-" + (this.size[1] + this.bufferPx) + "px;width:100%;-webkit-transition: all " + AMfooterRiseSpeed + "ms ease-out;z-index:" + this.zin + ";pointer-events: none;display:block !important;} #AFM_stickyFooter_ad {display:inline-block !important;pointer-events: all;} #closeBox {display:inline-block;pointer-events: all;} .drawBorder {border-width:2px;border-color:" + AMhouseColour + ";border-style:solid;border-bottom: 0;-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.63);-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.63);box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.63);display:inline-block;background-color:white;} #closeBox:hover {transform: rotate(90deg); transition: transform 0.5s;} #body {padding-top:0px !important;}"
+        return "#stickyAdContainer {text-align:center;position:fixed;bottom:-" + (this.size[1] + this.bufferPx) + "px;width:100%;-webkit-transition: all " + AMfooterRiseSpeed + "ms ease-out;z-index:" + this.zin + ";pointer-events: none;display:block !important;} #AFM_stickyFooter_ad {display:inline-block !important;pointer-events: all;max-height:100px} #closeBox {display:inline-block;pointer-events: all;} .drawBorder {border-width:2px;border-color:" + AMhouseColour + ";border-style:solid;border-bottom: 0;-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.63);-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.63);box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.63);display:inline-block;background-color:white;} #closeBox:hover {transform: rotate(90deg); transition: transform 0.5s;} #body {padding-top:0px !important;}"
     }, adUnits.AFM_stickyFooter_ad.getOopStyle = function(t) {
         return "#stickyAdContainer {position:fixed !important;bottom:0px !important;height:100px !important;width:100% !important;z-index:" + this.zin + " !important;pointer-events: none !important;display:block !important;} #AFM_stickyFooter_ad {display:inline-block !important;pointer-events: none !important;height:100px !important;width:100% !important;z-index:" + this.zin + " !important;} #body {padding-top:0px !important;}"
     }, adUnits.AFM_stickyFooter_ad.build = function() {
