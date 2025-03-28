@@ -63,29 +63,3 @@ jobs:
           fi
           git status
           git push
-
-  naptan_viewer:
-    runs-on: ubuntu-latest
-
-    permissions:
-      id-token: write
-      pages: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - working-directory: naptan_viewer
-        run: python naptan.py
-
-      - name: upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: naptan_viewer
-
-      - name: deploy to Github Pages
-        uses: actions/deploy-pages@v4
-        id: deployment
