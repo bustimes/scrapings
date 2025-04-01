@@ -1,4 +1,4 @@
-/*v12.6.5 - 27-03-25 - 17:02 GMT+0*/
+/*v12.6.6 - 01-04-25 - 10:35 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -411,9 +411,7 @@ var AFM_page = new AFMpageManager;
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 3e4,
-        afm_hour = (new Date).getHours();
-    4 <= afm_hour && afm_hour <= 12 && (refreshPeriod = 2e4);
-    var adUnitsToRefreshGAM = [],
+        adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
         AMrefreshLoop = null,
