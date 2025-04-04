@@ -1,4 +1,4 @@
-/*v12.6.6 - 01-04-25 - 10:35 GMT+1*/
+/*v12.6.7 - 04-04-25 - 09:31 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -180,7 +180,7 @@ var AFM_page = new AFMpageManager;
         makeNet85 = .85,
         makeNet86 = .86,
         usdRate = .77,
-        euroRate = .84,
+        euroRate = .85,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -411,7 +411,9 @@ var AFM_page = new AFMpageManager;
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 3e4,
-        adUnitsToRefreshGAM = [],
+        afm_hour = (new Date).getHours();
+    3 <= afm_hour && afm_hour <= 12 && (refreshPeriod = 2e4);
+    var adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
         AMrefreshLoop = null,
