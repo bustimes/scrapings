@@ -6993,3 +6993,4 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1100DEA11447,dvnajpaw,,,Manor Garage,,,,,,A386,,,,SE-bound,,SE,E0045604,Horrabridge,,,,,,,false,UKOS,251084,69651,-4.10147,50.50767,BCT,MKD,OTH,,,,076,2006-11-27T00:00:00,2021-07-07T13:30:46,0,new,active
 1100PLY38647,dvnagadp,,,Drakes Park,,,,,,Broadpark Road,,,,W-bound,,W,E0008942,Bere Alston,,,,,,,false,UKOS,244559,67031,-4.19233,50.48242,BCT,MKD,OTH,,,,076,2009-10-06T00:00:00,2020-02-25T08:31:53,0,new,active
 1100PLY38673,dvndawmw,,,Phone Box,,,,,,,,,,NE-bound,,NE,E0045411,Berry Pomeroy,,,,,,,false,UKOS,282820,61115,-3.65146,50.43815,BCT,MKD,OTH,,,,076,2003-06-12T00:00:00,2016-11-21T20:46:30,4,new,active
+9100MSBTN,,,,Marsh Barton,,,,,,-,,,,,,,E0007704,Marsh Barton,Exeter,,,,,,1,UKOS,292667,090511,-3.52133,50.7043,RLY,,,,,,076,2025-04-25T16:01:00,2025-04-25T16:01:00,0,new,active

@@ -9374,3 +9374,4 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2400109719,kntgwjgt,,,Middelburg Square,,,,,,Middelburg Square,,,,Stop 1,,NE,E0015186,Folkestone,,,,,,,,UKOS,622543,135974,1.175847,51.07991,BCT,MKD,PTP,,,,086,2025-04-11T10:05:09.326,2025-04-11T10:05:09.326,0,new,active
 2400109720,kntgwjgw,,,Cheriton Gardens,,,,Ingles Road,,Cheriton Gardens,,,,NW-bound,,NW,E0015186,Folkestone,,,,,,,,UKOS,622464,135951,1.1747070,51.0797307,BCT,MKD,PPT,,,,086,2025-04-11T10:08:21.869,2025-04-11T10:08:21.869,0,new,active
 2400109721,kntgwjma,,,Bouverie Road,,,,Middelburg Square,,Bouverie Road,,,,W-bound,,SW,E0015186,Folkestone,,,,,,,,UKOS,622557,135890,1.176,51.07915,BCT,MKD,PPT,,,,086,2025-04-11T10:19:14.565,2025-04-11T10:19:14.565,0,new,active
+9100THANETP,,,,Thanet Parkway,,,,,,-,,,,,,,E0015407,Cliffs End,,,,,,,1,UKOS,634287,164449,1.361777,51.330843,RLY,,,,,,086,2025-04-25T16:01:00,2025-04-25T16:01:00,0,new,active

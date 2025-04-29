@@ -7999,3 +7999,5 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 2800TX00152,,,,Cherry Tree Centre,,,,Cherry Tree Centre,,Wallasey Road,,,,Taxi Rank,,,E0029781,Liscard,Wallasey,,Wallasey,EN,Liscard,EN,false,UKOS,330571,391957,-3.04616,53.41982,TXR,,,,,,090,1969-12-31T00:00:00,1969-12-31T23:00:00,0,new,active
 2800TX00146,,,,Pyramids Shopping Centre,,,,Pyramids Shopping Centre,,Borough Road,,,,Taxi Rank,,,E0029614,Birkenhead,,,Birkenhead,EN,Birkenhead,EN,false,UKOS,332117,388496,-3.02216,53.38892,TXR,,,,,,090,1969-12-31T00:00:00,1969-12-31T23:00:00,0,new,active
 2800TX00147,,,,Argyle Street,,,,,,Argyle Street,,,,Taxi Rank,,,E0029614,Birkenhead,,,Birkenhead,EN,Birkenhead,EN,false,UKOS,332530,389152,-3.01609,53.39487,TXR,,,,,,090,1969-12-31T00:00:00,1969-12-31T23:00:00,0,new,active
+9100HBOLTN,,,,Headbolt Lane,,,,,,-,,,,,,,N0070223,Tower Hill,Kirkby,,,,,,1,UKOS,341341,399746,-2.885591,53.491136,RLY,,,,,,090,2025-04-25T15:51:00,2025-04-25T15:51:00,0,new,active
+9100MAGHNTH,,,,Maghull North,,,,,,-,,,,,,,E0029804,Moss Side,Maghull,,,,,,1,UKOS,339008,402620,-2.9213,53.5167,RLY,,,,,,090,2025-04-25T19:14:00,2025-04-25T19:14:00,0,new,active

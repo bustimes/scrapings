@@ -1662,3 +1662,4 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0100BRP90116,bstjgtj,,,Shaldon Road,,,,,,Shaldon Road,,,,NE-bound,,NE,E0035613,Horfield,Bristol,,,,,,false,UKOS,360220,175826,-2.57422,51.47998,BCT,MKD,OTH,,,,009,2009-02-05T00:00:00,2024-10-15T16:50:07,43,new,active
 0100BRP90114,bstjmad,,,Elmcroft Crescent,,,,,,Muller Road,,,,S-bound,,S,E0035613,Horfield,Bristol,,,,,,false,UKOS,360297,175646,-2.57309,51.47837,BCT,MKD,OTH,,,,009,2003-06-12T00:00:00,2023-12-13T15:26:06,36,new,active
 0100BRP90112,bstjmaw,,,Elmcroft Crescent,,,,,,Muller Road,,,,N-bound,,N,E0035613,Horfield,Bristol,,,,,,false,UKOS,360325,175607,-2.57268,51.47802,BCT,MKD,OTH,,,,009,2007-01-02T00:00:00,2017-07-11T13:25:31,8,new,active
+9100ASHYDN,,,,Ashley Down,,,,,,-,,,,,,,E0035613,Horfield,Bristol,,,,,,1,UKOS,360047,175690,-2.5767,51.47875,RLY,,,,,,009,2025-04-25T11:18:00,2025-04-25T11:18:00,0,new,active
