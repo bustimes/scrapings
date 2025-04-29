@@ -1,4 +1,4 @@
-/*v12.6.8 - 24-04-25 - 16:45 GMT+1*/
+/*v12.6.8a - 29-04-25 - 12:43 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -412,7 +412,7 @@ var AFM_page = new AFMpageManager;
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 3e4,
         afm_hour = (new Date).getHours();
-    3 <= afm_hour && afm_hour <= 12 && (refreshPeriod = 2e4);
+    3 <= afm_hour && afm_hour <= 19 && (refreshPeriod = 2e4);
     var adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
@@ -1078,7 +1078,7 @@ var AFM_page = new AFMpageManager;
     var adRefreshManager = new AdRefreshManager;
     adRefreshManager.numberOfAdUnitsToRender = gptAdSlots.length, googletag.cmd.push(function() {
         googletag.pubads().addEventListener("slotRenderEnded", function(t) {
-            adUnits[t.slot.getSlotElementId()].rendered = !0, 0 == t.advertiserId ? (adUnits[t.slot.getSlotElementId()].winEntity = "google", adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winBidder = "google") : t.advertiserId == gamAmznID ? (adUnits[t.slot.getSlotElementId()].winEntity = "amazon", adUnits[t.slot.getSlotElementId()].winBidder = "amazon") : null == adUnits[t.slot.getSlotElementId()].size && (adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winEntity = "adserver", adUnits[t.slot.getSlotElementId()].winBidder = "direct"), "AFM_stickyFooter_ad" == t.slot.getSlotElementId() && !t.isEmpty && AMfooterOn && ("gumgum" === adUnits.AFM_stickyFooter_ad.winBidder || "justpremium" === adUnits.AFM_stickyFooter_ad.winBidder || "sublime" === adUnits.AFM_stickyFooter_ad.winBidder || "ogury" === adUnits.AFM_stickyFooter_ad.winBidder ? (adUnits.AFM_stickyFooter_ad.oopWinner(), adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh) : adUnits.AFM_stickyFooter_ad.show()), "live" === adUnits[t.slot.getSlotElementId()].status ? adRefreshManager.tallyRenders() : "dormant" === adUnits[t.slot.getSlotElementId()].status && (adUnits[t.slot.getSlotElementId()].status = "live")
+            adUnits[t.slot.getSlotElementId()].rendered = !0, 0 == t.advertiserId ? (adUnits[t.slot.getSlotElementId()].winEntity = "google", adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winBidder = "google") : t.advertiserId == gamAmznID ? (adUnits[t.slot.getSlotElementId()].winEntity = "amazon", adUnits[t.slot.getSlotElementId()].winBidder = "amazon") : null == adUnits[t.slot.getSlotElementId()].size && (adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winEntity = "adserver", adUnits[t.slot.getSlotElementId()].winBidder = "direct"), "AFM_stickyFooter_ad" == t.slot.getSlotElementId() && !t.isEmpty && AMfooterOn && ("gumgum" === adUnits.AFM_stickyFooter_ad.winBidder || "justpremium" === adUnits.AFM_stickyFooter_ad.winBidder || "sublime" === adUnits.AFM_stickyFooter_ad.winBidder || "ogury" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] ? (adUnits.AFM_stickyFooter_ad.oopWinner(), adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh) : adUnits.AFM_stickyFooter_ad.show()), "live" === adUnits[t.slot.getSlotElementId()].status ? adRefreshManager.tallyRenders() : "dormant" === adUnits[t.slot.getSlotElementId()].status && (adUnits[t.slot.getSlotElementId()].status = "live")
         }), googletag.pubads().addEventListener("slotVisibilityChanged", function(t) {
             adUnits[t.slot.getSlotElementId()].inViewPerc = t.inViewPercentage, adUnits[t.slot.getSlotElementId()].inView = 66 <= t.inViewPercentage
         })
