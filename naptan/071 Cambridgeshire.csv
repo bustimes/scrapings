@@ -3888,4 +3888,3 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0500HYELL002,CMBDTMPJ,,,Friends Close,,,,Friends Close,,High Street,,,,near,,E,E0043795,Yelling,,,,,,,1,UKOS,526275,262440,,,BCT,CUS,TIP,,,,071,2003-11-01T00:00:00,2007-03-13T00:00:00,1,revise,active
 0500HYELL004,CMBGJATG,,,Ashcroft,,,,Ashcroft,,High Street,,,,opp,,W,E0043795,Yelling,,,,,,,0,UKOS,525570,262588,,,BCT,CUS,OTH,,,,071,2004-11-09T00:00:00,2007-03-13T00:00:00,1,revise,active
 0500HYELL001,CMBDTMPG,,,Friends Close,,,,Friends Close,,High Street,,,,opp,,W,E0043795,Yelling,,,,,,,1,UKOS,526276,262431,,,BCT,MKD,TIP,,,,071,2003-11-01T00:00:00,2007-03-13T00:00:00,1,revise,active
-9100SOHAM,,,,Soham,,,,,,-,,,,,,,E0043681,Soham,,,,,,,1,UKOS,558696,273224,0.3277,52.33415,RLY,,,,,,071,2025-04-25T18:45:00,2025-04-25T18:45:00,0,new,active
