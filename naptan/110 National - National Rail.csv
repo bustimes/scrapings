@@ -2750,6 +2750,3 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 9100PTWYPR,,,,Portway Park & Ride Rail Station,,,,,,-,,,,,,,E0035642,Shirehampton,Bristol,,,,,,1,UKOS,352358,176798,-2.6875586,51.4881079,RLY,,,,,,110,2024-04-10T13:00:00,2024-04-10T13:00:00,0,new,active
 9100LEVEN,,,,Leven Rail Station,,,,,,-,,,,,,,ES002355,Leven,,,,,,,1,UKOS,337923,700426,-3.001894,56.192386,RLY,,,,,,110,2024-05-21T13:00:00,2024-05-21T13:00:00,0,new,active
 9100CMRNBDG,,,,Cameron Bridge Rail Station,,,,,,-,,,,,,,ES003882,Windygates,,,,,,,1,UKOS,335102,700235,-3.047291,56.190296,RLY,,,,,,110,2024-05-21T13:00:00,2024-05-21T13:00:00,0,new,active
-9300BRVS,,,,Barking Riverside Pier,,,,,,,,,,,,,E0033933,Creekmouth,London,,,,,,0,UKOS,547026,181834,,,FER,,,,,,110,2022-04-07T11:00:00,2022-04-07T11:00:00,0,new,active
-9300BRVS1,,,,Barking Riverside Pier,,,,,,,,,,Pier,,,E0033933,Creekmouth,London,,,,,,0,UKOS,547008,181801,,,FBT,,,,,,110,2022-04-07T11:00:00,2022-04-07T11:00:00,0,new,active
-9300BRVS2,,,,Barking Riverside Pier,,,,,,,,,,Pier,,,E0033933,Creekmouth,London,,,,,,0,UKOS,547034,181821,,,FBT,,,,,,110,2022-04-07T11:00:00,2022-04-07T11:00:00,0,new,active
