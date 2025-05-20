@@ -1,4 +1,4 @@
-/*v12.6.8c - 12-05-25 - 12:25 GMT+1*/
+/*v12.6.9 - 20-05-25 - 09:45 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -110,7 +110,17 @@ var AFM_page = new AFMpageManager;
         }]
     };
     var pbDebugStatus = !!AFM_getParameterByName("pbdebug");
-    AFM_getParameterByName("testpage") && AFM_page.path.push(AFM_getParameterByName("testpage")),
+
+    function insertGE() {
+        window.grumi = {
+            key: "743a63be-4391-4edf-b398-4749ac9e681e"
+        };
+        var t = document.createElement("script");
+        t.async = !0, t.type = "text/javascript", t.src = "https://rumcdn.geoedge.be/743a63be-4391-4edf-b398-4749ac9e681e/grumi-ip.js";
+        var e = document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(t, e)
+    }
+    AFM_getParameterByName("testpage") && AFM_page.path.push(AFM_getParameterByName("testpage")), insertGE(),
         function() {
             var t = document.createElement("script");
             t.async = !0, t.type = "text/javascript", t.src = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
@@ -179,7 +189,7 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .76,
+        usdRate = .75,
         euroRate = .84,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
