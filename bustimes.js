@@ -1,4 +1,4 @@
-/*v12.6.9 - 20-05-25 - 09:45 GMT+1*/
+/*v12.6.11 - 21-05-25 - 10:32 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -165,7 +165,7 @@ var AFM_page = new AFMpageManager;
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_9280_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_9420_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -408,7 +408,7 @@ var AFM_page = new AFMpageManager;
         medianet: new AuctionObject("bidder", "medianet", "active", !0, !0),
         nexxen: new AuctionObject("bidder", "nexxen", "active", !0, !0),
         oftmedia: new AuctionObject("bidder", "oftmedia", "inactive", !0, !0),
-        ogury: new AuctionObject("bidder", "ogury", AFM_page.isMobile() ? "active" : "inactive", !0, !0),
+        ogury: new AuctionObject("bidder", "ogury", "active", !0, !0),
         onetag: new AuctionObject("bidder", "onetag", "active", !0, !0),
         richaudience: new AuctionObject("bidder", "richaudience", "active", !0, !0),
         rise: new AuctionObject("bidder", "rise", "active", !0, !0),
@@ -550,14 +550,14 @@ var AFM_page = new AFMpageManager;
                     zone: "wp9kcvco",
                     bidfloor: 3.25
                 }
-            }, {
+            }, "inactive" !== bidders.ogury.getStatus() && AFM_page.isMobile() ? {
                 bidder: "ogury",
                 labelAll: [bidders.ogury.getStatus()],
                 params: {
                     assetKey: "OGY-2DF6DF686124",
                     adUnitId: "3c71a836-d1ec-47c4-88f4-24f60803a133"
                 }
-            }, {
+            } : {}, {
                 bidder: "richaudience",
                 labelAll: [bidders.richaudience.getStatus()],
                 params: {
@@ -622,6 +622,13 @@ var AFM_page = new AFMpageManager;
                 params: {
                     zoneId: "adfirstmedia.com_hb_display",
                     bidfloor: .03
+                }
+            }, "inactive" === bidders.ogury.getStatus() || AFM_page.isMobile() ? {} : {
+                bidder: "ogury",
+                labelAll: [bidders.ogury.getStatus()],
+                params: {
+                    assetKey: "OGY-2DF6DF686124",
+                    adUnitId: "wd-hb-stdb-bustim-adfir-1j417ssl7wnx"
                 }
             }]
         }
@@ -756,6 +763,13 @@ var AFM_page = new AFMpageManager;
                 params: {
                     zoneId: "adfirstmedia.com_hb_display",
                     bidfloor: .03
+                }
+            }, "inactive" === bidders.ogury.getStatus() || AFM_page.isMobile() ? {} : {
+                bidder: "ogury",
+                labelAll: [bidders.ogury.getStatus()],
+                params: {
+                    assetKey: "OGY-2DF6DF686124",
+                    adUnitId: "wd-hb-stdb-bustim-adfir-1j417ssl7wnx"
                 }
             }]
         }
