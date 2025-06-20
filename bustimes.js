@@ -1,4 +1,4 @@
-/*v12.6.11 - 21-05-25 - 10:32 GMT+1*/
+/*v12.6.13 - 20-06-25 - 14:28 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -190,7 +190,7 @@ var AFM_page = new AFMpageManager;
         makeNet85 = .85,
         makeNet86 = .86,
         usdRate = .75,
-        euroRate = .84,
+        euroRate = .85,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -231,7 +231,7 @@ var AFM_page = new AFMpageManager;
     }, AdUnit.prototype.updateAdInDomStatus = function() {
         return 0 != this.divRef && (this.divRef = document.getElementById(this.name), this.adHidden() && (this.status = !1)), !!this.divRef
     }, AdUnit.prototype.adHidden = function() {
-        return !this.divRef || ("none" === window.getComputedStyle(this.divRef).display || "hidden" === window.getComputedStyle(this.divRef).visibility)
+        return !this.divRef || "AFM_stickyFooter_ad" !== this.name && ("none" === window.getComputedStyle(this.divRef).display || "hidden" === window.getComputedStyle(this.divRef).visibility)
     }, AdUnit.prototype.setGptSlot = function(t) {
         return this.gptSlot = t
     }, AdUnit.prototype.adHorizontalAlign = function(t) {
@@ -548,7 +548,7 @@ var AFM_page = new AFMpageManager;
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3.25
+                    bidfloor: 4
                 }
             }, "inactive" !== bidders.ogury.getStatus() && AFM_page.isMobile() ? {
                 bidder: "ogury",
