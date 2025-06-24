@@ -1,4 +1,4 @@
-/*v12.6.13 - 20-06-25 - 14:28 GMT+1*/
+/*v12.6.14 - 24-06-25 - 14:29 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -189,7 +189,7 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
+        usdRate = .74,
         euroRate = .85,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -494,6 +494,14 @@ var AFM_page = new AFMpageManager;
                 }
             },
             ortb2Imp: {
+                metric: [{
+                    type: "viewability",
+                    value: .92,
+                    vendor: "BusTimes_GAM_Reporting"
+                }],
+                banner: {
+                    pos: 1
+                },
                 ext: {
                     data: {
                         divId: "AFM_stickyFooter_ad",
@@ -996,6 +1004,18 @@ var AFM_page = new AFMpageManager;
             useBidCache: !0,
             ortb2: {
                 site: {
+                    name: "BusTimes",
+                    domain: "bustimes.org",
+                    cat: ["IAB18", "IAB18-4", "IAB9-30"],
+                    publisher: {
+                        domain: "bustimes.org",
+                        name: "BusTimes",
+                        id: "031"
+                    },
+                    keywords: "bus travel, coach travel, bus times, bus schedules, bus timetables, bus maps, route planner, journey planner, holiday bus, bus trips, UK bus travel, intercity bus, local bus, public transport, bus map, live bus info, london busses, UK travel, UK holidays, commuting, commuter travel",
+                    content: {
+                        lang: "en"
+                    },
                     ext: {
                         data: {
                             pagetype: AFM_page.getPageType(),
