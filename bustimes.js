@@ -1,4 +1,4 @@
-/*v12.6.14 - 24-06-25 - 14:29 GMT+1*/
+/*v12.6.15 - 26-06-25 - 12:59 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -99,8 +99,25 @@ function AFMpageManager() {
     }
 }
 var AFM_page = new AFMpageManager;
-{
-    const pa = {
+
+function getPageURLForPrebid() {
+    let t = window.location.href;
+    try {
+        var e = document.querySelector('head link[rel="canonical"]');
+        e && e.href && (t = e.href)
+    } catch (t) {}
+    return t
+}
+
+function getContentTitleForPrebid(t = " - eFestivals") {
+    let e = "";
+    try {
+        const i = document.querySelector("head title");
+        i && i.textContent ? e = i.textContent.trim() : document.title && (e = document.title.trim()), t && e.endsWith(t) && (e = e.substring(0, e.length - t.length).trim())
+    } catch (t) {}
+    return e
+} {
+    const wa = {
         complete: 1,
         ver: "1.0",
         nodes: [{
@@ -149,7 +166,7 @@ var AFM_page = new AFMpageManager;
             adServer: "googletag",
             isSelfServePub: !0,
             simplerGPT: !0,
-            schain: pa
+            schain: wa
         }),
         function() {
             var t = document.createElement("script");
@@ -189,7 +206,7 @@ var AFM_page = new AFMpageManager;
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .74,
+        usdRate = .73,
         euroRate = .85,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -914,6 +931,7 @@ var AFM_page = new AFMpageManager;
         AMfooterOn && pbjs.onEvent("bidWon", function(t) {
             adUnits[t.adUnitCode].winEntity = "prebid", adUnits[t.adUnitCode].winBidder = t.bidder, adUnits[t.adUnitCode].size = [t.width, t.height], "AFM_stickyFooter_ad" == t.adUnitCode && (AMadHeight = t.height + 20, AMhbFooterSize = [t.width, t.height], AMhbFooterAuctionWinner = t.bidder)
         }), pbjs.setConfig({
+            enableTIDs: !0,
             consentManagement: {
                 gdpr: {
                     cmpApi: "iab",
@@ -928,7 +946,7 @@ var AFM_page = new AFMpageManager;
             },
             schain: {
                 validation: "strict",
-                config: pa
+                config: wa
             },
             deviceAccess: !0,
             userSync: {
@@ -1007,6 +1025,8 @@ var AFM_page = new AFMpageManager;
                     name: "BusTimes",
                     domain: "bustimes.org",
                     cat: ["IAB18", "IAB18-4", "IAB9-30"],
+                    pagecat: ["IAB18", "IAB18-4", "IAB9-30"],
+                    page: getPageURLForPrebid(),
                     publisher: {
                         domain: "bustimes.org",
                         name: "BusTimes",
@@ -1014,7 +1034,11 @@ var AFM_page = new AFMpageManager;
                     },
                     keywords: "bus travel, coach travel, bus times, bus schedules, bus timetables, bus maps, route planner, journey planner, holiday bus, bus trips, UK bus travel, intercity bus, local bus, public transport, bus map, live bus info, london busses, UK travel, UK holidays, commuting, commuter travel",
                     content: {
-                        lang: "en"
+                        lang: "en-GB",
+                        title: getContentTitleForPrebid(),
+                        keywords: "bus travel, coach travel, bus times, bus schedules, bus timetables, bus maps, route planner, journey planner, holiday bus, bus trips, UK bus travel, intercity bus, local bus, public transport, bus map, live bus info, london busses, UK travel, UK holidays, commuting, commuter travel",
+                        url: getPageURLForPrebid(),
+                        context: 5
                     },
                     ext: {
                         data: {
