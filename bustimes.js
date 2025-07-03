@@ -1,4 +1,4 @@
-/*v12.6.15 - 26-06-25 - 12:59 GMT+1*/
+/*v12.6.16 - 03-07-25 - 17:29 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -207,7 +207,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         makeNet85 = .85,
         makeNet86 = .86,
         usdRate = .73,
-        euroRate = .85,
+        euroRate = .86,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -1084,7 +1084,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             adagio: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * 1
+                    return t * usdRate * .76
                 }
             },
             adtelligent: {
@@ -1109,7 +1109,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             richaudience: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .945
+                    return t * usdRate * .68985
                 }
             },
             rise: {
