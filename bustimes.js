@@ -1,4 +1,4 @@
-/*v12.6.17 - 11-07-25 - 10:36 GMT+1*/
+/*v12.6.18 - 07-08-25 - 18:37 GMT+1*/
 function AFM_getParameterByName(e, t) {
     t = t || window.location.href, e = e.replace(/[\[\]]/g, "\\$&");
     t = new RegExp("[?&]" + e + "(=([^&#]*)|&|#|$)").exec(t);
@@ -207,7 +207,7 @@ function getContentTitleForPrebid(e = " - eFestivals") {
         makeNet85 = .85,
         makeNet86 = .86,
         usdRate = .74,
-        euroRate = .86,
+        euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -294,7 +294,7 @@ function getContentTitleForPrebid(e = " - eFestivals") {
     };
     var adUnits = {
         AFM_stickyFooter_ad: new AdUnit("AFM_stickyFooter_ad", !0, !0, !0, globalAdRefreshLimit, ["all"], "1x1"),
-        AFM_inContentTop_ad: new AdUnit("AFM_inContentTop_ad", !0, !0, !0, globalAdRefreshLimit, ["home", "areas", "regions", "localities", "operators", "searchResults", "services", "stops", "stations"], "unit1")
+        AFM_inContentTop_ad: new AdUnit("AFM_inContentTop_ad", !0, !0, !0, globalAdRefreshLimit, ["home", "areas", "regions", "localities", "operators", "searchResults", "services", "stops", "stations", "operatorVehicles"], "unit1")
     };
     adUnits.AFM_stickyFooter_ad.slotSizeMap = [
         [
