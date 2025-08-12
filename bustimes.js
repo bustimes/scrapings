@@ -1,4 +1,4 @@
-/*v12.6.19 - 11-08-25 - 19:33 GMT+1*/
+/*v12.6.20 - 12-08-25 - 12:30 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -199,7 +199,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             for (var i in e = e || window, this) this.hasOwnProperty(i) && t.call(e, this[i], i, this)
         }
     });
-    var afm_limitedAds = !1;
+    var afm_limitedAds = Math.random() < .1,
+        afm_limitedAdsActive = !1;
     const xa = () => Math.random() < .1;
     var AFMnetworkCode = "1269065",
         childNetworkCode = "24087856",
@@ -851,14 +852,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     apstag.setDisplayBids(), pbjs.setTargetingForGPTAsync(), o || (adRefreshManager.reset(), adRefreshManager.numberOfAdUnitsToRender = t.length), t.forEach(function(t) {}), googletag.pubads().refresh(t)
                 }
                 if (a) {
-                    var i, e;
-                    "auto" === a && null === AMrefreshLoop ? (i = [], n.forEach(function(t) {
+                    var e, i;
+                    "auto" !== a || null !== AMrefreshLoop && !afm_limitedAdsActive ? "windowResize" === a && (n.forEach(function(t) {}), !1 !== r.AFM_stickyFooter_ad && !adUnits.AFM_stickyFooter_ad.hasBeenDismissed() || (-1 !== (e = n.findIndex(function(t) {
+                        return "AFM_stickyFooter_ad" === t.getSlotElementId()
+                    })) && n.splice(e, 1), n.forEach(function(t) {}), dismissFooter(!1)), googletag.pubads().setTargeting("impression_type", "windowResize"), t(n)) : (i = [], n.forEach(function(t) {
                         var e = t.getSlotElementId();
                         r[e];
                         adUnits[e].hasBeenDismissed() || !0 !== r[e] || !isInViewport(e) && "oop" !== (null != adUnits[e].adType && adUnits[e].adType) || (e = "refresh-" + adUnits[e].incrementRefreshCounter(), adAutorefreshCounter++, t.setTargeting("impression_type", e), i.push(t))
-                    }), 0 < i.length ? t(i) : ++fruitlessRefreshAttempt <= fruitlessRefreshLimit && refreshAds("auto")) : "windowResize" === a && (n.forEach(function(t) {}), !1 !== r.AFM_stickyFooter_ad && !adUnits.AFM_stickyFooter_ad.hasBeenDismissed() || (-1 !== (e = n.findIndex(function(t) {
-                        return "AFM_stickyFooter_ad" === t.getSlotElementId()
-                    })) && n.splice(e, 1), n.forEach(function(t) {}), dismissFooter(!1)), googletag.pubads().setTargeting("impression_type", "windowResize"), t(n))
+                    }), 0 < i.length ? t(i) : ++fruitlessRefreshAttempt <= fruitlessRefreshLimit && refreshAds("auto"))
                 } else {
                     var s = [];
                     if (n.forEach(function(t) {
@@ -895,9 +896,9 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         s.forEach(function(t) {
             d[t] = !1
         }), __tcfapi("addEventListener", 2, function(t, e) {
-            __uspapi("setUspDftData", 1, function(t, e) {}), e && t.gdprApplies ? "tcloaded" !== t.eventStatus && "useractioncomplete" !== t.eventStatus || !t.purpose.consents[1] ? "cmpuishown" === t.eventStatus || "tcloaded" !== t.eventStatus && "useractioncomplete" !== t.eventStatus || t.purpose.consents[1] || ((afm_limitedAds = Math.random() < .1) && (googletag.cmd.push(function() {
+            __uspapi("setUspDftData", 1, function(t, e) {}), e && t.gdprApplies ? "tcloaded" !== t.eventStatus && "useractioncomplete" !== t.eventStatus || !t.purpose.consents[1] ? "cmpuishown" === t.eventStatus || "tcloaded" !== t.eventStatus && "useractioncomplete" !== t.eventStatus || t.purpose.consents[1] || (afm_limitedAds && (googletag.cmd.push(function() {
                 googletag.pubads().setTargeting("limitedAds", "true")
-            }), c()), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : (u(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : !1 === t.gdprApplies ? (u(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)
+            }), afm_limitedAdsActive = !0, c()), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : (u(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : !1 === t.gdprApplies ? (u(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)
         })
     }
 
