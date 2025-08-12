@@ -1,4 +1,4 @@
-/*v12.6.20 - 12-08-25 - 12:30 GMT+1*/
+/*v12.6.20 - 12-08-25 - 16:20 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -199,7 +199,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             for (var i in e = e || window, this) this.hasOwnProperty(i) && t.call(e, this[i], i, this)
         }
     });
-    var afm_limitedAds = Math.random() < .1,
+    var afm_limitedAds = Math.random() < .2,
         afm_limitedAdsActive = !1;
     const xa = () => Math.random() < .1;
     var AFMnetworkCode = "1269065",
@@ -209,8 +209,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
-        euroRate = .87,
+        usdRate = .74,
+        euroRate = .86,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
