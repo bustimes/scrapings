@@ -1,4 +1,4 @@
-/*v12.6.21 - 13-08-25 - 09:59 GMT+1*/
+/*v12.6.21 - 14-08-25 - 08:18 GMT+1*/
 function AFM_getParameterByName(e, t) {
     t = t || window.location.href, e = e.replace(/[\[\]]/g, "\\$&");
     t = new RegExp("[?&]" + e + "(=([^&#]*)|&|#|$)").exec(t);
@@ -199,7 +199,7 @@ function getContentTitleForPrebid(e = " - eFestivals") {
             for (var i in t = t || window, this) this.hasOwnProperty(i) && e.call(t, this[i], i, this)
         }
     });
-    var afm_limitedAds = Math.random() < .5,
+    var afm_limitedAds = !0,
         afm_limitedAdsActive = !1,
         AFMnetworkCode = "1269065",
         childNetworkCode = "24087856",
