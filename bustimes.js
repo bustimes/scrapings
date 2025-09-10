@@ -1,4 +1,4 @@
-/*v12.6.21 - 14-08-25 - 08:18 GMT+1*/
+/*v12.6.21 - 10-09-25 - 10:06 GMT+1*/
 function AFM_getParameterByName(e, t) {
     t = t || window.location.href, e = e.replace(/[\[\]]/g, "\\$&");
     t = new RegExp("[?&]" + e + "(=([^&#]*)|&|#|$)").exec(t);
@@ -575,7 +575,7 @@ function getContentTitleForPrebid(e = " - eFestivals") {
                 labelAll: [bidders.gumgum.getStatus()],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 4
+                    bidfloor: 3.1
                 }
             }, "inactive" !== bidders.ogury.getStatus() && AFM_page.isMobile() ? {
                 bidder: "ogury",
