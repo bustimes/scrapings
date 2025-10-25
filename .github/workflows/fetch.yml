@@ -15,18 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      - run: npm install
-
       - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libxml2-utils
 
       - name: Install qsv
         run: |
-          QSV_VERSION=0.134.0
+          QSV_VERSION=8.1.1
           curl -L "https://github.com/jqnatividad/qsv/releases/download/${QSV_VERSION}/qsv-${QSV_VERSION}-x86_64-unknown-linux-musl.zip" -o qsv.zip
           unzip qsv.zip qsv
           sudo mv qsv /usr/local/bin/qsv
@@ -34,7 +27,6 @@ jobs:
 
       - name: Fetch
         run: |
-          curl -A "bustimes.org (https://github.com/bustimes/scrapings)" -s "https://cdn.adfirst.media/hb/bustimes.js" | npx js-beautify > bustimes.js
           curl -s "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml" | iconv -f utf-8 -t utf-8 -c | xmllint --format - > nocrecords.xml
           curl -s "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv" > stops.csv
           qsv partition AdministrativeAreaCode naptan stops.csv
