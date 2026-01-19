@@ -1,4 +1,4 @@
-/*v12.6.24 - 08-10-25 - 13:06 GMT+1*/
+/*v12.6.29 - 29-12-25 - 10:35 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -182,7 +182,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10100_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10190_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -208,7 +208,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
+        usdRate = .74,
         euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -222,8 +222,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         this.type = t, this.name = e, this.status = i, this.autorefresh = s, this.refreshWhenWindowResized = n
     }
 
-    function AdUnit(t, e, i, s, n, a, r, o) {
-        AuctionObject.call(this, "adunit", t, e, i, s), this.refreshLimit = n, this.refreshCounter = 0, this.dismissed = !1, this.divRef = e, this.gptSlot = !1, this.slotSizeMap = [], this.pageType = a, this.adUnitPath = r, this.injectMap = o || !1
+    function AdUnit(t, e, i, s, n, a, r, d) {
+        AuctionObject.call(this, "adunit", t, e, i, s), this.refreshLimit = n, this.refreshCounter = 0, this.dismissed = !1, this.divRef = e, this.gptSlot = !1, this.slotSizeMap = [], this.pageType = a, this.adUnitPath = r, this.injectMap = d || !1
     }
     AuctionObject.prototype.setStatus = function(t) {
         this.status = t
@@ -281,7 +281,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     }, AdUnit.prototype.gptAssign = function() {
         var t = this;
         assignGptSlot(t, function() {
-            fetchHeaderBids([t.gptSlot], "function" == typeof t.prebidAdUnit ? [t.prebidAdUnit()] : [], afm_bidTimeout(), !1, ["active", "adUnitLive-true"], "lazy")
+            fetchHeaderBids([t.gptSlot], "function" == typeof t.prebidAdUnit ? [t.prebidAdUnit()] : [], afm_bidTimeout(), !1, ["active", "adUnitLive-true", stdAds], "lazy")
         })
     }, AdUnit.prototype.lazyLoad = function() {
         var e = !1,
@@ -424,6 +424,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         conversant: new AuctionObject("bidder", "conversant", "active", !0, !0),
         gumgum: new AuctionObject("bidder", "gumgum", "active", !0, !0),
         improvedigital: new AuctionObject("bidder", "improvedigital", "active", !0, !0),
+        kuantyx: new AuctionObject("bidder", "kuantyx", "active", !0, !0),
         medianet: new AuctionObject("bidder", "medianet", "active", !0, !0),
         nexxen: new AuctionObject("bidder", "nexxen", "active", !0, !0),
         oftmedia: new AuctionObject("bidder", "oftmedia", "inactive", !0, !0),
@@ -441,7 +442,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 3e4,
         afm_hour = (new Date).getHours();
-    3 <= afm_hour && afm_hour <= 17 && (refreshPeriod = 2e4);
+    3 <= afm_hour && afm_hour <= 8 ? refreshPeriod = 23e3 : 9 <= afm_hour && afm_hour <= 14 ? refreshPeriod = 28e3 : 15 <= afm_hour && afm_hour <= 17 ? refreshPeriod = 23e3 : 18 <= afm_hour && afm_hour <= 19 && (refreshPeriod = 28e3);
     var adUnitsToRefreshGAM = [],
         refreshPeriodAfterTabBackInFocus = 1500,
         AMhbFooterAuctionWinner = 0,
@@ -457,13 +458,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         var t = (new Date).getHours();
         let e = 3;
         return 0 <= t && t <= 4 ? e = 3.75 : 4 < t && t <= 11 ? e = 4 : 11 < t && t <= 16 ? e = 3 : 16 < t && t <= 18 ? e = 3.5 : 18 < t && (e = 2.5), e
-    }
-
-    function AMcompileAdUnits(e) {
-        var i = [];
-        return adUnits.AFMforEach(function(t) {
-            ("live" !== t.status || void 0 === t.prebidAdUnit || "auto" === e) && ("live" !== t.status || void 0 === t.prebidAdUnit || "auto" !== e || !isInViewport(t.name) && "oop" !== (null != t.adType && t.adType)) || i.push(t.prebidAdUnit())
-        }), i
     }
     adUnits.AFM_stickyFooter_ad.init = function() {
         this.originalParams = [this.autorefresh, this.refreshWhenWindowResized, this.status], this.lastWin = !1, this.adType = "", this.zin = "2147483647", this.riseSpeed = 500, this.ready = !1, this.bufferPx = 20, this.rebuilt = !1, this.shellDiv = top.document.createElement("div"), this.shellDiv.setAttribute("id", "stickyAdContainer"), this.shellDiv.setAttribute("style", "text-align:center;position:fixed;bottom:-300px;width:100%;-webkit-transition: all " + this.riseSpeed + "ms ease-out;z-index:" + this.zin + ";"), this.styleSheet = top.document.createElement("style"), AFM_page.waitForElement("body").then(function(t) {
@@ -505,7 +499,16 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         !1 === this.dismissed && (this.dismissed = !0, this.adType = "", this.sink(), setTimeout(function() {
             adUnits.AFM_stickyFooter_ad.flush()
         }, 800), this.setAutorefresh(!1), this.setRefreshWithWindowResize(!1), this.status = !1)
-    }, AMfooterOn && adUnits.AFM_stickyFooter_ad.init(), adUnits.AFM_stickyFooter_ad.prebidAdUnit = function() {
+    }, AMfooterOn && adUnits.AFM_stickyFooter_ad.init();
+    var stdAds = "stdAds";
+
+    function AMcompileAdUnits(e) {
+        var i = [];
+        return adUnits.AFMforEach(function(t) {
+            ("live" !== t.status || void 0 === t.prebidAdUnit || "auto" === e) && ("live" !== t.status || void 0 === t.prebidAdUnit || "auto" !== e || !isInViewport(t.name) && "oop" !== (null != t.adType && t.adType)) || i.push(t.prebidAdUnit())
+        }), i
+    }
+    adUnits.AFM_stickyFooter_ad.prebidAdUnit = function() {
         return {
             code: "AFM_stickyFooter_ad",
             mediaTypes: {
@@ -532,7 +535,16 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             labelAll: [adUnits.AFM_stickyFooter_ad.getStatus()],
             bids: [{
                 bidder: "rubicon",
-                labelAll: [bidders.rubicon.getStatus()],
+                labelAll: [bidders.rubicon.getStatus(), stdAds],
+                params: {
+                    accountId: "9906",
+                    siteId: "478854",
+                    zoneId: "2843708",
+                    position: "atf"
+                }
+            }, {
+                bidder: "rubicon",
+                labelAll: [bidders.rubicon.getStatus(), "limitedAds"],
                 params: {
                     accountId: "9906",
                     siteId: "478854",
@@ -541,53 +553,60 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "improvedigital",
-                labelAll: [bidders.improvedigital.getStatus()],
+                labelAll: [bidders.improvedigital.getStatus(), stdAds],
                 params: {
                     publisherId: 945,
                     placementId: 22978366
                 }
             }, {
                 bidder: "onetag",
-                labelAll: [bidders.onetag.getStatus()],
+                labelAll: [bidders.onetag.getStatus(), stdAds],
                 params: {
                     pubId: "6b84a4b65743e60"
                 }
             }, {
                 bidder: "adagio",
-                labelAll: [bidders.adagio.getStatus()],
+                labelAll: [bidders.adagio.getStatus(), stdAds],
                 params: {
                     organizationId: "1254",
                     site: "bustimes"
                 }
             }, {
                 bidder: "adtelligent",
-                labelAll: [bidders.adtelligent.getStatus()],
+                labelAll: [bidders.adtelligent.getStatus(), stdAds],
                 params: {
                     aid: 765905
                 }
             }, {
                 bidder: "sovrn",
-                labelAll: [bidders.sovrn.getStatus()],
+                labelAll: [bidders.sovrn.getStatus(), stdAds],
                 params: {
                     tagid: "1128818"
                 }
             }, {
                 bidder: "gumgum",
-                labelAll: [bidders.gumgum.getStatus()],
+                labelAll: [bidders.gumgum.getStatus(), stdAds],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3.1
+                    bidfloor: 2.5
+                }
+            }, {
+                bidder: "gumgum",
+                labelAll: [bidders.gumgum.getStatus(), "limitedAds"],
+                params: {
+                    zone: "wp9kcvco",
+                    bidfloor: 1.5
                 }
             }, "inactive" !== bidders.ogury.getStatus() && AFM_page.isMobile() ? {
                 bidder: "ogury",
-                labelAll: [bidders.ogury.getStatus()],
+                labelAll: [bidders.ogury.getStatus(), stdAds],
                 params: {
                     assetKey: "OGY-2DF6DF686124",
                     adUnitId: "3c71a836-d1ec-47c4-88f4-24f60803a133"
                 }
             } : {}, {
                 bidder: "richaudience",
-                labelAll: [bidders.richaudience.getStatus()],
+                labelAll: [bidders.richaudience.getStatus(), stdAds],
                 params: {
                     pid: "Y6xAlkJvxW",
                     supplyType: "site",
@@ -595,26 +614,33 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "unruly",
-                labelAll: [bidders.nexxen.getStatus()],
+                labelAll: [bidders.nexxen.getStatus(), stdAds],
                 params: {
                     siteId: 263646
                 }
             }, {
                 bidder: "oftmedia",
-                labelAll: [bidders.oftmedia.getStatus()],
+                labelAll: [bidders.oftmedia.getStatus(), stdAds],
                 params: {
                     placementId: 30664625
                 }
             }, {
                 bidder: "rise",
-                labelAll: [bidders.rise.getStatus()],
+                labelAll: [bidders.rise.getStatus(), stdAds],
                 params: {
                     org: "65521a2351174d0001dbbd6f",
                     floorPrice: .15
                 }
             }, {
+                bidder: "rise",
+                labelAll: [bidders.rise.getStatus(), "limitedAds"],
+                params: {
+                    org: "65521a2351174d0001dbbd6f",
+                    floorPrice: .05
+                }
+            }, {
                 bidder: "conversant",
-                labelAll: [bidders.conversant.getStatus()],
+                labelAll: [bidders.conversant.getStatus(), stdAds],
                 params: {
                     site_id: "231091",
                     bidfloor: .03,
@@ -622,14 +648,22 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "triplelift",
-                labelAll: [bidders.triplelift.getStatus()],
+                labelAll: [bidders.triplelift.getStatus(), stdAds],
                 params: {
                     inventoryCode: "Bustimes_HDX_Prebid",
                     floor: .03
                 }
             }, {
                 bidder: "medianet",
-                labelAll: [bidders.medianet.getStatus()],
+                labelAll: [bidders.medianet.getStatus(), stdAds],
+                params: {
+                    cid: "8CUR4Y285",
+                    crid: bidders.medianet.crid,
+                    floor: .03
+                }
+            }, {
+                bidder: "medianet",
+                labelAll: [bidders.medianet.getStatus(), "limitedAds"],
                 params: {
                     cid: "8CUR4Y285",
                     crid: bidders.medianet.crid,
@@ -637,7 +671,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "smartadserver",
-                labelAll: [bidders.smartadserver.getStatus()],
+                labelAll: [bidders.smartadserver.getStatus(), stdAds],
                 params: {
                     siteId: 652522,
                     pageId: 1969098,
@@ -646,17 +680,24 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "smilewanted",
-                labelAll: [bidders.smilewanted.getStatus()],
+                labelAll: [bidders.smilewanted.getStatus(), stdAds],
                 params: {
                     zoneId: "adfirstmedia.com_hb_display",
                     bidfloor: .03
                 }
             }, "inactive" === bidders.ogury.getStatus() || AFM_page.isMobile() ? {} : {
                 bidder: "ogury",
-                labelAll: [bidders.ogury.getStatus()],
+                labelAll: [bidders.ogury.getStatus(), stdAds],
                 params: {
                     assetKey: "OGY-2DF6DF686124",
                     adUnitId: "wd-hb-stdb-bustim-adfir-1j417ssl7wnx"
+                }
+            }, {
+                bidder: "kuantyx",
+                labelAll: [bidders.kuantyx.getStatus(), stdAds],
+                params: {
+                    zone: 159116,
+                    server: "https://srv.kntxy.com"
                 }
             }]
         }
@@ -679,7 +720,16 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             labelAll: [adUnits.AFM_inContentTop_ad.getStatus()],
             bids: [{
                 bidder: "rubicon",
-                labelAll: [bidders.rubicon.getStatus()],
+                labelAll: [bidders.rubicon.getStatus(), stdAds],
+                params: {
+                    accountId: "9906",
+                    siteId: "478854",
+                    zoneId: "2843710",
+                    position: "atf"
+                }
+            }, {
+                bidder: "rubicon",
+                labelAll: [bidders.rubicon.getStatus(), "limitedAds"],
                 params: {
                     accountId: "9906",
                     siteId: "478854",
@@ -688,39 +738,47 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "improvedigital",
-                labelAll: [bidders.improvedigital.getStatus()],
+                labelAll: [bidders.improvedigital.getStatus(), stdAds],
                 params: {
                     publisherId: 945,
                     placementId: 22978365
                 }
             }, {
                 bidder: "onetag",
-                labelAll: [bidders.onetag.getStatus()],
+                labelAll: [bidders.onetag.getStatus(), stdAds],
                 params: {
                     pubId: "6b84a4b65743e60"
                 }
             }, {
                 bidder: "adagio",
-                labelAll: [bidders.adagio.getStatus()],
+                labelAll: [bidders.adagio.getStatus(), stdAds],
                 params: {
                     organizationId: "1254",
                     site: "bustimes"
                 }
             }, {
                 bidder: "adtelligent",
-                labelAll: [bidders.adtelligent.getStatus()],
+                labelAll: [bidders.adtelligent.getStatus(), stdAds],
                 params: {
                     aid: 765905
                 }
             }, {
                 bidder: "sovrn",
-                labelAll: [bidders.sovrn.getStatus()],
+                labelAll: [bidders.sovrn.getStatus(), stdAds],
                 params: {
                     tagid: "1128819"
                 }
             }, {
                 bidder: "gumgum",
-                labelAll: [bidders.gumgum.getStatus()],
+                labelAll: [bidders.gumgum.getStatus(), stdAds],
+                params: {
+                    zone: "wp9kcvco",
+                    slot: "989503",
+                    bidfloor: .03
+                }
+            }, {
+                bidder: "gumgum",
+                labelAll: [bidders.gumgum.getStatus(), "limitedAds"],
                 params: {
                     zone: "wp9kcvco",
                     slot: "989503",
@@ -728,7 +786,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "richaudience",
-                labelAll: [bidders.richaudience.getStatus()],
+                labelAll: [bidders.richaudience.getStatus(), stdAds],
                 params: {
                     pid: "rK21whMWyM",
                     supplyType: "site",
@@ -736,26 +794,33 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "unruly",
-                labelAll: [bidders.nexxen.getStatus()],
+                labelAll: [bidders.nexxen.getStatus(), stdAds],
                 params: {
                     siteId: 263646
                 }
             }, {
                 bidder: "oftmedia",
-                labelAll: [bidders.oftmedia.getStatus()],
+                labelAll: [bidders.oftmedia.getStatus(), stdAds],
                 params: {
                     placementId: 30664625
                 }
             }, {
                 bidder: "rise",
-                labelAll: [bidders.rise.getStatus()],
+                labelAll: [bidders.rise.getStatus(), stdAds],
+                params: {
+                    org: "65521a2351174d0001dbbd6f",
+                    floorPrice: .03
+                }
+            }, {
+                bidder: "rise",
+                labelAll: [bidders.rise.getStatus(), "limitedAds"],
                 params: {
                     org: "65521a2351174d0001dbbd6f",
                     floorPrice: .03
                 }
             }, {
                 bidder: "conversant",
-                labelAll: [bidders.conversant.getStatus()],
+                labelAll: [bidders.conversant.getStatus(), stdAds],
                 params: {
                     site_id: "231091",
                     bidfloor: .03,
@@ -763,14 +828,22 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "triplelift",
-                labelAll: [bidders.triplelift.getStatus()],
+                labelAll: [bidders.triplelift.getStatus(), stdAds],
                 params: {
                     inventoryCode: "Bustimes_HDX_Prebid",
                     floor: .03
                 }
             }, {
                 bidder: "medianet",
-                labelAll: [bidders.medianet.getStatus()],
+                labelAll: [bidders.medianet.getStatus(), stdAds],
+                params: {
+                    cid: "8CUR4Y285",
+                    crid: bidders.medianet.crid,
+                    floor: .03
+                }
+            }, {
+                bidder: "medianet",
+                labelAll: [bidders.medianet.getStatus(), "limitedAds"],
                 params: {
                     cid: "8CUR4Y285",
                     crid: bidders.medianet.crid,
@@ -778,7 +851,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "smartadserver",
-                labelAll: [bidders.smartadserver.getStatus()],
+                labelAll: [bidders.smartadserver.getStatus(), stdAds],
                 params: {
                     siteId: 652522,
                     pageId: 1969099,
@@ -787,17 +860,24 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             }, {
                 bidder: "smilewanted",
-                labelAll: [bidders.smilewanted.getStatus()],
+                labelAll: [bidders.smilewanted.getStatus(), stdAds],
                 params: {
                     zoneId: "adfirstmedia.com_hb_display",
                     bidfloor: .03
                 }
             }, "inactive" === bidders.ogury.getStatus() || AFM_page.isMobile() ? {} : {
                 bidder: "ogury",
-                labelAll: [bidders.ogury.getStatus()],
+                labelAll: [bidders.ogury.getStatus(), stdAds],
                 params: {
                     assetKey: "OGY-2DF6DF686124",
                     adUnitId: "wd-hb-stdb-bustim-adfir-1j417ssl7wnx"
+                }
+            }, {
+                bidder: "kuantyx",
+                labelAll: [bidders.kuantyx.getStatus(), stdAds],
+                params: {
+                    zone: 159116,
+                    server: "https://srv.kntxy.com"
                 }
             }]
         }
@@ -831,34 +911,31 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         return 0 <= t.top + .33 * t.height && 0 <= t.left + .33 * t.width && t.bottom - .33 * t.height <= (window.innerHeight || document.documentElement.clientHeight) && t.right - .33 * t.width <= (window.innerWidth || document.documentElement.clientWidth)
     }
 
-    function fetchHeaderBids(n, t, e, a, i, r) {
-        var o, s = ["prebid"];
-        "active" === bidders.amazon.getStatus() && s.push("amazon"), a && (o = {}, n.forEach(function(t) {
-            o[t.getSlotElementId()] = !0
+    function fetchHeaderBids(n, e, i, a, s, r) {
+        var d, o = bidders.amazon.getStatus(),
+            l = ["prebid"];
+        "active" === o && l.push("amazon"), a && (d = {}, n.forEach(function(t) {
+            d[t.getSlotElementId()] = !0
         }));
-        var d = {
+        var c = {
             adserverRequestSent: !1
         };
 
-        function l(t) {
-            !0 !== d.adserverRequestSent && ("amazon" === t ? d.amazon = !0 : "prebid" === t && (d.prebid = !0), s.map(function(t) {
-                return d[t]
-            }).filter(Boolean).length === s.length && c())
-        }
-
-        function c() {
-            !0 !== d.adserverRequestSent && (d.adserverRequestSent = !0, pbjs.adserverRequestSent = !0, d.sendAdserverRequest = !0, googletag.cmd.push(function() {
+        function u(t) {
+            !0 !== c.adserverRequestSent && ("amazon" === t ? c.amazon = !0 : "prebid" === t && (c.prebid = !0), l.map(function(t) {
+                return c[t]
+            }).filter(Boolean).length !== l.length || !0 !== c.adserverRequestSent && (c.adserverRequestSent = !0, pbjs.adserverRequestSent = !0, c.sendAdserverRequest = !0, googletag.cmd.push(function() {
                 function t(t) {
                     apstag.setDisplayBids(), pbjs.setTargetingForGPTAsync(), r || (adRefreshManager.reset(), adRefreshManager.numberOfAdUnitsToRender = t.length), t.forEach(function(t) {}), googletag.pubads().refresh(t)
                 }
                 if (a) {
                     var e, i;
-                    "auto" !== a || null !== AMrefreshLoop && !afm_limitedAdsActive ? "windowResize" === a && (n.forEach(function(t) {}), !1 !== o.AFM_stickyFooter_ad && !adUnits.AFM_stickyFooter_ad.hasBeenDismissed() || (-1 !== (e = n.findIndex(function(t) {
+                    "auto" !== a || null !== AMrefreshLoop && !afm_limitedAdsActive ? "windowResize" === a && (n.forEach(function(t) {}), !1 !== d.AFM_stickyFooter_ad && !adUnits.AFM_stickyFooter_ad.hasBeenDismissed() || (-1 !== (e = n.findIndex(function(t) {
                         return "AFM_stickyFooter_ad" === t.getSlotElementId()
                     })) && n.splice(e, 1), n.forEach(function(t) {}), dismissFooter(!1)), googletag.pubads().setTargeting("impression_type", "windowResize"), t(n)) : (i = [], n.forEach(function(t) {
                         var e = t.getSlotElementId();
-                        o[e];
-                        adUnits[e].hasBeenDismissed() || !0 !== o[e] || !isInViewport(e) && "oop" !== (null != adUnits[e].adType && adUnits[e].adType) || (e = "refresh-" + adUnits[e].incrementRefreshCounter(), adAutorefreshCounter++, t.setTargeting("impression_type", e), i.push(t))
+                        d[e];
+                        adUnits[e].hasBeenDismissed() || !0 !== d[e] || !isInViewport(e) && "oop" !== (null != adUnits[e].adType && adUnits[e].adType) || (e = "refresh-" + adUnits[e].incrementRefreshCounter(), adAutorefreshCounter++, t.setTargeting("impression_type", e), i.push(t))
                     }), 0 < i.length ? t(i) : ++fruitlessRefreshAttempt <= fruitlessRefreshLimit && refreshAds("auto"))
                 } else {
                     var s = [];
@@ -869,41 +946,41 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                         s[0].setTargeting("impression_type", "first"), t(s)
                     } catch (t) {} else googletag.display(s[0].getSlotElementId()), t(s)
                 }
-            }))
+            })))
         }
 
-        function u() {
-            googletag.cmd.push(function() {
+        function p(t) {
+            t && s.pop() === stdAds && s.push("limitedAds"), o && !t ? googletag.cmd.push(function() {
                 apstag.fetchBids({
                     slots: n,
-                    timeout: e
+                    timeout: i
                 }, function(t) {
                     t.forEach(function(t) {
                         "" !== t.amzniid && (adUnits[t.slotID].amznSize = t.size.split("x").map(Number))
-                    }), l("amazon")
+                    }), u("amazon")
                 })
-            }), pbjs.que.push(function() {
+            }) : o && u("amazon"), pbjs.que.push(function() {
                 pbjs.requestBids({
-                    adUnits: t,
-                    labels: i,
-                    timeout: e,
+                    adUnits: e,
+                    labels: s,
+                    timeout: i,
                     bidsBackHandler: function(t) {
-                        l("prebid")
+                        u("prebid")
                     }
                 })
             })
         }
-        s.forEach(function(t) {
-            d[t] = !1
+        l.forEach(function(t) {
+            c[t] = !1
         }), __tcfapi("addEventListener", 2, function(t, e) {
             __uspapi("setUspDftData", 1, function(t, e) {}), e && t.gdprApplies ? "tcloaded" !== t.eventStatus && "useractioncomplete" !== t.eventStatus || !t.purpose.consents[1] ? "cmpuishown" === t.eventStatus || "tcloaded" !== t.eventStatus && "useractioncomplete" !== t.eventStatus || t.purpose.consents[1] || (afm_limitedAds && (googletag.cmd.push(function() {
                 googletag.pubads().setTargeting("limitedAds", "true")
-            }), afm_limitedAdsActive = !0, c()), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : (u(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : !1 === t.gdprApplies ? (u(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)
+            }), p(afm_limitedAdsActive = !0)), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : (p(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : !1 === t.gdprApplies ? (p(), __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)) : __tcfapi("removeEventListener", 2, function(t) {}, t.listenerId)
         })
     }
 
     function refreshBids(t) {
-        "auto" === t || "windowResize" === t ? fetchHeaderBids(collateAdUnitsForRefresh(t), AMcompileAdUnits(t), afm_bidTimeout(), t, ["active", "adUnitLive-true"]) : adAutorefreshEnabled = 0
+        "auto" === t || "windowResize" === t ? fetchHeaderBids(collateAdUnitsForRefresh(t), AMcompileAdUnits(t), afm_bidTimeout(), t, ["active", "adUnitLive-true", stdAds]) : adAutorefreshEnabled = 0
     }
 
     function refreshAds(t) {
@@ -1151,10 +1228,15 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 bidCpmAdjustment: function(t) {
                     return t * euroRate * .95
                 }
+            },
+            kuantyx: {
+                bidCpmAdjustment: function(t) {
+                    return t * usdRate * .95
+                }
             }
         }
-    }), vis() ? fetchHeaderBids(gptAdSlots, AMcompileAdUnits(), afm_bidTimeout(), !1, ["active", "adUnitLive-true"]) : vis(function() {
-        vis() && fetchHeaderBids(gptAdSlots, AMcompileAdUnits(), afm_bidTimeout(), !1, ["active", "adUnitLive-true"])
+    }), vis() ? fetchHeaderBids(gptAdSlots, AMcompileAdUnits(), afm_bidTimeout(), !1, ["active", "adUnitLive-true", stdAds]) : vis(function() {
+        vis() && fetchHeaderBids(gptAdSlots, AMcompileAdUnits(), afm_bidTimeout(), !1, ["active", "adUnitLive-true", stdAds])
     }, {
         once: !0
     });
