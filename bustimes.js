@@ -1,4 +1,4 @@
-/*v12.6.30 - 19-01-26 - 14:25 GMT+0*/
+/*v12.6.31 - 02-02-26 - 11:20 GMT+0*/
 function AFM_getParameterByName(t, e) {
     e = e || window.location.href, t = t.replace(/[\[\]]/g, "\\$&");
     e = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -208,7 +208,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
+        usdRate = .73,
         euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -1262,7 +1262,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             kuantyx: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .75
+                    return t * usdRate * .67
                 }
             },
             equativ: {
