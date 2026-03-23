@@ -2756,3 +2756,4 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 9100NSHM,,,,Newsham Rail Station,,,,,,-,,,,,,,N0070170,Newsham,Blyth,,,,,,1,UKOS,430476,578817,-1.52390,55.10284,RLY,,,,,,110,2026-03-05T15:00:00,2026-03-05T15:00:00,0,new,active
 9100BYBEB,,,,Blyth Bebside Rail Station,,,,,,-,,,,,,,E0019851,Blyth,,,,,,,1,UKOS,428342,581254,-1.55711,55.12486,RLY,,,,,,110,2026-03-05T15:00:00,2026-03-05T15:00:00,0,new,active
 9100BDLNTN,,,,Bedlington Rail Station,,,,,,-,,,,,,,N0070153,Bedlington Station,Bedlington,,,,,,1,UKOS,427594,582991,-1.56867,55.14051,RLY,,,,,,110,2026-03-05T15:00:00,2026-03-05T15:00:00,0,new,active
+9100NBRLPK,,,,Northumberland Park (Tyne & Wear) Rail Station,,,,,,-,,,,,,,N0078211,Northumberland Park,,,,,,,1,UKOS,430776,571075,-1.520037,55.033251,RLY,,,,,,110,2026-03-17T15:00:00,2026-03-17T15:00:00,0,new,active
