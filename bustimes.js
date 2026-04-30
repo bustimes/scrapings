@@ -1,4 +1,4 @@
-/*v12.6.32 - 13-03-26 - 11:15 GMT+0*/
+/*v12.6.33 - 30-04-26 - 11:13 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -212,8 +212,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
-        euroRate = .86,
+        usdRate = .74,
+        euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -244,7 +244,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     }, AuctionObject.prototype.setRefreshWithWindowResize = function(t) {
         this.refreshWhenWindowResized = t
     }, AuctionObject.prototype.determineStatusForRefresh = function(t) {
-        "active" === this.status && "auto" === t && !this.autorefresh || "active" === this.status && "windowResize" === t && !this.refreshWhenWindowResized ? this.status = "inactive" : "bidder" === this.type && "active" === this.status && "windowResize" === t && (this.autorefresh || (this.status = "inactive"))
+        ("active" !== this.status || "auto" !== t || this.autorefresh) && ("active" !== this.status || "windowResize" !== t || this.refreshWhenWindowResized) ? "bidder" === this.type && "active" === this.status && "windowResize" === t && (this.autorefresh || (this.status = "inactive")): this.status = "inactive"
     }, AdUnit.prototype = Object.create(AuctionObject.prototype), Object.defineProperty(AdUnit.prototype, "constructor", {
         value: AdUnit,
         enumerable: !1,
@@ -494,9 +494,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         this.shellDiv.innerHTML = ""
     }, adUnits.AFM_stickyFooter_ad.clearOop = function(t) {
         var e = t || this.winBidder;
-        "gumgum" === e && "object" == typeof GUMGUM ? GUMGUM.InScreenAd.removeISAd() : "justpremium" === e ? document.querySelectorAll("[jpx-object-id]").forEach(function(t) {
-            t.remove()
-        }) : "sublime" === e && "object" == typeof sublime && sublime.cleanUp()
+        if ("gumgum" === e && "object" == typeof GUMGUM) GUMGUM.InScreenAd.removeISAd();
+        else if ("justpremium" === e) {
+            document.querySelectorAll("[jpx-object-id]").forEach(function(t) {
+                t.remove()
+            })
+        } else "sublime" === e && "object" == typeof sublime && sublime.cleanUp()
     }, adUnits.AFM_stickyFooter_ad.basta = function() {
         this.adType = "", this.clearOop(), this.flush()
     }, adUnits.AFM_stickyFooter_ad.rebuild = function() {
@@ -594,14 +597,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 labelAll: [bidders.gumgum.getStatus(), stdAds],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 2.5
+                    bidfloor: 3.5
                 }
             }, {
                 bidder: "gumgum",
                 labelAll: [bidders.gumgum.getStatus(), "limitedAds"],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: .5
+                    bidfloor: 1
                 }
             }, "inactive" !== bidders.ogury.getStatus() && AFM_page.isMobile() ? {
                 bidder: "ogury",
@@ -957,41 +960,46 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         function u(e) {
             !0 !== l.adserverRequestSent && ("amazon" === e ? l.amazon = !0 : "prebid" === e && (l.prebid = !0), d.map(function(t) {
                 return l[t]
-            }).filter(Boolean).length === d.length && !0 !== l.adserverRequestSent && (l.adserverRequestSent = !0, pbjs.adserverRequestSent = !0, l.sendAdserverRequest = !0, googletag.cmd.push(function() {
-                function e(t) {
-                    apstag.setDisplayBids(), pbjs.setTargetingForGPTAsync(), a || (adRefreshManager.reset(), adRefreshManager.numberOfAdUnitsToRender = t.length), t.forEach(function(t) {}), googletag.pubads().refresh(t)
-                }
-                if (s)
-                    if ("auto" !== s || null !== AMrefreshLoop && !afm_limitedAdsActive) {
-                        if ("windowResize" === s) {
-                            if (t.forEach(function(t) {}), !1 === o.AFM_stickyFooter_ad || adUnits.AFM_stickyFooter_ad.hasBeenDismissed()) {
-                                var i = t.findIndex(function(t) {
-                                    return "AFM_stickyFooter_ad" === t.getSlotElementId()
-                                }); - 1 !== i && t.splice(i, 1), t.forEach(function(t) {}), dismissFooter(!1)
-                            }
-                            googletag.pubads().setTargeting("impression_type", "windowResize"), e(t)
-                        }
-                    } else {
-                        var n = [];
-                        t.forEach(function(t) {
-                            var e = t.getSlotElementId();
-                            if (o[e], adUnits[e].hasBeenDismissed());
-                            else if (!0 === o[e] && (isInViewport(e) || "oop" === (null != adUnits[e].adType && adUnits[e].adType))) {
-                                var i = "refresh-" + adUnits[e].incrementRefreshCounter();
-                                adAutorefreshCounter++, t.setTargeting("impression_type", i), n.push(t)
-                            }
-                        }), n.length > 0 ? e(n) : ++fruitlessRefreshAttempt <= fruitlessRefreshLimit && refreshAds("auto")
+            }).filter(Boolean).length === d.length && function() {
+                if (!0 === l.adserverRequestSent) return;
+                l.adserverRequestSent = !0, pbjs.adserverRequestSent = !0, l.sendAdserverRequest = !0, googletag.cmd.push(function() {
+                    function e(t) {
+                        apstag.setDisplayBids(), pbjs.setTargetingForGPTAsync(), a || (adRefreshManager.reset(), adRefreshManager.numberOfAdUnitsToRender = t.length), t.forEach(function(t) {}), googletag.pubads().refresh(t)
                     }
-                else {
-                    var r = [];
-                    if (t.forEach(function(t) {
-                            var e = t.getSlotElementId();
-                            adUnits[e].updateAdInDomStatus() && adUnits[e].inSizeBracket() && r.push(t)
-                        }), a) try {
-                        r[0].setTargeting("impression_type", "first"), e(r)
-                    } catch (t) {} else googletag.display(r[0].getSlotElementId()), e(r)
-                }
-            })))
+                    if (s)
+                        if ("auto" !== s || null !== AMrefreshLoop && !afm_limitedAdsActive) {
+                            if ("windowResize" === s) {
+                                if (t.forEach(function(t) {}), !1 === o.AFM_stickyFooter_ad || adUnits.AFM_stickyFooter_ad.hasBeenDismissed()) {
+                                    var i = t.findIndex(function(t) {
+                                        return "AFM_stickyFooter_ad" === t.getSlotElementId()
+                                    }); - 1 !== i && t.splice(i, 1), t.forEach(function(t) {}), dismissFooter(!1)
+                                }
+                                googletag.pubads().setTargeting("impression_type", "windowResize"), e(t)
+                            }
+                        } else {
+                            var n = [];
+
+                            function r(t) {
+                                var e = t.getSlotElementId();
+                                if (o[e], adUnits[e].hasBeenDismissed());
+                                else if (!0 === o[e] && (isInViewport(e) || "oop" === (null != adUnits[e].adType && adUnits[e].adType))) {
+                                    var i = "refresh-" + adUnits[e].incrementRefreshCounter();
+                                    adAutorefreshCounter++, t.setTargeting("impression_type", i), n.push(t)
+                                }
+                            }
+                            t.forEach(r), n.length > 0 ? e(n) : ++fruitlessRefreshAttempt <= fruitlessRefreshLimit && refreshAds("auto")
+                        }
+                    else {
+                        var d = [];
+                        if (t.forEach(function(t) {
+                                var e = t.getSlotElementId();
+                                adUnits[e].updateAdInDomStatus() && adUnits[e].inSizeBracket() && d.push(t)
+                            }), a) try {
+                            d[0].setTargeting("impression_type", "first"), e(d)
+                        } catch (l) {} else googletag.display(d[0].getSlotElementId()), e(d)
+                    }
+                })
+            }())
         }
 
         function c(s) {
