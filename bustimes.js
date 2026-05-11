@@ -1,4 +1,4 @@
-/*v12.6.33 - 30-04-26 - 11:13 GMT+1*/
+/*v12.6.34 - 11-05-26 - 13:04 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -186,7 +186,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10210_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10291_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -212,8 +212,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .74,
-        euroRate = .87,
+        usdRate = .73,
+        euroRate = .86,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -426,11 +426,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         amazon: new AuctionObject("bidder", "amazon", "active", !0, !0),
         brightcom: new AuctionObject("bidder", "brightcom", "inactive", !0, !0),
         conversant: new AuctionObject("bidder", "conversant", "active", !0, !0),
-        equativ: new AuctionObject("bidder", "equativ", "active", !0, !0),
+        equativ: new AuctionObject("bidder", "equativ", "inactive", !0, !0),
         gumgum: new AuctionObject("bidder", "gumgum", "active", !0, !0),
         improvedigital: new AuctionObject("bidder", "improvedigital", "active", !0, !0),
         kuantyx: new AuctionObject("bidder", "kuantyx", "active", !0, !0),
         medianet: new AuctionObject("bidder", "medianet", "active", !0, !0),
+        missena: new AuctionObject("bidder", "missena", "active", !0, !0),
         nexxen: new AuctionObject("bidder", "nexxen", "active", !0, !0),
         oftmedia: new AuctionObject("bidder", "oftmedia", "inactive", !0, !0),
         ogury: new AuctionObject("bidder", "ogury", "active", !0, !0),
@@ -438,10 +439,9 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         richaudience: new AuctionObject("bidder", "richaudience", "active", !0, !0),
         rise: new AuctionObject("bidder", "rise", "active", !0, !0),
         rubicon: new AuctionObject("bidder", "rubicon", "active", !0, !0),
-        smartadserver: new AuctionObject("bidder", "smartadserver", "active", !0, !0),
+        smartadserver: new AuctionObject("bidder", "smartadserver", "inactive", !0, !0),
         smilewanted: new AuctionObject("bidder", "smilewanted", "active", !0, !0),
         sovrn: new AuctionObject("bidder", "sovrn", "active", !0, !0),
-        equativ: new AuctionObject("bidder", "equativ", "active", !0, !0),
         sparteo: new AuctionObject("bidder", "sparteo", "active", !0, !0),
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
     };
@@ -719,6 +719,13 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 labelAll: [bidders.sparteo.getStatus(), stdAds],
                 params: {
                     networkId: "4b8a8a5f-2697-45f5-86b0-7a873963bde1"
+                }
+            }, {
+                bidder: "missena",
+                labelAll: [bidders.missena.getStatus(), stdAds],
+                params: {
+                    apiKey: "PA-69746247",
+                    placement: "footer"
                 }
             }]
         }
@@ -1215,6 +1222,9 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                             category: "Travel"
                         }
                     }
+                },
+                source: {
+                    schain: t
                 }
             }
         }), pbjs.bidderSettings = {
@@ -1310,6 +1320,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 bidCpmAdjustment: function(t) {
                     return t * euroRate * .92
                 }
+            },
+            missena: {
+                bidCpmAdjustment: function(t) {
+                    return t * usdRate * .92
+                }
             }
         }
     }), vis() ? fetchHeaderBids(gptAdSlots, AMcompileAdUnits(), afm_bidTimeout(), !1, ["active", "adUnitLive-true", stdAds]) : vis(function() {
@@ -1320,7 +1335,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     var adRefreshManager = new AdRefreshManager;
     adRefreshManager.numberOfAdUnitsToRender = gptAdSlots.length, googletag.cmd.push(function() {
         googletag.pubads().addEventListener("slotRenderEnded", function(t) {
-            adUnits[t.slot.getSlotElementId()].rendered = !0, adUnits[t.slot.getSlotElementId()].sizeGam = t.size, 0 == t.advertiserId ? (adUnits[t.slot.getSlotElementId()].winEntity = "google", adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winBidder = "google") : t.advertiserId == gamAmznID ? (adUnits[t.slot.getSlotElementId()].size = adUnits[t.slot.getSlotElementId()].amznSize, adUnits[t.slot.getSlotElementId()].winEntity = "amazon", adUnits[t.slot.getSlotElementId()].winBidder = "amazon") : t.advertiserId == gamPbID || (adUnits[t.slot.getSlotElementId()].size = t.size), "AFM_stickyFooter_ad" == t.slot.getSlotElementId() && !t.isEmpty && AMfooterOn && ("gumgum" === adUnits.AFM_stickyFooter_ad.winBidder || "justpremium" === adUnits.AFM_stickyFooter_ad.winBidder || "sublime" === adUnits.AFM_stickyFooter_ad.winBidder || "ogury" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] ? (adUnits.AFM_stickyFooter_ad.oopWinner(), adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh) : adUnits.AFM_stickyFooter_ad.show(adUnits.AFM_stickyFooter_ad.size)), "live" === adUnits[t.slot.getSlotElementId()].status ? adRefreshManager.tallyRenders() : "dormant" === adUnits[t.slot.getSlotElementId()].status && (adUnits[t.slot.getSlotElementId()].status = "live")
+            adUnits[t.slot.getSlotElementId()].rendered = !0, adUnits[t.slot.getSlotElementId()].sizeGam = t.size, 0 == t.advertiserId ? (adUnits[t.slot.getSlotElementId()].winEntity = "google", adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winBidder = "google") : t.advertiserId == gamAmznID ? (adUnits[t.slot.getSlotElementId()].size = adUnits[t.slot.getSlotElementId()].amznSize, adUnits[t.slot.getSlotElementId()].winEntity = "amazon", adUnits[t.slot.getSlotElementId()].winBidder = "amazon") : t.advertiserId == gamPbID || (adUnits[t.slot.getSlotElementId()].size = t.size), "AFM_stickyFooter_ad" == t.slot.getSlotElementId() && !t.isEmpty && AMfooterOn && ("gumgum" === adUnits.AFM_stickyFooter_ad.winBidder || "justpremium" === adUnits.AFM_stickyFooter_ad.winBidder || "sublime" === adUnits.AFM_stickyFooter_ad.winBidder || "ogury" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] || "sparteo" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] ? (adUnits.AFM_stickyFooter_ad.oopWinner(), adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh) : "missena" === adUnits.AFM_stickyFooter_ad.winBidder ? (adUnits.AFM_stickyFooter_ad.show([320, 100]), adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = AFM_page.isMobile() ? "320px" : "728px") : (adUnits.AFM_stickyFooter_ad.show(adUnits.AFM_stickyFooter_ad.size), adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = "initial")), "live" === adUnits[t.slot.getSlotElementId()].status ? adRefreshManager.tallyRenders() : "dormant" === adUnits[t.slot.getSlotElementId()].status && (adUnits[t.slot.getSlotElementId()].status = "live")
         }), googletag.pubads().addEventListener("slotVisibilityChanged", function(t) {
             adUnits[t.slot.getSlotElementId()].inViewPerc = t.inViewPercentage, adUnits[t.slot.getSlotElementId()].inView = t.inViewPercentage >= 66
         })
