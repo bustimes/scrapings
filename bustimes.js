@@ -1,4 +1,4 @@
-/*v12.6.34 - 11-05-26 - 13:04 GMT+1*/
+/*v12.6.35 - 15-05-26 - 10:06 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -186,7 +186,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10291_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10210_2_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -212,8 +212,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .73,
-        euroRate = .86,
+        usdRate = .75,
+        euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -597,7 +597,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 labelAll: [bidders.gumgum.getStatus(), stdAds],
                 params: {
                     zone: "wp9kcvco",
-                    bidfloor: 3.5
+                    bidfloor: 2.5
                 }
             }, {
                 bidder: "gumgum",
@@ -1222,9 +1222,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                             category: "Travel"
                         }
                     }
-                },
-                source: {
-                    schain: t
                 }
             }
         }), pbjs.bidderSettings = {
