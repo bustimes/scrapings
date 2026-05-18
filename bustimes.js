@@ -1,4 +1,4 @@
-/*v12.6.35 - 15-05-26 - 10:06 GMT+1*/
+/*v12.6.36 - 18-05-26 - 17:47 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -131,6 +131,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }]
     };
     var pbDebugStatus = !!AFM_getParameterByName("pbdebug");
+    AFM_getParameterByName("testpage") && AFM_page.path.push(AFM_getParameterByName("testpage"));
+    var missHeadTest = !1;
 
     function insertGE() {
         window.grumi = {
@@ -141,7 +143,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         var e = document.getElementsByTagName("script")[0];
         e.parentNode.insertBefore(t, e)
     }
-    AFM_getParameterByName("testpage") && AFM_page.path.push(AFM_getParameterByName("testpage")), insertGE(),
+    AFM_getParameterByName("missHeadTest") && (missHeadTest = !0), insertGE(),
         function() {
             var t = document.createElement("script");
             t.async = !0, t.type = "text/javascript", t.src = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
@@ -212,7 +214,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
+        usdRate = .74,
         euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -919,7 +921,15 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 params: {
                     networkId: "4b8a8a5f-2697-45f5-86b0-7a873963bde1"
                 }
-            }]
+            }, missHeadTest ? {
+                bidder: "missena",
+                labelAll: [bidders.missena.getStatus(), stdAds],
+                params: {
+                    apiKey: "PA-69746247",
+                    placement: "header",
+                    sample: "banner"
+                }
+            } : {}]
         }
     };
     var vis = function() {
