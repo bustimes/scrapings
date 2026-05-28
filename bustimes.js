@@ -1,4 +1,4 @@
-/*v12.6.36 - 18-05-26 - 17:47 GMT+1*/
+/*v12.6.37 - 28-05-26 - 10:49 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -214,7 +214,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .74,
+        usdRate = .75,
         euroRate = .87,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
@@ -921,15 +921,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 params: {
                     networkId: "4b8a8a5f-2697-45f5-86b0-7a873963bde1"
                 }
-            }, missHeadTest ? {
+            }, {
                 bidder: "missena",
                 labelAll: [bidders.missena.getStatus(), stdAds],
                 params: {
                     apiKey: "PA-69746247",
-                    placement: "header",
-                    sample: "banner"
+                    placement: "header"
                 }
-            } : {}]
+            }]
         }
     };
     var vis = function() {
