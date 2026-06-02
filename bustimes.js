@@ -1,4 +1,4 @@
-/*v12.6.37 - 28-05-26 - 10:49 GMT+1*/
+/*v12.6.38 - 02-06-26 - 08:12 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -214,8 +214,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .75,
-        euroRate = .87,
+        usdRate = .74,
+        euroRate = .86,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -1329,7 +1329,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             missena: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .92
+                    return t * usdRate * .91
                 }
             }
         }
