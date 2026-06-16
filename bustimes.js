@@ -1,4 +1,4 @@
-/*v12.6.38 - 02-06-26 - 08:12 GMT+1*/
+/*v12.6.39 - 16-06-26 - 18:10 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -1244,7 +1244,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             improvedigital: {
                 bidCpmAdjustment: function(t) {
-                    return t * makeNet86 * usdRate * .945
+                    return t * makeNet86 * usdRate * .98
                 }
             },
             sovrn: {
@@ -1254,12 +1254,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             gumgum: {
                 bidCpmAdjustment: function(t) {
-                    return .94 * t
+                    return .96 * t
                 }
             },
             ogury: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .9
+                    return t * usdRate * .91
                 }
             },
             onetag: {
@@ -1269,12 +1269,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             adagio: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .94
+                    return t * usdRate * .96
                 }
             },
             adtelligent: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .92
+                    return t * usdRate * .95
                 }
             },
             unruly: {
@@ -1284,7 +1284,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             richaudience: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .92
+                    return t * usdRate * .94
                 }
             },
             rise: {
@@ -1309,12 +1309,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             smilewanted: {
                 bidCpmAdjustment: function(t) {
-                    return t * euroRate * .945
+                    return t * euroRate * .92
                 }
             },
             kuantyx: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .67
+                    return t * usdRate * .92
                 }
             },
             equativ: {
@@ -1324,7 +1324,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             sparteo: {
                 bidCpmAdjustment: function(t) {
-                    return t * euroRate * .92
+                    return t * euroRate * .95
                 }
             },
             missena: {
