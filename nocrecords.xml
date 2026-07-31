@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-07-27T18:57:19Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-07-31T18:48:46Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -330683,13 +330683,13 @@
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>94316</PubNmId>
-      <OperatorPublicName>Konectbuses</OperatorPublicName>
+      <OperatorPublicName>Central Connect</OperatorPublicName>
       <PubNmQual/>
-      <TTRteEnq>konectbus@transportmadesimple.co.uk</TTRteEnq>
-      <FareEnq/>
+      <TTRteEnq>contact@central-connect.co.uk</TTRteEnq>
+      <FareEnq>01157773187</FareEnq>
       <LostPropEnq/>
       <DisruptEnq/>
-      <ComplEnq>Unit 6-7 Stephenson Road , Clacton on Sea, Essex CO15 4XA</ComplEnq>
+      <ComplEnq>Central Connect Local Bus Team, Roswald House, Oak Drive, Diss, IP22 4GX</ComplEnq>
       <Twitter/>
       <Facebook/>
       <LinkedIn/>
@@ -335623,13 +335623,13 @@
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>94568</PubNmId>
-      <OperatorPublicName>Konectbus</OperatorPublicName>
+      <OperatorPublicName>Central Connect</OperatorPublicName>
       <PubNmQual/>
-      <TTRteEnq>konectbus@transportmadesimple.co.uk</TTRteEnq>
-      <FareEnq/>
+      <TTRteEnq>contact@central-connect.co.uk</TTRteEnq>
+      <FareEnq>01157773187</FareEnq>
       <LostPropEnq/>
       <DisruptEnq/>
-      <ComplEnq>7 John Goshawk Road, Dereham, Norfolk NR19 1SY</ComplEnq>
+      <ComplEnq>Central Connect Local Bus Team, Roswald House, Oak Drive, Diss, IP22 4GX</ComplEnq>
       <Twitter/>
       <Facebook/>
       <LinkedIn/>
