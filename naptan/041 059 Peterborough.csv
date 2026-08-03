@@ -10,8 +10,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0590P312904,PETPJDM,,,Singerfire Road,,,,,,Singerfire Road,,,,Eastbound,,N,E0053592,Ailsworth,,,,,,,0,UKOS,511808,298759,,,BCT,HAR,OTH,,,,041,2002-01-21T00:00:00,2010-04-26T00:00:00,5,revise,inactive
 0590P312908,PETPJGA,,,Thorolds Way,,,,,,Thorolds Way,,,,SW-bound,,N,E0053592,Ailsworth,,,,,,,0,UKOS,511980,298710,,,BCT,HAR,OTH,,,,041,2002-01-21T00:00:00,2010-04-26T00:00:00,8,revise,inactive
 0590P312902,PETPJDG,,,Cross Street,,,,,,Cross Street,,,,Westbound,,N,E0053592,Ailsworth,,,,,,,0,UKOS,511808,299069,,,BCT,HAR,OTH,,,,041,2002-01-21T00:00:00,2010-04-26T00:00:00,6,revise,inactive
-0590POW863,PETPGAT,,,Village Entrance,,,,Village Entrance,,Oundle Road,,,,adj,,NE,E0043715,Alwalton,,,,,,,1,UKOS,513511,295787,,,BCT,MKD,TIP,,,,041,2004-11-09T00:00:00,2026-07-24T00:00:00,3,revise,active
-0590POW862,PETPGAP,,,Village Entrance,,,,Village Entrance,,Oundle Road,,,,opp,,SW,E0043715,Alwalton,,,,,,,0,UKOS,513476,295749,,,BCT,MKD,TIP,,,,041,2004-11-09T00:00:00,2026-07-24T00:00:00,4,revise,active
+0590POW863,PETPGAT,,,Boroughby Drive,,,,Boroughby Drive,,Oundle Road,,,,opp,,NE,E0043715,Alwalton,,,,,,,1,UKOS,513350,295693,,,BCT,MKD,TIP,,,,041,2004-11-09T00:00:00,2026-08-03T00:00:00,4,revise,active
+0590POW862,PETPGAP,,,Boroughby Drive,,,,Boroughby Drive,,Oundle Road,,,,adj,,SW,E0043715,Alwalton,,,,,,,0,UKOS,513343,295674,,,BCT,MKD,TIP,,,,041,2004-11-09T00:00:00,2026-08-03T00:00:00,5,revise,active
 059013683,PETPTGT,,,Amazon ,,,,,,Flaxley Road,,,,,,SW,E0040557,Stanground,Peterborough,,,,,,0,UKOS,519588,295471,,,BCT,MKD,OTH,,,,041,2017-08-22T13:50:10,2020-08-19T10:23:59,2,revise,active
 0590PBB934,PETPMWG,,,High Field Road,,,,High Field Road,,Bainton Green Road,,,,adj,,SW,E0040525,Ashton,Bainton,,,,,,0,UKOS,510239,305677,,,BCT,CUS,OTH,,,,041,2010-03-02T00:00:00,2010-03-22T00:00:00,1,revise,active
 0590PBB935,PETPMWJ,,,High Field Road,,,,High Field Road,,Bainton Green Road,,,,opp,,NE,E0040525,Ashton,Bainton,,,,,,0,UKOS,510224,305687,,,BCT,CUS,OTH,,,,041,2010-03-02T00:00:00,2010-03-30T00:00:00,2,revise,active
