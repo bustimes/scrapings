@@ -1,4 +1,4 @@
-/*v12.6.39 - 16-06-26 - 18:10 GMT+1*/
+/*v12.7.0 - 03-08-26 - 17:28 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -188,7 +188,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_10210_2_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_11260_bt.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -423,29 +423,26 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     });
     var bidders = {
         adagio: new AuctionObject("bidder", "adagio", "active", !0, !0),
-        adpone: new AuctionObject("bidder", "adpone", "inactive", !0, !0),
         adtelligent: new AuctionObject("bidder", "adtelligent", "active", !0, !0),
         amazon: new AuctionObject("bidder", "amazon", "active", !0, !0),
-        brightcom: new AuctionObject("bidder", "brightcom", "inactive", !0, !0),
         conversant: new AuctionObject("bidder", "conversant", "active", !0, !0),
-        equativ: new AuctionObject("bidder", "equativ", "inactive", !0, !0),
         gumgum: new AuctionObject("bidder", "gumgum", "active", !0, !0),
-        improvedigital: new AuctionObject("bidder", "improvedigital", "active", !0, !0),
+        inmobi: new AuctionObject("bidder", "inmobi", "active", !0, !0),
         kuantyx: new AuctionObject("bidder", "kuantyx", "active", !0, !0),
         medianet: new AuctionObject("bidder", "medianet", "active", !0, !0),
         missena: new AuctionObject("bidder", "missena", "active", !0, !0),
-        nexxen: new AuctionObject("bidder", "nexxen", "active", !0, !0),
-        oftmedia: new AuctionObject("bidder", "oftmedia", "inactive", !0, !0),
         ogury: new AuctionObject("bidder", "ogury", "active", !0, !0),
         onetag: new AuctionObject("bidder", "onetag", "active", !0, !0),
         richaudience: new AuctionObject("bidder", "richaudience", "active", !0, !0),
         rise: new AuctionObject("bidder", "rise", "active", !0, !0),
         rubicon: new AuctionObject("bidder", "rubicon", "active", !0, !0),
+        seedtag: new AuctionObject("bidder", "seedtag", "active", !0, !0),
         smartadserver: new AuctionObject("bidder", "smartadserver", "inactive", !0, !0),
         smilewanted: new AuctionObject("bidder", "smilewanted", "active", !0, !0),
         sovrn: new AuctionObject("bidder", "sovrn", "active", !0, !0),
         sparteo: new AuctionObject("bidder", "sparteo", "active", !0, !0),
-        triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0)
+        triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0),
+        waardex: new AuctionObject("bidder", "waardex", "active", !0, !0)
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 27e3,
@@ -563,13 +560,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     position: "atf"
                 }
             }, {
-                bidder: "improvedigital",
-                labelAll: [bidders.improvedigital.getStatus(), stdAds],
-                params: {
-                    publisherId: 945,
-                    placementId: 22978366
-                }
-            }, {
                 bidder: "onetag",
                 labelAll: [bidders.onetag.getStatus(), stdAds],
                 params: {
@@ -622,18 +612,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     pid: "Y6xAlkJvxW",
                     supplyType: "site",
                     bidfloor: .03
-                }
-            }, {
-                bidder: "unruly",
-                labelAll: [bidders.nexxen.getStatus(), stdAds],
-                params: {
-                    siteId: 263646
-                }
-            }, {
-                bidder: "oftmedia",
-                labelAll: [bidders.oftmedia.getStatus(), stdAds],
-                params: {
-                    placementId: 30664625
                 }
             }, {
                 bidder: "rise",
@@ -711,12 +689,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     server: "https://srv.kntxy.com"
                 }
             }, {
-                bidder: "equativ",
-                labelAll: [bidders.equativ.getStatus(), stdAds],
-                params: {
-                    networkId: 4916
-                }
-            }, {
                 bidder: "sparteo",
                 labelAll: [bidders.sparteo.getStatus(), stdAds],
                 params: {
@@ -728,6 +700,27 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 params: {
                     apiKey: "PA-69746247",
                     placement: "footer"
+                }
+            }, {
+                bidder: "seedtag",
+                labelAll: [bidders.seedtag.getStatus(), stdAds],
+                params: {
+                    publisherId: "7032-6518-01",
+                    adUnitId: "37941293",
+                    placement: "inScreen"
+                }
+            }, {
+                bidder: "waardex",
+                labelAll: [bidders.waardex.getStatus(), stdAds],
+                params: {
+                    host: "cpm.aserve1.net",
+                    zoneId: 389507
+                }
+            }, {
+                bidder: "inmobi",
+                labelAll: [bidders.inmobi.getStatus(), stdAds],
+                params: {
+                    plc: "10000761569"
                 }
             }]
         }
@@ -765,13 +758,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     siteId: "478854",
                     zoneId: "2843710",
                     position: "atf"
-                }
-            }, {
-                bidder: "improvedigital",
-                labelAll: [bidders.improvedigital.getStatus(), stdAds],
-                params: {
-                    publisherId: 945,
-                    placementId: 22978365
                 }
             }, {
                 bidder: "onetag",
@@ -821,18 +807,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     pid: "rK21whMWyM",
                     supplyType: "site",
                     bidfloor: .03
-                }
-            }, {
-                bidder: "unruly",
-                labelAll: [bidders.nexxen.getStatus(), stdAds],
-                params: {
-                    siteId: 263646
-                }
-            }, {
-                bidder: "oftmedia",
-                labelAll: [bidders.oftmedia.getStatus(), stdAds],
-                params: {
-                    placementId: 30664625
                 }
             }, {
                 bidder: "rise",
@@ -910,12 +884,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     server: "https://srv.kntxy.com"
                 }
             }, {
-                bidder: "equativ",
-                labelAll: [bidders.equativ.getStatus(), stdAds],
-                params: {
-                    networkId: 4916
-                }
-            }, {
                 bidder: "sparteo",
                 labelAll: [bidders.sparteo.getStatus(), stdAds],
                 params: {
@@ -927,6 +895,27 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 params: {
                     apiKey: "PA-69746247",
                     placement: "header"
+                }
+            }, {
+                bidder: "seedtag",
+                labelAll: [bidders.seedtag.getStatus(), stdAds],
+                params: {
+                    publisherId: "7032-6518-01",
+                    adUnitId: "37941295",
+                    placement: "inBanner"
+                }
+            }, {
+                bidder: "waardex",
+                labelAll: [bidders.waardex.getStatus(), stdAds],
+                params: {
+                    host: "cpm.aserve1.net",
+                    zoneId: 389507
+                }
+            }, {
+                bidder: "inmobi",
+                labelAll: [bidders.inmobi.getStatus(), stdAds],
+                params: {
+                    plc: "10000761569"
                 }
             }]
         }
@@ -1129,10 +1118,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     actionTimeout: 8e3
                 }
             },
-            schain: {
-                validation: "strict",
-                config: t
-            },
             deviceAccess: !0,
             userSync: {
                 filterSettings: {
@@ -1152,8 +1137,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                         expires: 90,
                         refreshInSeconds: 28800
                     }
-                }, {
-                    name: "quantcastId"
                 }, {
                     name: "criteo"
                 }, {
@@ -1201,11 +1184,13 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             rubicon: {
                 singleRequest: !0
             },
-            improvedigital: {
-                singleRequest: !0
-            },
             useBidCache: !0,
             ortb2: {
+                source: {
+                    ext: {
+                        schain: t
+                    }
+                },
                 site: {
                     name: "BusTimes",
                     domain: "bustimes.org",
@@ -1328,6 +1313,21 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 }
             },
             missena: {
+                bidCpmAdjustment: function(t) {
+                    return t * usdRate * .91
+                }
+            },
+            seedtag: {
+                bidCpmAdjustment: function(t) {
+                    return t * usdRate * .91
+                }
+            },
+            waardex: {
+                bidCpmAdjustment: function(t) {
+                    return t * usdRate * .91
+                }
+            },
+            inmobi: {
                 bidCpmAdjustment: function(t) {
                     return t * usdRate * .91
                 }
