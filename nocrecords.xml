@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-07-31T18:48:46Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-04T13:07:18Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -77250,7 +77250,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW/>
+      <NW>1001</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -78138,7 +78138,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2387</NW>
+      <NW>1021</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -79581,7 +79581,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2628</NW>
+      <NW>1030</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -95861,7 +95861,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2515</NW>
+      <NW>1003</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -105703,7 +105703,7 @@
       <WM>FML</WM>
       <WA/>
       <YO>FGM</YO>
-      <NW>FMC</NW>
+      <NW>2389</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -107183,7 +107183,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>1024</NW>
+      <NW/>
       <NE/>
       <SC/>
       <SE/>
@@ -114102,7 +114102,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2212</NW>
+      <NW>2316</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -120910,7 +120910,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>1004</NW>
+      <NW/>
       <NE/>
       <SC/>
       <SE/>
@@ -122797,7 +122797,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2002</NW>
+      <NW/>
       <NE/>
       <SC/>
       <SE/>
@@ -143480,7 +143480,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2604</NW>
+      <NW>1012</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -143499,43 +143499,6 @@
       <AuditDate>2016-09-19 00:00:00</AuditDate>
       <AuditEditor>Amy Brown</AuditEditor>
       <AuditComment>Added old local code back in</AuditComment>
-      <Duplicate>Dup</Duplicate>
-      <DateCeased/>
-      <CessationComment/>
-    </NOCLinesRecord>
-    <NOCLinesRecord>
-      <NOCLineNo>11170</NOCLineNo>
-      <NOCCODE>PPBU</NOCCODE>
-      <PubNm>Peoples Bus</PubNm>
-      <RefNm>Peoples Bus</RefNm>
-      <Licence>PC1080261</Licence>
-      <Mode>Bus</Mode>
-      <TLRegOwn>NW</TLRegOwn>
-      <EBSRAgent/>
-      <LO/>
-      <SW/>
-      <WM/>
-      <WA/>
-      <YO/>
-      <NW/>
-      <NE/>
-      <SC/>
-      <SE/>
-      <EA/>
-      <EM/>
-      <NI/>
-      <NX/>
-      <Megabus/>
-      <NewBharat/>
-      <Terravision/>
-      <NCSD/>
-      <Easybus/>
-      <Yorks_RT/>
-      <TravelEnq/>
-      <Comment/>
-      <AuditDate>2016-09-09 00:00:00</AuditDate>
-      <AuditEditor>Amy Brown</AuditEditor>
-      <AuditComment>Replaced Trapeze code with new local code</AuditComment>
       <Duplicate>Dup</Duplicate>
       <DateCeased/>
       <CessationComment/>
@@ -152286,7 +152249,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2606</NW>
+      <NW>1002</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -153359,7 +153322,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2582</NW>
+      <NW>1024</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -168899,7 +168862,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2266</NW>
+      <NW>1036</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176077,7 +176040,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2268</NW>
+      <NW>1028</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176114,7 +176077,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2288</NW>
+      <NW>1007</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176151,7 +176114,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2318</NW>
+      <NW>1042</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176188,7 +176151,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2357</NW>
+      <NW>1016</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176262,7 +176225,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2409</NW>
+      <NW>1038</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176299,7 +176262,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2462</NW>
+      <NW>1033</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176373,7 +176336,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2527</NW>
+      <NW>1014</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176447,7 +176410,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2578</NW>
+      <NW>1008</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176558,7 +176521,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2768</NW>
+      <NW>1015</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176595,7 +176558,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2909</NW>
+      <NW>1054</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -176706,7 +176669,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2913</NW>
+      <NW>1060</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -177002,7 +176965,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2910</NW>
+      <NW>1055</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -179851,7 +179814,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>UKCW</NW>
+      <NW>1061</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -182700,7 +182663,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2410</NW>
+      <NW>1013</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -183662,7 +183625,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2903</NW>
+      <NW>1048</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -185623,7 +185586,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2806</NW>
+      <NW>1045</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -188990,7 +188953,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>2402</NW>
+      <NW>1062</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -193356,7 +193319,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>STL</NW>
+      <NW>1004</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -199350,7 +199313,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW/>
+      <NW>1005</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -201459,7 +201422,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>MNWB</NW>
+      <NW>2007</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -201496,7 +201459,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>MNHT</NW>
+      <NW>2003</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -201533,7 +201496,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>MNGN</NW>
+      <NW>2002</NW>
       <NE/>
       <SC/>
       <SE/>
@@ -201570,7 +201533,7 @@
       <WM/>
       <WA/>
       <YO/>
-      <NW>MNSC</NW>
+      <NW>2001</NW>
       <NE/>
       <SC/>
       <SE/>
