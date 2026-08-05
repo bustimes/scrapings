@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-04T18:46:33Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-05T18:59:31Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -342186,14 +342186,14 @@
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>94905</PubNmId>
-      <OperatorPublicName>Nexus Ferry</OperatorPublicName>
+      <OperatorPublicName>Shields Ferry</OperatorPublicName>
       <PubNmQual/>
       <TTRteEnq>customerrelations@nexus.org.uk</TTRteEnq>
       <FareEnq>01912020747</FareEnq>
       <LostPropEnq/>
       <DisruptEnq/>
-      <ComplEnq>Nexus House, St James Boulevard, Newcastle upon Tyne NE1 4AX</ComplEnq>
-      <Twitter>@My_Metro</Twitter>
+      <ComplEnq>Customer Relations, Nexus Head Office, The Spark, Newcastle Helix, St James Boulevard, Newcastle upon Tyne NE4 5DE</ComplEnq>
+      <Twitter/>
       <Facebook/>
       <LinkedIn/>
       <YouTube/>
@@ -342202,7 +342202,7 @@
       <ChangeComment/>
       <CeasedDate/>
       <DataOwner/>
-      <Website>#https://www.nexus.org.uk/ferry#</Website>
+      <Website>#https://travelnortheast.uk/ways-to-travel/ferry/#</Website>
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>94906</PubNmId>
