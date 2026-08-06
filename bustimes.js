@@ -1,4 +1,4 @@
-/*v12.7.0 - 03-08-26 - 17:28 GMT+1*/
+/*v12.7.1 - 06-08-26 - 09:25 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -188,7 +188,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }(),
         function() {
             var t = document.createElement("script");
-            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_11260_bt.js";
+            t.type = "text/javascript", t.async = !0, t.src = "https://cdn.adfirst.media/hb/pb_11260_bta.js";
             var e = document.getElementsByTagName("head")[0];
             e.insertBefore(t, e.firstChild)
         }();
@@ -442,7 +442,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         sovrn: new AuctionObject("bidder", "sovrn", "active", !0, !0),
         sparteo: new AuctionObject("bidder", "sparteo", "active", !0, !0),
         triplelift: new AuctionObject("bidder", "triplelift", "inactive", !0, !0),
-        waardex: new AuctionObject("bidder", "waardex", "active", !0, !0)
+        waardex_ak: new AuctionObject("bidder", "waardex_ak", "active", !0, !0)
     };
     bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
     var refreshPeriod = 27e3,
@@ -710,8 +710,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     placement: "inScreen"
                 }
             }, {
-                bidder: "waardex",
-                labelAll: [bidders.waardex.getStatus(), stdAds],
+                bidder: "waardex_ak",
+                labelAll: [bidders.waardex_ak.getStatus(), stdAds],
                 params: {
                     host: "cpm.aserve1.net",
                     zoneId: 389507
@@ -905,8 +905,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     placement: "inBanner"
                 }
             }, {
-                bidder: "waardex",
-                labelAll: [bidders.waardex.getStatus(), stdAds],
+                bidder: "waardex_ak",
+                labelAll: [bidders.waardex_ak.getStatus(), stdAds],
                 params: {
                     host: "cpm.aserve1.net",
                     zoneId: 389507
@@ -1163,6 +1163,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                         refreshInSeconds: 28800
                     }
                 }],
+                aliasSyncEnabled: !0,
                 auctionDelay: 50
             },
             gptPreAuction: {
@@ -1322,7 +1323,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     return t * usdRate * .91
                 }
             },
-            waardex: {
+            waardex_ak: {
                 bidCpmAdjustment: function(t) {
                     return t * usdRate * .91
                 }
