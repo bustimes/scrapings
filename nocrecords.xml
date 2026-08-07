@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-06T12:38:15Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-07T01:33:32Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -71055,6 +71055,26 @@
       <DataOwner/>
       <Website/>
     </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132697</ManDivId>
+      <ManDivNm>Bus Vannin</ManDivNm>
+      <GpId>2384</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
   </ManagementDivisions>
   <NOCLines>
     <NOCLinesRecord>
@@ -139695,7 +139715,7 @@
     <NOCLinesRecord>
       <NOCLineNo>11059</NOCLineNo>
       <NOCCODE>NXSF</NOCCODE>
-      <PubNm>Nexus Ferry</PubNm>
+      <PubNm>Shields Ferry</PubNm>
       <RefNm>Nexus Ferry</RefNm>
       <Licence/>
       <Mode>Ferry</Mode>
@@ -201411,7 +201431,7 @@
     <NOCLinesRecord>
       <NOCLineNo>12927</NOCLineNo>
       <NOCCODE>MNWB</NOCCODE>
-      <PubNm>M-Network</PubNm>
+      <PubNm>Metro Network</PubNm>
       <RefNm>M-Network</RefNm>
       <Licence>PC0001977</Licence>
       <Mode>Bus</Mode>
@@ -201448,7 +201468,7 @@
     <NOCLinesRecord>
       <NOCLineNo>12928</NOCLineNo>
       <NOCCODE>MNHT</NOCCODE>
-      <PubNm>M-Network</PubNm>
+      <PubNm>Metro Network</PubNm>
       <RefNm>M-Network</RefNm>
       <Licence>PC0002691</Licence>
       <Mode>Bus</Mode>
@@ -201485,7 +201505,7 @@
     <NOCLinesRecord>
       <NOCLineNo>12929</NOCLineNo>
       <NOCCODE>MNGN</NOCCODE>
-      <PubNm>M-Network</PubNm>
+      <PubNm>Metro Network</PubNm>
       <RefNm>M-Network</RefNm>
       <Licence>PC2021320</Licence>
       <Mode>Bus</Mode>
@@ -201522,7 +201542,7 @@
     <NOCLinesRecord>
       <NOCLineNo>12930</NOCLineNo>
       <NOCCODE>MNSC</NOCCODE>
-      <PubNm>M-Network</PubNm>
+      <PubNm>Metro Network</PubNm>
       <RefNm>M-Network</RefNm>
       <Licence>PC1033334</Licence>
       <Mode>Bus</Mode>
@@ -201699,6 +201719,80 @@
       <Comment/>
       <AuditDate>2026-07-27 00:00:00</AuditDate>
       <AuditEditor>Amy Brown</AuditEditor>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12935</NOCLineNo>
+      <NOCCODE>BVAN</NOCCODE>
+      <PubNm>bus vannin</PubNm>
+      <RefNm>bus vannin</RefNm>
+      <Licence/>
+      <Mode>Bus</Mode>
+      <TLRegOwn/>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW/>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12936</NOCLineNo>
+      <NOCCODE>ETNW</NOCCODE>
+      <PubNm>Express Travel</PubNm>
+      <RefNm>Express Travel</RefNm>
+      <Licence>PC2001962</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>NW</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW>ETN</NW>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
       <AuditComment/>
       <Duplicate/>
       <DateCeased/>
@@ -208355,6 +208449,19 @@
       <VOSA_PSVLicenseName>Bu-Val Buses Ltd</VOSA_PSVLicenseName>
       <OpId>135814</OpId>
       <PubNmId>93519</PubNmId>
+      <NOCCdQual/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <DateCeased/>
+      <DataOwner/>
+    </NOCTableRecord>
+    <NOCTableRecord>
+      <NOCCODE>BVAN</NOCCODE>
+      <OperatorPublicName>bus vannin</OperatorPublicName>
+      <VOSA_PSVLicenseName/>
+      <OpId>138578</OpId>
+      <PubNmId>96412</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
@@ -226733,7 +226840,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>MNGN</NOCCODE>
-      <OperatorPublicName>M-Network</OperatorPublicName>
+      <OperatorPublicName>Metro Network</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>138306</OpId>
       <PubNmId>96407</PubNmId>
@@ -226746,7 +226853,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>MNHT</NOCCODE>
-      <OperatorPublicName>M-Network</OperatorPublicName>
+      <OperatorPublicName>Metro Network</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>136661</OpId>
       <PubNmId>96407</PubNmId>
@@ -226785,7 +226892,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>MNSC</NOCCODE>
-      <OperatorPublicName>M-Network</OperatorPublicName>
+      <OperatorPublicName>Metro Network</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>136477</OpId>
       <PubNmId>96407</PubNmId>
@@ -226798,7 +226905,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>MNWB</NOCCODE>
-      <OperatorPublicName>M-Network</OperatorPublicName>
+      <OperatorPublicName>Metro Network</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>138008</OpId>
       <PubNmId>96407</PubNmId>
@@ -229762,7 +229869,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>NXSF</NOCCODE>
-      <OperatorPublicName>Nexus Ferry</OperatorPublicName>
+      <OperatorPublicName>Shields Ferry</OperatorPublicName>
       <VOSA_PSVLicenseName>Nexus Ferry</VOSA_PSVLicenseName>
       <OpId>137246</OpId>
       <PubNmId>94905</PubNmId>
@@ -306802,6 +306909,26 @@
       <DataOwner/>
       <Website/>
     </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138578</OpId>
+      <OpNm>Bus Vannin</OpNm>
+      <ManDivId>132697</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
   </Operators>
   <PublicName>
     <PublicNameRecord>
@@ -371527,6 +371654,26 @@ bandhtravelhudderfield@gmail.com</FareEnq>
       <CeasedDate/>
       <DataOwner/>
       <Website>www.hotspurbus.com#http://www.hotspurbus.com#</Website>
+    </PublicNameRecord>
+    <PublicNameRecord>
+      <PubNmId>96412</PubNmId>
+      <OperatorPublicName>bus vannin</OperatorPublicName>
+      <PubNmQual/>
+      <TTRteEnq/>
+      <FareEnq>01624662525</FareEnq>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq>Transport Headquarters, Banks Circus, Douglas, Isle of Man IM1 5PT</ComplEnq>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website>#https://www.iombusandrail.im/#</Website>
     </PublicNameRecord>
   </PublicName>
 </travelinedata>
