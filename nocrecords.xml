@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-07T01:33:32Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-07T18:44:47Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -176615,7 +176615,7 @@
       <WM/>
       <WA/>
       <YO>YRK</YO>
-      <NW>FHAL</NW>
+      <NW/>
       <NE/>
       <SC/>
       <SE/>
@@ -201798,6 +201798,43 @@
       <DateCeased/>
       <CessationComment/>
     </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12937</NOCLineNo>
+      <NOCCODE>FHAL</NOCCODE>
+      <PubNm>First Halifax, Calder Valley &amp; Huddersfield</PubNm>
+      <RefNm>First Halifax, Calder Valley &amp; Huddersfield</RefNm>
+      <Licence>PB0000815</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>YO</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO>FHAL</YO>
+      <NW>FHAL</NW>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
   </NOCLines>
   <NOCTable>
     <NOCTableRecord>
@@ -215924,6 +215961,19 @@
       <VOSA_PSVLicenseName/>
       <OpId>138482</OpId>
       <PubNmId>96311</PubNmId>
+      <NOCCdQual/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <DateCeased/>
+      <DataOwner/>
+    </NOCTableRecord>
+    <NOCTableRecord>
+      <NOCCODE>FHAL</NOCCODE>
+      <OperatorPublicName>First Halifax, Calder Valley &amp; Huddersfield</OperatorPublicName>
+      <VOSA_PSVLicenseName/>
+      <OpId>136364</OpId>
+      <PubNmId>94059</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
