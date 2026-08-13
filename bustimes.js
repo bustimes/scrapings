@@ -1,4 +1,4 @@
-/*v12.7.2 - 12-08-26 - 09:13 GMT+1*/
+/*v12.7.3 - 13-08-26 - 17:37 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -1325,7 +1325,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             waardex_ak: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .91
+                    return t * usdRate * .6
                 }
             },
             inmobi: {
