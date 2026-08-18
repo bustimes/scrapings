@@ -1,4 +1,4 @@
-/*v12.7.4 - 14-08-26 - 09:57 GMT+1*/
+/*v12.7.5 - 18-08-26 - 11:21 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -214,8 +214,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .74,
-        euroRate = .85,
+        usdRate = .7383,
+        euroRate = .8549,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -1342,7 +1342,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     var adRefreshManager = new AdRefreshManager;
     adRefreshManager.numberOfAdUnitsToRender = gptAdSlots.length, googletag.cmd.push(function() {
         googletag.pubads().addEventListener("slotRenderEnded", function(t) {
-            adUnits[t.slot.getSlotElementId()].rendered = !0, adUnits[t.slot.getSlotElementId()].sizeGam = t.size, 0 == t.advertiserId ? (adUnits[t.slot.getSlotElementId()].winEntity = "google", adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winBidder = "google") : t.advertiserId == gamAmznID ? (adUnits[t.slot.getSlotElementId()].size = adUnits[t.slot.getSlotElementId()].amznSize, adUnits[t.slot.getSlotElementId()].winEntity = "amazon", adUnits[t.slot.getSlotElementId()].winBidder = "amazon") : t.advertiserId == gamPbID || (adUnits[t.slot.getSlotElementId()].size = t.size), "AFM_stickyFooter_ad" == t.slot.getSlotElementId() && !t.isEmpty && AMfooterOn && ("gumgum" === adUnits.AFM_stickyFooter_ad.winBidder || "justpremium" === adUnits.AFM_stickyFooter_ad.winBidder || "sublime" === adUnits.AFM_stickyFooter_ad.winBidder || "ogury" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] || "sparteo" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] ? (adUnits.AFM_stickyFooter_ad.oopWinner(), adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh) : "missena" === adUnits.AFM_stickyFooter_ad.winBidder ? (adUnits.AFM_stickyFooter_ad.show([320, 100]), adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = AFM_page.isMobile() ? "320px" : "728px") : (adUnits.AFM_stickyFooter_ad.show(adUnits.AFM_stickyFooter_ad.size), adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = "initial")), "live" === adUnits[t.slot.getSlotElementId()].status ? adRefreshManager.tallyRenders() : "dormant" === adUnits[t.slot.getSlotElementId()].status && (adUnits[t.slot.getSlotElementId()].status = "live")
+            adUnits[t.slot.getSlotElementId()].rendered = !0, adUnits[t.slot.getSlotElementId()].sizeGam = t.size, 0 == t.advertiserId ? (adUnits[t.slot.getSlotElementId()].winEntity = "google", adUnits[t.slot.getSlotElementId()].size = t.size, adUnits[t.slot.getSlotElementId()].winBidder = "google") : t.advertiserId == gamAmznID ? (adUnits[t.slot.getSlotElementId()].size = adUnits[t.slot.getSlotElementId()].amznSize, adUnits[t.slot.getSlotElementId()].winEntity = "amazon", adUnits[t.slot.getSlotElementId()].winBidder = "amazon") : t.advertiserId == gamPbID || (adUnits[t.slot.getSlotElementId()].size = t.size), "AFM_stickyFooter_ad" == t.slot.getSlotElementId() && !t.isEmpty && AMfooterOn && ("gumgum" === adUnits.AFM_stickyFooter_ad.winBidder || "seedtag" === adUnits.AFM_stickyFooter_ad.winBidder || "sublime" === adUnits.AFM_stickyFooter_ad.winBidder || "ogury" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] || "sparteo" === adUnits.AFM_stickyFooter_ad.winBidder && 1 === adUnits.AFM_stickyFooter_ad.size[0] ? (adUnits.AFM_stickyFooter_ad.oopWinner(), adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh) : "missena" === adUnits.AFM_stickyFooter_ad.winBidder ? (adUnits.AFM_stickyFooter_ad.show([320, 100]), adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = AFM_page.isMobile() ? "320px" : "728px") : (adUnits.AFM_stickyFooter_ad.show(adUnits.AFM_stickyFooter_ad.size), adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = "initial")), "live" === adUnits[t.slot.getSlotElementId()].status ? adRefreshManager.tallyRenders() : "dormant" === adUnits[t.slot.getSlotElementId()].status && (adUnits[t.slot.getSlotElementId()].status = "live")
         }), googletag.pubads().addEventListener("slotVisibilityChanged", function(t) {
             adUnits[t.slot.getSlotElementId()].inViewPerc = t.inViewPercentage, adUnits[t.slot.getSlotElementId()].inView = t.inViewPercentage >= 66
         })
