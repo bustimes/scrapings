@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-27T15:14:57Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-27T21:43:59Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -1606,7 +1606,7 @@
     </GroupsRecord>
     <GroupsRecord>
       <GpId>2434</GpId>
-      <GpNme>Keolis Amey Wales Cymru</GpNme>
+      <GpNme>Transport for Wales</GpNme>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -71135,13 +71135,33 @@
       <DataOwner/>
       <Website/>
     </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132701</ManDivId>
+      <ManDivNm>ScotRail Trains Limited</ManDivNm>
+      <GpId>2409</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
   </ManagementDivisions>
   <NOCLines>
     <NOCLinesRecord>
       <NOCLineNo>9080</NOCLineNo>
       <NOCCODE>=AW</NOCCODE>
       <PubNm>Transport for Wales</PubNm>
-      <RefNm>Transport for Wales (ATOC)</RefNm>
+      <RefNm>Transport for Wales</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71167,9 +71187,9 @@
       <Yorks_RT/>
       <TravelEnq/>
       <Comment/>
-      <AuditDate>2018-11-06 00:00:00</AuditDate>
+      <AuditDate/>
       <AuditEditor>Amy Brown</AuditEditor>
-      <AuditComment>Updated public name</AuditComment>
+      <AuditComment/>
       <Duplicate>OK</Duplicate>
       <DateCeased/>
       <CessationComment/>
@@ -71215,7 +71235,7 @@
       <NOCLineNo>9082</NOCLineNo>
       <NOCCODE>=CH</NOCCODE>
       <PubNm>Chiltern Railways</PubNm>
-      <RefNm>Chiltern Railways (ATOC)</RefNm>
+      <RefNm>Chiltern Railways</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71251,7 +71271,7 @@
     <NOCLinesRecord>
       <NOCLineNo>9083</NOCLineNo>
       <NOCCODE>=CS</NOCCODE>
-      <PubNm>Caledonian Sleeper Ltd</PubNm>
+      <PubNm>Caledonian Sleeper</PubNm>
       <RefNm>Caledonian Sleeper Ltd</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
@@ -202302,7 +202322,7 @@
       <NOCCODE>=SR</NOCCODE>
       <OperatorPublicName>ScotRail</OperatorPublicName>
       <VOSA_PSVLicenseName>Abellio</VOSA_PSVLicenseName>
-      <OpId>135471</OpId>
+      <OpId>138582</OpId>
       <PubNmId>95284</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202430,7 +202450,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>=XR</NOCCODE>
-      <OperatorPublicName>TfL Rail</OperatorPublicName>
+      <OperatorPublicName>Elizabeth Line</OperatorPublicName>
       <VOSA_PSVLicenseName>Crossrail</VOSA_PSVLicenseName>
       <OpId>136051</OpId>
       <PubNmId>95606</PubNmId>
@@ -307133,6 +307153,26 @@
       <OpId>138581</OpId>
       <OpNm>Northern Trains Limited</OpNm>
       <ManDivId>132700</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138582</OpId>
+      <OpNm>ScotRail Trains Limited</OpNm>
+      <ManDivId>132701</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
