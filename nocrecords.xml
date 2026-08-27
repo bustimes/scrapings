@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-27T01:39:27Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-27T15:14:57Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -447,7 +447,7 @@
     </GroupsRecord>
     <GroupsRecord>
       <GpId>2368</GpId>
-      <GpNme>GOVIA</GpNme>
+      <GpNme>Great British Railways</GpNme>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -656,7 +656,7 @@
     </GroupsRecord>
     <GroupsRecord>
       <GpId>2379</GpId>
-      <GpNme>MTR Corporation (Crossrail) Limited</GpNme>
+      <GpNme>GTS Rail Operations</GpNme>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -1207,7 +1207,7 @@
     </GroupsRecord>
     <GroupsRecord>
       <GpId>2409</GpId>
-      <GpNme>Serco Caledonian Sleepers Ltd</GpNme>
+      <GpNme>Scottish Rail Holdings</GpNme>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -17637,7 +17637,7 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>130009</ManDivId>
-      <ManDivNm>Caledonian Sleeper,</ManDivNm>
+      <ManDivNm>Caledonian Sleeper Ltd,</ManDivNm>
       <GpId>2409</GpId>
       <TTRteEnq/>
       <FareEnq/>
@@ -21857,7 +21857,7 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>130221</ManDivId>
-      <ManDivNm>Crossrail,</ManDivNm>
+      <ManDivNm>Elizabeth Line</ManDivNm>
       <GpId>2379</GpId>
       <TTRteEnq/>
       <FareEnq/>
@@ -30317,7 +30317,7 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>130649</ManDivId>
-      <ManDivNm>Govia Thameslink Railway,</ManDivNm>
+      <ManDivNm>Greater Thameslink Railway,</ManDivNm>
       <GpId>2368</GpId>
       <TTRteEnq/>
       <FareEnq/>
@@ -71095,6 +71095,46 @@
       <DataOwner/>
       <Website/>
     </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132699</ManDivId>
+      <ManDivNm>SE Trains Limited</ManDivNm>
+      <GpId>2368</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132700</ManDivId>
+      <ManDivNm>Northern Trains Limited</ManDivNm>
+      <GpId>2368</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
   </ManagementDivisions>
   <NOCLines>
     <NOCLinesRecord>
@@ -71211,8 +71251,8 @@
     <NOCLinesRecord>
       <NOCLineNo>9083</NOCLineNo>
       <NOCCODE>=CS</NOCCODE>
-      <PubNm>Caledonian Sleeper</PubNm>
-      <RefNm>Caledonian Sleeper (ATOC)</RefNm>
+      <PubNm>Caledonian Sleeper Ltd</PubNm>
+      <RefNm>Caledonian Sleeper Ltd</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71878,7 +71918,7 @@
       <NOCLineNo>9102</NOCLineNo>
       <NOCCODE>=SE</NOCCODE>
       <PubNm>Southeastern</PubNm>
-      <RefNm>Southeastern (ATOC)</RefNm>
+      <RefNm>Southeastern</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71915,7 +71955,7 @@
       <NOCLineNo>9103</NOCLineNo>
       <NOCCODE>=SN</NOCCODE>
       <PubNm>Southern</PubNm>
-      <RefNm>South Central franchise (ATOC)</RefNm>
+      <RefNm>South Central franchise</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -72137,7 +72177,7 @@
       <NOCLineNo>9109</NOCLineNo>
       <NOCCODE>=VT</NOCCODE>
       <PubNm>Avanti West Coast</PubNm>
-      <RefNm>Avanti West Coast (ATOC)</RefNm>
+      <RefNm>Avanti West Coast</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -72247,8 +72287,8 @@
     <NOCLinesRecord>
       <NOCLineNo>9113</NOCLineNo>
       <NOCCODE>=XR</NOCCODE>
-      <PubNm>TfL Rail</PubNm>
-      <RefNm>Crossrail (TfL)</RefNm>
+      <PubNm>Elizabeth Line</PubNm>
+      <RefNm>Elizabeth Line</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -72274,9 +72314,9 @@
       <Yorks_RT/>
       <TravelEnq/>
       <Comment/>
-      <AuditDate>2015-04-22 00:00:00</AuditDate>
-      <AuditEditor>John Prince</AuditEditor>
-      <AuditComment>Public and Reference Names changed for Roger Slevin</AuditComment>
+      <AuditDate>2026-08-27 00:00:00</AuditDate>
+      <AuditEditor>Amy Brown</AuditEditor>
+      <AuditComment/>
       <Duplicate>OK</Duplicate>
       <DateCeased/>
       <CessationComment/>
@@ -202210,7 +202250,7 @@
       <NOCCODE>=NT</NOCCODE>
       <OperatorPublicName>Northern</OperatorPublicName>
       <VOSA_PSVLicenseName>Serco-Abellio</VOSA_PSVLicenseName>
-      <OpId>135644</OpId>
+      <OpId>138581</OpId>
       <PubNmId>94933</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202236,7 +202276,7 @@
       <NOCCODE>=SE</NOCCODE>
       <OperatorPublicName>Southeastern</OperatorPublicName>
       <VOSA_PSVLicenseName>Govia</VOSA_PSVLicenseName>
-      <OpId>136499</OpId>
+      <OpId>138580</OpId>
       <PubNmId>95395</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -252591,7 +252631,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>135835</OpId>
-      <OpNm>Caledonian Sleeper</OpNm>
+      <OpNm>Caledonian Sleeper Ltd</OpNm>
       <ManDivId>130009</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -256891,7 +256931,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>136051</OpId>
-      <OpNm>Crossrail</OpNm>
+      <OpNm>Elizabeth Line</OpNm>
       <ManDivId>130221</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -265731,7 +265771,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>136499</OpId>
-      <OpNm>Govia</OpNm>
+      <OpNm>Greater Thameslink Railway,</OpNm>
       <ManDivId>130649</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -307053,6 +307093,46 @@
       <OpId>138579</OpId>
       <OpNm>D Belfitt Commercials Ltd</OpNm>
       <ManDivId>132698</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138580</OpId>
+      <OpNm>SE Trains Limited</OpNm>
+      <ManDivId>132699</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138581</OpId>
+      <OpNm>Northern Trains Limited</OpNm>
+      <ManDivId>132700</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -356133,7 +356213,7 @@
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>95606</PubNmId>
-      <OperatorPublicName>TfL Rail</OperatorPublicName>
+      <OperatorPublicName>Elizabeth Line</OperatorPublicName>
       <PubNmQual/>
       <TTRteEnq/>
       <FareEnq>03432221234</FareEnq>
