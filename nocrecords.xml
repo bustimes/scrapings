@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-28T09:11:59Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-28T15:51:10Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -10837,8 +10837,8 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>129663</ManDivId>
-      <ManDivNm>Abellio Greater Anglia,</ManDivNm>
-      <GpId>2338</GpId>
+      <ManDivNm>GA Trains Limited</ManDivNm>
+      <GpId>2368</GpId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -64837,8 +64837,8 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>132382</ManDivId>
-      <ManDivNm>South Western Railway</ManDivNm>
-      <GpId>2431</GpId>
+      <ManDivNm>South Western Railway Limited</ManDivNm>
+      <GpId>2368</GpId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -65357,8 +65357,8 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>132408</ManDivId>
-      <ManDivNm>LNER Ltd</ManDivNm>
-      <GpId>2396</GpId>
+      <ManDivNm>London North Eastern Railway Limited</ManDivNm>
+      <GpId>2368</GpId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -71175,6 +71175,66 @@
       <DataOwner/>
       <Website/>
     </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132703</ManDivId>
+      <ManDivNm>First Rail London</ManDivNm>
+      <GpId>2362</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132704</ManDivId>
+      <ManDivNm>TransPennine Trains Limited</ManDivNm>
+      <GpId>2368</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132705</ManDivId>
+      <ManDivNm>WM Trains Limited</ManDivNm>
+      <GpId>2368</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
   </ManagementDivisions>
   <NOCLines>
     <NOCLinesRecord>
@@ -71218,7 +71278,7 @@
       <NOCLineNo>9081</NOCLineNo>
       <NOCCODE>=CC</NOCCODE>
       <PubNm>c2c</PubNm>
-      <RefNm>c2c (ATOC)</RefNm>
+      <RefNm>c2c</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71403,7 +71463,7 @@
       <NOCLineNo>9087</NOCLineNo>
       <NOCCODE>=GC</NOCCODE>
       <PubNm>Grand Central</PubNm>
-      <RefNm>Grand Central Trains (ATOC)</RefNm>
+      <RefNm>Grand Central Trains</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71477,7 +71537,7 @@
       <NOCLineNo>9089</NOCLineNo>
       <NOCCODE>=GR</NOCCODE>
       <PubNm>London North Eastern Railway</PubNm>
-      <RefNm>formerly Great North Eastern Railway (ATOC)</RefNm>
+      <RefNm>London North Eastern Railway</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71513,8 +71573,8 @@
     <NOCLinesRecord>
       <NOCLineNo>9090</NOCLineNo>
       <NOCCODE>=GW</NOCCODE>
-      <PubNm>Great Western Railway</PubNm>
-      <RefNm>First Great Western Railway (ATOC)</RefNm>
+      <PubNm>First Greater Western Ltd</PubNm>
+      <RefNm>First Greater Western Ltd</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71551,7 +71611,7 @@
       <NOCLineNo>9091</NOCLineNo>
       <NOCCODE>=GX</NOCCODE>
       <PubNm>Gatwick Express</PubNm>
-      <RefNm>Part of South Central franchise (ATOC)</RefNm>
+      <RefNm>Gatwick Express</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71699,7 +71759,7 @@
       <NOCLineNo>9095</NOCLineNo>
       <NOCCODE>=IL</NOCCODE>
       <PubNm>Island Line</PubNm>
-      <RefNm>Island Line (South West Trains - Isle of Wight) (ATOC)</RefNm>
+      <RefNm>Island Line</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71810,7 +71870,7 @@
       <NOCLineNo>9098</NOCLineNo>
       <NOCCODE>=LO</NOCCODE>
       <PubNm>London Overground</PubNm>
-      <RefNm>London Overground (TfL) - (ATOC)</RefNm>
+      <RefNm>London Overground</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71847,7 +71907,7 @@
       <NOCLineNo>9099</NOCLineNo>
       <NOCCODE>=ME</NOCCODE>
       <PubNm>Merseyrail</PubNm>
-      <RefNm>Merseyrail (ATOC)</RefNm>
+      <RefNm>Merseyrail</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -72106,7 +72166,7 @@
       <NOCLineNo>9106</NOCLineNo>
       <NOCCODE>=SX</NOCCODE>
       <PubNm>Stansted Express</PubNm>
-      <RefNm>Stansted Express (ATOC)</RefNm>
+      <RefNm>Stansted Express</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -202160,7 +202220,7 @@
       <NOCCODE>=GW</NOCCODE>
       <OperatorPublicName>Great Western Railway</OperatorPublicName>
       <VOSA_PSVLicenseName>FirstGroup</VOSA_PSVLicenseName>
-      <OpId>136366</OpId>
+      <OpId>138586</OpId>
       <PubNmId>94055</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202238,7 +202298,7 @@
       <NOCCODE>=LE</NOCCODE>
       <OperatorPublicName>Greater Anglia</OperatorPublicName>
       <VOSA_PSVLicenseName>Abellio</VOSA_PSVLicenseName>
-      <OpId>135471</OpId>
+      <OpId>138587</OpId>
       <PubNmId>94218</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202251,7 +202311,7 @@
       <NOCCODE>=LM</NOCCODE>
       <OperatorPublicName>West Midlands Trains</OperatorPublicName>
       <VOSA_PSVLicenseName>Govia</VOSA_PSVLicenseName>
-      <OpId>135471</OpId>
+      <OpId>138588</OpId>
       <PubNmId>94641</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202264,7 +202324,7 @@
       <NOCCODE>=LO</NOCCODE>
       <OperatorPublicName>London Overground</OperatorPublicName>
       <VOSA_PSVLicenseName>Transport for London</VOSA_PSVLicenseName>
-      <OpId>137927</OpId>
+      <OpId>138584</OpId>
       <PubNmId>94642</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202368,7 +202428,7 @@
       <NOCCODE>=SX</NOCCODE>
       <OperatorPublicName>Stansted Express</OperatorPublicName>
       <VOSA_PSVLicenseName>Abellio Greater Anglia</VOSA_PSVLicenseName>
-      <OpId>135471</OpId>
+      <OpId>138587</OpId>
       <PubNmId>95497</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202394,7 +202454,7 @@
       <NOCCODE>=TP</NOCCODE>
       <OperatorPublicName>TransPennine Express</OperatorPublicName>
       <VOSA_PSVLicenseName>FirstGroup/Keolis</VOSA_PSVLicenseName>
-      <OpId>136366</OpId>
+      <OpId>138585</OpId>
       <PubNmId>94078</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -202420,7 +202480,7 @@
       <NOCCODE>=WM</NOCCODE>
       <OperatorPublicName>West Midlands Railway</OperatorPublicName>
       <VOSA_PSVLicenseName/>
-      <OpId>135471</OpId>
+      <OpId>138588</OpId>
       <PubNmId>96106</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -239668,9 +239728,9 @@
       <OpId>138184</OpId>
       <PubNmId>95996</PubNmId>
       <NOCCdQual/>
-      <ChangeDate>2016-10-11 00:00:00</ChangeDate>
-      <ChangeAgent>Amy Brown</ChangeAgent>
-      <ChangeComment>Added for Stuart Reynolds</ChangeComment>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
       <DateCeased/>
       <DataOwner/>
     </NOCTableRecord>
@@ -288451,7 +288511,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>137636</OpId>
-      <OpNm>Serco-Abellio</OpNm>
+      <OpNm>Serco / Transport UK</OpNm>
       <ManDivId>131762</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -289851,8 +289911,8 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>137706</OpId>
-      <OpNm>South West Trains</OpNm>
-      <ManDivId>131829</ManDivId>
+      <OpNm>South Western Railway Limited</OpNm>
+      <ManDivId>132382</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -301291,7 +301351,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>138283</OpId>
-      <OpNm>LNER Ltd</OpNm>
+      <OpNm>London North Eastern Railway Limited</OpNm>
       <ManDivId>132408</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -307213,6 +307273,106 @@
       <OpId>138583</OpId>
       <OpNm>c2c Railway Limited</OpNm>
       <ManDivId>132702</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138584</OpId>
+      <OpNm>First Rail London</OpNm>
+      <ManDivId>132703</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138585</OpId>
+      <OpNm>TransPennine Trains Limited</OpNm>
+      <ManDivId>132704</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138586</OpId>
+      <OpNm>First Greater Western Ltd</OpNm>
+      <ManDivId>130517</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138587</OpId>
+      <OpNm>GA Trains Limited</OpNm>
+      <ManDivId>129663</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138588</OpId>
+      <OpNm>WM Trains Limited</OpNm>
+      <ManDivId>132705</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
