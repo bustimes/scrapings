@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-27T21:43:59Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-08-28T09:11:59Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -71155,6 +71155,26 @@
       <DataOwner/>
       <Website/>
     </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132702</ManDivId>
+      <ManDivNm>c2c Railway Limited</ManDivNm>
+      <GpId>2368</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
   </ManagementDivisions>
   <NOCLines>
     <NOCLinesRecord>
@@ -71309,7 +71329,7 @@
       <NOCLineNo>9084</NOCLineNo>
       <NOCCODE>=EM</NOCCODE>
       <PubNm>East Midlands Railway</PubNm>
-      <RefNm>East Midlands Railway (ATOC)</RefNm>
+      <RefNm>East Midlands Railway</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -71605,7 +71625,7 @@
       <NOCLineNo>9093</NOCLineNo>
       <NOCCODE>=HT</NOCCODE>
       <PubNm>Hull Trains</PubNm>
-      <RefNm>First Hull Trains (ATOC)</RefNm>
+      <RefNm>First Hull Trains</RefNm>
       <Licence/>
       <Mode>Rail</Mode>
       <TLRegOwn>Admin</TLRegOwn>
@@ -202036,7 +202056,7 @@
       <NOCCODE>=CC</NOCCODE>
       <OperatorPublicName>c2c</OperatorPublicName>
       <VOSA_PSVLicenseName>National Express Group</VOSA_PSVLicenseName>
-      <OpId>138258</OpId>
+      <OpId>138583</OpId>
       <PubNmId>93532</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
@@ -307189,6 +307209,26 @@
       <DataOwner/>
       <Website/>
     </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138583</OpId>
+      <OpNm>c2c Railway Limited</OpNm>
+      <ManDivId>132702</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
   </Operators>
   <PublicName>
     <PublicNameRecord>
@@ -323480,7 +323520,7 @@
       <LostPropEnq/>
       <DisruptEnq/>
       <ComplEnq>Hudson Way, Pride Park, Derby DE24 8HS</ComplEnq>
-      <Twitter>@EastMidRailway</Twitter>
+      <Twitter/>
       <Facebook/>
       <LinkedIn/>
       <YouTube/>
