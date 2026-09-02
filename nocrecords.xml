@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-08-28T21:43:46Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-09-02T12:00:14Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -67917,7 +67917,7 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>132538</ManDivId>
-      <ManDivNm>Manchester Bus Tours Ltd</ManDivNm>
+      <ManDivNm>Transporabus Ltd</ManDivNm>
       <GpId>2439</GpId>
       <TTRteEnq/>
       <FareEnq/>
@@ -189216,8 +189216,8 @@
     <NOCLinesRecord>
       <NOCLineNo>12570</NOCLineNo>
       <NOCCODE>MBTO</NOCCODE>
-      <PubNm>SightSeeing Manchester</PubNm>
-      <RefNm>SightSeeing Manchester</RefNm>
+      <PubNm>TransporaBus</PubNm>
+      <RefNm>TransporaBus</RefNm>
       <Licence>PC1111037</Licence>
       <Mode>Bus</Mode>
       <TLRegOwn>NW</TLRegOwn>
@@ -189226,7 +189226,7 @@
       <SW/>
       <WM/>
       <WA/>
-      <YO/>
+      <YO>TSP</YO>
       <NW>MBTO</NW>
       <NE/>
       <SC/>
@@ -189243,7 +189243,7 @@
       <Yorks_RT/>
       <TravelEnq/>
       <Comment/>
-      <AuditDate>2021-11-01 00:00:00</AuditDate>
+      <AuditDate>2026-09-02 00:00:00</AuditDate>
       <AuditEditor>Amy Brown</AuditEditor>
       <AuditComment/>
       <Duplicate/>
@@ -225959,7 +225959,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>MBTO</NOCCODE>
-      <OperatorPublicName>SightSeeing Manchester</OperatorPublicName>
+      <OperatorPublicName>TransporaBus</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>138412</OpId>
       <PubNmId>96240</PubNmId>
@@ -304031,7 +304031,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>138412</OpId>
-      <OpNm>Manchester Bus Tours Ltd</OpNm>
+      <OpNm>Transporabus Ltd</OpNm>
       <ManDivId>132538</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -368914,7 +368914,7 @@ Dover, Kent CT17 0UB</ComplEnq>
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>96240</PubNmId>
-      <OperatorPublicName>SightSeeing Manchester</OperatorPublicName>
+      <OperatorPublicName>TransporaBus</OperatorPublicName>
       <PubNmQual/>
       <TTRteEnq/>
       <FareEnq/>
