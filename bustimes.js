@@ -1,4 +1,4 @@
-/*v12.7.6 - 03-09-26 - 10:19 GMT+1*/
+/*v12.7.7 - 04-09-26 - 09:32 GMT+1*/
 function AFM_getParameterByName(t, e) {
     e || (e = window.location.href), t = t.replace(/[\[\]]/g, "\\$&");
     var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -214,8 +214,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         originalBidCSS = "font-weight: bold;",
         makeNet85 = .85,
         makeNet86 = .86,
-        usdRate = .7407,
-        euroRate = .8601,
+        usdRate = .7383,
+        euroRate = .8594,
         adAutorefreshEnabled = 1,
         adAutorefreshCounter = 1,
         fruitlessRefreshAttempt = 0,
@@ -1186,6 +1186,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 singleRequest: !0
             },
             useBidCache: !0,
+            minBidCacheTTL: 0,
             ortb2: {
                 source: {
                     ext: {
@@ -1240,7 +1241,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             gumgum: {
                 bidCpmAdjustment: function(t) {
-                    return .938 * t
+                    return .906 * t
                 }
             },
             ogury: {
@@ -1320,7 +1321,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
             },
             seedtag: {
                 bidCpmAdjustment: function(t) {
-                    return t * usdRate * .9
+                    return t * usdRate * .885
                 }
             },
             waardex_ak: {
