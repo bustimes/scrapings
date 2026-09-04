@@ -40,7 +40,10 @@ jobs:
           qsv partition AdministrativeAreaCode naptan stops.csv
           rm stops.csv
           cd naptan
+
           bash rename.sh
+          rrl=$(curl -s "https://rrl.api.dft.gov.uk/v1/rail-replacement/stops/download?format=csv" | jq -r '.downloadUrl')
+          curl -s "$rrl" -o "154 911 National - Rail Replacement.csv"
 
       - name: Commit and push
         run: |-
