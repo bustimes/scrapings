@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-09-02T12:00:14Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-09-07T11:57:01Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -202109,6 +202109,154 @@
       <SE/>
       <EA/>
       <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12941</NOCLineNo>
+      <NOCCODE>MNSC</NOCCODE>
+      <PubNm>Metro Network</PubNm>
+      <RefNm>M-Network</RefNm>
+      <Licence>PC1033334</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>NW</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW>MNSC</NW>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12942</NOCLineNo>
+      <NOCCODE>MNWB</NOCCODE>
+      <PubNm>Metro Network</PubNm>
+      <RefNm>M-Network</RefNm>
+      <Licence>PC0001977</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>NW</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW>MNWB</NW>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12943</NOCLineNo>
+      <NOCCODE>CSCO</NOCCODE>
+      <PubNm>C &amp; S Coaches</PubNm>
+      <RefNm>C &amp; S Coaches</RefNm>
+      <Licence>PC1073268</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>NW</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW>CSCO</NW>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12944</NOCLineNo>
+      <NOCCODE>HULS</NOCCODE>
+      <PubNm>Hulleys by High Peak</PubNm>
+      <RefNm>Hulleys by High Peak</RefNm>
+      <Licence>PC0001086</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>EM</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW/>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM>HUL</EM>
       <NI/>
       <NX/>
       <Megabus/>
