@@ -1,4 +1,4 @@
-/*v12.7.7 - 04-09-26 - 09:32 GMT+1*/function AFM_getParameterByName(t, e) {
+/*v12.7.8 - 16-09-26 - 11:28 GMT+1*/function AFM_getParameterByName(t, e) {
   e ||= window.location.href;
   t = t.replace(/[\[\]]/g, "\\$&");
   var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -381,7 +381,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     var t = document.createElement("script");
     t.type = "text/javascript";
     t.async = true;
-    t.src = "https://cdn.adfirst.media/hb/pb_11260_bta.js";
+    t.src = "https://cdn.adfirst.media/hb/pb_11350_bt.js";
     var e = document.getElementsByTagName("head")[0];
     e.insertBefore(t, e.firstChild);
   })();
@@ -419,8 +419,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   var originalBidCSS = "font-weight: bold;";
   var makeNet85 = 0.85;
   var makeNet86 = 0.86;
-  var usdRate = 0.7383;
-  var euroRate = 0.8594;
+  var usdRate = 0.7419;
+  var euroRate = 0.8562;
   var adAutorefreshEnabled = 1;
   var adAutorefreshCounter = 1;
   var fruitlessRefreshAttempt = 0;
@@ -663,8 +663,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     smilewanted: new AuctionObject("bidder", "smilewanted", "active", true, true),
     sovrn: new AuctionObject("bidder", "sovrn", "active", true, true),
     sparteo: new AuctionObject("bidder", "sparteo", "active", true, true),
-    triplelift: new AuctionObject("bidder", "triplelift", "inactive", true, true),
-    waardex_ak: new AuctionObject("bidder", "waardex_ak", "active", true, true)
+    triplelift: new AuctionObject("bidder", "triplelift", "inactive", true, true)
   };
   bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
   var refreshPeriod = 27000;
@@ -1047,13 +1046,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           placement: "inScreen"
         }
       }, {
-        bidder: "waardex_ak",
-        labelAll: [bidders.waardex_ak.getStatus(), stdAds],
-        params: {
-          host: "cpm.aserve1.net",
-          zoneId: 389507
-        }
-      }, {
         bidder: "inmobi",
         labelAll: [bidders.inmobi.getStatus(), stdAds],
         params: {
@@ -1241,13 +1233,6 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           publisherId: "7032-6518-01",
           adUnitId: "37941295",
           placement: "inBanner"
-        }
-      }, {
-        bidder: "waardex_ak",
-        labelAll: [bidders.waardex_ak.getStatus(), stdAds],
-        params: {
-          host: "cpm.aserve1.net",
-          zoneId: 389507
         }
       }, {
         bidder: "inmobi",
@@ -1744,12 +1729,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       gumgum: {
         bidCpmAdjustment: function (t) {
-          return t * 0.906;
+          return t * 0.828;
         }
       },
       ogury: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.9;
+          return t * usdRate * 0.891;
         }
       },
       onetag: {
@@ -1764,7 +1749,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       adtelligent: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.95;
+          return t * usdRate * 0.944;
         }
       },
       unruly: {
@@ -1774,7 +1759,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       richaudience: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.94;
+          return t * usdRate * 0.834;
         }
       },
       rise: {
@@ -1799,7 +1784,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       smilewanted: {
         bidCpmAdjustment: function (t) {
-          return t * euroRate * 0.916;
+          return t * euroRate * 0.928;
         }
       },
       kuantyx: {
@@ -1814,12 +1799,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       sparteo: {
         bidCpmAdjustment: function (t) {
-          return t * euroRate * 0.95;
+          return t * euroRate * 0.964;
         }
       },
       missena: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.922;
+          return t * usdRate * 0.911;
         }
       },
       seedtag: {
@@ -1827,14 +1812,9 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           return t * usdRate * 0.885;
         }
       },
-      waardex_ak: {
-        bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.95;
-        }
-      },
       inmobi: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.674;
+          return t * usdRate * 0.771;
         }
       }
     };
