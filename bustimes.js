@@ -1,4 +1,4 @@
-/*v12.7.8 - 16-09-26 - 11:28 GMT+1*/function AFM_getParameterByName(t, e) {
+/*v12.7.9 - 17-09-26 - 13:36 GMT+1*/function AFM_getParameterByName(t, e) {
   e ||= window.location.href;
   t = t.replace(/[\[\]]/g, "\\$&");
   var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -1683,8 +1683,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         site: {
           name: "BusTimes",
           domain: "bustimes.org",
-          cat: ["IAB18", "IAB18-4", "IAB9-30"],
-          pagecat: ["IAB18", "IAB18-4", "IAB9-30"],
+          cat: ["IAB20"],
+          pagecat: ["IAB20"],
           page: getPageURLForPrebid(),
           publisher: {
             domain: "bustimes.org",
