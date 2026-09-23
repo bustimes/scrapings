@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-09-21T12:32:35Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-09-23T18:27:04Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -49657,7 +49657,7 @@
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
       <ManDivId>131618</ManDivId>
-      <ManDivNm>Renown Transport Services Limited,</ManDivNm>
+      <ManDivNm>Renown Travel Limited,</ManDivNm>
       <GpId>2384</GpId>
       <TTRteEnq/>
       <FareEnq/>
@@ -146982,9 +146982,9 @@
     <NOCLinesRecord>
       <NOCLineNo>11265</NOCLineNo>
       <NOCCODE>RENW</NOCCODE>
-      <PubNm>Renown Coaches</PubNm>
-      <RefNm>Renown Coaches</RefNm>
-      <Licence>PK1109292</Licence>
+      <PubNm>Renown Travel</PubNm>
+      <RefNm>Renown Travel</RefNm>
+      <Licence>PK2034919</Licence>
       <Mode>Bus</Mode>
       <TLRegOwn>SE</TLRegOwn>
       <EBSRAgent/>
@@ -147009,9 +147009,9 @@
       <Yorks_RT/>
       <TravelEnq/>
       <Comment/>
-      <AuditDate>2015-06-15 00:00:00</AuditDate>
-      <AuditEditor>John Prince</AuditEditor>
-      <AuditComment>Data cleanse for David Dyson</AuditComment>
+      <AuditDate>2026-09-23 00:00:00</AuditDate>
+      <AuditEditor/>
+      <AuditComment/>
       <Duplicate>OK</Duplicate>
       <DateCeased/>
       <CessationComment/>
@@ -285986,7 +285986,7 @@
     </OperatorsRecord>
     <OperatorsRecord>
       <OpId>137490</OpId>
-      <OpNm>Renown Transport Services Limited</OpNm>
+      <OpNm>Renown Travel Limited</OpNm>
       <ManDivId>131618</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
@@ -348368,14 +348368,14 @@
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>95168</PubNmId>
-      <OperatorPublicName>Renown Coaches</OperatorPublicName>
+      <OperatorPublicName>Renown Travel</OperatorPublicName>
       <PubNmQual/>
-      <TTRteEnq>info@renowngroup.co.uk</TTRteEnq>
-      <FareEnq>01424210744</FareEnq>
+      <TTRteEnq>info@renowntravel.co.uk</TTRteEnq>
+      <FareEnq>01424236506</FareEnq>
       <LostPropEnq/>
       <DisruptEnq/>
       <ComplEnq>1a Beeching Road, Bexhill-On-Sea TN39 3LG</ComplEnq>
-      <Twitter>@renowngroup</Twitter>
+      <Twitter/>
       <Facebook/>
       <LinkedIn/>
       <YouTube/>
@@ -348384,7 +348384,7 @@
       <ChangeComment/>
       <CeasedDate/>
       <DataOwner/>
-      <Website>#http://www.renowngroup.co.uk/index.php#</Website>
+      <Website>#https://renowntravel.co.uk/#</Website>
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>95169</PubNmId>
