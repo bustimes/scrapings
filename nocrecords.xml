@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-09-23T18:27:04Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-10-02T18:29:42Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -71258,6 +71258,26 @@
     <ManagementDivisionsRecord>
       <ManDivId>132707</ManDivId>
       <ManDivNm>West Midlands Bus Limited</ManDivNm>
+      <GpId>2384</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132708</ManDivId>
+      <ManDivNm>Carey's Transport Ltd</ManDivNm>
       <GpId>2384</GpId>
       <TTRteEnq/>
       <FareEnq/>
@@ -202368,6 +202388,43 @@
       <DateCeased/>
       <CessationComment/>
     </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12947</NOCLineNo>
+      <NOCCODE>CATR</NOCCODE>
+      <PubNm>Carey's Transport Ltd</PubNm>
+      <RefNm>Carey's Transport Ltd</RefNm>
+      <Licence>PK2015513</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>SE</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW/>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
   </NOCLines>
   <NOCTable>
     <NOCTableRecord>
@@ -209721,6 +209778,19 @@
       <VOSA_PSVLicenseName>Sycharth, Penryhndeudraeth</VOSA_PSVLicenseName>
       <OpId>137809</OpId>
       <PubNmId>95566</PubNmId>
+      <NOCCdQual/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <DateCeased/>
+      <DataOwner/>
+    </NOCTableRecord>
+    <NOCTableRecord>
+      <NOCCODE>CATR</NOCCODE>
+      <OperatorPublicName/>
+      <VOSA_PSVLicenseName/>
+      <OpId>138591</OpId>
+      <PubNmId>96417</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
@@ -307804,6 +307874,26 @@
       <DataOwner/>
       <Website/>
     </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138591</OpId>
+      <OpNm>Carey's Transport Ltd</OpNm>
+      <ManDivId>132708</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
   </Operators>
   <PublicName>
     <PublicNameRecord>
@@ -372629,6 +372719,26 @@ bandhtravelhudderfield@gmail.com</FareEnq>
       <CeasedDate/>
       <DataOwner/>
       <Website/>
+    </PublicNameRecord>
+    <PublicNameRecord>
+      <PubNmId>96417</PubNmId>
+      <OperatorPublicName>Carey's Transport Ltd</OperatorPublicName>
+      <PubNmQual/>
+      <TTRteEnq/>
+      <FareEnq>01843310067</FareEnq>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website>#https://careystransport.co.uk/#</Website>
     </PublicNameRecord>
   </PublicName>
 </travelinedata>
