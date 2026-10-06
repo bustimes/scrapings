@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-10-02T18:29:42Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-10-06T18:40:55Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -202405,7 +202405,7 @@
       <NW/>
       <NE/>
       <SC/>
-      <SE/>
+      <SE>CTL</SE>
       <EA/>
       <EM/>
       <NI/>
@@ -202420,6 +202420,43 @@
       <Comment/>
       <AuditDate/>
       <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12948</NOCLineNo>
+      <NOCCODE>TCED</NOCCODE>
+      <PubNm>TaithCymru</PubNm>
+      <RefNm>TaithCymru</RefNm>
+      <Licence>PG1044350</Licence>
+      <Mode>Coach</Mode>
+      <TLRegOwn>WA</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA>TCED</WA>
+      <YO/>
+      <NW/>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate>2026-10-06 00:00:00</AuditDate>
+      <AuditEditor>Amy Brown</AuditEditor>
       <AuditComment/>
       <Duplicate/>
       <DateCeased/>
@@ -209787,7 +209824,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>CATR</NOCCODE>
-      <OperatorPublicName/>
+      <OperatorPublicName>Carey's Transport Ltd</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>138591</OpId>
       <PubNmId>96417</PubNmId>
@@ -233408,7 +233445,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>RENW</NOCCODE>
-      <OperatorPublicName>Renown Coaches</OperatorPublicName>
+      <OperatorPublicName>Renown Travel</OperatorPublicName>
       <VOSA_PSVLicenseName>Renown Transport Services Limited</VOSA_PSVLicenseName>
       <OpId>137490</OpId>
       <PubNmId>95168</PubNmId>
@@ -240107,6 +240144,19 @@
       <VOSA_PSVLicenseName/>
       <OpId>138325</OpId>
       <PubNmId>96151</PubNmId>
+      <NOCCdQual/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <DateCeased/>
+      <DataOwner/>
+    </NOCTableRecord>
+    <NOCTableRecord>
+      <NOCCODE>TCED</NOCCODE>
+      <OperatorPublicName>TaithCymru</OperatorPublicName>
+      <VOSA_PSVLicenseName/>
+      <OpId>136249</OpId>
+      <PubNmId>96418</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
@@ -372739,6 +372789,26 @@ bandhtravelhudderfield@gmail.com</FareEnq>
       <CeasedDate/>
       <DataOwner/>
       <Website>#https://careystransport.co.uk/#</Website>
+    </PublicNameRecord>
+    <PublicNameRecord>
+      <PubNmId>96418</PubNmId>
+      <OperatorPublicName>TaithCymru</OperatorPublicName>
+      <PubNmQual/>
+      <TTRteEnq>taithcymrusupport@tfw.wales</TTRteEnq>
+      <FareEnq>03333211202</FareEnq>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website>#https://tfw.wales/taithcymru#</Website>
     </PublicNameRecord>
   </PublicName>
 </travelinedata>
