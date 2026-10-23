@@ -1,4 +1,4 @@
-/*v12.7.9 - 17-09-26 - 13:36 GMT+1*/function AFM_getParameterByName(t, e) {
+/*v12.7.10 - 23-10-26 - 09:26 GMT+1*/function AFM_getParameterByName(t, e) {
   e ||= window.location.href;
   t = t.replace(/[\[\]]/g, "\\$&");
   var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -235,6 +235,7 @@ function AFMpageManager() {
       return !!/Android|webOS|iPhone|iPad|iPod|pocket|psp|kindle|avantgo|blazer|midori|Tablet|Palm|maemo|plucker|phone|BlackBerry|symbian|IEMobile|mobile|ZuneWP7|Windows Phone|Opera Mini/i.test(navigator.userAgent);
     } catch (t) {}
   };
+  this.isMobileStat = this.isMobile();
   this.relocateAd = function (e, i, s, n, a) {
     this.waitForElement("#" + e).then(function (r) {
       adUnits[e].divRef = r;
@@ -419,8 +420,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   var originalBidCSS = "font-weight: bold;";
   var makeNet85 = 0.85;
   var makeNet86 = 0.86;
-  var usdRate = 0.7419;
-  var euroRate = 0.8562;
+  var usdRate = 0.746;
+  var euroRate = 0.8373;
   var adAutorefreshEnabled = 1;
   var adAutorefreshCounter = 1;
   var fruitlessRefreshAttempt = 0;
@@ -665,7 +666,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     sparteo: new AuctionObject("bidder", "sparteo", "active", true, true),
     triplelift: new AuctionObject("bidder", "triplelift", "inactive", true, true)
   };
-  bidders.medianet.crid = AFM_page.isMobile() ? "815311453" : "633827357";
+  bidders.medianet.crid = AFM_page.isMobileStat ? "815311453" : "633827357";
   var refreshPeriod = 27000;
   var afm_hour = new Date().getHours();
   if (afm_hour >= 3 && afm_hour <= 8) {
@@ -934,7 +935,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           zone: "wp9kcvco",
           bidfloor: 1
         }
-      }, bidders.ogury.getStatus() !== "inactive" && AFM_page.isMobile() ? {
+      }, bidders.ogury.getStatus() !== "inactive" && AFM_page.isMobileStat ? {
         bidder: "ogury",
         labelAll: [bidders.ogury.getStatus(), stdAds],
         params: {
@@ -1010,7 +1011,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           zoneId: "adfirstmedia.com_hb_display",
           bidfloor: 0.03
         }
-      }, bidders.ogury.getStatus() === "inactive" || AFM_page.isMobile() ? {} : {
+      }, bidders.ogury.getStatus() === "inactive" || AFM_page.isMobileStat ? {} : {
         bidder: "ogury",
         labelAll: [bidders.ogury.getStatus(), stdAds],
         params: {
@@ -1199,7 +1200,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           zoneId: "adfirstmedia.com_hb_display",
           bidfloor: 0.03
         }
-      }, bidders.ogury.getStatus() === "inactive" || AFM_page.isMobile() ? {} : {
+      }, bidders.ogury.getStatus() === "inactive" || AFM_page.isMobileStat ? {} : {
         bidder: "ogury",
         labelAll: [bidders.ogury.getStatus(), stdAds],
         params: {
@@ -1852,7 +1853,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           adUnits.AFM_stickyFooter_ad.oopWinner();
           adUnits.AFM_stickyFooter_ad.autorefresh = bidders[adUnits.AFM_stickyFooter_ad.winBidder].autorefresh;
         } else if (adUnits.AFM_stickyFooter_ad.winBidder === "missena") {
-          adUnits.AFM_stickyFooter_ad.show([320, 100]);
+          adUnits.AFM_stickyFooter_ad.show(AFM_page.isMobileStat ? [320, 100] : [728, 90]);
           adUnits.AFM_stickyFooter_ad.divRef.style.maxWidth = AFM_page.isMobile() ? "320px" : "728px";
         } else {
           adUnits.AFM_stickyFooter_ad.show(adUnits.AFM_stickyFooter_ad.size);
