@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-10-06T18:40:55Z">
+<travelinedata reportName="NOC_Complete" generationDate="2026-11-02T18:00:53Z">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -121622,7 +121622,7 @@
       <NOCCODE>KBCO</NOCCODE>
       <PubNm>K B Coaches</PubNm>
       <RefNm>Baker Kenneth Edward Rosemary Ann Timothy</RefNm>
-      <Licence>PH0005480</Licence>
+      <Licence/>
       <Mode>Bus</Mode>
       <TLRegOwn>SW</TLRegOwn>
       <EBSRAgent/>
@@ -121646,7 +121646,7 @@
       <Easybus/>
       <Yorks_RT/>
       <TravelEnq/>
-      <Comment>New: duplicate? Raise with SW</Comment>
+      <Comment/>
       <AuditDate>2015-06-09 00:00:00</AuditDate>
       <AuditEditor>John Prince</AuditEditor>
       <AuditComment>Correct licence name</AuditComment>
@@ -156749,7 +156749,7 @@
       <SC/>
       <SE/>
       <EA/>
-      <EM/>
+      <EM>SMTS</EM>
       <NI/>
       <NX/>
       <Megabus/>
@@ -196154,7 +196154,7 @@
       <SC/>
       <SE/>
       <EA/>
-      <EM/>
+      <EM>BULI</EM>
       <NI/>
       <NX/>
       <Megabus/>
@@ -202405,7 +202405,7 @@
       <NW/>
       <NE/>
       <SC/>
-      <SE>CTL</SE>
+      <SE>CATR</SE>
       <EA/>
       <EM/>
       <NI/>
@@ -202457,6 +202457,43 @@
       <Comment/>
       <AuditDate>2026-10-06 00:00:00</AuditDate>
       <AuditEditor>Amy Brown</AuditEditor>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12949</NOCLineNo>
+      <NOCCODE>MNGN</NOCCODE>
+      <PubNm>Metro Network</PubNm>
+      <RefNm>Metro Network</RefNm>
+      <Licence>PC2021320</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>NW</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW>MNGN</NW>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate/>
+      <AuditEditor/>
       <AuditComment/>
       <Duplicate/>
       <DateCeased/>
