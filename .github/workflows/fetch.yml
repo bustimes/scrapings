@@ -39,9 +39,16 @@ jobs:
           rm qsv.zip
 
       - name: Fetch
+        env:
+          USER_AGENT: "bustimes.org (https://github.com/bustimes/scrapings)"
         run: |
-          curl -A "bustimes.org (https://github.com/bustimes/scrapings)" -s "https://cdn.adfirst.media/hb/bustimes.js" | npx webcrack > bustimes.js
-          curl -s "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml" | iconv -f utf-8 -t utf-8 -c | xmllint --format - > nocrecords.xml
+          curl -A "$USER_AGENT" -s "https://cdn.adfirst.media/hb/bustimes.js" | npx webcrack > bustimes.js
+          if curl -sf -A "$USER_AGENT" "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml" | iconv -f utf-8 -t utf-8 -c | xmllint --format - > nocrecords.tmp 2> /dev/null; then
+            mv nocrecords.tmp nocrecords.xml
+          else
+            rm -f nocrecords.tmp
+            echo "::warning::Failed to update nocrecords.xml"
+          fi
           curl -s "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv" > stops.csv
           qsv partition AdministrativeAreaCode naptan stops.csv
           rm stops.csv
