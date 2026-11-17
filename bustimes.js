@@ -1,4 +1,4 @@
-/*v12.7.10 - 23-10-26 - 09:26 GMT+1*/function AFM_getParameterByName(t, e) {
+/*v12.7.11 - 17-11-26 - 17:21 GMT+0*/function AFM_getParameterByName(t, e) {
   e ||= window.location.href;
   t = t.replace(/[\[\]]/g, "\\$&");
   var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -332,16 +332,16 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     e.parentNode.insertBefore(t, e);
   })();
   (function (t, e, i, s, n, a, r) {
-    function d(i, s) {
+    function o(i, s) {
       e[t]._Q.push([i, s]);
     }
     if (!e[t]) {
       e[t] = {
         init: function () {
-          d("i", arguments);
+          o("i", arguments);
         },
         fetchBids: function () {
-          d("f", arguments);
+          o("f", arguments);
         },
         setDisplayBids: function () {},
         targetingKeys: function () {
@@ -420,8 +420,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   var originalBidCSS = "font-weight: bold;";
   var makeNet85 = 0.85;
   var makeNet86 = 0.86;
-  var usdRate = 0.746;
-  var euroRate = 0.8373;
+  var usdRate = 0.7582;
+  var euroRate = 0.8335;
   var adAutorefreshEnabled = 1;
   var adAutorefreshCounter = 1;
   var fruitlessRefreshAttempt = 0;
@@ -437,7 +437,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     this.autorefresh = s;
     this.refreshWhenWindowResized = n;
   }
-  function AdUnit(t, e, i, s, n, a, r, d) {
+  function AdUnit(t, e, i, s, n, a, r, o) {
     AuctionObject.call(this, "adunit", t, e, i, s);
     this.refreshLimit = n;
     this.refreshCounter = 0;
@@ -447,7 +447,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     this.slotSizeMap = [];
     this.pageType = a;
     this.adUnitPath = r;
-    this.injectMap = d || false;
+    this.injectMap = o || false;
   }
   AuctionObject.prototype.setStatus = function (t) {
     this.status = t;
@@ -483,14 +483,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     this.refreshWhenWindowResized = t;
   };
   AuctionObject.prototype.determineStatusForRefresh = function (t) {
-    if ((this.status !== "active" || t !== "auto" || this.autorefresh) && (this.status !== "active" || t !== "windowResize" || this.refreshWhenWindowResized)) {
-      if (this.type === "bidder" && this.status === "active" && t === "windowResize") {
-        if (!this.autorefresh) {
-          this.status = "inactive";
-        }
-      }
-    } else {
+    if (this.status === "active" && t === "auto" && !this.autorefresh || this.status === "active" && t === "windowResize" && !this.refreshWhenWindowResized) {
       this.status = "inactive";
+    } else if (this.type === "bidder" && this.status === "active" && t === "windowResize") {
+      if (!this.autorefresh) {
+        this.status = "inactive";
+      }
     }
   };
   AdUnit.prototype = Object.create(AuctionObject.prototype);
@@ -667,16 +665,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     triplelift: new AuctionObject("bidder", "triplelift", "inactive", true, true)
   };
   bidders.medianet.crid = AFM_page.isMobileStat ? "815311453" : "633827357";
-  var refreshPeriod = 27000;
+  var refreshPeriod = 23000;
   var afm_hour = new Date().getHours();
   if (afm_hour >= 3 && afm_hour <= 8) {
+    refreshPeriod = 21000;
+  } else if (afm_hour >= 9 && afm_hour <= 14 || afm_hour >= 15 && afm_hour <= 17 || afm_hour >= 18 && afm_hour <= 19) {
     refreshPeriod = 23000;
-  } else if (afm_hour >= 9 && afm_hour <= 14) {
-    refreshPeriod = 25000;
-  } else if (afm_hour >= 15 && afm_hour <= 17) {
-    refreshPeriod = 23000;
-  } else if (afm_hour >= 18 && afm_hour <= 19) {
-    refreshPeriod = 25000;
   }
   var adUnitsToRefreshGAM = [];
   var refreshPeriodAfterTabBackInFocus = 1500;
@@ -842,6 +836,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     adUnits.AFM_stickyFooter_ad.init();
   }
   var stdAds = "stdAds";
+  var afm_floor = 0.1;
   function AMcompileAdUnits(t) {
     var e = [];
     adUnits.AFMforEach(function (i) {
@@ -926,14 +921,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         labelAll: [bidders.gumgum.getStatus(), stdAds],
         params: {
           zone: "wp9kcvco",
-          bidfloor: 2.5
+          bidfloor: 3
         }
       }, {
         bidder: "gumgum",
         labelAll: [bidders.gumgum.getStatus(), "limitedAds"],
         params: {
           zone: "wp9kcvco",
-          bidfloor: 1
+          bidfloor: 0.8
         }
       }, bidders.ogury.getStatus() !== "inactive" && AFM_page.isMobileStat ? {
         bidder: "ogury",
@@ -948,28 +943,28 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           pid: "Y6xAlkJvxW",
           supplyType: "site",
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, {
         bidder: "rise",
         labelAll: [bidders.rise.getStatus(), stdAds],
         params: {
           org: "65521a2351174d0001dbbd6f",
-          floorPrice: 0.15
+          floorPrice: afm_floor
         }
       }, {
         bidder: "rise",
         labelAll: [bidders.rise.getStatus(), "limitedAds"],
         params: {
           org: "65521a2351174d0001dbbd6f",
-          floorPrice: 0.05
+          floorPrice: afm_floor
         }
       }, {
         bidder: "conversant",
         labelAll: [bidders.conversant.getStatus(), stdAds],
         params: {
           site_id: "231091",
-          bidfloor: 0.03,
+          bidfloor: afm_floor,
           secure: 1
         }
       }, {
@@ -977,7 +972,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         labelAll: [bidders.triplelift.getStatus(), stdAds],
         params: {
           inventoryCode: "Bustimes_HDX_Prebid",
-          floor: 0.03
+          floor: afm_floor
         }
       }, {
         bidder: "medianet",
@@ -985,7 +980,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           cid: "8CUR4Y285",
           crid: bidders.medianet.crid,
-          floor: 0.03
+          floor: afm_floor
         }
       }, {
         bidder: "medianet",
@@ -993,7 +988,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           cid: "8CUR4Y285",
           crid: bidders.medianet.crid,
-          floor: 0.03
+          floor: afm_floor
         }
       }, {
         bidder: "smartadserver",
@@ -1002,14 +997,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           siteId: 652522,
           pageId: 1969098,
           formatId: 130313,
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, {
         bidder: "smilewanted",
         labelAll: [bidders.smilewanted.getStatus(), stdAds],
         params: {
           zoneId: "adfirstmedia.com_hb_display",
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, bidders.ogury.getStatus() === "inactive" || AFM_page.isMobileStat ? {} : {
         bidder: "ogury",
@@ -1121,7 +1116,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           zone: "wp9kcvco",
           slot: "989503",
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, {
         bidder: "gumgum",
@@ -1129,7 +1124,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           zone: "wp9kcvco",
           slot: "989503",
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, {
         bidder: "richaudience",
@@ -1137,28 +1132,28 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           pid: "rK21whMWyM",
           supplyType: "site",
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, {
         bidder: "rise",
         labelAll: [bidders.rise.getStatus(), stdAds],
         params: {
           org: "65521a2351174d0001dbbd6f",
-          floorPrice: 0.03
+          floorPrice: afm_floor
         }
       }, {
         bidder: "rise",
         labelAll: [bidders.rise.getStatus(), "limitedAds"],
         params: {
           org: "65521a2351174d0001dbbd6f",
-          floorPrice: 0.03
+          floorPrice: afm_floor
         }
       }, {
         bidder: "conversant",
         labelAll: [bidders.conversant.getStatus(), stdAds],
         params: {
           site_id: "231091",
-          bidfloor: 0.03,
+          bidfloor: afm_floor,
           secure: 1
         }
       }, {
@@ -1166,7 +1161,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         labelAll: [bidders.triplelift.getStatus(), stdAds],
         params: {
           inventoryCode: "Bustimes_HDX_Prebid",
-          floor: 0.03
+          floor: afm_floor
         }
       }, {
         bidder: "medianet",
@@ -1174,7 +1169,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           cid: "8CUR4Y285",
           crid: bidders.medianet.crid,
-          floor: 0.03
+          floor: afm_floor
         }
       }, {
         bidder: "medianet",
@@ -1182,7 +1177,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         params: {
           cid: "8CUR4Y285",
           crid: bidders.medianet.crid,
-          floor: 0.03
+          floor: afm_floor
         }
       }, {
         bidder: "smartadserver",
@@ -1191,14 +1186,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           siteId: 652522,
           pageId: 1969099,
           formatId: 130337,
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, {
         bidder: "smilewanted",
         labelAll: [bidders.smilewanted.getStatus(), stdAds],
         params: {
           zoneId: "adfirstmedia.com_hb_display",
-          bidfloor: 0.03
+          bidfloor: afm_floor
         }
       }, bidders.ogury.getStatus() === "inactive" || AFM_page.isMobileStat ? {} : {
         bidder: "ogury",
@@ -1290,14 +1285,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   }
   function fetchHeaderBids(t, e, i, s, n, a) {
     var r = bidders.amazon.getStatus();
-    var d = ["prebid"];
+    var o = ["prebid"];
     if (r === "active") {
-      d.push("amazon");
+      o.push("amazon");
     }
     if (s) {
-      var o = {};
+      var d = {};
       t.forEach(function (t) {
-        o[t.getSlotElementId()] = true;
+        d[t.getSlotElementId()] = true;
       });
     }
     var l = {
@@ -1310,83 +1305,77 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         } else if (e === "prebid") {
           l.prebid = true;
         }
-        if (d.map(function (t) {
+        if (o.map(function (t) {
           return l[t];
-        }).filter(Boolean).length === d.length) {
-          (function () {
-            if (l.adserverRequestSent === true) {
-              return;
-            }
-            l.adserverRequestSent = true;
-            pbjs.adserverRequestSent = true;
-            l.sendAdserverRequest = true;
-            googletag.cmd.push(function () {
-              function e(t) {
-                apstag.setDisplayBids();
-                pbjs.setTargetingForGPTAsync();
-                if (!a) {
-                  adRefreshManager.reset();
-                  adRefreshManager.numberOfAdUnitsToRender = t.length;
-                }
-                t.forEach(function (t) {});
-                googletag.pubads().refresh(t);
+        }).filter(Boolean).length === o.length && l.adserverRequestSent !== true) {
+          l.adserverRequestSent = true;
+          pbjs.adserverRequestSent = true;
+          l.sendAdserverRequest = true;
+          googletag.cmd.push(function () {
+            function e(t) {
+              apstag.setDisplayBids();
+              pbjs.setTargetingForGPTAsync();
+              if (!a) {
+                adRefreshManager.reset();
+                adRefreshManager.numberOfAdUnitsToRender = t.length;
               }
-              if (s) {
-                if (s !== "auto" || AMrefreshLoop !== null && !afm_limitedAdsActive) {
-                  if (s === "windowResize") {
+              t.forEach(function (t) {});
+              googletag.pubads().refresh(t);
+            }
+            if (s) {
+              if (s !== "auto" || AMrefreshLoop !== null && !afm_limitedAdsActive) {
+                if (s === "windowResize") {
+                  t.forEach(function (t) {});
+                  if (d.AFM_stickyFooter_ad === false || adUnits.AFM_stickyFooter_ad.hasBeenDismissed()) {
+                    var i = t.findIndex(function (t) {
+                      return t.getSlotElementId() === "AFM_stickyFooter_ad";
+                    });
+                    if (i !== -1) {
+                      t.splice(i, 1);
+                    }
                     t.forEach(function (t) {});
-                    if (o.AFM_stickyFooter_ad === false || adUnits.AFM_stickyFooter_ad.hasBeenDismissed()) {
-                      var i = t.findIndex(function (t) {
-                        return t.getSlotElementId() === "AFM_stickyFooter_ad";
-                      });
-                      if (i !== -1) {
-                        t.splice(i, 1);
-                      }
-                      t.forEach(function (t) {});
-                      dismissFooter(false);
-                    }
-                    googletag.pubads().setTargeting("impression_type", "windowResize");
-                    e(t);
+                    dismissFooter(false);
                   }
-                } else {
-                  var n = [];
-                  function r(t) {
-                    var e = t.getSlotElementId();
-                    o[e];
-                    if (adUnits[e].hasBeenDismissed()) ;else if (o[e] === true && (isInViewport(e) || (adUnits[e].adType != null && adUnits[e].adType) === "oop")) {
-                      var i = "refresh-" + adUnits[e].incrementRefreshCounter();
-                      adAutorefreshCounter++;
-                      t.setTargeting("impression_type", i);
-                      n.push(t);
-                    }
-                  }
-                  t.forEach(r);
-                  if (n.length > 0) {
-                    e(n);
-                  } else if (++fruitlessRefreshAttempt <= fruitlessRefreshLimit) {
-                    refreshAds("auto");
-                  }
+                  googletag.pubads().setTargeting("impression_type", "windowResize");
+                  e(t);
                 }
               } else {
-                var d = [];
+                var n = [];
                 t.forEach(function (t) {
                   var e = t.getSlotElementId();
-                  if (adUnits[e].updateAdInDomStatus() && adUnits[e].inSizeBracket()) {
-                    d.push(t);
+                  d[e];
+                  if (adUnits[e].hasBeenDismissed()) ;else if (d[e] === true && (isInViewport(e) || (adUnits[e].adType != null && adUnits[e].adType) === "oop")) {
+                    var i = "refresh-" + adUnits[e].incrementRefreshCounter();
+                    adAutorefreshCounter++;
+                    t.setTargeting("impression_type", i);
+                    n.push(t);
                   }
                 });
-                if (a) {
-                  try {
-                    d[0].setTargeting("impression_type", "first");
-                    e(d);
-                  } catch (l) {}
-                } else {
-                  googletag.display(d[0].getSlotElementId());
-                  e(d);
+                if (n.length > 0) {
+                  e(n);
+                } else if (++fruitlessRefreshAttempt <= fruitlessRefreshLimit) {
+                  refreshAds("auto");
                 }
               }
-            });
-          })();
+            } else {
+              var r = [];
+              t.forEach(function (t) {
+                var e = t.getSlotElementId();
+                if (adUnits[e].updateAdInDomStatus() && adUnits[e].inSizeBracket()) {
+                  r.push(t);
+                }
+              });
+              if (a) {
+                try {
+                  r[0].setTargeting("impression_type", "first");
+                  e(r);
+                } catch (t) {}
+              } else {
+                googletag.display(r[0].getSlotElementId());
+                e(r);
+              }
+            }
+          });
         }
       }
     }
@@ -1422,7 +1411,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         });
       });
     }
-    d.forEach(function (t) {
+    o.forEach(function (t) {
       l[t] = false;
     });
     __tcfapi("addEventListener", 2, function (t, e) {
@@ -1735,12 +1724,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       ogury: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.891;
+          return t * usdRate * 0.904;
         }
       },
       onetag: {
         bidCpmAdjustment: function (t) {
-          return t * 0.967;
+          return t * 0.962;
         }
       },
       adagio: {
@@ -1760,12 +1749,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       richaudience: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.834;
+          return t * usdRate * 0.888;
         }
       },
       rise: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.966;
+          return t * usdRate * 0.959;
         }
       },
       conversant: {
@@ -1785,7 +1774,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       smilewanted: {
         bidCpmAdjustment: function (t) {
-          return t * euroRate * 0.928;
+          return t * euroRate * 0.913;
         }
       },
       kuantyx: {
@@ -1800,7 +1789,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       sparteo: {
         bidCpmAdjustment: function (t) {
-          return t * euroRate * 0.964;
+          return t * euroRate * 0.944;
         }
       },
       missena: {
@@ -1810,12 +1799,12 @@ function getContentTitleForPrebid(t = " - eFestivals") {
       },
       seedtag: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.885;
+          return t * usdRate * 0.893;
         }
       },
       inmobi: {
         bidCpmAdjustment: function (t) {
-          return t * usdRate * 0.771;
+          return t * usdRate * 0.86;
         }
       }
     };
