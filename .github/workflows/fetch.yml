@@ -43,12 +43,19 @@ jobs:
           USER_AGENT: "bustimes.org (https://github.com/bustimes/scrapings)"
         run: |
           curl -A "$USER_AGENT" -s "https://cdn.adfirst.media/hb/bustimes.js" | npx webcrack > bustimes.js
-          if curl -sf -A "$USER_AGENT" "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml" | iconv -f utf-8 -t utf-8 -c | xmllint --format - > nocrecords.tmp 2> /dev/null; then
+          status=$(curl -s -A "$USER_AGENT" -D noc-headers.tmp -o noc-response.tmp -w '%{http_code}' "https://www.travelinedata.org.uk/noc/api/1.0/nocrecords.xml") || true
+          if [ "$status" = 200 ] && iconv -f utf-8 -t utf-8 -c noc-response.tmp | xmllint --format - > nocrecords.tmp 2> /dev/null; then
             mv nocrecords.tmp nocrecords.xml
           else
-            rm -f nocrecords.tmp
-            echo "::warning::Failed to update nocrecords.xml"
+            ray=$(grep -i '^cf-ray:' noc-headers.tmp | tail -1 | tr -d '\r' | cut -d' ' -f2)
+            echo "::warning::Failed to update nocrecords.xml (HTTP $status, cf-ray ${ray:-none}, $(date -u +%FT%TZ))"
+            echo "::group::NOC response"
+            cat noc-headers.tmp
+            head -c 5000 noc-response.tmp
+            echo
+            echo "::endgroup::"
           fi
+          rm -f noc-headers.tmp noc-response.tmp nocrecords.tmp
           curl -s "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv" > stops.csv
           qsv partition AdministrativeAreaCode naptan stops.csv
           rm stops.csv
