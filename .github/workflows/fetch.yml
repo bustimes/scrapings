@@ -2,6 +2,9 @@ name: Fetch stuff and commit changes
 
 on:
   push:
+    paths-ignore:
+      - nocrecords.xml
+      - pi/**
   workflow_dispatch:
   schedule:
     - cron: "30 */6 * * *"
