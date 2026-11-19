@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-11-18T17:20:47+00:00">
+<travelinedata reportName="NOC_Complete" generationDate="2026-11-19T17:17:03+00:00">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -64336,26 +64336,6 @@
       <Website/>
     </ManagementDivisionsRecord>
     <ManagementDivisionsRecord>
-      <ManDivId>132356</ManDivId>
-      <ManDivNm>BSEVC</ManDivNm>
-      <GpId>2387</GpId>
-      <TTRteEnq/>
-      <FareEnq/>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq/>
-      <Twitter/>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website/>
-    </ManagementDivisionsRecord>
-    <ManagementDivisionsRecord>
       <ManDivId>132358</ManDivId>
       <ManDivNm>Jetstream Tours</ManDivNm>
       <GpId>2389</GpId>
@@ -64659,46 +64639,6 @@
       <ManDivId>132373</ManDivId>
       <ManDivNm>MTG Enterprises Ltd</ManDivNm>
       <GpId>2384</GpId>
-      <TTRteEnq/>
-      <FareEnq/>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq/>
-      <Twitter/>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website/>
-    </ManagementDivisionsRecord>
-    <ManagementDivisionsRecord>
-      <ManDivId>132374</ManDivId>
-      <ManDivNm>Bo'ness and Area Community Bus Association</ManDivNm>
-      <GpId>2387</GpId>
-      <TTRteEnq/>
-      <FareEnq/>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq/>
-      <Twitter/>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website/>
-    </ManagementDivisionsRecord>
-    <ManagementDivisionsRecord>
-      <ManDivId>132375</ManDivId>
-      <ManDivNm>Bo'ness and Area Community Bus Association</ManDivNm>
-      <GpId>2387</GpId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -71295,6 +71235,26 @@
       <DataOwner/>
       <Website/>
     </ManagementDivisionsRecord>
+    <ManagementDivisionsRecord>
+      <ManDivId>132709</ManDivId>
+      <ManDivNm>Angus Council</ManDivNm>
+      <GpId>2384</GpId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </ManagementDivisionsRecord>
   </ManagementDivisions>
   <NOCTable>
     <NOCTableRecord>
@@ -73929,6 +73889,19 @@
       <VOSA_PSVLicenseName>Arriva Durham County Ltd</VOSA_PSVLicenseName>
       <OpId>135629</OpId>
       <PubNmId>93286</PubNmId>
+      <NOCCdQual/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <DateCeased/>
+      <DataOwner/>
+    </NOCTableRecord>
+    <NOCTableRecord>
+      <NOCCODE>ANGC</NOCCODE>
+      <OperatorPublicName/>
+      <VOSA_PSVLicenseName/>
+      <OpId>138592</OpId>
+      <PubNmId>96419</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
@@ -77122,19 +77095,6 @@
       <DataOwner/>
     </NOCTableRecord>
     <NOCTableRecord>
-      <NOCCODE>BOCB</NOCCODE>
-      <OperatorPublicName>Bo'ness and Area Community Bus Association</OperatorPublicName>
-      <VOSA_PSVLicenseName/>
-      <OpId>138252</OpId>
-      <PubNmId>96074</PubNmId>
-      <NOCCdQual/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <DateCeased/>
-      <DataOwner/>
-    </NOCTableRecord>
-    <NOCTableRecord>
       <NOCCODE>BOCO</NOCCODE>
       <OperatorPublicName>Bromyard OmniBus Co., Bromyard</OperatorPublicName>
       <VOSA_PSVLicenseName>Martin John Perry</VOSA_PSVLicenseName>
@@ -77686,19 +77646,6 @@
       <VOSA_PSVLicenseName/>
       <OpId>138296</OpId>
       <PubNmId>96119</PubNmId>
-      <NOCCdQual/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <DateCeased/>
-      <DataOwner/>
-    </NOCTableRecord>
-    <NOCTableRecord>
-      <NOCCODE>BSEV</NOCCODE>
-      <OperatorPublicName>BSEVC</OperatorPublicName>
-      <VOSA_PSVLicenseName/>
-      <OpId>138235</OpId>
-      <PubNmId>96056</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
@@ -222021,43 +221968,6 @@
       <CessationComment/>
     </NOCLinesRecord>
     <NOCLinesRecord>
-      <NOCLineNo>12261</NOCLineNo>
-      <NOCCODE>BSEV</NOCCODE>
-      <PubNm>BSEVC</PubNm>
-      <RefNm>BSEVC</RefNm>
-      <Licence/>
-      <Mode>CT Operator</Mode>
-      <TLRegOwn>EA</TLRegOwn>
-      <EBSRAgent/>
-      <LO/>
-      <SW/>
-      <WM/>
-      <WA/>
-      <YO/>
-      <NW/>
-      <NE/>
-      <SC/>
-      <SE/>
-      <EA>BSEV</EA>
-      <EM/>
-      <NI/>
-      <NX/>
-      <Megabus/>
-      <NewBharat/>
-      <Terravision/>
-      <NCSD/>
-      <Easybus/>
-      <Yorks_RT/>
-      <TravelEnq/>
-      <Comment/>
-      <AuditDate>2017-05-18 00:00:00</AuditDate>
-      <AuditEditor>Amy Brown</AuditEditor>
-      <AuditComment>Added for Stuart Reynolds</AuditComment>
-      <Duplicate/>
-      <DateCeased/>
-      <CessationComment/>
-    </NOCLinesRecord>
-    <NOCLinesRecord>
       <NOCLineNo>12262</NOCLineNo>
       <NOCCODE>MTLN</NOCCODE>
       <PubNm>Metroline Travel</PubNm>
@@ -222851,43 +222761,6 @@
       <NW/>
       <NE/>
       <SC>MER</SC>
-      <SE/>
-      <EA/>
-      <EM/>
-      <NI/>
-      <NX/>
-      <Megabus/>
-      <NewBharat/>
-      <Terravision/>
-      <NCSD/>
-      <Easybus/>
-      <Yorks_RT/>
-      <TravelEnq/>
-      <Comment/>
-      <AuditDate>2017-10-20 00:00:00</AuditDate>
-      <AuditEditor>Amy Brown</AuditEditor>
-      <AuditComment/>
-      <Duplicate/>
-      <DateCeased/>
-      <CessationComment/>
-    </NOCLinesRecord>
-    <NOCLinesRecord>
-      <NOCLineNo>12287</NOCLineNo>
-      <NOCCODE>BOCB</NOCCODE>
-      <PubNm>Bo'ness and Area Community Bus Association</PubNm>
-      <RefNm>Bo'ness and Area Community Bus Association</RefNm>
-      <Licence/>
-      <Mode>CT Operator</Mode>
-      <TLRegOwn>SC</TLRegOwn>
-      <EBSRAgent/>
-      <LO/>
-      <SW/>
-      <WM/>
-      <WA/>
-      <YO/>
-      <NW/>
-      <NE/>
-      <SC>BCB</SC>
       <SE/>
       <EA/>
       <EM/>
@@ -245214,6 +245087,43 @@
       <Comment/>
       <AuditDate/>
       <AuditEditor/>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12950</NOCLineNo>
+      <NOCCODE>ANGC</NOCCODE>
+      <PubNm>Angus Council</PubNm>
+      <RefNm>Angus Council</RefNm>
+      <Licence/>
+      <Mode>Bus</Mode>
+      <TLRegOwn>SC</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW/>
+      <NE/>
+      <SC>ANGC</SC>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate>2026-11-17 00:00:00</AuditDate>
+      <AuditEditor>Amy Brown</AuditEditor>
       <AuditComment/>
       <Duplicate/>
       <DateCeased/>
@@ -300922,26 +300832,6 @@
       <Website/>
     </OperatorsRecord>
     <OperatorsRecord>
-      <OpId>138235</OpId>
-      <OpNm>BSEVC</OpNm>
-      <ManDivId>132356</ManDivId>
-      <TTRteEnq/>
-      <FareEnq/>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq/>
-      <Twitter/>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website/>
-    </OperatorsRecord>
-    <OperatorsRecord>
       <OpId>138236</OpId>
       <OpNm>Jetstream Tours</OpNm>
       <ManDivId>132358</ManDivId>
@@ -301245,26 +301135,6 @@
       <OpId>138251</OpId>
       <OpNm>MTG Enterprises Ltd</OpNm>
       <ManDivId>132373</ManDivId>
-      <TTRteEnq/>
-      <FareEnq/>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq/>
-      <Twitter/>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website/>
-    </OperatorsRecord>
-    <OperatorsRecord>
-      <OpId>138252</OpId>
-      <OpNm>Bo'ness and Area Community Bus Association</OpNm>
-      <ManDivId>132374</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -307965,6 +307835,26 @@
       <OpId>138591</OpId>
       <OpNm>Carey's Transport Ltd</OpNm>
       <ManDivId>132708</ManDivId>
+      <TTRteEnq/>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website/>
+    </OperatorsRecord>
+    <OperatorsRecord>
+      <OpId>138592</OpId>
+      <OpNm>Angus Council</OpNm>
+      <ManDivId>132709</ManDivId>
       <TTRteEnq/>
       <FareEnq/>
       <LostPropEnq/>
@@ -365744,26 +365634,6 @@
       <Website>#http://www.carebuscommunitytransport.org/index.html#</Website>
     </PublicNameRecord>
     <PublicNameRecord>
-      <PubNmId>96056</PubNmId>
-      <OperatorPublicName>BSEVC</OperatorPublicName>
-      <PubNmQual/>
-      <TTRteEnq>bookings@bsevc.co.uk</TTRteEnq>
-      <FareEnq>01449614271</FareEnq>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq>Red Gables, Ipswich Road, Stowmarket, Suffolk IP14 1BE</ComplEnq>
-      <Twitter/>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website>#https://www.bsevc.co.uk/#</Website>
-    </PublicNameRecord>
-    <PublicNameRecord>
       <PubNmId>96057</PubNmId>
       <OperatorPublicName>Jetstream Tours</OperatorPublicName>
       <PubNmQual/>
@@ -366102,26 +365972,6 @@
       <CeasedDate/>
       <DataOwner/>
       <Website>#http://www.merlin-travel.co.uk/#</Website>
-    </PublicNameRecord>
-    <PublicNameRecord>
-      <PubNmId>96074</PubNmId>
-      <OperatorPublicName>Bo'ness and Area Community Bus Association</OperatorPublicName>
-      <PubNmQual/>
-      <TTRteEnq/>
-      <FareEnq>07376980049</FareEnq>
-      <LostPropEnq/>
-      <DisruptEnq/>
-      <ComplEnq>1 Muirhouses Crescent, Bo'ness EH51 9DH</ComplEnq>
-      <Twitter>@boness_bus</Twitter>
-      <Facebook/>
-      <LinkedIn/>
-      <YouTube/>
-      <ChangeDate/>
-      <ChangeAgent/>
-      <ChangeComment/>
-      <CeasedDate/>
-      <DataOwner/>
-      <Website>#https://bonesscommunitybus.scot/#</Website>
     </PublicNameRecord>
     <PublicNameRecord>
       <PubNmId>96075</PubNmId>
@@ -372846,6 +372696,26 @@ bandhtravelhudderfield@gmail.com</FareEnq>
       <CeasedDate/>
       <DataOwner/>
       <Website>#https://tfw.wales/taithcymru#</Website>
+    </PublicNameRecord>
+    <PublicNameRecord>
+      <PubNmId>96419</PubNmId>
+      <OperatorPublicName>Angus Council</OperatorPublicName>
+      <PubNmQual/>
+      <TTRteEnq>PLNTransport@angus.gov.uk</TTRteEnq>
+      <FareEnq>01307491739</FareEnq>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq>Angus House, 1 Silvie Way, Orchardbank Business Park, Forfar DD8 1AN</ComplEnq>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website>#https://www.angus.gov.uk/roads_parking_and_travel/public_transport#</Website>
     </PublicNameRecord>
   </PublicName>
 </travelinedata>
