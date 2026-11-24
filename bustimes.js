@@ -1,4 +1,4 @@
-/*v12.7.11 - 17-11-26 - 17:21 GMT+0*/function AFM_getParameterByName(t, e) {
+/*v12.7.12 - 24-11-26 - 17:44 GMT+0*/function AFM_getParameterByName(t, e) {
   e ||= window.location.href;
   t = t.replace(/[\[\]]/g, "\\$&");
   var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -396,7 +396,9 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   }
   googletag.cmd = googletag.cmd || [];
   googletag.cmd.push(function () {
-    googletag.pubads().disableInitialLoad();
+    googletag.setConfig({
+      disableInitialLoad: true
+    });
   });
   Object.defineProperty(Object.prototype, "AFMforEach", {
     value: function (t, e) {
@@ -420,8 +422,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   var originalBidCSS = "font-weight: bold;";
   var makeNet85 = 0.85;
   var makeNet86 = 0.86;
-  var usdRate = 0.7582;
-  var euroRate = 0.8335;
+  var usdRate = 0.7671;
+  var euroRate = 0.8372;
   var adAutorefreshEnabled = 1;
   var adAutorefreshCounter = 1;
   var fruitlessRefreshAttempt = 0;
@@ -613,7 +615,9 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           t[1].push("fluid");
         });
       }
-      gptAdSlots.push(t.setGptSlot(googletag.defineSlot("/" + AFMprocessedNetworkCode + siteGptPath + t.adUnitPath, [1, 1], t.name).defineSizeMapping(i).setCollapseEmptyDiv(true).addService(googletag.pubads())));
+      gptAdSlots.push(t.setGptSlot(googletag.defineSlot("/" + AFMprocessedNetworkCode + siteGptPath + t.adUnitPath, [1, 1], t.name).defineSizeMapping(i).setConfig({
+        collapseDiv: "ON_NO_FILL"
+      }).addService(googletag.pubads())));
       if (typeof e == "function") {
         e();
       }
@@ -637,9 +641,17 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     }
   });
   googletag.cmd.push(function () {
-    googletag.pubads().enableSingleRequest();
-    googletag.pubads().collapseEmptyDivs(true, true);
-    googletag.pubads().setTargeting("protocol", AFM_page.protocol).setTargeting("domain", AFM_page.domain).setTargeting("path", AFM_page.path).setTargeting("impression_type", "first").setTargeting("page_type", AFM_page.getPageType());
+    googletag.setConfig({
+      singleRequest: true,
+      collapseDiv: "BEFORE_FETCH",
+      targeting: {
+        protocol: AFM_page.protocol,
+        domain: AFM_page.domain,
+        path: AFM_page.path,
+        impression_type: "first",
+        page_type: AFM_page.getPageType()
+      }
+    });
     googletag.enableServices();
   });
   var bidders = {
@@ -817,7 +829,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     this.build();
     this.refreshCounter = 0;
     this.rebuilt = true;
-    this.gptSlot.setTargeting("impression_type", "first");
+    this.gptSlot.setConfig({
+      targeting: {
+        impression_type: "first"
+      }
+    });
   };
   adUnits.AFM_stickyFooter_ad.dismiss = function () {
     if (this.dismissed === false) {
@@ -836,7 +852,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     adUnits.AFM_stickyFooter_ad.init();
   }
   var stdAds = "stdAds";
-  var afm_floor = 0.1;
+  var afm_floor = 0.2;
   function AMcompileAdUnits(t) {
     var e = [];
     adUnits.AFMforEach(function (i) {
@@ -921,14 +937,14 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         labelAll: [bidders.gumgum.getStatus(), stdAds],
         params: {
           zone: "wp9kcvco",
-          bidfloor: 3
+          bidfloor: 3.5
         }
       }, {
         bidder: "gumgum",
         labelAll: [bidders.gumgum.getStatus(), "limitedAds"],
         params: {
           zone: "wp9kcvco",
-          bidfloor: 0.8
+          bidfloor: 2.5
         }
       }, bidders.ogury.getStatus() !== "inactive" && AFM_page.isMobileStat ? {
         bidder: "ogury",
@@ -1298,7 +1314,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     var l = {
       adserverRequestSent: false
     };
-    function u(e) {
+    function c(e) {
       if (l.adserverRequestSent !== true) {
         if (e === "amazon") {
           l.amazon = true;
@@ -1336,7 +1352,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                     t.forEach(function (t) {});
                     dismissFooter(false);
                   }
-                  googletag.pubads().setTargeting("impression_type", "windowResize");
+                  googletag.setConfig({
+                    targeting: {
+                      impression_type: "windowResize"
+                    }
+                  });
                   e(t);
                 }
               } else {
@@ -1347,7 +1367,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                   if (adUnits[e].hasBeenDismissed()) ;else if (d[e] === true && (isInViewport(e) || (adUnits[e].adType != null && adUnits[e].adType) === "oop")) {
                     var i = "refresh-" + adUnits[e].incrementRefreshCounter();
                     adAutorefreshCounter++;
-                    t.setTargeting("impression_type", i);
+                    t.setConfig({
+                      targeting: {
+                        impression_type: i
+                      }
+                    });
                     n.push(t);
                   }
                 });
@@ -1367,7 +1391,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
               });
               if (a) {
                 try {
-                  r[0].setTargeting("impression_type", "first");
+                  r[0].setConfig({
+                    targeting: {
+                      impression_type: "first"
+                    }
+                  });
                   e(r);
                 } catch (t) {}
               } else {
@@ -1379,7 +1407,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         }
       }
     }
-    function c(s) {
+    function u(s) {
       if (s && n.pop() === stdAds) {
         n.push("limitedAds");
       }
@@ -1394,11 +1422,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
                 adUnits[t.slotID].amznSize = t.size.split("x").map(Number);
               }
             });
-            u("amazon");
+            c("amazon");
           });
         });
       } else if (r) {
-        u("amazon");
+        c("amazon");
       }
       pbjs.que.push(function () {
         pbjs.requestBids({
@@ -1406,7 +1434,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           labels: n,
           timeout: i,
           bidsBackHandler: function (t) {
-            u("prebid");
+            c("prebid");
           }
         });
       });
@@ -1421,18 +1449,22 @@ function getContentTitleForPrebid(t = " - eFestivals") {
           if (t.eventStatus !== "cmpuishown" && (t.eventStatus === "tcloaded" || t.eventStatus === "useractioncomplete") && !t.purpose.consents[1]) {
             if (afm_limitedAds) {
               googletag.cmd.push(function () {
-                googletag.pubads().setTargeting("limitedAds", "true");
+                googletag.setConfig({
+                  targeting: {
+                    limitedAds: "true"
+                  }
+                });
               });
-              c(afm_limitedAdsActive = true);
+              u(afm_limitedAdsActive = true);
             }
             __tcfapi("removeEventListener", 2, function (t) {}, t.listenerId);
           }
         } else {
-          c();
+          u();
           __tcfapi("removeEventListener", 2, function (t) {}, t.listenerId);
         }
       } else if (t.gdprApplies === false) {
-        c();
+        u();
         __tcfapi("removeEventListener", 2, function (t) {}, t.listenerId);
       } else {
         __tcfapi("removeEventListener", 2, function (t) {}, t.listenerId);
@@ -1500,7 +1532,11 @@ function getContentTitleForPrebid(t = " - eFestivals") {
         if (t) {
           t = false;
           AFM_page.setResizeBreaks();
-          googletag.pubads().clearTargeting("impression_type");
+          googletag.setConfig({
+            targeting: {
+              impression_type: null
+            }
+          });
           pbjs.setConfig({
             bidderTimeout: afm_bidTimeout()
           });
