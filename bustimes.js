@@ -1,4 +1,4 @@
-/*v12.7.12 - 24-11-26 - 17:44 GMT+0*/function AFM_getParameterByName(t, e) {
+/*v12.7.13 - 25-11-26 - 10:39 GMT+0*/function AFM_getParameterByName(t, e) {
   e ||= window.location.href;
   t = t.replace(/[\[\]]/g, "\\$&");
   var i = new RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);
@@ -422,8 +422,8 @@ function getContentTitleForPrebid(t = " - eFestivals") {
   var originalBidCSS = "font-weight: bold;";
   var makeNet85 = 0.85;
   var makeNet86 = 0.86;
-  var usdRate = 0.7671;
-  var euroRate = 0.8372;
+  var usdRate = 0.7627;
+  var euroRate = 0.836;
   var adAutorefreshEnabled = 1;
   var adAutorefreshCounter = 1;
   var fruitlessRefreshAttempt = 0;
@@ -852,7 +852,7 @@ function getContentTitleForPrebid(t = " - eFestivals") {
     adUnits.AFM_stickyFooter_ad.init();
   }
   var stdAds = "stdAds";
-  var afm_floor = 0.2;
+  var afm_floor = 0.1;
   function AMcompileAdUnits(t) {
     var e = [];
     adUnits.AFMforEach(function (i) {
