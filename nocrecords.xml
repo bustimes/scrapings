@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<travelinedata reportName="NOC_Complete" generationDate="2026-11-19T17:17:03+00:00">
+<travelinedata reportName="NOC_Complete" generationDate="2026-11-27T17:17:10+00:00">
   <DataOwner>
     <DataOwnerRecord>
       <DOId>1</DOId>
@@ -73898,7 +73898,7 @@
     </NOCTableRecord>
     <NOCTableRecord>
       <NOCCODE>ANGC</NOCCODE>
-      <OperatorPublicName/>
+      <OperatorPublicName>Angus Council</OperatorPublicName>
       <VOSA_PSVLicenseName/>
       <OpId>138592</OpId>
       <PubNmId>96419</PubNmId>
@@ -85615,6 +85615,19 @@
       <VOSA_PSVLicenseName/>
       <OpId>136958</OpId>
       <PubNmId>96313</PubNmId>
+      <NOCCdQual/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <DateCeased/>
+      <DataOwner/>
+    </NOCTableRecord>
+    <NOCTableRecord>
+      <NOCCODE>FLBC</NOCCODE>
+      <OperatorPublicName>Flibco</OperatorPublicName>
+      <VOSA_PSVLicenseName/>
+      <OpId>137870</OpId>
+      <PubNmId>96420</PubNmId>
       <NOCCdQual/>
       <ChangeDate/>
       <ChangeAgent/>
@@ -245129,6 +245142,43 @@
       <DateCeased/>
       <CessationComment/>
     </NOCLinesRecord>
+    <NOCLinesRecord>
+      <NOCLineNo>12951</NOCLineNo>
+      <NOCCODE>FLBC</NOCCODE>
+      <PubNm>Flibco</PubNm>
+      <RefNm>Flibco</RefNm>
+      <Licence>PF2088977</Licence>
+      <Mode>Bus</Mode>
+      <TLRegOwn>SE</TLRegOwn>
+      <EBSRAgent/>
+      <LO/>
+      <SW/>
+      <WM/>
+      <WA/>
+      <YO/>
+      <NW/>
+      <NE/>
+      <SC/>
+      <SE/>
+      <EA/>
+      <EM/>
+      <NI/>
+      <NX/>
+      <Megabus/>
+      <NewBharat/>
+      <Terravision/>
+      <NCSD/>
+      <Easybus/>
+      <Yorks_RT/>
+      <TravelEnq/>
+      <Comment/>
+      <AuditDate>2026-11-23 00:00:00</AuditDate>
+      <AuditEditor>Amy Brown</AuditEditor>
+      <AuditComment/>
+      <Duplicate/>
+      <DateCeased/>
+      <CessationComment/>
+    </NOCLinesRecord>
   </NOCLines>
   <Operators>
     <OperatorsRecord>
@@ -372716,6 +372766,26 @@ bandhtravelhudderfield@gmail.com</FareEnq>
       <CeasedDate/>
       <DataOwner/>
       <Website>#https://www.angus.gov.uk/roads_parking_and_travel/public_transport#</Website>
+    </PublicNameRecord>
+    <PublicNameRecord>
+      <PubNmId>96420</PubNmId>
+      <OperatorPublicName>Flibco</OperatorPublicName>
+      <PubNmQual/>
+      <TTRteEnq>info@flibco.com</TTRteEnq>
+      <FareEnq/>
+      <LostPropEnq/>
+      <DisruptEnq/>
+      <ComplEnq/>
+      <Twitter/>
+      <Facebook/>
+      <LinkedIn/>
+      <YouTube/>
+      <ChangeDate/>
+      <ChangeAgent/>
+      <ChangeComment/>
+      <CeasedDate/>
+      <DataOwner/>
+      <Website>#https://www.flibco.com/en#</Website>
     </PublicNameRecord>
   </PublicName>
 </travelinedata>
